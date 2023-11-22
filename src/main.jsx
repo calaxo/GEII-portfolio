@@ -8,13 +8,7 @@ import "@styles/but3.css";
 
 import Page404 from "@pages/Page404";
 import { useState } from "react";
-import {
-  HashRouter as Router,
-  Routes,
-  Route,
-  NavLink,
-  Navigate,
-} from "react-router-dom";
+import { HashRouter as Router, Routes, Route, NavLink, Navigate } from "react-router-dom";
 
 import Accueil from "@pages/Accueil.jsx";
 
@@ -63,25 +57,17 @@ function App() {
           <div className="titre">Mon Portfolio</div>
         </NavLink>
         <div className="header-right">
-
           <div className="nav-links">
             <a className="imggithubdiv" href="https://github.com/calaxo/geii-portfolio">
               <img className="imggithub" src={github} alt="github" />
             </a>
 
-            <a className="imglinkedindiv "href="https://www.linkedin.com/in/calendreau-axel">
+            <a className="imglinkedindiv " href="https://www.linkedin.com/in/calendreau-axel">
               <img className="imglinkedin" src={linkedin} alt="linkedin" />
             </a>
 
             {navigationLinks.map((link) => (
-              <NavLink
-                key={link.to}
-                to={link.to}
-                className={`b${link.text.charAt(
-                  link.text.length - 1,
-                )} rounded-button`}
-                style={navigationLinkStyles}
-              >
+              <NavLink key={link.to} to={link.to} className={`b${link.text.charAt(link.text.length - 1)} rounded-button`} style={navigationLinkStyles}>
                 {link.text}
               </NavLink>
             ))}
@@ -106,19 +92,10 @@ function App() {
         </div>
       </div>
 
-      <div
-        className="burger-menu"
-        style={{ display: hamburgerOpen ? "block" : "none" }}
-      >
+      <div className="burger-menu" style={{ display: hamburgerOpen ? "block" : "none" }}>
         <div className="burger-nav-links">
           {navigationLinks.map((link) => (
-            <NavLink
-              key={link.to}
-              to={link.to}
-              onClick={toggleHamburger}
-              className={`burger-b${link.text.charAt(link.text.length - 1)}`}
-              style={navigationLinkStyles}
-            >
+            <NavLink key={link.to} to={link.to} onClick={toggleHamburger} className={`burger-b${link.text.charAt(link.text.length - 1)}`} style={navigationLinkStyles}>
               {link.text}
             </NavLink>
           ))}
