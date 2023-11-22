@@ -9,12 +9,14 @@ import Page404 from '@pages/Page404';
 import { useState } from 'react';
 import { HashRouter as Router, Routes, Route, NavLink, Navigate } from 'react-router-dom';
 
-import Accueil from '@pages/Accueil';
-import But1 from "@pages/but1/but1";
-import But2 from "@pages/but2/but2";
-import But3 from "@pages/but3/but3";
-import Condition from "@pages/Condition";
+import Accueil from '@pages/Accueil.jsx';
+import But1 from "@pages/but1/But1.jsx";
+import But2 from "@pages/but2/But2.jsx";
+import But3 from "@pages/but3/But3.jsx";
+import Condition from "@pages/Condition.jsx";
 
+github
+import github from '@assets/github.png'
 function App() {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
@@ -45,6 +47,12 @@ function App() {
         </NavLink>
         <div className="header-right">
           <div className="nav-links">
+
+          <a href='https://github.com/calaxo/geii-portfolio'>
+            <img className='imggithub' src={github} alt="github" />
+            </a>
+
+
           {navigationLinks.map((link) => (
   <NavLink
     key={link.to}

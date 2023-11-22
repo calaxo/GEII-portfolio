@@ -1,6 +1,6 @@
 
 import geii from '@assets/geii.gif'
-
+import iut from '@assets/iut.png'
 const But2_sae2 = () => {
 
     const tableStyle = {
@@ -131,7 +131,8 @@ const But2_sae2 = () => {
             </tbody>
           </table>
 
-        <img src={geii} alt="geii" />
+        <img className='imggeii' src={geii} alt="geii" />
+        <img  className='imgiut' src={iut} alt="iut" />
 
         </div>
       );
