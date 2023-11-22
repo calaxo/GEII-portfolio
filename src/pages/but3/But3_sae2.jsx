@@ -53,7 +53,8 @@ const But2_sae2 = () => {
             <thead>
               <tr>
                 <td colSpan="5" style={headerCellStyle}>
-                  Réalisation du projet sonomètre
+                SAE Badgeuse RFID
+
                 </td>
               </tr>
             </thead>

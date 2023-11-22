@@ -1,15 +1,22 @@
-import But3_sae1 from "./But3_sae1";
-import But3_sae2 from "./But3_sae2";
+
+import { HashRouter as Router, Routes, Route, NavLink, Navigate } from 'react-router-dom';
+
 
 const But3 = () => {
 
     return (
 <div>
 
-    dzd
+<NavLink
+    key="But3_sae1"
+    to="/But3_sae1"
+    className="boutonsaenfc"
 
-        <But3_sae1 />
-        <But3_sae2 />
+  >
+    vers ma page NFC
+  </NavLink>
+        
+      
 
 </div>
     );

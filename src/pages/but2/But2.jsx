@@ -1,18 +1,32 @@
-import But2_sae1 from "./But2_sae1";
-import But2_sae2 from "./But2_sae2";
 
-const But2 = () => {
+import { HashRouter as Router, Routes, Route, NavLink, Navigate } from 'react-router-dom';
+
+
+const But3 = () => {
 
     return (
 <div>
 
-    dzd
+<NavLink
+    key="But2_sae1"
+    to="/But2_sae1"
+    className="boutonsaenfc"
 
-        <But2_sae1 />
-        <But2_sae2 />
+  >
+    vers la premiere sae
+  </NavLink>
+        
+  <NavLink
+    key="But2_sae2"
+    to="/But2_sae2"
+    className="boutonsae"
 
+  >
+    vers la deuxime sae
+  </NavLink> 
+  
 </div>
     );
 };
 
-export default But2;
+export default But3;

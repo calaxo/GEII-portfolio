@@ -3,7 +3,7 @@ const But1_sae2 = () => {
     return (
 <div>
 
-    dzd
+Sonometre
 </div>
     );
 };

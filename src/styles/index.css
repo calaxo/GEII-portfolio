@@ -118,6 +118,31 @@
 
   .imggithub{
 
+
+    height: 2em;
+
+    background-color: white;
+    border-radius: 500px;
+  }
+
+
+  .imglinkedin{
+    height: 2em;
+
+    border-radius: 500px;
+    background-color: white;
+  }  
+  
+  .imglinkedindiv{
+
+    height: 2em;
+
+  }
+
+  
+  .imggithubdiv{
+
+
     height: 2em;
 
   }
