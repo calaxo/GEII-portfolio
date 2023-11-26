@@ -12,6 +12,11 @@ body {
   color: #fff;
 }
 
+
+.header-right{
+  padding-right: 3em;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -134,4 +139,42 @@ body {
 
 .imggithubdiv {
   height: 2em;
+}
+
+
+.boutondepagetravail{
+
+  background-color: #006EB3;
+  border: 2px solid var(--border-color);
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+}
+
+.boutondepageperso{
+  
+    background-color: brown;
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.boutondepagegeii{
+    
+      background-color: var(--secondary-bg-color);
+      border: 2px solid var(--accent-color);
+      border-radius: 10px;
+      padding: 0.5em 1em;
+      margin: 0 0.5em;
+      transition: all 0.3s ease-in-out;
+      color: #fff;
+      text-decoration: none;
 }

@@ -3,7 +3,7 @@ import { HashRouter as Router, Routes, Route, NavLink, Navigate } from "react-ro
 const But3 = () => {
   return (
     <div>
-      <NavLink key="But3_sae1" to="/But3_sae1" className="boutonsaenfc">
+      <NavLink key="But3_sae1" to="/But3_sae1" className="boutondepagegeii">
         vers ma page NFC
       </NavLink>
     </div>

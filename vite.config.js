@@ -14,6 +14,10 @@ export default defineConfig({
       '@components': path.resolve(__dirname, './src/components'),
         '@pages': path.resolve(__dirname, './src/pages'),
         '@styles': path.resolve(__dirname, './src/styles'),
+        '@geii': path.resolve(__dirname, './src/pages/geii'),
+        '@perso': path.resolve(__dirname, './src/pages/perso'),
+        '@travail': path.resolve(__dirname, './src/pages/travail'),
+        
     },
   },
   build: {
