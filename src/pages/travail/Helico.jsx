@@ -1,15 +1,28 @@
-import { HashRouter as Router, Routes, Route, NavLink, Navigate } from "react-router-dom";
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Helico = () => {
   return (
-    <div>
-      <NavLink key="Simu" to="/Simu" className="boutondepagetravail">
-        simulateur
-      </NavLink>
+    <div className="choix">
 
-      <NavLink key="Aero" to="/Aero" className="boutondepagetravail">
-        aeronautique
-      </NavLink>
+
+        <NavLink key="Simu" to="/Simu" className="moitiegauche2">
+        <div >
+          <div className="bouton-page btn1">
+            <span>simulateur</span>
+          </div>
+          </div>
+        </NavLink>
+
+
+
+        <NavLink key="Aero" to="/Aero" className="moitiedroite2">
+        <div >
+          <div className="bouton-page btn2">
+            <span>aeronautique</span>
+          </div>
+          </div>
+        </NavLink>
 
 
     </div>

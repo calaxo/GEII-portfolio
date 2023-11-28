@@ -2,19 +2,38 @@ import { HashRouter as Router, Routes, Route, NavLink, Navigate } from "react-ro
 
 const Reseaux = () => {
   return (
-    <div>
-      <NavLink key="Cable" to="/Cable" className="boutondepagetravail">
-        cable
-      </NavLink>
+    <div className="choix">
 
-      <NavLink key="Firewall" to="/Firewall" className="boutondepagetravail">
-        firewall
-      </NavLink>
+        
+        <NavLink key="Cable" to="/Cable" className="moitiegauche3">
+        <div className="moitiegauche3">
+         
+          <div className="bouton-page">
+            <span>cable</span>
+          </div>
+          </div>
+        </NavLink>
+      
 
-      <NavLink key="Switch" to="/Switch" className="boutondepagetravail">
-        switch reseaux
-      </NavLink>
+      
+        <NavLink key="Firewall" to="/Firewall" className="moitiemilieu3">
+        <div >
+          <div className="bouton-page">
+            <span>firewall</span>
+          </div>
+          </div>
+        </NavLink>
+      
 
+      
+        <NavLink key="Switch" to="/Switch" className="moitiedroite3">
+        <div >
+          <div className="bouton-page">
+            <span>switch reseaux</span>
+          </div>
+          </div>
+        </NavLink>
+      
     </div>
   );
 };

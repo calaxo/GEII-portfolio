@@ -1,3 +1,11 @@
+:root {
+  --primary-bg-color: #1b1b1e;
+  --secondary-bg-color: #007d00;
+  --accent-color: #05f140;
+  --border-color: #2cda9d;
+}
+
+
 .content {
     margin-top: 5em;
   }

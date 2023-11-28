@@ -7,6 +7,7 @@
 
 body {
   margin: 0;
+
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--primary-bg-color);
   color: #fff;
@@ -18,15 +19,38 @@ body {
 }
 
 .header {
-  position: fixed;
+  position: sticky;
   top: 0;
-  width: 100%;
+
   display: flex;
+  height: 5em;
   justify-content: space-between;
   align-items: center;
   padding: 1em;
-  background-color: var(--primary-bg-color);
+  background-color: #1E1F22;
   border-bottom: 2px solid var(--border-color);
+  margin-bottom: 5em;
+}
+
+.content{
+  position: static;
+
+  margin-top: 10em;
+  width: 100%;
+}
+
+.footer {
+  padding: 1em;
+  margin-top: 60px; /* Ajout de la marge pour éviter le chevauchement avec le header */
+  background-color: #1E1F22;
+  border-top: 2px solid var(--border-color);
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 1em;
 }
 
 .logo {
@@ -41,7 +65,7 @@ body {
 
 .nav-link {
   text-decoration: none;
-  padding: 0.5em 1em;
+
   margin: 0 0.5em;
   border: 2px solid var(--border-color);
   border-radius: 10px;
@@ -53,71 +77,13 @@ body {
   color: #fff;
 }
 
-.burger-button {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
 
-.burger-button__line {
-  height: 4px;
-  width: 30px;
-  background-color: var(--accent-color);
-  margin: 6px 0;
-  transition: transform 0.3s ease-in-out;
-}
 
-.burger-menu {
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  top: 60px;
-  left: 0;
-  width: 100%;
-  background-color: var(--primary-bg-color);
-  border-bottom: 2px solid var(--border-color);
-}
 
-.footer {
-  padding: 1em;
-  margin-top: 60px; /* Ajout de la marge pour éviter le chevauchement avec le header */
-  background-color: var(--secondary-bg-color);
-  border-top: 2px solid var(--border-color);
-  text-align: center;
-}
 
-.footer a {
-  text-decoration: none;
-  color: #fff;
-  margin: 0 1em;
-}
 
-.burger-menu a {
-  text-decoration: none;
-  color: #fff;
-  padding: 1em;
-  border-bottom: 2px solid var(--border-color);
-  transition: background-color 0.3s ease-in-out;
-}
 
-.burger-menu a:hover {
-  background-color: var(--border-color);
-  color: #fff;
-}
 
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-  }
-
-  .burger-button {
-    display: flex;
-  }
-
-  .burger-menu {
-    display: flex;
-  }
-}
 
 .imggithub {
   height: 2em;
@@ -142,39 +108,5 @@ body {
 }
 
 
-.boutondepagetravail{
-
-  background-color: #006EB3;
-  border: 2px solid var(--border-color);
-  border-radius: 10px;
-  padding: 0.5em 1em;
-  margin: 0 0.5em;
-  transition: all 0.3s ease-in-out;
-  color: #fff;
-  text-decoration: none;
-}
-
-.boutondepageperso{
-  
-    background-color: brown;
-    border: 2px solid var(--border-color);
-    border-radius: 10px;
-    padding: 0.5em 1em;
-    margin: 0 0.5em;
-    transition: all 0.3s ease-in-out;
-    color: #fff;
-    text-decoration: none;
-}
 
 
-.boutondepagegeii{
-    
-      background-color: var(--secondary-bg-color);
-      border: 2px solid var(--accent-color);
-      border-radius: 10px;
-      padding: 0.5em 1em;
-      margin: 0 0.5em;
-      transition: all 0.3s ease-in-out;
-      color: #fff;
-      text-decoration: none;
-}

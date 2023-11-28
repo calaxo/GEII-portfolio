@@ -1,13 +1,11 @@
 import { createRoot } from "react-dom/client";
 import "@styles/index.css";
 import "@styles/accueil.css";
-import "@styles/but1.css";
-import "@styles/but2.css";
+import "@styles/page.css";
 
-import "@styles/but3.css";
 
 import Page404 from "@pages/Page404";
-import { useState } from "react";
+
 import { HashRouter as Router, Routes, Route, NavLink, Navigate } from "react-router-dom";
 
 import Accueil from "@pages/Accueil.jsx";
@@ -22,7 +20,7 @@ import But2_sae1 from "@geii/but2/But2_sae1";
 import But2_sae2 from "@geii/but2/But2_sae2";
 
 import But3 from "@geii/but3/But3.jsx";
-import But3_sae1 from "@geii/but3/But3_sae1.jsx";
+
 
 
 import PC from "@perso/PC.jsx";
@@ -61,7 +59,7 @@ import ADir from "@travail/serveur/AD.jsx";
 import Docker from "@travail/serveur/Docker.jsx";
 import Learning from "@travail/serveur/Learning.jsx";
 import Linux from "@travail/serveur/Linux.jsx";
-import Proxy from "@travail/serveur/Proxy.jsx";
+
 
 
 
@@ -75,27 +73,40 @@ function App() {
 
   const navigationLinkStylesBut = ({ isActive }) => ({
     color: isActive ? "#black" : "#2f343d",
-    fontSize: isActive ? "1.2em" : "1em",
+    fontSize: isActive ? "1.2em" : "1.2em",
     background: isActive ? "white" : "#05f140",
     borderRadius: "10px", // Ajout de la bordure arrondie
+    border: "3px solid #2cda9d", 
   });
 
   const navigationLinkStylesPerso = ({ isActive }) => ({
     color: isActive ? "#black" : "#2f343d",
-    fontSize: isActive ? "1.2em" : "1em",
+    fontSize: isActive ? "1.2em" : "1.2em",
     background: isActive ? "white" : "brown",
     borderRadius: "10px", // Ajout de la bordure arrondie
+    border: "3px solid #2cda9d", 
   });
 
   const navigationLinkStylesTravail = ({ isActive }) => ({
     color: isActive ? "#black" : "#2f343d",
-    fontSize: isActive ? "1.2em" : "1em",
+    fontSize: isActive ? "1.2em" : "1.2em",
     background: isActive ? "white" : "#006EB3",
     borderRadius: "10px", // Ajout de la bordure arrondie
+    border: "3px solid #2cda9d", 
   });
 
+
+  const navigationLinkStylesBase = ({ isActive }) => ({
+    color: isActive ? "#black" : "#2f343d",
+    fontSize: isActive ? "1.2em" : "1.2em",
+    background: isActive ? "white" : "#EF921C",
+    borderRadius: "10px", // Ajout de la bordure arrondie
+    border: "3px solid #2cda9d", 
+  });
+
+
   const navigationLinks = [
-    { to: "/Accueil", text: "Accueil" },
+    { to: "/Accueil", text: "Accueil",style: navigationLinkStylesBase },
 
     { to: "/But1", text: "BUT1", class: "but3",style: navigationLinkStylesBut },
     { to: "/But2", text: "BUT2", class: "but3",style: navigationLinkStylesBut },
@@ -134,8 +145,9 @@ function App() {
             </a>
 
             {navigationLinks.map((link) => (
-              <NavLink key={link.to} to={link.to} className={`b-${link.class} rounded-button`} style={link.style}>
+              <NavLink key={link.to} to={link.to} className={`b-${link.class} rounded-button nav-link`} style={link.style}>
                 {link.text}
+
               </NavLink>
             ))}
           </div>
@@ -162,7 +174,7 @@ function App() {
           <Route path="/But2_sae2" element={<But2_sae2 />} />
 
           <Route path="/But3" element={<But3 />} />
-          <Route path="/But3_sae1" element={<But3_sae1 />} />
+
 
           <Route path="/But1_sae1" element={<But1_sae1 />} />
           <Route path="/But1_sae2" element={<But1_sae2 />} />
@@ -195,7 +207,7 @@ function App() {
           <Route path="/Docker" element={<Docker />} />
           <Route path="/Learning" element={<Learning />} />
           <Route path="/Linux" element={<Linux />} />
-          <Route path="/Proxy" element={<Proxy />} />
+
 
 
 
