@@ -1,5 +1,5 @@
 import { HashRouter as Router, Routes, Route, NavLink, Navigate } from "react-router-dom";
-
+import info from "@assets/info.jpg";
 const Reseaux = () => {
   return (
     <div className="choix">
@@ -7,7 +7,7 @@ const Reseaux = () => {
         
         <NavLink key="Cable" to="/Cable" className="moitiegauche3">
         <div className="moitiegauche3">
-         
+        <img className="imgchoix3" src={info} alt="SAE1" />
           <div className="bouton-page">
             <span>cable</span>
           </div>

@@ -130,7 +130,7 @@
  
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-row: repeat(2, 1fr);
+
 }
 
 .moitiegauchehaut4{
@@ -182,3 +182,25 @@
 
 }
 
+
+
+/* Add this CSS at the end of your existing CSS */
+
+/* Zoom effect on hover */
+.choix a:hover .bouton-page {
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+
+/* Transition for smooth animation */
+.bouton-page {
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+.imgchoix3{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
