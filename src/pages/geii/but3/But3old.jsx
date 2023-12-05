@@ -1,5 +1,6 @@
 import { HashRouter as Router, Routes, Route, NavLink, Navigate } from "react-router-dom";
-
+import geii from "@assets/geii.gif";
+import iut from "@assets/iut.png";
 
 
 const But3 = () => {
@@ -128,7 +129,9 @@ const But3 = () => {
         </tbody>
       </table>
 
-     </div>
+      <img className="imggeii" src={geii} alt="geii" />
+      <img className="imgiut" src={iut} alt="iut" />
+    </div>
   );
 };
 

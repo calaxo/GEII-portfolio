@@ -4,6 +4,9 @@ import "@styles/accueil.css";
 import "@styles/page.css";
 
 
+import geii from "@assets/geii.gif";
+import iut from "@assets/iut.png";
+
 import Page404 from "@pages/Page404";
 
 import { HashRouter as Router, Routes, Route, NavLink, Navigate } from "react-router-dom";
@@ -221,6 +224,10 @@ function App() {
       <footer className="footer">
         <p>Site © 2023</p>
         <NavLink to="/Condition">Condition légales</NavLink>
+        <img className="imggeii" src={geii} alt="geii" />
+      <img className="imggeii" src={iut} alt="iut" />
+    
+      
       </footer>
     </Router>
   );

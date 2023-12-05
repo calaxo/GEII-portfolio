@@ -7,12 +7,12 @@ import hebergement from "@assets/hebergement.jpg";
 
 const WEB = () => {
   return (
-    <div className="choix4">
+    <div className="choix">
 
 
       <NavLink key="Back" to="/Back" className="moitiegauchehaut4">
       <div >
-        <div className="bouton-page">
+        <div className="bouton-page btn1">
         <img className="imgchoix3" src={back} alt="SAE1" />
           <span>vers le back</span>
         </div>

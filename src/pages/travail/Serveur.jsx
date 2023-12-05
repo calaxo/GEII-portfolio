@@ -8,7 +8,7 @@ import linux from "@assets/linux.jpg";
 
 const Serveur = () => {
   return (
-    <div className="choix4">
+    <div className="choix">
 
 
         <NavLink key="AD" to="/AD" className="moitiegauchehaut4">
