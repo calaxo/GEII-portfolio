@@ -3,7 +3,7 @@
   import {Intro, Collaborateurs,  Tableau,  Conclu} from  "@pages/Base";
 
   import {collaborateurs_But1_sae3} from "@data/Colabo";
-  import data from "@data/But2_sae3";
+  import data from "@data/But1_sae3";
   
   
   const But1_sae3 = () => {
