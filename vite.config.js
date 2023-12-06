@@ -12,12 +12,16 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
       '@assets': path.resolve(__dirname, './src/assets'),
       '@components': path.resolve(__dirname, './src/components'),
-        '@pages': path.resolve(__dirname, './src/pages'),
-        '@styles': path.resolve(__dirname, './src/styles'),
+
+      '@styles': path.resolve(__dirname, './src/styles'),
+
+      '@pages': path.resolve(__dirname, './src/pages'),
         '@geii': path.resolve(__dirname, './src/pages/geii'),
         '@perso': path.resolve(__dirname, './src/pages/perso'),
         '@travail': path.resolve(__dirname, './src/pages/travail'),
-        
+      
+      '@data': path.resolve(__dirname, './src/data'),
+
     },
   },
   build: {

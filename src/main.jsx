@@ -75,7 +75,7 @@ import linkedin from "@assets/linkedin.png";
 
 
 function App() {
-
+  const selectedCollaborators = ["NIVEAU", "SOURIAU", "CREUZAU"];
 
   const navigationLinkStylesBut = ({ isActive }) => ({
     color: isActive ? "#black" : "#2f343d",
