@@ -1,9 +1,30 @@
-import { HashRouter as Router, Routes, Route, NavLink, Navigate } from "react-router-dom";
+
+
+import {Intro,  Tableau,  Conclu} from  "@pages/Base";
+
+
+import data from "@data/PC";
+
 
 const PC = () => {
+
+
+
+
+
   return (
     <div>
-    Montage de PC
+
+
+
+<Intro titre={data.titre} intro={data.intro} ></Intro>
+
+
+      <Tableau data={data.content} stile="tableauperso" />
+      <Conclu conclu={data.conclu}></Conclu>
+
+
+
     </div>
   );
 };

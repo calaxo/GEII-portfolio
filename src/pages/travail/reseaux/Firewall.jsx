@@ -1,9 +1,32 @@
-const Firewall = () => {
-    return <div>Firewall
 
-        regle et tout
-    </div>;
-  };
-  
-  export default Firewall;
-  
+
+import {Intro,  Tableau,  Conclu} from  "@pages/Base";
+
+
+import data from "@data/Firewall";
+
+
+const Firewall = () => {
+
+
+
+
+
+  return (
+    <div>
+
+
+
+<Intro titre={data.titre} intro={data.intro} ></Intro>
+
+
+      <Tableau data={data.content} stile="tableautravail" />
+      <Conclu conclu={data.conclu}></Conclu>
+
+
+
+    </div>
+  );
+};
+
+export default Firewall;
