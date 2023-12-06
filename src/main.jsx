@@ -2,6 +2,8 @@ import { createRoot } from "react-dom/client";
 import "@styles/index.css";
 import "@styles/accueil.css";
 import "@styles/page.css";
+import "@styles/choix.css";
+import "@styles/tableau.css";
 
 
 import geii from "@assets/geii.gif";
@@ -71,13 +73,14 @@ import Condition from "@pages/Condition.jsx";
 import github from "@assets/github.png";
 import linkedin from "@assets/linkedin.png";
 
+
 function App() {
 
 
   const navigationLinkStylesBut = ({ isActive }) => ({
     color: isActive ? "#black" : "#2f343d",
     fontSize: isActive ? "1.2em" : "1.2em",
-    background: isActive ? "white" : "#05f140",
+    background: isActive ? "#E0E1DD" : "#218380",
     borderRadius: "10px", // Ajout de la bordure arrondie
     border: "3px solid #2cda9d", 
   });
@@ -85,7 +88,7 @@ function App() {
   const navigationLinkStylesPerso = ({ isActive }) => ({
     color: isActive ? "#black" : "#2f343d",
     fontSize: isActive ? "1.2em" : "1.2em",
-    background: isActive ? "white" : "brown",
+    background: isActive ? "#E0E1DD" : "#F58F29",
     borderRadius: "10px", // Ajout de la bordure arrondie
     border: "3px solid #2cda9d", 
   });
@@ -93,7 +96,7 @@ function App() {
   const navigationLinkStylesTravail = ({ isActive }) => ({
     color: isActive ? "#black" : "#2f343d",
     fontSize: isActive ? "1.2em" : "1.2em",
-    background: isActive ? "white" : "#006EB3",
+    background: isActive ? "#E0E1DD" : "#5C95FF",
     borderRadius: "10px", // Ajout de la bordure arrondie
     border: "3px solid #2cda9d", 
   });
@@ -102,7 +105,7 @@ function App() {
   const navigationLinkStylesBase = ({ isActive }) => ({
     color: isActive ? "#black" : "#2f343d",
     fontSize: isActive ? "1.2em" : "1.2em",
-    background: isActive ? "white" : "#EF921C",
+    background: isActive ? "#E0E1DD" : "#E85D75",
     borderRadius: "10px", // Ajout de la bordure arrondie
     border: "3px solid #2cda9d", 
   });
@@ -227,7 +230,7 @@ function App() {
         <img className="imggeii" src={geii} alt="geii" />
       <img className="imggeii" src={iut} alt="iut" />
     
-      
+
       </footer>
     </Router>
   );

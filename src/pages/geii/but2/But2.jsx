@@ -2,7 +2,7 @@ import { HashRouter as Router, Routes, Route, NavLink, Navigate } from "react-ro
 import voltmetre from "@assets/voltmetre.jpg";
 import onde from "@assets/onde.jpg";
 
-const But3 = () => {
+const But2 = () => {
   return (
     <div className="choix">
 
@@ -32,4 +32,4 @@ const But3 = () => {
   );
 };
 
-export default But3;
+export default But2;

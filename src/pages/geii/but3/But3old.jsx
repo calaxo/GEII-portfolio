@@ -1,138 +1,117 @@
-import { HashRouter as Router, Routes, Route, NavLink, Navigate } from "react-router-dom";
-import geii from "@assets/geii.gif";
-import iut from "@assets/iut.png";
+// https://twitter.com/lusionltd/status/1701534187545636964
+// https://lusion.co
 
+import * as THREE from 'three'
+import { useRef, useReducer, useMemo } from 'react'
+import { Canvas, useFrame } from '@react-three/fiber'
+import { useGLTF, MeshTransmissionMaterial, Environment, Lightformer } from '@react-three/drei'
+import { CuboidCollider, BallCollider, Physics, RigidBody } from '@react-three/rapier'
+import { EffectComposer, N8AO } from '@react-three/postprocessing'
+import { easing } from 'maath'
 
-const But3 = () => {
-  const tableStyle = {
-    border: "solid",
-    width: "100%",
-  };
+const accents = ['#4060ff', '#20ffa0', '#ff4060', '#ffcc00']
+const shuffle = (accent = 0) => [
+  { color: '#444', roughness: 0.1 },
+  { color: '#444', roughness: 0.75 },
+  { color: '#444', roughness: 0.75 },
+  { color: 'white', roughness: 0.1 },
+  { color: 'white', roughness: 0.75 },
+  { color: 'white', roughness: 0.1 },
+  { color: accents[accent], roughness: 0.1, accent: true },
+  { color: accents[accent], roughness: 0.75, accent: true },
+  { color: accents[accent], roughness: 0.1, accent: true }
+]
 
-  const headerCellStyle = {
-    backgroundColor: "#FFCC33",
-    fontSize: "28px",
-    color: "darkred",
-    textAlign: "center",
-  };
-
-  const niv1Style = {
-    backgroundColor: "#ffb68b",
-    fontSize: "32px",
-    textAlign: "center",
-    marginLeft: "10%",
-    marginRight: "60%",
-    border: "groove",
-  };
-
-  const niv2Style = {
-    backgroundColor: "#ffb68b",
-    fontSize: "28px",
-    textAlign: "center",
-    marginLeft: "30%",
-    marginRight: "40%",
-    border: "groove",
-  };
-
-  const niv3Style = {
-    backgroundColor: "#ffb72b",
-    fontSize: "20px",
-    textAlign: "center",
-    marginLeft: "35%",
-    marginRight: "30%",
-    border: "groove",
-  };
-
-  const ligneStyle = {
-    paddingTop: "30px",
-    border: "solid",
-  };
-
-  return (
-    <div>
-      <table style={tableStyle}>
-        <thead>
-          <tr>
-            <td colSpan="5" style={headerCellStyle}>
-              SAE Badgeuse RFID
-            </td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td colSpan="5">
-              <p style={{ color: "darkred" }}>
-                <b>
-                  <u>Objectifs:</u>
-                </b>
-              </p>
-              <p>
-                <a href="https://bv.univ-poitiers.fr/access/content/group/7d0bd2dd-1dd5-42d4-b5b7-501daecddf3f/Enseignants/Michel%20Garcier/SAE2/Sonometre/SAE1_S1_C1_presentation.pdf">
-                  MGA Sujet 2021/2022
-                </a>
-              </p>
-            </td>
-          </tr>
-          <tr style={{ backgroundColor: "yellow" }} align="center">
-            <td width="25%">Activités réalisées</td>
-            <td width="25%">Ressources utilisées</td>
-            <td width="25%">Traces</td>
-            <td width="25%">Autoévaluation</td>
-          </tr>
-          {/* Placeholder for your content */}
-          <tr>
-            <td>case1</td>
-            <td>case2</td>
-            <td>case3</td>
-            <td>case5</td>
-          </tr>
-          <tr>
-            <td>case1</td>
-            <td>case2</td>
-            <td>case3</td>
-            <td>case5</td>
-          </tr>
-          <tr>
-            <td>case1</td>
-            <td>case2</td>
-            <td>case3</td>
-            <td>case5</td>
-          </tr>
-          <tr>
-            <td colSpan="5" style={headerCellStyle}>
-              ANALYSE REFLEXIVE
-            </td>
-          </tr>
-          <tr>
-            <td colSpan="5">
-              <p>
-                Réflexions sur les traces conservées, sur les raisons qui justifient leur choix, sur les apprentissages qu’elles démontrent, sur la construction de connaissances qu’elles révèlent, sur
-                les liens entre théorie et pratique, sur les apprentissages à réaliser… Vous décrivez ce que vous avez appris depuis le début de la SAE et ce qu’il vous reste à apprendre. Vous portez
-                un jugement global sur votre progression (degré de satisfaction, perception).
-                <br />
-                Comment ai-je appris ?
-                <br />
-                Qu’ai-je réussi à accomplir ? Ai-je rencontré des difficultés ?
-                <br />
-                Quels savoirs ai-je acquis ? Quels savoirs ai-je démontrés ?
-                <br />
-                À quelles compétences visées par le programme du BUT ces savoirs se rattachent-ils ?
-                <br />
-                Quelles connaissances, habiletés, attitudes … aurais-je dû mobiliser pour mieux faire face aux situations rencontrées ?
-                <br />
-                Que dois-je apprendre pour continuer à développer mes compétences ??
-                <br />
-                Comment vais-je m’y prendre pour accomplir ces apprentissages ?
-              </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
-      <img className="imggeii" src={geii} alt="geii" />
-      <img className="imgiut" src={iut} alt="iut" />
+ const But3 = () => (
+  <div className="container">
+    <div className="nav">
+      <h1 className="label" />
+      <div />
+      <span className="caption" />
+      <div />
+      <a href="https://lusion.co/">
+        <div className="button">VISIT LUSION</div>
+      </a>
+      <div className="button gray">///</div>
     </div>
-  );
-};
+    <Scene style={{ borderRadius: 20 }} />
+  </div>
+)
 
 export default But3;
+
+function Scene(props) {
+  const [accent, click] = useReducer((state) => ++state % accents.length, 0)
+  const connectors = useMemo(() => shuffle(accent), [accent])
+  return (
+    <Canvas onClick={click} shadows dpr={[1, 1.5]} gl={{ antialias: false }} camera={{ position: [0, 0, 15], fov: 17.5, near: 1, far: 20 }} {...props}>
+      <color attach="background" args={['#141622']} />
+      <ambientLight intensity={0.4} />
+      <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} intensity={1} castShadow />
+      <Physics /*debug*/ gravity={[0, 0, 0]}>
+        <Pointer />
+        {connectors.map((props, i) => <Connector key={i} {...props} />) /* prettier-ignore */}
+        <Connector position={[10, 10, 5]}>
+          <Model>
+            <MeshTransmissionMaterial clearcoat={1} thickness={0.1} anisotropicBlur={0.1} chromaticAberration={0.1} samples={8} resolution={512} />
+          </Model>
+        </Connector>
+      </Physics>
+      <EffectComposer disableNormalPass multisampling={8}>
+        <N8AO distanceFalloff={1} aoRadius={1} intensity={4} />
+      </EffectComposer>
+      <Environment resolution={256}>
+        <group rotation={[-Math.PI / 3, 0, 1]}>
+          <Lightformer form="circle" intensity={4} rotation-x={Math.PI / 2} position={[0, 5, -9]} scale={2} />
+          <Lightformer form="circle" intensity={2} rotation-y={Math.PI / 2} position={[-5, 1, -1]} scale={2} />
+          <Lightformer form="circle" intensity={2} rotation-y={Math.PI / 2} position={[-5, -1, -1]} scale={2} />
+          <Lightformer form="circle" intensity={2} rotation-y={-Math.PI / 2} position={[10, 1, 0]} scale={8} />
+        </group>
+      </Environment>
+    </Canvas>
+  )
+}
+
+function Connector({ position, children, vec = new THREE.Vector3(), scale, r = THREE.MathUtils.randFloatSpread, accent, ...props }) {
+  const api = useRef()
+  const pos = useMemo(() => position || [r(10), r(10), r(10)], [])
+  useFrame((state, delta) => {
+    delta = Math.min(0.1, delta)
+    api.current?.applyImpulse(vec.copy(api.current.translation()).negate().multiplyScalar(0.2))
+  })
+  return (
+    <RigidBody linearDamping={4} angularDamping={1} friction={0.1} position={pos} ref={api} colliders={false}>
+      <CuboidCollider args={[0.38, 1.27, 0.38]} />
+      <CuboidCollider args={[1.27, 0.38, 0.38]} />
+      <CuboidCollider args={[0.38, 0.38, 1.27]} />
+      {children ? children : <Model {...props} />}
+      {accent && <pointLight intensity={4} distance={2.5} color={props.color} />}
+    </RigidBody>
+  )
+}
+
+function Pointer({ vec = new THREE.Vector3() }) {
+  const ref = useRef()
+  useFrame(({ mouse, viewport }) => {
+    ref.current?.setNextKinematicTranslation(vec.set((mouse.x * viewport.width) / 2, (mouse.y * viewport.height) / 2, 0))
+  })
+  return (
+    <RigidBody position={[0, 0, 0]} type="kinematicPosition" colliders={false} ref={ref}>
+      <BallCollider args={[1]} />
+    </RigidBody>
+  )
+}
+
+function Model({ children, color = 'white', roughness = 0, ...props }) {
+  const ref = useRef()
+  const { nodes, materials } = useGLTF('https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/c-transformed.glb')
+  useFrame((state, delta) => {
+    easing.dampC(ref.current.material.color, color, 0.2, delta)
+  })
+  return (
+    <mesh ref={ref} castShadow receiveShadow scale={10} geometry={nodes.connector.geometry}>
+      <meshStandardMaterial metalness={0.2} roughness={roughness} map={materials.base.map} />
+      {children}
+    </mesh>
+  )
+}
