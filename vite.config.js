@@ -21,7 +21,7 @@ export default defineConfig({
         '@travail': path.resolve(__dirname, './src/pages/travail'),
       
       '@data': path.resolve(__dirname, './src/data'),
-
+      '@context': path.resolve(__dirname, './src/context'),
     },
   },
   build: {
