@@ -1,9 +1,9 @@
-import React from "react";
-import geii from "@assets/geii.gif";
-import iut from "@assets/iut.png";
-import Tableau from "@components/Tableau";
-import Collaborateurs from "@components/Collaborateurs";
-import collaborateurs_But3 from "@data/Colabo";
+
+
+
+import {Intro, Collaborateurs,  Tableau,  Conclu} from  "@pages/Base";
+
+import {collaborateurs_But3} from "@data/Colabo";
 import data from "@data/But3";
 
 
@@ -15,14 +15,14 @@ const But3 = () => {
 
   return (
     <div>
-      <div className="intro">
-        <h1>But3</h1>
-        <p>description du but3</p>
-        <Collaborateurs colabo={collaborateurs_But3}>Collaborateurs</Collaborateurs>
 
-      </div>
-      
-      <Tableau data={data} stile="tableaugeii" />
+
+
+<Intro titre={data.titre} intro={data.intro} ></Intro>
+        <Collaborateurs colabo={collaborateurs_But3}></Collaborateurs>
+
+      <Tableau data={data.content} stile="tableaugeii" />
+      <Conclu conclu={data.conclu}></Conclu>
 
 
 

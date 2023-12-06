@@ -1,5 +1,6 @@
 
-const titre = "But 3 : SAE ";
+
+const titre = "But 2 : SAE 1";
 
 const intro = "Le but de ce projet est de réaliser un site web qui permettra de mettre en avant les projets réalisés par les étudiants de DUT GEII."
 
@@ -21,3 +22,5 @@ const data = {
 
 
 export default data;
+
+
