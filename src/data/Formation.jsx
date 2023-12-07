@@ -1,17 +1,15 @@
 
-const titre = "But 1 : SAE 1";
+const titre = "Conseil et apprentissage informatique a mes collegues";
 
 const intro = "Le but de ce projet est de réaliser un site web qui permettra de mettre en avant les projets réalisés par les étudiants de DUT GEII."
 
 
 const content  = [
-    { id: 1, tache: "creation d'un algorigramme", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
-    { id: 2, tache: "creation de petit circuit logique", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 3, tache: "verification et amelioration", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 4, tache: "interconnection des circuits", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 5, tache: "test et optimisation", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 6, tache: "creéer une breadboard", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 7, tache: "interconexion avec la maquette", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
+    { id: 1, tache: "explication de certaine regle de sécurité", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
+    { id: 2, tache: "depanage de PC de client qui vienne de l'etranger", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
+    { id: 3, tache: "apprentissage a l'utilisation du SI", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
+    { id: 4, tache: "discussion avec la direction pour une présentation durant un séminaire", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
+    { id: 5, tache: "creation de la presentation", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
 ];
 
 

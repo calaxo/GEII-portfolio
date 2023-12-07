@@ -1,5 +1,5 @@
 
-const titre = "But 1 : SAE 1";
+const titre = "Gestion d'un site de e-learning";
 
 const intro = "Le but de ce projet est de réaliser un site web qui permettra de mettre en avant les projets réalisés par les étudiants de DUT GEII."
 
