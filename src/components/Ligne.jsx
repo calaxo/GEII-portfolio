@@ -1,10 +1,10 @@
-const Ligne = ( {ligne} ) => {
+const Ligne = ( props ) => {
     return (
-        <tr>
-        <td>{ligne.tache}</td>
-        <td>{ligne.ressource}</td>
-        <td>{ligne.trace}</td>
-        <td>{ligne.evaluation}</td>
+        <tr className="laligne">
+        <td className={`${props.stile}-LigneTitre`}>{props.ligne.tache}</td>
+        <td className={`${props.stile}-LigneRessource`}>{props.ligne.ressource}</td>
+        <td className={`${props.stile}-Lignetrace`}>{props.ligne.trace}</td>
+        <td className={`${props.stile}-LigneEvaluation`}>{props.ligne.evaluation}</td>
         </tr>
     );
     }

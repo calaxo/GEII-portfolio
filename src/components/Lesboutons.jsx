@@ -13,7 +13,7 @@ const Lesboutons = () => {
     const navigationLinkStylesBut = ({ isActive }) => ({
         color: isActive ? "#black" : "#2f343d",
         fontSize: isActive ? "1.2em" : "1.2em",
-        background: isActive ? "#E0E1DD" : "#218380",
+        background: isActive ? "#E0E1DD" : "#8884ff",
         borderRadius: "10px", // Ajout de la bordure arrondie
         border: "3px solid #2cda9d", 
       });
@@ -21,7 +21,7 @@ const Lesboutons = () => {
       const navigationLinkStylesPerso = ({ isActive }) => ({
         color: isActive ? "#black" : "#2f343d",
         fontSize: isActive ? "1.2em" : "1.2em",
-        background: isActive ? "#E0E1DD" : "#F58F29",
+        background: isActive ? "#E0E1DD" : "#8884ff",
         borderRadius: "10px", // Ajout de la bordure arrondie
         border: "3px solid #2cda9d", 
       });
@@ -29,7 +29,7 @@ const Lesboutons = () => {
       const navigationLinkStylesTravail = ({ isActive }) => ({
         color: isActive ? "#black" : "#2f343d",
         fontSize: isActive ? "1.2em" : "1.2em",
-        background: isActive ? "#E0E1DD" : "#5C95FF",
+        background: isActive ? "#E0E1DD" : "#8884ff",
         borderRadius: "10px", // Ajout de la bordure arrondie
         border: "3px solid #2cda9d", 
       });
@@ -38,10 +38,13 @@ const Lesboutons = () => {
       const navigationLinkStylesBase = ({ isActive }) => ({
         color: isActive ? "#black" : "#2f343d",
         fontSize: isActive ? "1.2em" : "1.2em",
-        background: isActive ? "#E0E1DD" : "#E85D75",
+        background: isActive ? "#E0E1DD" : "#8884ff",
         borderRadius: "10px", // Ajout de la bordure arrondie
         border: "3px solid #2cda9d", 
       });
+
+
+
 
 
         const navigationLinks = [
