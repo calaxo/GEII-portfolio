@@ -67,7 +67,12 @@ import Condition from "@pages/Condition.jsx";
 import Pageimage from "@pages/Pageimage.jsx";
 
 const Mesroutes = () => {
+
+
+
       return (
+        <div>
+
 
         <Routes>
 
@@ -120,7 +125,7 @@ const Mesroutes = () => {
     <Route path="/Learning" element={<Learning />} />
     <Route path="/Linux" element={<Linux />} />
 
-    <Route path="/Pageimage" element={<Pageimage />} />
+    <Route path="/Pageimage"  element={<Pageimage />} />
 
 
 
@@ -129,6 +134,7 @@ const Mesroutes = () => {
     <Route path="*" element={<Page404 />} />
 
     </Routes>
+    </div>
     );
 
 }

@@ -17,12 +17,14 @@ import Footer from "@components/Footer.jsx";
 
 // Fonction principale App
 function App() {
+
   return (
     <Router>
       {/* Composant Header */}
       <Header />
 
       <div className="content">
+
         {/* Composant Mesroutes pour gérer les routes */}
         <Mesroutes />
       </div>
