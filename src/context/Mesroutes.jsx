@@ -64,7 +64,7 @@ import Linux from "@travail/serveur/Linux.jsx";
 
 import Condition from "@pages/Condition.jsx";
 
-
+import Pageimage from "@pages/Pageimage.jsx";
 
 const Mesroutes = () => {
       return (
@@ -120,7 +120,7 @@ const Mesroutes = () => {
     <Route path="/Learning" element={<Learning />} />
     <Route path="/Linux" element={<Linux />} />
 
-
+    <Route path="/Pageimage" element={<Pageimage />} />
 
 
 

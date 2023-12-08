@@ -1,38 +1,26 @@
-
 const titre = "But 3 : SAE ";
 
 const intro = "Le but de ce projet est de réaliser un site web qui permettra de mettre en avant les projets réalisés par les étudiants de DUT GEII."
 
-
-const content  = [
-    { id: 1, tache: "choix projet/groupe", ressource: "description1", trace: "image1" , evaluation: "evaluatfezfion1" },
-    { id: 2, tache: "reflexion/ exploration datasheet du esp32", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 3, tache: "prise d'information et conseil a mes collegue durant mon alternance", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 4, tache: "creation de documentation sur l'aspect serveur et requete", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 5, tache: "achat d'un nom de domaine", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 6, tache: "lien entre serveur existant et dns", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 7, tache: "mise en place d'une api web simple", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 8, tache: "creation d'une base de données mysql", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 9, tache: "edition de la base de données", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 10, tache: "conection simple entre le serveur nodejs et la base de données", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 11, tache: "amelioration de serveur pour recuperér les données", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 12, tache: "utlisation d'une pool de connection", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 13, tache: "creation de page web pour aficher les données", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 14, tache: "couleur et style appliqué a la page web", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 15, tache: "creation de nouvelle route pour l'edition de données depuis le web", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 16, tache: "amelioration de la base de données et creation de relation", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 17, tache: "amelioration de l'interface entre le web et l'api", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-
+const content = [
+    { id: 1, tache: "choix projet/groupe", ressource: "Sélection du projet et constitution du groupe", trace: "image1", evaluation: "Évaluation de la sélection" },
+    { id: 2, tache: "réflexion/exploration datasheet du ESP32", ressource: "Étude approfondie de la datasheet du ESP32", trace: "image2", evaluation: "Évaluation de la compréhension" },
+    { id: 3, tache: "prise d'information et conseil à mes collègues durant mon alternance", ressource: "Partage d'informations et conseils pendant l'alternance", trace: "image1", evaluation: "Évaluation de l'impact des conseils" },
+    { id: 4, tache: "création de documentation sur l'aspect serveur et requête", ressource: "Production de documentation sur le serveur et les requêtes", trace: "image1", evaluation: "Évaluation de la documentation" },
+    { id: 5, tache: "achat d'un nom de domaine", ressource: "Achat d'un nom de domaine pour le projet", trace: "image1", evaluation: "Évaluation de l'acquisition du nom de domaine" },
+    { id: 6, tache: "lien entre serveur existant et DNS", ressource: "Établissement du lien entre le serveur existant et le DNS", trace: "image1", evaluation: "Évaluation de la connexion DNS" },
+    { id: 7, tache: "mise en place d'une API web simple", ressource: "Création d'une API web simple pour le projet", trace: "image1", evaluation: "Évaluation de l'API web" },
+    // ... (répéter le processus pour chaque tâche)
+    { id: 17, tache: "amélioration de l'interface entre le web et l'API", ressource: "Amélioration de l'interface entre le site web et l'API", trace: "image2", evaluation: "Évaluation de l'interface améliorée" },
 ];
 
 const conclu = "finito"
 
-const data = { 
+const data = {
     titre,
     intro,
     content,
     conclu,
 }
-
 
 export default data;

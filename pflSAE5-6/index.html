@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=ansi">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <title>Bienvenue sur mon PORTFOLIO</title>
+   <!-- ceci est un commentaire
+  Cette page est construite à l'aide de tables ce qui permet d'organiser facilement les différents éléments
+  Chaque élément a son propre style ce n'est pas très propre car il faut changer le style de chaque objet si on veut donner un 
+  autre format à la page. Ce sera fait différemment sur d'autres pages. Puis  avous de découvrir le CSS.
+  -->
+  </head> 
+  
+  <body>
+  <!--début de la première table-->
+  <table style="width:100%;">  <!-- ce style permet d'étendre la table pour prendre toute la largeur de la fenêtre
+  cette première table ne sert qu'a afficher les deux premiers objets soit le titre et la photo-->
+  <tr> <!-- la balise <tr></tr> définie une ligne (row) de pluisiieurs cases formées par les balise <td></td>-->
+  <td style="width:80%;" align="center"> 
+    <h1 style="color:red;background:#FF9966;border-style:groove;width:70%" align="center"> Bienvenue sur mon PORTFOLIO </h1> <!--lapremière case de la table fait 80% de la lageur le reste sera suffisant pour la photo-->
+    </td>
+  <td>
+    <img src="moi/images/identite.jpg" >     <!--la deuxième case est la photo-->        
+    </td>
+  </tr>
+  </table> <!--Fin de la première table-->
+  
+  <!--Deuxième table-->
+  <table style="width:100%;"   >
+  <tr>  
+    <td style="padding-left:10%;width:50%"> <h1 style="color:red;background:#FF9966;border-style:groove;width:70% " align="center"> A propos de moi</h1> </td>
+    <td style="padding-left:10%;width:50%"> <h1 style="color:red;background:#FF9966;border-style:groove;width:70%" align="center">Contexte</h1></td>
+  </tr>
+  <tr>
+  <td style="border: solid;border-color:red;border-right:none;"> 
+	<!-- la balise <p></p> permet de définir un paragraphe-->
+	<p  align="justify" style="padding:5%"> <!--le padding permet de s'écarter du bord du conteneur il peut être différent à chaque bord-->
+	Présentation libre : parcours, projet professionnel, préférences vocationnelles, valeurs au travail, valeurs personnelles, 
+	centres d'intérêt, qualités, personnalité,… 
+	<br><br> <!-- <br> permet de sauter une ligne-->
+	Free presentation: career path, professional project, vocational preferences, values at work, personal values, centers of 
+	interest, qualities, personality, etc.        
+    </p>
+	<p><a href="moi/doc/cv-francais.pdf" target="_blank">Mon cv en français au format pdf</a></p> <!--target="_blank" permet d'ouvrir le lien dans un autre onglet-->
+	<p><a href="moi/doc/cv-anglais.pdf" target="_blank">Mon cv en anglais au format pdf</a></p>
+	<p style="color:red">Une présentation en français et une présentation en anglais.</p>
+	</td>
+  <td style="border: solid;border-color:red"><p  align="justify" style="padding:5%">       
+     Présentation générale de la formation GEII.
+	<br><br>
+	<b>Lien vers le référentiel des compétences du BUT GEII</b> et non pas vers le programme pédagogique national.
+  </td>
+  </tr>
+  </table>
+  
+  <!--Troisième table-->
+  <table style="width:100%">  <!-- les trois cases de cette table sont cliquables et permettent d'accéder au trois années du BUT-->
+    <tr>
+    <td style="padding-left:10%">
+		<a href="but1/index.html" style=" text-decoration:none;">
+			<h1 style="color:red;background:#FF9966;border-style:groove;width:70%" align="center">BUT1</h1>
+		</a>
+	</td>
+    <td style="padding-left:10%"> 
+		<a href="but2/index.html" style=" text-decoration:none;">
+			<h1 style="color:red;background:#FF9966;border-style:groove;width:70%" align="center">BUT2</h1>
+		</a>
+	</td>
+    <td style="padding-left:10%"> 
+		<a href="but3/index.html" style=" text-decoration:none;">
+			<h1 style="color:red;background:#FF9966;border-style:groove;width:70%" align="center">BUT3</h1>
+		</a>
+	</td>
+    </tr>
+   </table>
+   
+   
+  </body>
+</html>

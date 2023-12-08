@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=ansi">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <title>Liste des fonctions</title>
+  </head>
+  <body>
+      <h1 id="alimentation">Alimentation</h1>
+      Nous sommes en GEII l'énergie utilisée par notre robot sera donc l'énergie électrique.
+      Nous avons à alimenter des moteurs à courant continu (photo) qui ont une tension nominale de 6V.
+      Nous avons à notre disposition une batterie au plomb de 12V. Il nous faut donc créer une fonction qui abaissera cette tension à
+      6V. Cette tension de 6V sera également utilisée pour alimenter toutes nos fonctions électroniques.<br>
+      Nous avons appris avec Mr Boizumault qu'il était important de bien gérer la charge/décharge d'une telle batterie. Il faut donc que cette fonction supervise le niveau de décharge de la batterie.
+      La batterie doit donc être déconnectée lorsqu'elle atteint une tension inférieur à 11.5V.<br>
+      En résumé cette fonction doit transformer le 12V en 6V tout en fournissant le courant suffisant pour les moteurs ainsi que pour
+      les différentes fonctions électroniques et aussi superviser la batterie.<br>
+      Il est très difficile de connaitre maintenant la valeur de l'intensité du courant que devra délivrer cette alimentation.  La fonction abaisseur de tension
+      étant une fonction très classique il existe des petits modules tout près que l'on trouve chez les revendeurs d'électronique. Nous avons
+      à notre disposition un module à base de LM2596 acheté chez GOTRONIC
+      C <a href="https://www.gotronic.fr/art-regulateur-ajustable-1-25-a-30-vcc-gt134-26094.htm">
+          <img src="../images/abaisseur.jpg">
+      </a>
+
+      <h1 id="dectecteur_de_ligne">Détecteur de ligne</h1>
+      <p>
+          On choisit de faire cette fonction à l'aide d'un détecteur optique <a href="opb704.pdf">
+              OPB704<a>
+                  ce composant est souvent utilisé dans ....
+                  Il devrait nous permettre de savoir si le robot se situe, ou pas, au dessus du ruban blanc. Mais pour savoir si le robot est à gauche ou à droite du ruban il nous
+                  faudra au moins 2 capteurs (pourquoi pas trois).
+      </p>
+      <p>
+          Cette fonction à besoin d'énergie pour fonctionner. Les moteurs du robot ayant une tension d'alimentation de
+          6V on choisit d'alimenter cette
+
+          <h1 id="mise_en_marche">Mise en marche</h1>
+      <p>
+          Le robot sera mis en marche par l'appui sur un bouton poussoir. Il doit s'arrêter lorsque les capteurs fin de course détectent un obstacle.
+          Cette fonction peut donc être réalisée avec une bascule ou un comparateur à deux seuils. Un appui sur le bouton marche met dans un état,
+          un appui sur un capteur fin de course dans l'autre état.
+      </p>
+  </body>
+</html>
