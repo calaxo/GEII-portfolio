@@ -1,4 +1,4 @@
-import React from "react";
+
 import { NavLink } from "react-router-dom";
 
 import veille from "@assets/veille.jpg";
@@ -47,15 +47,6 @@ const Cyber = () => {
         </NavLink>
 
 
-{/*       
-        <NavLink key="Switch" to="/Switch" className="moitiedroite3">
-        <div >
-          <div className="bouton-page">
-          <img className="imgchoix3" src={switchr} alt="SAE1" />
-            <span>switch reseaux</span>
-          </div>
-          </div>
-        </NavLink> */}
 
     </div>
   );

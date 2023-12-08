@@ -31,7 +31,7 @@ const Cadre = (props) => {
 >
             <div className="cadreimg">
             <NavLink to="/Pageimage" state= {{from:props.image}}>
-            <img className="grosseimg" src={'./src/assetspreuve/'+props.image+'.jpg'} alt={props.title} />
+            <img className="grosseimg" src={props.image} alt={props.title} />
             
               </NavLink>
            

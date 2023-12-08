@@ -2,7 +2,7 @@ import Ligne from '@components/Ligne';
 
 const Tableau = (props) => {
   return (
-    <table>
+    <table className='lestableaux'>
       <thead>
         <tr>
           <th className={`${props.stile}-Titre`}>Titre</th>

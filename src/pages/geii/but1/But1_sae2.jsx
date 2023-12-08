@@ -17,10 +17,11 @@ const But1_sae2 = () => {
 
 
 
-<Intro titre={data.titre} intro={data.intro} ></Intro>
-        <Collaborateurs colabo={collaborateurs_But1_sae2}></Collaborateurs>
+      <Intro titre={data.titre} intro={data.intro} ></Intro>
+      <Collaborateurs colabo={collaborateurs_But1_sae2}></Collaborateurs>
 
       <Tableau data={data.content} stile="tableaugeii" />
+
       <Conclu conclu={data.conclu}></Conclu>
 
 

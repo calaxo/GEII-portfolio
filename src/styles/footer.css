@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    justify-content: space-around; /* Ajustez selon vos préférences */
+    align-items: center;
+    background-color: #f7f4f3;
+
+    border-top: 2px solid brown;
+    padding: 1em;
+  }
+
+
+
+
+  .textefooter {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1em;
+    font : 1.5em;
+    font-weight: bold;
+  }
+
+
+  .condition{
+
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1em;
+    font : 1.5em;
+    font-weight: bold;
+    border : 3px solid #E85D75;
+    border-radius: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+
+  }
+  .footer {
+    padding: 1em;
+    margin-top: 60px; /* Ajout de la marge pour éviter le chevauchement avec le header */
+    background-color: #1E1F22;
+    border-top: 2px solid var(--border-color);
+    text-align: center;
+  }

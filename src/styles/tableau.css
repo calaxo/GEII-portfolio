@@ -1,3 +1,11 @@
+.lestableaux{
+    background-color: #2f2f31;
+    width: 100%;
+}
+
+
+
+
 .tableaugeii{
     width: 100%;
     height: auto;
@@ -207,14 +215,6 @@
 }
 
 
-/* .tableaugeii-LigneTitre,
-.tableaugeii-LigneRessource,
-.tableaugeii-Lignetrace,
-.tableaugeii-LigneEvaluation {
-    border: 1px solid #218380;
-    border-radius: 10px;
-    padding: 1em;
-    margin-bottom: 50em; } */
 
 .laligne {
     color: #f7f3f3;
@@ -222,15 +222,11 @@
     font-weight: bold;
     text-align: center;
     margin: 10px;
-    bottom: auto;
-    padding: 0;
-    zoom: 110%;
+
+    background-color: #535353;
     border: 1px solid #218380;
 }
 
-.laligne:hover {
-    zoom: 120%;
-}
 
 
 

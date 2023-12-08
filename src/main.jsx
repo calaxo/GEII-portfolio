@@ -1,8 +1,6 @@
 // Import des modules nécessaires
 import { createRoot } from "react-dom/client";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import React from "react";
-
+import { HashRouter as Router } from "react-router-dom";
 // Import des styles
 import "@styles/index.css";
 import "@styles/accueil.css";
@@ -23,13 +21,11 @@ function App() {
       {/* Composant Header */}
       <Header />
 
-      <div className="content">
 
-        {/* Composant Mesroutes pour gérer les routes */}
         <Mesroutes />
-      </div>
 
-      {/* Composant Footer */}
+
+
       <Footer />
     </Router>
   );

@@ -32,26 +32,10 @@ body {
   margin-bottom: 5em;
 }
 
-.content{
-  position: static;
 
-  margin-top: 10em;
-  width: 100%;
-}
 
-.footer {
-  padding: 1em;
-  margin-top: 60px; /* Ajout de la marge pour éviter le chevauchement avec le header */
-  background-color: #1E1F22;
-  border-top: 2px solid var(--border-color);
-  text-align: center;
-}
 
-.footer a {
-  text-decoration: none;
-  color: #fff;
-  margin: 0 1em;
-}
+
 
 .logo {
   text-decoration: none;

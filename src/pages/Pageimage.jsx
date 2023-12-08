@@ -1,9 +1,9 @@
 
 import { useLocation  } from 'react-router-dom';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useNavigate} from "react-router-dom";
 
-import '@styles/Cadre.css';
+import '@styles/pageimage.css';
 
 const Pageimage = () => {
 
@@ -48,7 +48,7 @@ const Pageimage = () => {
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}>
 
-<button className='' onClick={goBack}>
+<button className='btnpageimage' onClick={goBack}>
 <img data-text="Texte yà afficher" className='imageengrand' src={`./src/assetspreuve/${traceFileName}.jpg`} alt="PC" />
 
 {displayText && (
@@ -57,7 +57,7 @@ const Pageimage = () => {
             {displayText}
         </div>
         )}
-            <p>PC</p>
+            <p className='titre'>PC</p>
 
             </button>
         </div>
