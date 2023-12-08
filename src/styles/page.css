@@ -79,14 +79,6 @@
 
 
 
-/* Add this CSS at the end of your existing CSS */
-
-/* Zoom effect on hover */
-.choix a:hover .bouton-page {
-  transform: scale(1.1); /* Adjust the scale factor as needed */
-}
-
-
 
 
 

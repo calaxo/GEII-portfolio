@@ -5,14 +5,11 @@ const intro = "Le but de ce projet est de réaliser un site web qui permettra de
 
 
 const content  = [
-    { id: 1, tache: "creation d'un algorigramme", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
-    { id: 2, tache: "creation de petit circuit logique", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 3, tache: "verification et amelioration", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 4, tache: "interconnection des circuits", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 5, tache: "test et optimisation", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 6, tache: "creéer une breadboard", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 7, tache: "interconexion avec la maquette", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-];
+    { id: 1, tache: "Mise à jour", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
+    { id: 2, tache: "Gestion de la sécurité des ports", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
+    { id: 3, tache: "Gestion des VLAN	", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
+    { id: 4, tache: "Gestion des ports", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
+    ];
 
 
 const conclu = "finito"
