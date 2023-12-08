@@ -64,4 +64,5 @@ const Pageimage = () => {
     );
 };
 
+
 export default Pageimage;
