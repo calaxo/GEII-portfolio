@@ -1,5 +1,5 @@
 export const collaborateurs_But1_sae1 = [
-    { nom: "CREUZAU", prenom: "Kevin", lien: "https://bv.univ-poitiers.fr/access/content/user/kcreuzea/pflSAE5-6/Portfolio.html" },
+    { nom: "CREUZAU", prenom: "Kevin", lien: "https://bv.univ-poitiers.fr/access/content/user/kcreuzea/portfolio/index.html" },
 ]
 
 
@@ -10,7 +10,7 @@ export const collaborateurs_But1_sae2 = [
 
 
 export const collaborateurs_But1_sae3 = [
-    { nom: "CREUZAU", prenom: "Kevin", lien: "https://bv.univ-poitiers.fr/access/content/user/kcreuzea/pflSAE5-6/Portfolio.html" },
+    { nom: "CREUZAU", prenom: "Kevin", lien: "https://bv.univ-poitiers.fr/access/content/user/kcreuzea/portfolio/index.html" },
 ]
 
 
@@ -26,7 +26,7 @@ export const collaborateurs_But2_sae1 = [
 
 export const collaborateurs_But2_sae2 = [
     { nom: "CARRIER", prenom: "Amaury", lien: "https://bv.univ-poitiers.fr/access/content/user/acarri04/monportfolio/index.html" },
-    { nom: "CREUZAU", prenom: "Kevin", lien: "https://bv.univ-poitiers.fr/access/content/user/kcreuzea/pflSAE5-6/Portfolio.html" }
+    { nom: "CREUZAU", prenom: "Kevin", lien: "https://bv.univ-poitiers.fr/access/content/user/kcreuzea/portfolio/index.html" }
 ]
 
 
@@ -40,7 +40,7 @@ export const collaborateurs_But2_sae2 = [
 export const collaborateurs_But3 = [
     { nom: "NIVEAU", prenom: "Clément", lien: "https://bv.univ-poitiers.fr/access/content/user/cnivea01/portfolio/index.html" },
     { nom: "SOURIAU", prenom: "Thomas", lien: "https://bv.univ-poitiers.fr/access/content/user/tsouriau/portfolio/index.html" },
-    { nom: "CREUZAU", prenom: "Kevin", lien: "https://bv.univ-poitiers.fr/access/content/user/kcreuzea/pflSAE5-6/Portfolio.html" },
+    { nom: "CREUZAU", prenom: "Kevin", lien: "https://bv.univ-poitiers.fr/access/content/user/kcreuzea/portfolio/index.html" },
     { nom: "CARRIER", prenom: "Amaury", lien: "https://bv.univ-poitiers.fr/access/content/user/acarri04/monportfolio/index.html" }
 ];
 
