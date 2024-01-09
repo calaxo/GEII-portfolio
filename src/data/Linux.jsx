@@ -5,12 +5,13 @@ const intro = "Le but de ce projet est de réaliser un site web qui permettra de
 
 
 const content  = [
-    { id: 1, tache: "Découverte de différentes distributions de Linux", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
-    { id: 2, tache: "Installation et configuration d'une Raspberry Pi", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 3, tache: "Tentative de mise à jour de la carte réseau via Ubuntu", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 4, tache: "Installation d'une autre distribution sur un PC fonctionnel", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 5, tache: "Installation des services essentiels", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 6, tache: "Installation de Docker", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
+    { id: 1, titretache: "Découverte de différentes distributions de Linux",tache:"vrai description", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
+    { id: 2, titretache: "Installation et configuration d'une Raspberry Pi",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 3, titretache: "Tentative de mise à jour de la carte réseau via Ubuntu",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 4, titretache: "Installation d'une autre distribution sur un PC fonctionnel",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 5, titretache: "Installation dun service de bureau a distance",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 6, titretache: "Installation des services essentiels",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 7, titretache: "Installation de Docker",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
    ];
 
 

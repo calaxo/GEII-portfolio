@@ -5,14 +5,14 @@ const intro = "Le but de ce projet est de réaliser un site web qui permettra de
 
 
 const content  = [
-    { id: 1, tache: "creation d'un compte github", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
-    { id: 2, tache: "decouverte du fonctionement de GIT/Ghithub", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 3, tache: "création de repositorie", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 4, tache: "exploitation de commit et push/pull", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 5, tache: "creation de branche et douverte de merge et pull request", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 6, tache: "decouverte de la pratique du DevOps", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 7, tache: "creation d'ection github", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 8, tache: "utlisation de github pour developer", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
+    { id: 1, titretache: "creation d'un compte github",tache:"vrai description", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
+    { id: 2, titretache: "decouverte du fonctionement de GIT/Ghithub",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 3, titretache: "création de repositorie",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 4, titretache: "exploitation de commit et push/pull",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 5, titretache: "creation de branche et douverte de merge et pull request",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 6, titretache: "decouverte de la pratique du DevOps",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 7, titretache: "creation d'ection github",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 8, titretache: "utlisation de github pour developer",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
 
 ];
 

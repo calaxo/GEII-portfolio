@@ -49,7 +49,7 @@ const Pageimage = () => {
         onMouseLeave={handleMouseLeave}>
 
 <button className='btnpageimage' onClick={goBack}>
-<img data-text="Texte yà afficher" className='imageengrand' src={`./src/assetspreuve/${traceFileName}.jpg`} alt="PC" />
+<img data-text="Texte yà afficher" className='imageengrand' src={`${traceFileName}`} alt="PC" />
 
 {displayText && (
         <div className='boutonretour' style={{position:"absolute" ,left: textPosition.left, top: textPosition.top }}>

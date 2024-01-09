@@ -9,3 +9,10 @@
     margin-top: 5em;
   }
   
+
+  .lecanvas{
+
+    position: absolute;
+    height: 40em;
+    width: 100em;
+  }

@@ -5,12 +5,15 @@ const intro = "Le but de ce projet est de réaliser un site web qui permettra de
 
 
 const content  = [
-    { id: 1, tache: "apprentissage des droit windows", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
-    { id: 2, tache: "création gestion des utilisateur", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 3, tache: "creation de dossier avec des droit spécifique", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 4, tache: "modification de groupe de droit", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 5, tache: "création de droit spécifique", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
- ];
+    { id: 1, titretache: "apprentissage des droit windows",tache:"vrai description", ressource: "description1", trace: "image1" , evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 2, titretache: "création gestion des utilisateur",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 3, titretache: "creation de dossier avec des droit spécifique",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 4, titretache: "modification de groupe de droit",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 5, titretache: "création de droit spécifique",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 6, titretache: "verification des droits pour les fichiers et dossier",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" }, 
+
+
+];
 
 
 const conclu = "finito"

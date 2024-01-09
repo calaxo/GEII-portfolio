@@ -1,11 +1,11 @@
 
 import { HashRouter as Router, Routes, Route, NavLink, Navigate } from "react-router-dom";
 
+import {  lazy } from "react";
 
 
 
-import Page404 from "@pages/Page404";
-
+const Page404 = lazy(() => import("@pages/Page404"));
 
 import Accueil from "@pages/Accueil.jsx";
 

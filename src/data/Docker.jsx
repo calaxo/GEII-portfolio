@@ -5,16 +5,16 @@ const intro = "Le but de ce projet est de réaliser un site web qui permettra de
 
 
 const content  = [
-    { id: 1, tache: "decouverte des métode pour herberger plusieur service sur la meme machine", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
-    { id: 2, tache: "decouverte de docker", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 3, tache: "creation d'environment de test", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 4, tache: "creaton de mes propre conteneurs", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 5, tache: "interconnexion des conteneur via des reseaux virtuel", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 6, tache: "resoltion des probleme", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 7, tache: "passage en infrasctucture de production", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 8, tache: "tentative de reparation de docker sur windows", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 9, tache: "installation de linux", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-
+    { id: 1, titretache: "decouverte des métode pour herberger plusieur service sur la meme machine",tache:"vrai description", ressource: "description1", trace: "image1" , evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 2, titretache: "decouverte de docker",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 3, titretache: "creation d'environment de test",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 4, titretache: "creaton de mes propre conteneurs",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 5, titretache: "interconnexion des conteneur via des reseaux virtuel",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 6, titretache: "resolution des probleme",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 7, titretache: "passage en infrasctucture de production",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 8, titretache: "tentative de reparation de docker sur windows",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 9, titretache: "installation de linux",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 10, titretache: "installation de service complexe",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
 ];
 
 

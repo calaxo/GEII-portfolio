@@ -6,16 +6,16 @@ const intro = "Le but de ce projet est de réaliser un site web qui permettra de
 
 
 const content  = [
-    { id: 1, tache: "creation d'un algorigramme", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
-    { id: 2, tache: "utilisation du capteur inductif", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
-    { id: 3, tache: "abaissement de la tension logique de sortie du capteur inductif", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
-    { id: 4, tache: "utilisation du moteur", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
-    { id: 5, tache: "creation de petit circuit logique", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 6, tache: "verification et amelioration", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 7, tache: "interconnection des circuits", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 8, tache: "test et optimisation", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 9, tache: "creéer une breadboard", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 10, tache: "interconexion avec la maquette", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
+    { id: 1, titretache: "creation d'un algorigramme",tache:"vrai description", ressource: "description1", trace: "image1" , evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 2, titretache: "utilisation du capteur inductif",tache:"vrai description", ressource: "description1", trace: "image1" , evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 3, titretache: "abaissement de la tension logique de sortie du capteur inductif",tache:"vrai description", ressource: "description1", trace: "image1" , evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 4, titretache: "utilisation du moteur",tache:"vrai description", ressource: "description1", trace: "image1" , evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 5, titretache: "creation de petit circuit logique",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 6, titretache: "verification et amelioration",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 7, titretache: "interconnection des circuits",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 8, titretache: "test et optimisation",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 9, titretache: "creéer une breadboard",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 10, titretache: "interconexion avec la maquette",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
 ];
 
 

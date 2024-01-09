@@ -9,14 +9,14 @@ const intro = "Le but de ce projet est de réaliser un site web qui permettra de
 
 
 const content  = [
-    { id: 1, tache: "recreation du circuit suite a la separation en 2 groupe", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
-    { id: 2, tache: "amelioration de la propreté du circuit", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 3, tache: "cration du circuit sur altium", ressource: "comme je sais fair j'ai fait un site react",trace: imgaltium1, evaluation: "evaluation1" },
-    { id: 4, tache: "passage de programme stm32 en mode sans fils", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 5, tache: "dessin d'une nouvelle interface pour l'ecran du stm32", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 6, tache: "amelioration du code et creation de l' aiguille analogique ", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 7, tache: "amelioration de la propreté du circuit", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 8, tache: "routage de la carte sur altium", ressource: "on a appris a faire des base de données",trace: imgaltium2, evaluation: "evaluation1" },
+    { id: 1, titretache: "recreation du circuit suite a la separation en 2 groupe",tache:"vrai description", ressource: "description1", trace: "image1" , evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 2, titretache: "amelioration de la propreté du circuit",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 3, titretache: "cration du circuit sur altium",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: imgaltium1, evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 4, titretache: "passage de programme stm32 en mode sans fils",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 5, titretache: "dessin d'une nouvelle interface pour l'ecran du stm32",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 6, titretache: "amelioration du code et creation de l' aiguille analogique ",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 7, titretache: "amelioration de la propreté du circuit",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 8, titretache: "routage de la carte sur altium",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: imgaltium2, evaluation: "evaluation1", date: "01/02/2023" },
 ];
 
 const conclu = "finito"

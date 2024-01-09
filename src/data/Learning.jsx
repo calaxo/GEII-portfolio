@@ -5,11 +5,11 @@ const intro = "Le but de ce projet est de réaliser un site web qui permettra de
 
 
 const content  = [
-    { id: 1, tache: "découverte de moodle", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
-    { id: 2, tache: "création et gestion d'utilisateur", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 3, tache: "ajout et modification de cours", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 4, tache: "nettoyage de la base de données", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 5, tache: "tentative de déplacement de moodle", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
+    { id: 1, titretache: "découverte de moodle",tache:"vrai description", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
+    { id: 2, titretache: "création et gestion d'utilisateur",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 3, titretache: "ajout et modification de cours",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 4, titretache: "nettoyage de la base de données",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 5, titretache: "tentative de déplacement de moodle",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
    ];
 
 

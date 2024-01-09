@@ -5,13 +5,13 @@ const intro = "Le but de ce projet est de réaliser un site web qui permettra de
 
 
 const content  = [
-    { id: 1, tache: "démontage de PC", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
-    { id: 2, tache: "modification de PC avec du vieux matériel", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 3, tache: "choix prix/puissance pour achat", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 4, tache: "montage de PC/serveur à partir de 0", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 5, tache: "paramétrage du BIOS	", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1" },
-    { id: 6, tache: "installation de l'OS	", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
-    { id: 7, tache: "interconnexion avec la maquette	", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1" },
+    { id: 1, titretache: "démontage de PC",tache:"vrai description", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
+    { id: 2, titretache: "modification de PC avec du vieux matériel",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 3, titretache: "choix prix/puissance pour achat",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 4, titretache: "montage de PC/serveur à partir de 0",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 5, titretache: "paramétrage du BIOS	",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 6, titretache: "installation de l'OS	",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 7, titretache: "verification du bon fonctionement et des mise a jour	",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
 ];
 
 

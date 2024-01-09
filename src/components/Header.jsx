@@ -4,8 +4,11 @@ import Lesboutons from "@components/Lesboutons.jsx";
 
 
 
+
 const Header = () => {
+
     return (
+      
         <div className="header">
         <NavLink to="/Accueil" className="logo">
           <div className="titre">Mon Portfolio</div>
@@ -18,6 +21,7 @@ const Header = () => {
           </div>
 
         </div>
+        
       </div>
 
     );

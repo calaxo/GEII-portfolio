@@ -43,6 +43,7 @@ export default defineConfig({
             chunkFileNames: "chunk.js",
             manualChunks: {
               vendor: ['react', 'react-router-dom', 'react-dom'],
+              
 
             },
         },

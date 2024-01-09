@@ -5,10 +5,11 @@ const Tableau = (props) => {
     <table className='lestableaux'>
       <thead>
         <tr>
-          <th className={`${props.stile}-Titre`}>Titre</th>
-          <th className={`${props.stile}-Description`}>Description</th>
-          <th className={`${props.stile}-Image`}>Image</th>
-          <th className={`${props.stile}-Evaluation`}>Evaluation</th>
+          <th className={`${props.stile}-Titre`}>Tâches réalisées	</th>
+          <th className={`${props.stile}-Description`}>Ressources utilisées</th>
+          <th className={`${props.stile}-Ressource`}>Traces</th>
+          <th className={`${props.stile}-Evaluation`}>Auto Evaluation</th>
+          <th className={`${props.stile}-Date`}>Date</th>
         </tr>
       </thead>
       <tbody>
