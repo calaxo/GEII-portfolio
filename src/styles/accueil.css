@@ -13,6 +13,14 @@
   .lecanvas{
 
     position: absolute;
+    z-index: 1;
     height: 40em;
     width: 100em;
+  }
+
+  .texte-acceuil{
+    position: relative;
+    z-index: 2;
+
+
   }

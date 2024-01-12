@@ -1,13 +1,15 @@
 
 import { useRef, useState, useEffect  } from 'react'
-import { Canvas } from '@react-three/fiber'
-// , useFrame 
+import { Canvas,useFrame } from '@react-three/fiber'
+
 import cvfr from "@assets/cvfr.pdf";
 import cven from "@assets/cvfr.pdf";
 
 
 
-import { Model } from '@components/Model'
+import { Modelhelico } from '@components/Modelhelico'
+
+// import { TextureLoader } from 'three/src/loaders/TextureLoader'
 
 
 
@@ -17,8 +19,9 @@ import { Model } from '@components/Model'
 //   // Set up state for the hovered and active state
 //   const [hovered, setHover] = useState(false)
 //   const [active, setActive] = useState(false)
+  
 //   // Subscribe this component to the render-loop, rotate the mesh every frame
-//   useFrame((state, delta) => (meshRef.current.rotation.x += delta))
+
 //   // Return view, these are regular three.js elements expressed in JSX
 //   return (
 //     <mesh
@@ -28,7 +31,7 @@ import { Model } from '@components/Model'
 //       onClick={(event) => setActive(!active)}
 //       onPointerOver={(event) => setHover(true)}
 //       onPointerOut={(event) => setHover(false)}>
-//       <boxGeometry args={[1, 1, 1]} />
+//       <boxGeometry args={[20, 20, 1]} />
 //       <meshStandardMaterial color={hovered ? 'hotpink' : 'orange'} />
 //     </mesh>
 //   )
@@ -75,18 +78,20 @@ const Accueil = () => {
  let x = 0;
   let y = mousePos.x/200;
   let z = 0;
-
+  let helicox = -50+mousePos.y/10;
+  let helicoy = mousePos.x/200;
+  let helicoz = 0;
 
   return (
     <div className="accueil">
   <div className="lecanvas">
     <Canvas camera={{ position: [-20, 5,2] }}>
-
+      {/* <Box position={[-2.5, 0, 0]} /> */}
     {/* <SpotLight  position={[10, 10, 10]} angle={1} focus={1} color={"red"} penumbra={0} intensity={500} target-position={[0, 0,0]} /> */}
     <directionalLight position={[3.3, 1.0, 4.4]} intensity={10} />
     <directionalLight position={[-3.3, 1.0, -4.4]} intensity={2} />
 
-    <Model position={[0, 0, 0]} rotation={[x, y, z]} scale={0.005} />
+    <Modelhelico position={[helicox, helicoy, helicoz]} rotation={[x, y, z]} scale={0.005} />
 
 
 
@@ -99,7 +104,7 @@ const Accueil = () => {
     {/* <Environment preset="warehouse" background /> */}
   </Canvas>
   </div>
-  <div>
+  <div className='texte-acceuil'>
         <h1>francais</h1>
 <h1>Mon Portfolio</h1>
         <p>Bienvenue sur mon portfolio !</p>
