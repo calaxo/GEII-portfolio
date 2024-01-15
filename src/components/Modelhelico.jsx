@@ -5,10 +5,12 @@ Files: src\components\Lowpoly_Helicopter.gltf [239.86KB] > C:\Users\axelc\Deskto
 */
 // /src/Lowpoly_Helicopter-transformed.glb
 
+// https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/Lowpoly_Helicopter-transformed.glb
+
 import { useGLTF } from '@react-three/drei'
 
 export function Modelhelico(props) {
-  const { nodes, materials } = useGLTF('https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/Lowpoly_Helicopter-transformed.glb')
+  const { nodes, materials } = useGLTF('/src/Lowpoly_Helicopter-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Propeller.geometry} material={materials.Palette} position={[2700.777, 509.277, 11.211]} />
@@ -16,4 +18,4 @@ export function Modelhelico(props) {
   )
 }
 
-useGLTF.preload('https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/Lowpoly_Helicopter-transformed.glb')
+useGLTF.preload('/src/Lowpoly_Helicopter-transformed.glb')
