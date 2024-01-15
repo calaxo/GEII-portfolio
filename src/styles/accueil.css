@@ -24,3 +24,51 @@
 
 
   }
+
+
+
+.contactdiv{
+
+  position: relative;
+  z-index: 2;
+  margin-top: 5em;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 5em;
+  background-color: #2cda9d88;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px; /* Ajustez la taille du padding selon vos besoins */
+
+
+
+}
+
+
+
+.cvlien{
+
+  position: relative;
+  z-index: 2;
+  margin-top: 5em;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 5em;
+  background-color: #2cda9d88;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px; /* Ajustez la taille du padding selon vos besoins */
+
+}

@@ -2,7 +2,7 @@ const Collaborateurs = ({ colabo }) => {
 
     return (
         <div>
-            <h2>Collaborateurs</h2>
+            <h2>collègue</h2>
             <ul>
             {colabo.map((colabo) => (
     <li key={colabo.nom} className="colaborateur">

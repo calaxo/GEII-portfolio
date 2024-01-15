@@ -7,12 +7,17 @@ const But1 = () => {
   return (
     <div className="choix">
 
+      <div className="intropage" >
+    cette année ci j'ai decouverte les base de l'electronique et des mathématique qui y sont relié
+
+
+      </div>
 
         <NavLink key="But1_sae1" to="/But1_sae1" className="moitiegauche3">
         <div >
           <div className="bouton-page btn1">
             <img className="imgchoix3" src={moteur} alt="SAE1" />
-            <span>vers la premiere sae</span>
+            <span>vers le premier projet de cette année</span>
 
           </div>
           </div>
@@ -23,7 +28,7 @@ const But1 = () => {
         <div >
           <div className="bouton-page btn2">
           <img className="imgchoix3" src={son} alt="SAE1" />
-            <span>vers la deuxieme sae</span>
+            <span>vers le deuxieme projet de cette année</span>
           </div>
           </div>
         </NavLink>
@@ -34,7 +39,7 @@ const But1 = () => {
           <div >
           <div className="bouton-page btn3">
           <img className="imgchoix3" src={trieur} alt="SAE1" />
-            <span>vers la troisième sae</span>
+            <span>vers la troisième projet de cette année</span>
           </div>
           </div>
         </NavLink>

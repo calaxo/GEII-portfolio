@@ -11,7 +11,7 @@ const But2 = () => {
         <div >
           <div className="bouton-page btn1">
             <img className="imgchoix3" src={voltmetre} alt="SAE1" />
-            <span>vers la premiere sae</span>
+            <span>vers le premiere projet de cette année</span>
           </div>
           </div>
         </NavLink>
@@ -22,7 +22,7 @@ const But2 = () => {
         <div >
           <div className="bouton-page btn2">
           <img className="imgchoix3" src={onde} alt="SAE1" />
-            <span>vers la deuxieme sae</span>
+            <span>vers le deuxieme projet de cette année</span>
           </div>
           </div>
         </NavLink>

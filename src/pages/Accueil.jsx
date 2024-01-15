@@ -5,6 +5,8 @@ import { Canvas,useFrame } from '@react-three/fiber'
 import cvfr from "@assets/cvfr.pdf";
 import cven from "@assets/cvfr.pdf";
 
+import github from "@assets/github.png";
+import linkedin from "@assets/linkedin.png";
 
 
 import { Modelhelico } from '@components/Modelhelico'
@@ -106,7 +108,7 @@ const Accueil = () => {
   </div>
   <div className='texte-acceuil'>
         <h1>francais</h1>
-<h1>Mon Portfolio</h1>
+<h1>MON PORTFOLIO</h1>
         <p>Bienvenue sur mon portfolio !</p>
         <p>Je suis actuellement en Bachelor Génie Électrique et Informatique Industrielle.</p>
         <p>En tant qu'alternant, je travaille en tant que technicien simulateur d'hélicoptère et administrateur informatique dans une entreprise école de pilotage d'hélicoptère depuis 1 an et demi.</p>
@@ -114,20 +116,57 @@ const Accueil = () => {
 
 
 
+<div className='contactdiv'>
+      <a className='cvlien' href={cvfr} >afficher mon CV en français</a>
 
-      <a href={cvfr} >afficher mon CV en français</a>
+      <p></p>
+      Calendreau Axel
+      <p></p>
+      06-16-75-16-50
+      <p></p>
+      cal.axel2@gmail.com
+      <p></p>
+
+      <a className="imggithubdiv" href="https://github.com/calaxo/geii-portfolio">
+              <img className="imggithub" src={github} alt="github" />
+            </a>
+            <p></p>
+
+            <a className="imglinkedindiv " href="https://www.linkedin.com/in/calendreau-axel">
+              <img className="imglinkedin" src={linkedin} alt="linkedin" />
+            </a>
+            </div>
 
 
       <h1>english</h1>
-<h1>My Portfolio</h1>
+<h1>MY PORTFOLIO</h1>
         <p>Bienvenue sur mon portfolio !</p>
         <p>Je suis actuellement en Bachelor Génie Électrique et Informatique Industrielle.</p>
         <p>En tant qu'alternant, je travaille en tant que technicien simulateur d'hélicoptère et administrateur informatique dans une entreprise école de pilotage d'hélicoptère depuis 1 an et demi.</p>
         <p>En dehors de mon parcours académique, je suis également un bricoleur passionné et un développeur web.</p>
 
 
-      <a href={cven} >afficher mon CV en anglais</a>
+      
+      <div className='contactdiv'>
+      <a className='cvlien' href={cven} >display my resumee in english</a>
 
+      <p></p>
+      Calendreau Axel
+      <p></p>
+      06-16-75-16-50
+      <p></p>
+      cal.axel2@gmail.com
+      <p></p>
+
+      <a className="imggithubdiv" href="https://github.com/calaxo/geii-portfolio">
+              <img className="imggithub" src={github} alt="github" />
+            </a>
+            <p></p>
+
+            <a className="imglinkedindiv " href="https://www.linkedin.com/in/calendreau-axel">
+              <img className="imglinkedin" src={linkedin} alt="linkedin" />
+            </a>
+            </div>
 
      
 
