@@ -1,7 +1,7 @@
 
 const titre = "Developpement web Front-end";
 
-const intro = "Le but de ce projet est de réaliser un site web qui permettra de mettre en avant les projets réalisés par les étudiants de DUT GEII."
+const intro = "le front design tout la partie web qui s'execute du coté client sur le navigateur"
 
 
 const content  = [
@@ -23,7 +23,7 @@ const content  = [
 ];
 
 
-const conclu = "finito"
+const conclu = "je trouve la programmtion de web front trés interessante mais il faut avoir un aspect artistiquepour que je n'ai pas"
 
 const data = { 
     titre,

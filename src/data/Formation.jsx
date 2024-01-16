@@ -1,7 +1,7 @@
 
 const titre = "Conseil et apprentissage informatique a mes collegues";
 
-const intro = "Le but de ce projet est de réaliser un site web qui permettra de mettre en avant les projets réalisés par les étudiants de DUT GEII."
+const intro = "pendant mn alternance je suis ammené a travailler avec des personne moin compétente que moi avec l'informatique, lorsque que je repare leurs PC j'essaie de leur explique comment ca marche en vulgarisans"
 
 
 const content  = [
@@ -18,7 +18,7 @@ const content  = [
 ];
 
 
-const conclu = "finito"
+const conclu = "c'est plus compliqué d'expliquer ce qui ne marche pas que de reparer ce qui ne marche pas la plupart du temp"
 
 const data = { 
     titre,
