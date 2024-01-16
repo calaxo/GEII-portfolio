@@ -8,6 +8,18 @@ import linux from "@assets/linux.jpg";
 
 const Serveur = () => {
   return (
+
+
+    <>
+    <div className="intropage"> 
+     j'ai toujour heberger tout et n'importe quoi
+     des serveur de jeux pour jouer entre amis pendant le confinement
+     des serveur web plus complexe pour mon entreprise 
+     et des site web pour de la famille qui est artisant 
+     je me suis vite rendu compte qu'il faut une machine dédié a ca
+    </div>
+
+
     <div className="choix">
 
 
@@ -53,6 +65,11 @@ const Serveur = () => {
 
 
     </div>
+
+    </>
+
+
+
   );
 };
 

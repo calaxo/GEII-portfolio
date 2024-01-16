@@ -7,6 +7,15 @@ import hebergement from "@assets/hebergement.jpg";
 
 const WEB = () => {
   return (
+
+    <>
+    <div className="intropage"> 
+      il y'a de nombreuse "brique" informatique qui ensemble 
+      forme un systeme complexe avec beaucoup d'interaction et de synergie
+       pour simplifer le developement web 
+    </div>
+
+
     <div className="choix">
 
 
@@ -47,13 +56,15 @@ const WEB = () => {
       <div>
         <div className="bouton-page">
         <img className="imgchoix3" src={hebergement} alt="SAE1" />
-          <span>vers l'Hebergement</span>
+          <span>vers l'hebergement</span>
         </div>
         </div>
       </NavLink>
    
 
   </div>
+</>
+
 );
 };
 

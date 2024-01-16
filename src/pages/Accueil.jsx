@@ -80,8 +80,8 @@ const Accueil = () => {
  let x = 0;
   let y = mousePos.x/200;
   let z = 0;
-  let helicox = -50+mousePos.y/10;
-  let helicoy = mousePos.x/200;
+  let helicox = 0;
+  let helicoy = -10+mousePos.y/20;
   let helicoz = 0;
 
   return (

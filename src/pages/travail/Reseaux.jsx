@@ -4,6 +4,18 @@ import fire from "@assets/fire.jpg";
 import switchr from "@assets/switch.jpg";
 const Reseaux = () => {
   return (
+
+
+    <>
+    <div className="intropage"> 
+
+plus jeune que internet fonctionnait tout seul puis
+ j'ai eu mes premier cours d'informatique au lycée qui expliquait les base de fonctionment du reseaux
+ depuis j'essaie toujour de comprendre plus en profondeur le fonctionnement des reseaux informatique
+
+    </div>
+
+
     <div className="choix">
 
         
@@ -40,6 +52,9 @@ const Reseaux = () => {
         </NavLink>
       
     </div>
+
+    </>
+
   );
 };
 

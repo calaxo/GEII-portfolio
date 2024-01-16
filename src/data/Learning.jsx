@@ -1,7 +1,7 @@
 
 const titre = "Gestion d'un site de e-learning";
 
-const intro = "Le but de ce projet est de réaliser un site web qui permettra de mettre en avant les projets réalisés par les étudiants de DUT GEII."
+const intro = "a mon alternance je gere l'administration d'un site de e-learning moodle qui permet aux instructeur de mettre des a dispostion des eleve en passant pas un interface simple et sécurisé"
 
 
 const content  = [
@@ -13,7 +13,7 @@ const content  = [
    ];
 
 
-const conclu = "finito"
+const conclu = "j'ai decouvert la compléxité de gerer beacoup d'utilisateur et de cours, et de changer ces droit ou ajouter des cours"
 
 const data = { 
     titre,

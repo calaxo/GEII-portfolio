@@ -126,3 +126,29 @@
 
 
 
+
+.intropage{
+
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  
+
+  top:0em;
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  line-height: 1.31;
+  letter-spacing: 1px;
+  font-style: normal;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px; /* Ajustez la taille du padding selon vos besoins */
+
+
+
+}
+
+

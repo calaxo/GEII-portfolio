@@ -8,6 +8,13 @@ import cyber from "@assets/cyber.jpg";
 
 const Cyber = () => {
   return (
+
+    <>
+    <div className="intropage">
+      j'ai toujour aimé la sécurité informatique, des deux coté, rendre mon pc plus sécurisé et essayer de de le pirater plus jeune,
+      a force j'ai appris les aspect professionel de la sécurité informaituqe
+    </div>
+
     <div className="choix">
 
         <NavLink key="DGAC" to="/DGAC" className="moitiegauche3">
@@ -49,6 +56,9 @@ const Cyber = () => {
 
 
     </div>
+
+    </>
+
   );
 };
 

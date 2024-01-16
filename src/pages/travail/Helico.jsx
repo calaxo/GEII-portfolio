@@ -6,6 +6,17 @@ import aero from "@assets/aero.jpg";
 
 const Helico = () => {
   return (
+
+
+    <>
+    <div className="intropage"> 
+    je nai jammais pris l'avion mais j'ai toujour trouver le technologies aeronautique trés interessante 
+    lorsque j'ai été pris en tant qu'alternant chez heli union training center
+    j'ai commencé a apprendre plein de chose sur l'aéenornautique
+    appliquée aux helicoptere
+    je sais que ces connaissance ne me permetron pas grand chose mais en tant que culture generale c'est bien
+    </div>
+
     <div className="choix">
 
 
@@ -31,6 +42,9 @@ const Helico = () => {
 
 
     </div>
+
+    </>
+
   );
 };
 

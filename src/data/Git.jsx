@@ -17,7 +17,7 @@ const content  = [
 ];
 
 
-const conclu = "finito"
+const conclu = "depuis que j'utlise git je n'ai fait aucune erreur de gestion de code, avant c'etait tjour complis de gerer plusieur version de plusieur code entre plursieur espace de stockage en passant seulement par des fichier et des clé usb"
 
 const data = { 
     titre,

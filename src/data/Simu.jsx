@@ -1,7 +1,7 @@
 
 const titre = "maintenance en condition operative de simulateur d'helicoptere";
 
-const intro = "Le but de ce projet est de réaliser un site web qui permettra de mettre en avant les projets réalisés par les étudiants de DUT GEII."
+const intro = "Un simulateur permet d'efctuer des vrai vol sans risqque et pouvoir simuler les pire panne possible sans risque des vie ou du materiel"
 
 
 const content  = [
@@ -25,7 +25,7 @@ const content  = [
 ];
 
 
-const conclu = "finito"
+const conclu = "j'ai decouvert l'utilité de la simulation dans le monde professionnel, que se soit pour les helicopter ou n'importe quel autre moyen de locomotion complexe c'est l'opposé de tout les jeux de simulation que j'ai connu"
 
 const data = { 
     titre,

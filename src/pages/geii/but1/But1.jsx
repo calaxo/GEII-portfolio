@@ -5,13 +5,17 @@ import trieur from "@assets/trieur.jpg";
 
 const But1 = () => {
   return (
+
+    <>
+    <div className="intropage"> 
+
+    premiere année dans geii que j'ai rejoin car j'ai toujour été interéssé par l'lectrique et l'elctronqiue
+    </div>
+
+
+
     <div className="choix">
 
-      <div className="intropage" >
-    cette année ci j'ai decouverte les base de l'electronique et des mathématique qui y sont relié
-
-
-      </div>
 
         <NavLink key="But1_sae1" to="/But1_sae1" className="moitiegauche3">
         <div >
@@ -45,6 +49,8 @@ const But1 = () => {
         </NavLink>
       
     </div>
+
+    </>
   );
 };
 

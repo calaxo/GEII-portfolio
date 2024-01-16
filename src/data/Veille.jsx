@@ -1,7 +1,7 @@
 
 const titre = "Veille informatique";
 
-const intro = "Le but de ce projet est de réaliser un site web qui permettra de mettre en avant les projets réalisés par les étudiants de DUT GEII."
+const intro = "La veille informatique decrit la prise d'information sur un domaine"
 
 
 const content  = [
@@ -13,7 +13,7 @@ const content  = [
     ];
 
 
-const conclu = "finito"
+const conclu = "comme pour la vie de tout le jous il faut s'informer regulierement pour rester a jour pour savoir quelle sont les dernieres nouveaute et faille trouvé pour ameliorer la cybersécurité"
 
 const data = { 
     titre,

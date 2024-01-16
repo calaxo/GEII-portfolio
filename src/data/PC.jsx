@@ -1,7 +1,7 @@
 
 const titre = "Montage/amelioration Dordinateur ";
 
-const intro = "Le but de ce projet est de réaliser un site web qui permettra de mettre en avant les projets réalisés par les étudiants de DUT GEII."
+const intro = "depuis mes 10 ans j'ai recuperer des PC partout, des decheterie jusquau PC de mes grand parents je les demonter et testait deschose avec avant d'apprendre comment monter un PC sans risque "
 
 
 const content  = [
@@ -15,7 +15,7 @@ const content  = [
 ];
 
 
-const conclu = "finito"
+const conclu = "grace a ces competence je peux m'occuper de n'importe quel PC que ce soit pour de la famille des ami ou des collegue, le plus dur et d'expliquer pourquoi ca ne marche pas"
 
 const data = { 
     titre,

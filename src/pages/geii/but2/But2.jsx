@@ -4,6 +4,12 @@ import onde from "@assets/onde.jpg";
 
 const But2 = () => {
   return (
+    <>
+    <div className="intropage"> 
+    cette année fut trés interessante, nous avons pu apprendre beaucoup de choses, et nous avons pu mettre en pratique nos connaissances dans des projets.
+
+    </div>
+
     <div className="choix">
 
 
@@ -29,6 +35,7 @@ const But2 = () => {
       
 
     </div>
+    </>
   );
 };
 

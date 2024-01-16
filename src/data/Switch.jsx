@@ -1,7 +1,7 @@
 
 const titre = "gestion de switch Réseaux";
 
-const intro = "Le but de ce projet est de réaliser un site web qui permettra de mettre en avant les projets réalisés par les étudiants de DUT GEII."
+const intro = "un switch reseaux est un appareil qui permet de connecter plusieurs apareil ensemble via ethernet"
 
 
 const content  = [
@@ -13,7 +13,7 @@ const content  = [
     ];
 
 
-const conclu = "finito"
+const conclu = "c'est le coeur de tout les reseaux informatique: l'interconnection mais il faut qu'il y est des regles"
 
 const data = { 
     titre,

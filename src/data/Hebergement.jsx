@@ -1,7 +1,7 @@
 
 const titre = "Hebergement local et distant";
 
-const intro = "Le but de ce projet est de réaliser un site web qui permettra de mettre en avant les projets réalisés par les étudiants de DUT GEII."
+const intro = "depuis quelque année, je veux activer metre des chose a dispotsiotn sur internet,sans m'embeter utiliser mon propre PC"
 
 
 const content  = [
@@ -18,7 +18,7 @@ const content  = [
 ];
 
 
-const conclu = "finito"
+const conclu = "un hebergement sur fiable sans panne et sans faille de sécurité et trés compliqué a metre en place soit mmeme, mais en deleguant sa a des entreprise spécilisé on gagne beaucou de temp, néanmoin il faut trouver le juste milieur entre prix de l'bergement liberté daction et simplifcation"
 
 const data = { 
     titre,

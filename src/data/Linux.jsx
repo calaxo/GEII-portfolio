@@ -1,7 +1,7 @@
 
 const titre = "Introduction aux base de linux";
 
-const intro = "Le but de ce projet est de réaliser un site web qui permettra de mettre en avant les projets réalisés par les étudiants de DUT GEII."
+const intro = "Linux est un systeme d'exploitation libre et gratuit il est beacoup moin complexe que windows mais plus compliqué a utliser, il peut etre dans des carte electronique, des serveur, et tout ce qui a un processeur"
 
 
 const content  = [
@@ -15,7 +15,7 @@ const content  = [
    ];
 
 
-const conclu = "finito"
+const conclu = "j'ai toujour trouver que linux etait moin bien, mais depuis que je comprend qu'il est trés util pour les serveur car il est résilients"
 
 const data = { 
     titre,
