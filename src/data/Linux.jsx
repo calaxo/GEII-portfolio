@@ -5,13 +5,13 @@ const intro = "Linux est un systeme d'exploitation libre et gratuit il est beaco
 
 
 const content  = [
-    { id: 1, titretache: "Découverte de différentes distributions de Linux",tache:"vrai description", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
-    { id: 2, titretache: "Installation et configuration d'une Raspberry Pi",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
-    { id: 3, titretache: "Tentative de mise à jour de la carte réseau via Ubuntu",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
-    { id: 4, titretache: "Installation d'une autre distribution sur un PC fonctionnel",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
-    { id: 5, titretache: "Installation dun service de bureau a distance",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
-    { id: 6, titretache: "Installation des services essentiels",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
-    { id: 7, titretache: "Installation de Docker",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 1, titretache: "Installation et configuration d'une Raspberry Pi ",tache:"j'ai eu une carte raspberry pour esasyer de fair des porjet et j'ai été confronté pour la premier fois a linux, a force j'ai", ressource: "description1", trace: "image1" , evaluation: "evaluation1" },
+    { id: 2, titretache: "Découverte de différentes distributions de Linux",tache:"je me suis ensuite rensigner sur les base de linux pour le grand public: la raison de diférentes distribution", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 3, titretache: "Tentative de mise à jour de la carte réseau via Ubuntu",tache:"a mon alternance je me suis rendu compte qu'un serveur linux etait plus pratique que windows pour nombre d'avantage mais que c'est beucoup plus comple a utliser,j'ai galeere pendant 1 semaine pour seuelemt metre un pilotes a jour", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 4, titretache: "Installation d'une autre distribution sur un PC fonctionnel",tache:"j'ai pu me familirariser avec un environement serveur de linux ou il n'y a que des ligne de commande et pas d'fichage grapqhique", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 5, titretache: "Installation dun service de bureau a distance",tache:"ce fut ma premiere tache pour pour pouvoir controller un serveur linux a distance via ethernet", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 6, titretache: "Installation des services essentiels",tache:"mie a jour antivurius droit d'accés plsu sécurisé", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 7, titretache: "Installation de Docker",tache:"", ressource: "j'ai du me ploger dans les droits et fichier complexe pour pouvoir fair unitanlaltion de docker propre et pratique",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
    ];
 
 

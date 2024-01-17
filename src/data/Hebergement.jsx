@@ -5,7 +5,7 @@ const intro = "depuis quelque année, je veux activer metre des chose a dispotsi
 
 
 const content  = [
-    { id: 1, titretache: "hebergement local simple via les fichier ",tache:"vrai description", ressource: "description1", trace: "image1" , evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 1, titretache: "hebergement local simple via les fichier ",tache:"j'ai dabord heberger des site via des dossier simple ", ressource: "description1", trace: "image1" , evaluation: "evaluation1", date: "01/02/2023" },
     { id: 2, titretache: "urtlisation de server tout pret",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
     { id: 3, titretache: "creation de backend",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
     { id: 4, titretache: "decouverte des port et requete internet",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
