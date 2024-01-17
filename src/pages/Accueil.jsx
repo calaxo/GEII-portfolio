@@ -7,7 +7,7 @@ import cven from "@assets/cvfr.pdf";
 
 import github from "@assets/github.png";
 import linkedin from "@assets/linkedin.png";
-
+import imgmoi from "@assets/imgmoi.jpg"
 
 import { Modelhelico } from '@components/Modelhelico'
 
@@ -109,11 +109,40 @@ const Accueil = () => {
   <div className='texte-acceuil'>
         <h1>francais</h1>
 <h1>MON PORTFOLIO</h1>
-        <p>Bienvenue sur mon portfolio !</p>
-        <p>Je suis actuellement en Bachelor Génie Électrique et Informatique Industrielle.</p>
-        <p>En tant qu'alternant, je travaille en tant que technicien simulateur d'hélicoptère et administrateur informatique dans une entreprise école de pilotage d'hélicoptère depuis 1 an et demi.</p>
-        <p>En dehors de mon parcours académique, je suis également un bricoleur passionné et un développeur web.</p>
 
+<img className="imgmoi" src={imgmoi} alt="github" />
+
+Un Portfolio est un receuil de documents et d'exemples pratiques  
+         L'objectif de ce portfolio est de mettre en lumière des compétences,
+        Il permet notamment de montrer a des recruteur ou des enseignant de prouver  ce dont je suis capable
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+        Je m'appelle Axel Calendreau et je suis actuellement étudiant en Génie électrique et informatique industrielle à l'IUT d'Angoulême.
+         Je suis en dernière année de mon cursus, me préparant à obtenir mon Bachelor Universitaire de Technologie.
+
+Depuis ma deuxième année d'études, je suis également alternant au Heli Union Training Center, une école de pilotage d'hélicoptère située à l'aéroport de Champniers.
+qui forme théoriquement et pratiquement des pilotes de monde entier d'armée ou de secteur publique trés varié
+
+ Durant mes études, j'ai exploré de nombreuses facettes de l'électronique, et au cours de mon alternance,
+  j'ai acquis et mis en pratique diverses connaissances liées à l'informatique, telles que le développement, la gestion de serveurs, les réseaux internet et la cybersécurité.
+
+Mon amour initial pour l'électronique s'est élargi au fil du temps pour inclure une passion croissante pour l'informatique. Ce domaine me permet d'apprendre de manière autodidacte,
+ ce que j'apprécie particulièrement.
+
+
+
+
+En tant que projet concret réalisé au cours de mon alternance, j'ai développé un site web affichant des informations aéronautiques telles que la météo et le planning des vols.
+ Cette expérience m'a introduit au développement web professionnel et m'a inspiré à créer ce portfolio, ainsi qu'un site pour un artisan, et divers petits sites de test.
+
+pour mon futur professionnel je souahite etre embauché dans l'entreprise dans lequel je suis actuellement et recevori des formation professionnel sur la cybersécrutié,
+je sais que si j'en ai l'envie et que je trouve des études passionante je pourrait les rejoindre grace a ma rigueur
+
+En dehors de mes activités académiques et professionnelles, j'aime profiter de la vie en compagnie de mes amis, nourrir ma curiosité,
+ explorer le monde et engager des conversations enrichissantes avec les personnes que je rencontre. Par ailleurs, démonter et réparer des objets pour mes amis est l'une de mes activités préférées dans ma vie personnelle.
 
 
 <div className='contactdiv'>
@@ -140,11 +169,28 @@ const Accueil = () => {
 
       <h1>english</h1>
 <h1>MY PORTFOLIO</h1>
-        <p>Bienvenue sur mon portfolio !</p>
-        <p>Je suis actuellement en Bachelor Génie Électrique et Informatique Industrielle.</p>
-        <p>En tant qu'alternant, je travaille en tant que technicien simulateur d'hélicoptère et administrateur informatique dans une entreprise école de pilotage d'hélicoptère depuis 1 an et demi.</p>
-        <p>En dehors de mon parcours académique, je suis également un bricoleur passionné et un développeur web.</p>
 
+
+
+        A Portfolio is a collection of documents and practical examples. The purpose of this portfolio is to showcase skills, particularly to demonstrate to recruiters or educators what I am capable of.
+
+<br></br>
+<br></br>
+<br></br>
+
+My name is Axel Calendreau, and I am currently a student in Electrical Engineering and Industrial Computing at the IUT of Angoulême. I am in the final year of my program, preparing to obtain my University Bachelor of Technology.
+
+Since my second year of studies, I have also been working as an intern at Heli Union Training Center, a helicopter flight school located at Champniers Airport. The school provides theoretical and practical training for pilots from around the world, including those in the military or various public sectors.
+
+Throughout my studies, I have explored various aspects of electronics. During my internship, I have gained and applied diverse knowledge related to computer science, including development, server management, internet networks, and cybersecurity.
+
+My initial love for electronics has expanded over time to include a growing passion for computer science. This field allows me to learn independently, which I particularly appreciate.
+
+As a concrete project during my internship, I developed a website displaying aeronautical information such as weather and flight schedules. This experience introduced me to professional web development and inspired me to create this portfolio, as well as a website for a craftsman and various small test sites.
+
+For my future professional endeavors, I aspire to be employed in the company where I am currently interning and receive professional training in cybersecurity. I know that if I have the desire and find exciting studies, I could join them through my dedication.
+
+Outside of my academic and professional activities, I enjoy life with friends, feeding my curiosity, exploring the world, and engaging in enriching conversations with people I meet. Additionally, disassembling and repairing objects for my friends is one of my favorite activities in my personal life.
 
       
       <div className='contactdiv'>
