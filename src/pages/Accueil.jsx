@@ -52,6 +52,38 @@ import { Modelhelico } from '@components/Modelhelico'
 //   return <primitive object={obj2} position={[200, -10, 0]}  scale={0.4}  />;
 // };
 
+
+let x = 0;
+let y = 0;
+let z = 0;
+let helicox = 0;
+let helicoy = 0;
+let helicoz = 0;
+const LeCanvas = () => {
+
+  return(
+  <Canvas camera={{ position: [-20, 5,2] }}>
+  {/* <Box position={[-2.5, 0, 0]} /> */}
+{/* <SpotLight  position={[10, 10, 10]} angle={1} focus={1} color={"red"} penumbra={0} intensity={500} target-position={[0, 0,0]} /> */}
+<directionalLight position={[3.3, 1.0, 4.4]} intensity={10} />
+<directionalLight position={[-3.3, 1.0, -4.4]} intensity={2} />
+
+<Modelhelico position={[helicox, helicoy, helicoz]} rotation={[x, y, z]} scale={0.5} />
+
+
+
+{/* <Box position={[-5, 0, 0]} />
+<Box position={[-2.5, 0, 0]} />
+<Box position={[0, 0, 0]} />
+<Box position={[2.5, 0, 0]} />
+<Box position={[5, 0, 0]} /> */}
+
+{/* <Environment preset="warehouse" background /> */}
+</Canvas>
+  )
+}
+
+
 const Accueil = () => {
   // const materials = useLoader(MTLLoader, "http://dev.axel-cal.fr/Lowpoly_Helicopter.mtl");
   // const obj2 = useLoader(OBJLoader, "http://dev.axel-cal.fr/Lowpoly_Helicopter.obj", (loader) => {
@@ -60,57 +92,22 @@ const Accueil = () => {
   // });
 
 
-  const [mousePos, setMousePos] = useState({});
 
-  useEffect(() => {
-    const handleMouseMove = (event) => {
-      setMousePos({ x: event.clientX, y: event.clientY });
-    };
 
-    window.addEventListener('mousemove', handleMouseMove);
 
-    return () => {
-      window.removeEventListener(
-        'mousemove',
-        handleMouseMove
-      );
-    };
-  }, []);
-
- let x = 0;
-  let y = mousePos.x/200;
-  let z = 0;
-  let helicox = 0;
-  let helicoy = -10+mousePos.y/20;
-  let helicoz = 0;
 
   return (
     <div className="accueil">
   <div className="lecanvas">
-    <Canvas camera={{ position: [-20, 5,2] }}>
-      {/* <Box position={[-2.5, 0, 0]} /> */}
-    {/* <SpotLight  position={[10, 10, 10]} angle={1} focus={1} color={"red"} penumbra={0} intensity={500} target-position={[0, 0,0]} /> */}
-    <directionalLight position={[3.3, 1.0, 4.4]} intensity={10} />
-    <directionalLight position={[-3.3, 1.0, -4.4]} intensity={2} />
-
-    <Modelhelico position={[helicox, helicoy, helicoz]} rotation={[x, y, z]} scale={0.005} />
-
-
-
-    {/* <Box position={[-5, 0, 0]} />
-    <Box position={[-2.5, 0, 0]} />
-    <Box position={[0, 0, 0]} />
-    <Box position={[2.5, 0, 0]} />
-    <Box position={[5, 0, 0]} /> */}
-
-    {/* <Environment preset="warehouse" background /> */}
-  </Canvas>
+   <LeCanvas />
   </div>
   <div className='texte-acceuil'>
         <h1>francais</h1>
 <h1>MON PORTFOLIO</h1>
 
-<img className="imgmoi" src={imgmoi} alt="github" />
+<img className="imgmoi" src={imgmoi} alt="ma photo" />
+
+<div className='textfren'>
 
 Un Portfolio est un receuil de documents et d'exemples pratiques  
          L'objectif de ce portfolio est de mettre en lumière des compétences,
@@ -143,7 +140,7 @@ je sais que si j'en ai l'envie et que je trouve des études passionante je pourr
 
 En dehors de mes activités académiques et professionnelles, j'aime profiter de la vie en compagnie de mes amis, nourrir ma curiosité,
  explorer le monde et engager des conversations enrichissantes avec les personnes que je rencontre. Par ailleurs, démonter et réparer des objets pour mes amis est l'une de mes activités préférées dans ma vie personnelle.
-
+</div>
 
 <div className='contactdiv'>
       <a className='cvlien' href={cvfr} >afficher mon CV en français</a>
@@ -165,7 +162,7 @@ En dehors de mes activités académiques et professionnelles, j'aime profiter de
               <img className="imglinkedin" src={linkedin} alt="linkedin" />
             </a>
             </div>
-
+            <div className='textfren'>
 
       <h1>english</h1>
 <h1>MY PORTFOLIO</h1>
@@ -192,7 +189,7 @@ For my future professional endeavors, I aspire to be employed in the company whe
 
 Outside of my academic and professional activities, I enjoy life with friends, feeding my curiosity, exploring the world, and engaging in enriching conversations with people I meet. Additionally, disassembling and repairing objects for my friends is one of my favorite activities in my personal life.
 
-      
+      </div>
       <div className='contactdiv'>
       <a className='cvlien' href={cven} >display my resumee in english</a>
 

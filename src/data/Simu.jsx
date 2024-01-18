@@ -16,9 +16,9 @@ const content  = [
     { id: 9, titretache: "Météo",tache:"vrai description", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
     { id: 10, titretache: "Objet repositionnable	",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
     { id: 11, titretache: "Premier vol en tant qu'instructeur	",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
-    { id: 12, titretache: "installation d'un PC ppur stocker les backups	",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
-    { id: 13, titretache: "remplacement de proecteur	",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
-    { id: 14, titretache: "warping	",tache:"vrai description", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 12, titretache: "installation d'un PC ppur stocker les backups	",tache:"aupravatn il y'avait seuelemtn des disque dur pour sauvegarder les simulateur", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 13, titretache: "remplacement de projecteur	",tache:"Un projecteur a de la lumiere grace a une ampoule qu'il faut parfois changer, nous avons defais des projcteur de leur support pour les envoyer en reparation", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 14, titretache: "warping	",tache:"avec des projecteru décalé de quelque milimetre il faillait quand meme refair le warping, c'est le fait de mofifier la facon dont l'image carré est projecter pour quell puise se metre une sphere", ressource: ",",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
 
 
 

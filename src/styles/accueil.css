@@ -12,16 +12,17 @@
 
   .lecanvas{
 
-    position: absolute;
-    z-index: 1;
-    height: 80em;
-    width: 100em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
   }
 
   .texte-acceuil{
     position: relative;
     z-index: 2;
-
+    pointer-events: none
 
   }
 
@@ -70,5 +71,46 @@
   color: #fff;
   text-decoration: none;
   padding: 10px; /* Ajustez la taille du padding selon vos besoins */
+
+}
+
+
+
+.imgmoi{
+  width: 20em;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  margin-top: 5em;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 5em;
+  background-color: #2cda9d88;
+  border-radius: 10px;
+
+}
+
+
+
+.textfren{
+
+  position: relative;
+  z-index: 2;
+  margin-top: 5em;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 5em;
+  background-color: #84a09688;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px; /* Ajustez la taille du padding selon vos besoins */
+
+
 
 }
