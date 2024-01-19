@@ -4,6 +4,7 @@ import { Canvas,useFrame } from '@react-three/fiber'
 
 import cvfr from "@assets/cvfr.pdf";
 import cven from "@assets/cvfr.pdf";
+import ref_geii from "@assets/ref_geii.pdf";
 
 import github from "@assets/github.png";
 import linkedin from "@assets/linkedin.png";
@@ -98,15 +99,14 @@ const Accueil = () => {
 
   return (
     <div className="accueil">
-  <div className="lecanvas">
-   <LeCanvas />
-  </div>
-  <div className='texte-acceuil'>
-        <h1>francais</h1>
+
+        Fr
 <h1>MON PORTFOLIO</h1>
 
 <img className="imgmoi" src={imgmoi} alt="ma photo" />
-
+  <div className="lecanvas">
+<LeCanvas className="lecanvas" />
+</div>
 <div className='textfren'>
 
 Un Portfolio est un receuil de documents et d'exemples pratiques  
@@ -118,6 +118,8 @@ Un Portfolio est un receuil de documents et d'exemples pratiques
         <br></br>
 
         Je m'appelle Axel Calendreau et je suis actuellement étudiant en Génie électrique et informatique industrielle à l'IUT d'Angoulême.
+          Ce sont des études permettant de devevnir technicien dans de domaine en rapport avec l'electricité, l'electornique et les sience industrielle
+          <a href={ref_geii}> lien vers le referentiel de compétence </a>
          Je suis en dernière année de mon cursus, me préparant à obtenir mon Bachelor Universitaire de Technologie.
 
 Depuis ma deuxième année d'études, je suis également alternant au Heli Union Training Center, une école de pilotage d'hélicoptère située à l'aéroport de Champniers.
@@ -164,31 +166,30 @@ En dehors de mes activités académiques et professionnelles, j'aime profiter de
             </div>
             <div className='textfren'>
 
-      <h1>english</h1>
+      En
 <h1>MY PORTFOLIO</h1>
 
-
-
-        A Portfolio is a collection of documents and practical examples. The purpose of this portfolio is to showcase skills, particularly to demonstrate to recruiters or educators what I am capable of.
+A Portfolio is a collection of documents and practical examples. The objective of this portfolio is to highlight skills, particularly to demonstrate to recruiters or educators what I am capable of.
 
 <br></br>
 <br></br>
 <br></br>
 
-My name is Axel Calendreau, and I am currently a student in Electrical Engineering and Industrial Computing at the IUT of Angoulême. I am in the final year of my program, preparing to obtain my University Bachelor of Technology.
+My name is Axel Calendreau, and I am currently a student in Electrical Engineering and Industrial Computer Science at the IUT of Angoulême. These studies aim to become a technician in fields related to electricity, electronics, and industrial science.
+<a href={ref_geii}> Link to the competency framework </a>
+I am in the final year of my course, preparing to obtain my University Bachelor's degree in Technology.
 
-Since my second year of studies, I have also been working as an intern at Heli Union Training Center, a helicopter flight school located at Champniers Airport. The school provides theoretical and practical training for pilots from around the world, including those in the military or various public sectors.
+Since my second year of studies, I have also been working as an apprentice at Heli Union Training Center, a helicopter pilot training school located at Champniers Airport. It trains pilots from around the world for various military and public sector roles.
 
-Throughout my studies, I have explored various aspects of electronics. During my internship, I have gained and applied diverse knowledge related to computer science, including development, server management, internet networks, and cybersecurity.
+During my studies, I explored many aspects of electronics, and during my apprenticeship, I gained and applied various knowledge related to computer science, such as development, server management, internet networks, and cybersecurity.
 
-My initial love for electronics has expanded over time to include a growing passion for computer science. This field allows me to learn independently, which I particularly appreciate.
+My initial love for electronics has expanded over time to include a growing passion for computer science. This field allows me to learn self-taught, which I particularly appreciate.
 
-As a concrete project during my internship, I developed a website displaying aeronautical information such as weather and flight schedules. This experience introduced me to professional web development and inspired me to create this portfolio, as well as a website for a craftsman and various small test sites.
+As a concrete project carried out during my apprenticeship, I developed a website displaying aeronautical information such as weather and flight schedules. This experience introduced me to professional web development and inspired me to create this portfolio, as well as a website for an artisan and various small test sites.
 
-For my future professional endeavors, I aspire to be employed in the company where I am currently interning and receive professional training in cybersecurity. I know that if I have the desire and find exciting studies, I could join them through my dedication.
+For my professional future, I aspire to be hired by the company I am currently in and receive professional training in cybersecurity. I know that if I have the desire and find exciting studies, I could join them thanks to my diligence.
 
-Outside of my academic and professional activities, I enjoy life with friends, feeding my curiosity, exploring the world, and engaging in enriching conversations with people I meet. Additionally, disassembling and repairing objects for my friends is one of my favorite activities in my personal life.
-
+Outside of my academic and professional activities, I enjoy life with my friends, nurture my curiosity, explore the world, and engage in enriching conversations with people I meet. Additionally, dismantling and repairing objects for my friends is one of my favorite activities in my personal life.
       </div>
       <div className='contactdiv'>
       <a className='cvlien' href={cven} >display my resumee in english</a>
@@ -213,7 +214,7 @@ Outside of my academic and professional activities, I enjoy life with friends, f
 
      
 
-  </div>
+
   </div>
   
 )

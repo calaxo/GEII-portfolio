@@ -5,26 +5,49 @@
   --border-color: #2cda9d;
 }
 
-.content {
-    margin-top: 5em;
-  }
+.imgmoi{
+  width: 20em;
+  height: auto;
+  position: relative;
+
+
+  right: 0;
+
+
+
+  z-index: 2;
+
+  margin-top: 5em;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 5em;
+  background-color: #2cda9d88;
+  border-radius: 10px;
+  pointer-events: none
+}
+
+
   
 
   .lecanvas{
 
     position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+    top: 5em;
+
+    right: 0;
+    margin-top: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 5em;
+    height: 60%;
+    width: 60%;
+
+
+
+
   }
 
-  .texte-acceuil{
-    position: relative;
-    z-index: 2;
-    pointer-events: none
 
-  }
 
 
 
@@ -76,20 +99,6 @@
 
 
 
-.imgmoi{
-  width: 20em;
-  height: auto;
-  position: relative;
-  z-index: 2;
-  margin-top: 5em;
-  margin-left: 5em;
-  margin-right: 5em;
-  margin-bottom: 5em;
-  background-color: #2cda9d88;
-  border-radius: 10px;
-
-}
-
 
 
 .textfren{
@@ -112,5 +121,17 @@
   padding: 10px; /* Ajustez la taille du padding selon vos besoins */
 
 
+
+}
+
+
+h1{
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+
+  pointer-events: none
+
+  
 
 }
