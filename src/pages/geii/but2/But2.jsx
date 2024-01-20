@@ -13,7 +13,7 @@ const But2 = () => {
     <div className="choix">
 
 
-        <NavLink key="But2_sae1" to="/But2_sae1" className="moitiegauche2">
+        <NavLink key="But2_sae1" to="/But2_sae1" className="moitiemilieu3">
         <div >
           <div className="bouton-page btn1">
             <img className="imgchoix3" src={voltmetre} alt="SAE1" />
@@ -24,7 +24,7 @@ const But2 = () => {
       
 
       
-        <NavLink key="But2_sae2" to="/But2_sae2" className="moitiedroite2">
+        <NavLink key="But2_sae2" to="/But2_sae2" className="moitiedroite3">
         <div >
           <div className="bouton-page btn2">
           <img className="imgchoix3" src={onde} alt="SAE1" />
@@ -40,3 +40,4 @@ const But2 = () => {
 };
 
 export default But2;
+

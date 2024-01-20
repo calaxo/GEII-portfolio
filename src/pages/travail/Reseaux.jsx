@@ -19,15 +19,7 @@ plus jeune que internet fonctionnait tout seul puis
     <div className="choix">
 
         
-        <NavLink key="Cable" to="/Cable" className="moitiegauche3">
-        <div >
-        <div className="bouton-page">
-        <img className="imgchoix3" src={info} alt="SAE1" />
-          
-            <span>cable</span>
-          </div>
-          </div>
-        </NavLink>
+
       
 
       

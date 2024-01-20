@@ -29,7 +29,7 @@ body {
   padding: 1em;
   background-color: #1E1F22;
   border-bottom: 2px solid var(--border-color);
-  margin-bottom: 5em;
+  margin-bottom: 1em;
 }
 
 
@@ -71,25 +71,33 @@ body {
 
 
 .imggithub {
-  height: 2em;
+  height: 3em;
 
   background-color: white;
   border-radius: 500px;
 }
 
 .imglinkedin {
-  height: 2em;
+  height: 3em;
 
   border-radius: 500px;
   background-color: white;
 }
 
 .imglinkedindiv {
-  height: 2em;
+  position: relative;
+  height: 3em;
+padding-left: 1em;
+padding-right: 1em;
+  top: 1em;
 }
 
 .imggithubdiv {
-  height: 2em;
+  position: relative;
+  height: 3em;
+padding-left: 1em;
+padding-right: 1em;
+  top: 1em;
 }
 
 

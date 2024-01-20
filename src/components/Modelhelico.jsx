@@ -9,11 +9,10 @@ Files: src\components\Lowpoly_Helicopter.gltf [239.86KB] > C:\Users\axelc\Deskto
 
 
 
-import * as THREE from 'three'
 
 import { useFrame } from '@react-three/fiber'
 
-import { easing } from 'maath'
+
 
 
 
@@ -36,7 +35,7 @@ export function Modelhelico(props) {
   const mesh = useRef()
 
   useFrame((state, dt) => {
-    mesh.current.lookAt(state.pointer.x, state.pointer.y, 3)
+    mesh.current.lookAt(state.pointer.x, state.pointer.y, 2)
 
 
   })
@@ -45,7 +44,7 @@ export function Modelhelico(props) {
   return (
     <group ref={group} {...props} dispose={null}>
       <group ref={mesh} name="Scene">
-        <group name="Helicopter" position={[0.299, -0.504, 0.135]} rotation={[Math.PI / 2, 0, Math.PI / 2]} scale={0.01}>
+        <group name="Helicopter" position={[0.299, -0.504, 0.135]} rotation={[1.568, 0, 0]} scale={0.01}>
           <group name="Copter_Body" position={[-0.161, -229.122, 213.899]} rotation={[0, 0, -Math.PI / 2]}>
             <mesh name="Copter" geometry={nodes.Copter.geometry} material={materials['Palette.001']} position={[237.969, -71.454, -717.517]} rotation={[0, -1.571, 0]} />
             <mesh name="Cylinder" geometry={nodes.Cylinder.geometry} material={materials.Palette} position={[2446.425, 0, -767.203]} rotation={[Math.PI / 2, 0, 0]} />

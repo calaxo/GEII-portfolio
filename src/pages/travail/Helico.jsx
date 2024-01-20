@@ -20,7 +20,7 @@ const Helico = () => {
     <div className="choix">
 
 
-        <NavLink key="Simu" to="/Simu" className="moitiegauche2">
+        <NavLink key="Simu" to="/Simu" className="moitiemilieu3">
         <div >
           <div className="bouton-page btn1">
           <img className="imgchoix3" src={simu} alt="SAE1" />
@@ -31,7 +31,7 @@ const Helico = () => {
 
 
 
-        <NavLink key="Aero" to="/Aero" className="moitiedroite2">
+        <NavLink key="Aero" to="/Aero" className="moitiedroite3">
         <div >
           <div className="bouton-page btn2">
           <img className="imgchoix3" src={aero} alt="SAE1" />

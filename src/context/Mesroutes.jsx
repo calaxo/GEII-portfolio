@@ -47,7 +47,7 @@ import Simu from "@travail/helico/Simu.jsx";
 
 import Reseaux from "@travail/Reseaux.jsx";
 
-import Cable from "@travail/reseaux/Cable.jsx";
+
 import Firewall from "@travail/reseaux/Firewall.jsx";
 import Switch from "@travail/reseaux/Switch.jsx";
 
@@ -115,7 +115,7 @@ const Mesroutes = () => {
     <Route path="/Simu" element={<Simu />} />
 
     <Route path="/Reseaux" element={<Reseaux />} />
-    <Route path="/Cable" element={<Cable />} />
+
     <Route path="/Firewall" element={<Firewall />} />
     <Route path="/Switch" element={<Switch />} />
 
