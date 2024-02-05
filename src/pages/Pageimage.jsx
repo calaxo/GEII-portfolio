@@ -39,8 +39,8 @@ const Pagedescription = () => {
     };
 
     const location = useLocation();
-    const traceFileName = location.state.from; // Accédez à la propriété from de state
-
+    const traceFileName = location.state.from[0]; // Accédez à la propriété from de state
+    const titre = location.state.from[1]; // Accédez à la propriété from de state
     return (
         <div className="pageimage"     
 
@@ -57,7 +57,7 @@ const Pagedescription = () => {
             {displayText}
         </div>
         )}
-            <p className='titre'>PC</p>
+            <p className='titre'>{titre}</p>
 
             </button>
         </div>

@@ -5,12 +5,58 @@ const intro = "pendant mn alternance je suis ammené a travailler avec des perso
 
 
 const content  = [
-    { id: 1, titretache: "explication de certaine regle de sécurité",tache:"j'ai expliquer a des colluege certaine regle de cybersécurité a des personne non familiere avec l'informatique", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023"},
-    { id: 3, titretache: "apprentissage a l'utilisation du SI",tache:"pour simplifier certaine chose j'ai apprise cetaine personne comment certain systeme informatique marche", ressource: "on a appris a faire des base de données",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
-    { id: 4, titretache: "discussion avec la direction pour une présentation durant un séminaire",tache:"j'ai du regulieremtne presenter a mon patron les diferente changement et probleme lié a l'informatique", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
-    { id: 5, titretache: "presentation des projet réalisé et des changment ",tache:"durant une réunion j'ai presenter a tout mes colluege les diférentes tache et changtment de l'année au niveau informatique", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
-    { id: 6, titretache: "vulgarisation pour expliquet les possiblité lors de choix technique ",tache:"j'ai du vulgariser beaucoup de chose complexe pour l'expliquer a n'import qui", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
-    { id: 8, titretache: "prise d'information pour futur choix de formation en rapport avec la cyberséecurité",tache:"aprés avoir acqui des connaissance j'ai pu discuter avec des professionnel du milieu de l'informatique pour essaye de touver ma voie professionnelle", ressource: "comme je sais fair j'ai fait un site react",trace: "image1", evaluation: "evaluation1", date: "01/02/2023" },
+    { id: 1,
+         titretache: "explication de certaine regle de sécurité",
+         tache:"j'ai expliquer a des colluege certaine regle de cybersécurité a des personne non familiere avec l'informatique", 
+         ressource: "on a appris a faire des base de données",
+         trace: "image1",
+          evaluation: "evaluation1",
+          date: "01/02/2023"},
+
+
+    { id: 3,
+         titretache: "apprentissage a l'utilisation du SI",
+         tache:"pour simplifier certaine chose j'ai apprise cetaine personne comment certain systeme informatique marche", 
+         ressource: "on a appris a faire des base de données",
+         trace: "image1", 
+         evaluation: "evaluation1", 
+         date: "01/02/2023" },
+
+
+    { id: 4,
+         titretache: "discussion avec la direction pour une présentation durant un séminaire",
+         tache:"j'ai du regulieremtne presenter a mon patron les diferente changement et probleme lié a l'informatique", 
+         ressource: "comme je sais fair j'ai fait un site react",
+         trace: "image1",
+          evaluation: "evaluation1", 
+          date: "01/02/2023" },
+
+
+    { id: 5,
+         titretache: "presentation des projet réalisé et des changment ",
+         tache:"durant une réunion j'ai presenter a tout mes colluege les diférentes tache et changtment de l'année au niveau informatique",
+          ressource: "comme je sais fair j'ai fait un site react",
+          trace: "image1",
+           evaluation: "evaluation1",
+           date: "01/02/2023" },
+
+
+    { id: 6,
+         titretache: "vulgarisation pour expliquet les possiblité lors de choix technique ",
+         tache:"j'ai du vulgariser beaucoup de chose complexe pour l'expliquer a n'import qui", 
+         ressource: "comme je sais fair j'ai fait un site react",
+         trace: "image1",
+          evaluation: "evaluation1", 
+         date: "01/02/2023" },
+
+         
+    { id: 8,
+         titretache: "prise d'information pour futur choix de formation en rapport avec la cyberséecurité",
+         tache:"aprés avoir acqui des connaissance j'ai pu discuter avec des professionnel du milieu de l'informatique pour essaye de touver ma voie professionnelle",
+          ressource: "comme je sais fair j'ai fait un site react",
+          trace: "image1", 
+          evaluation: "evaluation1",
+           date: "01/02/2023" },
 
 
 ];

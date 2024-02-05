@@ -29,11 +29,16 @@ const Descript = (props) => {
     return (
         <div className="cadre"      
 >
-            <div className="cadreimg">
-            <NavLink to="/Pagedescription" state= {{from:props.image}}>
+            <div >
+            <NavLink className="clickable" to="/Pagedescription" state= {{from:[props.titretache,props.granddescription]}}>
+            
+            
+              <p className={`${props.stile}-sous-titre`}>{props.titretache}</p>
+              <p className={`textetache`}>
 
-            <td className={`${props.stile}-LigneTitre`}><p className={`${props.stile}-sous-titre`}>{props.titretache}</p>{props.tache}</td>
-        <td className={`${props.stile}-LigneRessource`}>{props.ressource}</td>
+              {props.tache}
+
+              </p>
             
               </NavLink>
 

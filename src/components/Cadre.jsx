@@ -30,13 +30,13 @@ const Cadre = (props) => {
         <div className="cadre"      
 >
             <div className="cadreimg">
-            <NavLink to="/Pageimage" state= {{from:props.image}}>
+            <NavLink to="/Pageimage" state= {{from:[props.image,props.title]}}>
             <img className="grosseimg" src={props.image} alt={props.title} />
             
               </NavLink>
            
             </div>
-            <p>{props.title}</p>
+            
         </div>
     )
 }

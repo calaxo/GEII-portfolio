@@ -39,8 +39,8 @@ const Pagedescription = () => {
     };
 
     const location = useLocation();
-    const traceFileName = location.state.from; // Accédez à la propriété from de state
-
+    const titre = location.state.from[0]; // Accédez à la propriété from de state
+    const ladescription = location.state.from[1]; // Accédez à la propriété from de state
     return (
         <div className="pageimage"     
 
@@ -49,7 +49,9 @@ const Pagedescription = () => {
         onMouseLeave={handleMouseLeave}>
 
 <button className='btnpageimage' onClick={goBack}>
-<img data-text="Texte yà afficher" className='imageengrand' src={`${traceFileName}`} alt="PC" />
+
+<p className='titre'>{titre}</p>
+
 
 {displayText && (
         <div className='boutonretour' style={{position:"absolute" ,left: textPosition.left, top: textPosition.top }}>
@@ -57,8 +59,8 @@ const Pagedescription = () => {
             {displayText}
         </div>
         )}
-            <p className='titre'>PC</p>
-
+            <p className='ladescription'>{ladescription}</p>
+            
             </button>
         </div>
     );
