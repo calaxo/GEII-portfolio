@@ -1,40 +1,32 @@
-.grosseimg{
+.grosseimg {
   cursor: zoom-in;
   width: 5em;
   height: auto;
 }
 
-
-.clickable{
+.clickable {
   cursor: zoom-in;
   width: 5em;
   height: auto;
   text-decoration: none;
-
 }
 
-
-.boutonretour{
-
-
+.boutonretour {
   border-radius: 10px;
   border: 1px solid #218380;
   background-color: #218380;
   color: #f7f3f3;
   font-size: 1.5em;
-
-
 }
 
-
-.textetache{
+.textetache {
   font-size: 1.5em;
   font-weight: bold;
   color: #218380;
   text-align: center;
   margin: 0;
   padding: 0;
-  border : 1px solid #218380;
+  border: 1px solid #218380;
   border-radius: 10px;
   background-color: #f7f3f3;
   margin-top: 1em;

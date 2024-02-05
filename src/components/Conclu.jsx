@@ -1,13 +1,10 @@
 const Conclu = (props) => {
-
-    return (
+  return (
     <div className="conclu">
-        <h1>Conclusion</h1>
-        <p>{props.conclu}</p>
-        </div>
-
-    );
-
+      <h1>Conclusion</h1>
+      <p>{props.conclu}</p>
+    </div>
+  );
 };
 
 export default Conclu;

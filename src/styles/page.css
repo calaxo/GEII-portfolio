@@ -11,7 +11,6 @@
 }
 
 .bouton-pagegeii {
-  
   background-color: #2cda9d88;
   text-decoration: none;
   cursor: pointer;
@@ -60,8 +59,6 @@
   color: #fff;
   text-decoration: none;
   padding: 10px; /* Ajustez la taille du padding selon vos besoins */
-  
-
 }
 
 .bouton-page span {
@@ -75,66 +72,45 @@
   margin: 0 1em; /* Espacement entre les boutons */
 }
 
-
-
-
-
-
-
-
-
 /* Transition for smooth animation */
 .bouton-page {
   transition: transform 0.3s ease-in-out;
   text-decoration: none;
-  color : white;
+  color: white;
   font-weight: bold;
 }
 
-
-
-
-
-
-.imggeii{
+.imggeii {
   width: 4em;
   height: auto;
   object-fit: cover;
   object-position: center;
 }
 
-.colaborateur{
+.colaborateur {
   display: flex;
   justify-content: center;
   text-decoration: none;
 }
 
-
-.liencolaborateur{
+.liencolaborateur {
   text-decoration: none;
   padding: 10px;
   width: 5em;
-   /* Ajustez la taille du padding selon vos besoins */
-  color : white;
+  /* Ajustez la taille du padding selon vos besoins */
+  color: white;
   font-weight: bold;
   border: #007d00;
   border-style: solid;
   border-radius: 10px;
-
 }
 
-
-
-
-
-.intropage{
-
+.intropage {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  
 
-  top:0em;
+  top: 0em;
   font-family: roboto, Arial, Helvetica, sans-serif;
   line-height: 1.31;
   letter-spacing: 1px;
@@ -146,9 +122,4 @@
   color: #fff;
   text-decoration: none;
   padding: 10px; /* Ajustez la taille du padding selon vos besoins */
-
-
-
 }
-
-

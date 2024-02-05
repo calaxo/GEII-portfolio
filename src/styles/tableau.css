@@ -1,318 +1,297 @@
-.lestableaux{
-    background-color: #2f2f31;
-    width: 100%;
+.lestableaux {
+  background-color: #2f2f31;
+  width: 100%;
 }
 
-
-
-
-.tableaugeii{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    object-position: center;
+.tableaugeii {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
 }
 
+.tableaugeii-Titre {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 
-.tableaugeii-Titre{
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-
-    color: #f7f3f3;
-    color: #f7f3f3;
-    border : 1px solid #218380;
-    border-radius: 10px;
+  color: #f7f3f3;
+  color: #f7f3f3;
+  border: 1px solid #218380;
+  border-radius: 10px;
 }
 
-.tableaugeii-Description{
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #f7f3f3;
-    border : 1px solid #218380;
-    border-radius: 10px;
+.tableaugeii-Description {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #f7f3f3;
+  border: 1px solid #218380;
+  border-radius: 10px;
 }
 
-.tableaugeii-Ressource{
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #f7f3f3;
-    color: #f7f3f3;
-    border : 1px solid #218380;
-    border-radius: 10px;
+.tableaugeii-Ressource {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #f7f3f3;
+  color: #f7f3f3;
+  border: 1px solid #218380;
+  border-radius: 10px;
 }
 
-.tableaugeii-Evaluation{
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #f7f3f3;
-    color: #f7f3f3;
-    border : 1px solid #218380;
-    border-radius: 10px;
+.tableaugeii-Evaluation {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #f7f3f3;
+  color: #f7f3f3;
+  border: 1px solid #218380;
+  border-radius: 10px;
 }
 
-.tableaugeii-Date{
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #f7f3f3;
-    color: #f7f3f3;
-    border : 1px solid #218380;
-    border-radius: 10px;
+.tableaugeii-Date {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #f7f3f3;
+  color: #f7f3f3;
+  border: 1px solid #218380;
+  border-radius: 10px;
 }
 
-.tableautravail-Titre{
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #f7f3f3;
-    color: #f7f3f3;
-    border : 1px solid #5C95FF;
-    border-radius: 10px;
+.tableautravail-Titre {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #f7f3f3;
+  color: #f7f3f3;
+  border: 1px solid #5c95ff;
+  border-radius: 10px;
 }
 
-.tableautravail-Description{
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #f7f3f3;
-    border : 1px solid #5C95FF;
-    border-radius: 10px;
+.tableautravail-Description {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #f7f3f3;
+  border: 1px solid #5c95ff;
+  border-radius: 10px;
 }
 
-.tableautravail-Ressource{
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #f7f3f3;
-    color: #f7f3f3;
-    border : 1px solid #5C95FF;
-    border-radius: 10px;
+.tableautravail-Ressource {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #f7f3f3;
+  color: #f7f3f3;
+  border: 1px solid #5c95ff;
+  border-radius: 10px;
 }
 
-.tableautravail-Evaluation{
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #f7f3f3;
-    color: #f7f3f3;
-    border : 1px solid #5C95FF;
-    border-radius: 10px;
+.tableautravail-Evaluation {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #f7f3f3;
+  color: #f7f3f3;
+  border: 1px solid #5c95ff;
+  border-radius: 10px;
 }
 
-.tableautravail-Date{
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #f7f3f3;
-    color: #f7f3f3;
-    border : 1px solid #5C95FF;
-    border-radius: 10px;
+.tableautravail-Date {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #f7f3f3;
+  color: #f7f3f3;
+  border: 1px solid #5c95ff;
+  border-radius: 10px;
 }
 
-.tableautravail-Lignedate{
+.tableautravail-Lignedate {
+  grid-column: 1;
+  grid-row: 5;
 
-    grid-column: 1;
-    grid-row: 5;
-
-    height: auto;
-    overflow: hidden;
-    text-align: center;
-    padding-bottom: 2em;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 2em;
 }
 
-.tableauperso-Titre{
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #f7f3f3;
-    color: #f7f3f3;
-    border : 1px solid #E85D75;
-    border-radius: 10px;
+.tableauperso-Titre {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #f7f3f3;
+  color: #f7f3f3;
+  border: 1px solid #e85d75;
+  border-radius: 10px;
 }
 
-.tableauperso-Description{
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #f7f3f3;
-    border : 1px solid #E85D75;
-    border-radius: 10px;
+.tableauperso-Description {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #f7f3f3;
+  border: 1px solid #e85d75;
+  border-radius: 10px;
 }
 
-.tableauperso-Ressource{
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #f7f3f3;
-    color: #f7f3f3;
-    border : 1px solid #E85D75;
-    border-radius: 10px;
+.tableauperso-Ressource {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #f7f3f3;
+  color: #f7f3f3;
+  border: 1px solid #e85d75;
+  border-radius: 10px;
 }
 
-.tableauperso-Evaluation{
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #f7f3f3;
-    color: #f7f3f3;
-    border : 1px solid #E85D75;
-    border-radius: 10px;
+.tableauperso-Evaluation {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #f7f3f3;
+  color: #f7f3f3;
+  border: 1px solid #e85d75;
+  border-radius: 10px;
 }
 
-.tableauperso-Date{
-
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #f7f3f3;
-    color: #f7f3f3;
-    border : 1px solid #E85D75;
-    border-radius: 10px;
+.tableauperso-Date {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #f7f3f3;
+  color: #f7f3f3;
+  border: 1px solid #e85d75;
+  border-radius: 10px;
 }
 
-.tableaugeii-Texte{
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #f7f3f3;
+.tableaugeii-Texte {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #f7f3f3;
 }
 
+.tableaugeii-LigneTitre {
+  grid-column: 1;
+  grid-row: 1;
 
-
-.tableaugeii-LigneTitre{
-
-    grid-column: 1;
-    grid-row: 1;
-
-    height: auto;
-    overflow: hidden;
-    text-align: center;
-    padding-bottom: 2em;
-
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 2em;
 }
-.tableaugeii-sous-titre{
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #218380;
+.tableaugeii-sous-titre {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #218380;
 }
 
-
-.tableautravail-sous-titre{
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #5C95FF;
+.tableautravail-sous-titre {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #5c95ff;
 }
 
-.tableauperso-sous-titre{
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    color: #E85D75;
+.tableauperso-sous-titre {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #e85d75;
 }
 
+.tableaugeii-LigneRessource {
+  grid-column: 1;
+  grid-row: 2;
 
-.tableaugeii-LigneRessource{
-
-    grid-column: 1;
-    grid-row: 2;
-
-    height: auto;
-    overflow: hidden;
-    text-align: center;
-    padding-bottom: 2em;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 2em;
 }
 
-.tableaugeii-Lignetrace{
-    
-        grid-column: 1;
-        grid-row: 3;
+.tableaugeii-Lignetrace {
+  grid-column: 1;
+  grid-row: 3;
 
-        height: auto;
-        overflow: hidden;
-        text-align: center;
-        padding-bottom: 2em;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 2em;
 }
 
-.tableaugeii-LigneEvaluation
-{
-    grid-column: 1;
-    grid-row: 4;
+.tableaugeii-LigneEvaluation {
+  grid-column: 1;
+  grid-row: 4;
 
-    height: auto;
-    overflow: hidden;
-    text-align: center;
-    padding-bottom: 2em;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 2em;
 }
-.tableaugeii-Lignedate{
+.tableaugeii-Lignedate {
+  grid-column: 1;
+  grid-row: 5;
 
-    grid-column: 1;
-    grid-row: 5;
-
-    height: auto;
-    overflow: hidden;
-    text-align: center;
-    padding-bottom: 2em;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 2em;
 }
 
 .laligne {
-    color: #f7f3f3;
-    font-size: 1.2em;
-    font-weight: bold;
-    text-align: center;
-    margin: 10px;
+  color: #f7f3f3;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
 
-    background-color: #535353;
-    border: 1px solid #218380;
+  background-color: #535353;
+  border: 1px solid #218380;
 }
-
-
-
-
-
 
 /* 
 #E85D75

@@ -5,16 +5,13 @@
   --border-color: #2cda9d;
 }
 
-.imgmoi{
+.imgmoi {
   width: 20em;
   height: auto;
   position: relative;
 
-
   right: 0;
 
-
-
   z-index: 2;
 
   margin-top: 5em;
@@ -23,36 +20,23 @@
   margin-bottom: 5em;
   background-color: #2cda9d88;
   border-radius: 10px;
-  pointer-events: none
+  pointer-events: none;
 }
 
+.lecanvas {
+  position: fixed;
+  top: 5em;
 
-  
+  right: 0;
+  margin-top: 5em;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 5em;
+  height: 70%;
+  width: 100%;
+}
 
-  .lecanvas{
-
-    position: fixed;
-    top: 5em;
-
-    right: 0;
-    margin-top: 5em;
-    margin-left: 5em;
-    margin-right: 5em;
-    margin-bottom: 5em;
-    height: 70%;
-    width: 100%;
-
-
-
-
-  }
-
-
-
-
-
-.contactdiv{
-
+.contactdiv {
   position: relative;
   z-index: 2;
   margin-top: 5em;
@@ -69,15 +53,9 @@
   color: #fff;
   text-decoration: none;
   padding: 10px; /* Ajustez la taille du padding selon vos besoins */
-
-
-
 }
 
-
-
-.cvlien{
-
+.cvlien {
   position: relative;
   z-index: 2;
   margin-top: 5em;
@@ -94,15 +72,9 @@
   color: #fff;
   text-decoration: none;
   padding: 10px; /* Ajustez la taille du padding selon vos besoins */
-
 }
 
-
-
-
-
-.textfren{
-
+.textfren {
   position: relative;
   z-index: 2;
   margin-top: 5em;
@@ -118,34 +90,26 @@
   transition: all 0.3s ease-in-out;
   color: #fff;
   text-decoration: none;
-  padding: 10px; 
+  padding: 10px;
   font-size: 1.5em;
-
-
 }
 
-
-h1{
+h1 {
   text-align: center;
   color: #fff;
   text-decoration: none;
   font-size: 3em;
-  pointer-events: none
-
-  
-
+  pointer-events: none;
 }
 
-.drapeaubtn{
+.drapeaubtn {
   position: fixed;
   z-index: 2;
 
-
   background-color: rgba(255, 255, 255, 0);
   border: none;
-
 }
-.drapeau{
+.drapeau {
   position: fixed;
   z-index: 2;
   height: 5em;

@@ -7,15 +7,19 @@ Files: src\components\Lowpoly_Helicopter.gltf [239.86KB] > C:\Users\axelc\Deskto
 
 // https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/Drone_Glb.glb
 
-import { useGLTF } from '@react-three/drei'
+import { useGLTF } from "@react-three/drei";
 
 export function Modeldrone(props) {
-  const { nodes, materials } = useGLTF('/src/Drone_Glb.glb')
+  const { nodes, materials } = useGLTF("/src/Drone_Glb.glb");
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes.Propeller.geometry} material={materials.Palette} position={[2700.777, 509.277, 11.211]} />
+      <mesh
+        geometry={nodes.Propeller.geometry}
+        material={materials.Palette}
+        position={[2700.777, 509.277, 11.211]}
+      />
     </group>
-  )
+  );
 }
 
-useGLTF.preload('/src/Drone_Glb.glb')
+useGLTF.preload("/src/Drone_Glb.glb");

@@ -1,115 +1,93 @@
-.moitiedroite2{
+.moitiedroite2 {
   padding-bottom: 3em;
-    width: 50%;
-    height: auto;
-    overflow: hidden;
-    text-align: center;
-  
-  }
-  
-  
-  .moitiegauche2{
-  
-    padding-bottom: 2em;
-    width: 50%;
-    height: auto;
-    overflow: hidden;
-    text-align: center;
-  
-  }
-  
-  .moitiedroite3{
-    padding-bottom: 2em;
-    width: 33%;
-    height: auto;
-    overflow: hidden;
-    text-align: center;
-  
-  }
-  
-  
-  .moitiegauche3{
-  
-    padding-bottom: 2em;
-    width: 33%;
-    height: auto;
-    overflow: hidden;
-    text-align: center;
-  
-  }
-  
-  .moitiemilieu3{
-  
-    padding-bottom: 2em;
-    width: 33%;
-    height: auto;
-    overflow: hidden;
-    text-align: center;
-  
-  }
-  
-  .choix4{
-   
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  
-  }
-  
-  .moitiegauchehaut4{
-    padding-bottom: 2em;
-    grid-column: 1;
-    grid-row: 1;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    text-align: center;
-  
-  }
-  
-  .moitiedroitehaut4{
-    grid-column: 2;
-    grid-row: 1;
-    padding-bottom: 2em;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    text-align: center;
-  
-  }
-  
-  .moitiegauchebas4{
-  
-    grid-column: 1;
-    grid-row: 2;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    text-align: center;
-    padding-bottom: 2em;
-  }
-  
-  
-  
-  .moitiedroitebas4{
-  
-  
-      grid-column: 2;
-      grid-row: 2;
-      padding-bottom: 2em;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-  
-    text-align: center;
-  
-  }
-  
-  .imgchoix3{
-    width: 100%;
-    padding-bottom: 2em;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
 
+.moitiegauche2 {
+  padding-bottom: 2em;
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
 
+.moitiedroite3 {
+  padding-bottom: 2em;
+  width: 33%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.moitiegauche3 {
+  padding-bottom: 2em;
+  width: 33%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.moitiemilieu3 {
+  padding-bottom: 2em;
+  width: 33%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.choix4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.moitiegauchehaut4 {
+  padding-bottom: 2em;
+  grid-column: 1;
+  grid-row: 1;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.moitiedroitehaut4 {
+  grid-column: 2;
+  grid-row: 1;
+  padding-bottom: 2em;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.moitiegauchebas4 {
+  grid-column: 1;
+  grid-row: 2;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.moitiedroitebas4 {
+  grid-column: 2;
+  grid-row: 2;
+  padding-bottom: 2em;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+
+  text-align: center;
+}
+
+.imgchoix3 {
+  width: 100%;
+  padding-bottom: 2em;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

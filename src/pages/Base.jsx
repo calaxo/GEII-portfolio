@@ -3,8 +3,4 @@ import Collaborateurs from "@components/Collaborateurs";
 import Tableau from "@components/Tableau";
 import Conclu from "@components/Conclu";
 
-export {Intro,
-Collaborateurs,
-Tableau,
-Conclu,
-}
+export { Intro, Collaborateurs, Tableau, Conclu };
