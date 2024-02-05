@@ -26,17 +26,17 @@ export const collaborateurs_But2_sae1 = [
   {
     nom: "CREUZAU",
     prenom: "Kevin",
-    lien: "https://bv.univ-poitiers.fr/access/content/user/kcreuzea/pflSAE5-6/Portfolio.html",
+    lien: "https://bv.univ-poitiers.fr/access/content/user/kcreuzea/portfolio/index.html",
   },
   {
     nom: "SYLVESTRE",
     prenom: "Kevin",
-    lien: "https://bv.univ-poitiers.fr/access/content/user/kcreuzea/pflSAE5-6/Portfolio.html",
+    lien: "https://bv.univ-poitiers.fr/access/content/user/ksylve01/portfolio/index.html",
   },
   {
     nom: "MEDJEBI",
     prenom: "Jullian",
-    lien: "https://bv.univ-poitiers.fr/access/content/user/kcreuzea/pflSAE5-6/Portfolio.html",
+    lien: "https://bv.univ-poitiers.fr/access/content/user/jmejebi/portfolio/index.html",
   },
 ];
 

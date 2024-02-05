@@ -25,7 +25,7 @@ const content = [
     titretache: "choix projet/groupe",
     tache:
       "en groupe nous avons décidé le prjet sur lequet nous allions travailler selon nos diférentes apetence et qualité",
-    granddescription: "ceci est une grande description",
+    granddescription: "nous avons longuement comuniquer avec mes colluege pour savoir sur quel projet nous allions travailler",
     ressource: "description1",
     trace: imgchoix,
     evaluation: "evaluation1",
