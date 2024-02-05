@@ -1,11 +1,19 @@
 import Cadre from '@components/Cadre.jsx';
 
+import Descript from '@components/Descript.jsx'
+
 const Ligne = ( props ) => {
     return (
         <tr className="laligne">
-        <td className={`${props.stile}-LigneTitre`}><p className={`${props.stile}-sous-titre`}>{props.ligne.titretache}</p>{props.ligne.tache}</td>
-        <td className={`${props.stile}-LigneRessource`}>{props.ligne.ressource}</td>
+            <Descript titretache={props.ligne.titretache}
+                    ressource={props.ligne.ressource}
+                    tache={props.ligne.tache}
+            
+            >         </Descript>
+
         <td className={`${props.stile}-Lignetrace`}>
+        
+        
 
 
         <Cadre image={props.ligne.trace} ></Cadre>

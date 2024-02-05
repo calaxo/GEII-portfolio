@@ -7,8 +7,9 @@ Files: circuitboard.glb [1.25MB] > C:\Users\axelc\Desktop\portfolio\geii\front\g
 import { useFrame } from '@react-three/fiber'
 
 
+// https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/circuitboard-transformed.glb
 
-
+// /src/circuitboard-transformed.glb
 
 import React, { useRef,useState, useLayoutEffect } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
@@ -17,7 +18,7 @@ import { useGLTF, useAnimations } from '@react-three/drei'
 
 
 export function PCB(props) {
-  const { nodes, materials } = useGLTF('https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/circuitboard-transformed.glb')
+  const { nodes, materials } = useGLTF('/src/circuitboard-transformed.glb')
 
 
   const mesh = useRef()
@@ -42,4 +43,4 @@ export function PCB(props) {
   )
 }
 
-useGLTF.preload('https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/circuitboard-transformed.glb')
+useGLTF.preload('/src/circuitboard-transformed.glb')

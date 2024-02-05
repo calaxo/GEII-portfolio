@@ -60,7 +60,7 @@ import Learning from "@travail/serveur/Learning.jsx";
 import Linux from "@travail/serveur/Linux.jsx";
 
 
-
+import Pagedescription from "@pages/Pagedescription.jsx"
 
 import Condition from "@pages/Condition.jsx";
 
@@ -127,7 +127,7 @@ const Mesroutes = () => {
 
     <Route path="/Pageimage"  element={<Pageimage />} />
 
-
+    <Route path="/Pagedescription" element={<Pagedescription/>} />
 
     <Route path="/Condition" element={<Condition />} />
 

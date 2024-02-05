@@ -3,7 +3,7 @@ import { useLocation  } from 'react-router-dom';
 import { useState } from 'react';
 import { useNavigate} from "react-router-dom";
 
-import '@styles/pageimage.css';
+import '@styles/pagedescription.css';
 
 const Pagedescription = () => {
 
