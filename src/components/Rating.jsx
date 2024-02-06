@@ -4,23 +4,21 @@ import StarIcon from '@mui/icons-material/Star';
 import StarBorderIcon from '@mui/icons-material/StarBorder';
 
 
-const Rating = () => {
-  const [activeStar, setActiveStar] = useState(-1);
+const Rating = (props) => {
+
   const totalStars = 5;
-  const activeStars = 2;
-  const handleClick = (index) => {
-    setActiveStar(index);
-  };
+  const activeStars = props.evaluation;
+
   return (
     <Box
       sx={{
         display: 'inline-flex',
         position: 'relative',
-        cursor: 'pointer',
+
         textAlign: 'left',
       }}
     >
-      {[...new Array(totalStars)].map((arr, index) => {
+      {[...new Array(activeStars)].map((arr, index) => {
         return (
           <Box
 
@@ -30,6 +28,16 @@ const Rating = () => {
             >
               <StarIcon />
             </Box>
+
+          </Box>
+        );
+      })}
+            {[...new Array(totalStars-activeStars)].map((arr, index) => {
+        return (
+          <Box
+
+          >
+
             <Box>
               <StarBorderIcon />
             </Box>

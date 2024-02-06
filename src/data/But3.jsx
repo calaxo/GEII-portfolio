@@ -30,6 +30,7 @@ const content = [
     trace: imgchoix,
     evaluation: "4/",
     date: "01/02/2023",
+    note : 3 ,
   },
 
   {
@@ -42,6 +43,7 @@ const content = [
     trace: imgesp,
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note : 4 ,
   },
 
   {
@@ -55,6 +57,7 @@ const content = [
     trace: imgink,
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note : 4 ,
   },
 
   {
@@ -67,6 +70,7 @@ const content = [
     trace: imgnotion,
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note : 4 ,
   },
 
   {
@@ -79,6 +83,7 @@ const content = [
     trace: imgovh2,
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note : 4 ,
   },
 
   {
@@ -91,6 +96,7 @@ const content = [
     trace: imgsender,
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note : 4 ,
   },
 
   {
@@ -102,6 +108,7 @@ const content = [
     trace: imgpassagerempli,
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note : 4 ,
   },
 
   {
@@ -115,6 +122,7 @@ const content = [
     trace: imgarduino,
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note : 4 ,
   },
 
   {
@@ -127,6 +135,7 @@ const content = [
     trace: imgquery,
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note : 4 ,
   },
 
   {
@@ -139,6 +148,7 @@ const content = [
     trace: imgreact,
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note : 4 ,
   },
 
   {
@@ -151,6 +161,7 @@ const content = [
     trace: imgsite,
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note : 4 ,
   },
 
   {
@@ -164,6 +175,7 @@ const content = [
     trace: imginformation,
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note : 4 ,
   },
 
   {
@@ -176,6 +188,7 @@ const content = [
     trace: imgrelation,
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note : 4 ,
   },
 
   {
@@ -188,16 +201,20 @@ const content = [
     trace: imgrelation,
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note : 4 ,
   },
 ];
 
 const conclu = "finito";
+
+
 
 const data = {
   titre,
   intro,
   content,
   conclu,
+
 };
 
 export default data;

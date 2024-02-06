@@ -25,7 +25,7 @@ const Ligne = (props) => {
         <Cadre image={props.ligne.trace} title={props.ligne.titretache}></Cadre>
       </td>
       <td className={`${props.stile}-LigneEvaluation`}>
-      <Rating/>
+      <Rating evaluation={props.ligne.note} />
         {props.ligne.evaluation}
       </td>
       <td className={`${props.stile}-Lignedate`}>{props.ligne.date}</td>
