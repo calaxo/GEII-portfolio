@@ -5,6 +5,8 @@ import Rating from "@components/Rating.jsx";
 
 
 const Ligne = (props) => {
+  const markupevaluation = { __html: props.ligne.evaluation };
+
   return (
     <tr className="laligne">
       <td className={`${props.stile}-LigneTitre`}>
@@ -26,7 +28,8 @@ const Ligne = (props) => {
       </td>
       <td className={`${props.stile}-LigneEvaluation`}>
       <Rating evaluation={props.ligne.note} />
-        {props.ligne.evaluation}
+      <p dangerouslySetInnerHTML={markupevaluation}></p>
+
       </td>
       <td className={`${props.stile}-Lignedate`}>{props.ligne.date}</td>
     </tr>

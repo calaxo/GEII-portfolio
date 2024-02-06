@@ -33,9 +33,22 @@ const Cadre = (props) => {
   return (
     <div className="cadre">
       <div className="cadreimg">
-        <NavLink to="/Pageimage" state={{ from: [props.image, props.title] }}>
-          <img className="grosseimg" src={props.image} alt={props.title} />
-        </NavLink>
+        
+      {props.image.map((url, index) => (
+          <NavLink key={index} to="/Pageimage" state={{ from: [url, props.title] }}>
+            <img
+              key={index}
+              className="grosseimg"
+              src={url}
+              alt={`${props.title}-${index}`}
+              onMouseEnter={handleMouseEnter}
+              onMouseMove={handleMouseMove}
+              onMouseLeave={handleMouseLeave}
+            />
+          </NavLink>
+        ))}
+          
+        
       </div>
     </div>
   );

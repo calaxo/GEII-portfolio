@@ -14,6 +14,7 @@ import imgchoix from "@assetspreuve/choix.png";
 // import imgindex from '@assetspreuve/index.png';
 import imgreact from "@assetspreuve/react.png";
 import imgarduino from "@assetspreuve/arduino.png";
+import explicationserveur from "@assetspreuve/explicationserveur.png";
 
 const titre = "But 3 : SAE";
 
@@ -27,10 +28,10 @@ const content = [
       "En groupe, nous avons décidé du projet sur lequel nous allions travailler selon nos différentes aptitudes et qualités.",
     granddescription: "de par sa complexité  et ses enjeux technique nous avon choisi de travailler sur le projet qui consiste a fabriquer un lecteur de carte rfid pour pouvoir <pointer> les eleve comme dans le usines",
     ressource: "les idées de projet que Mr Lucas nous a proposé et dess idée d'objet connecté que nous avons deja rencontré",
-    trace: imgchoix,
-    evaluation: "4/",
-    date: "01/02/2023",
-    note : 3 ,
+    trace: [imgchoix],
+    evaluation: "<br>notre choix parrsaisait évident",
+    date: "03/09/2023",
+    note : 4 ,
   },
 
   {
@@ -39,11 +40,11 @@ const content = [
     tache:
       "Nous nous sommes renseignés sur la carte que nous allions utiliser, une carte ESP32 capable de communiquer en wifi.",
     granddescription: "Ceci est une grande description.",
-    ressource: "On a appris à faire des bases de données.",
-    trace: imgesp,
-    evaluation: "evaluation1",
+    ressource: "de nombreux site qui explique decrive le fonctioonement de l'esp32 via des projets",
+    trace: [imgesp],
+    evaluation: "nous avons mis bien mis les diférentes ressource et information que nous avion trouvé en commun",
     date: "01/02/2023",
-    note : 4 ,
+    note : 5 ,
   },
 
   {
@@ -54,10 +55,10 @@ const content = [
       "Durant mon alternance, j'ai contacté mes collègues pour connaître l'avancement du projet et leur donner des conseils.",
     granddescription: "Ceci est une grande description.",
     ressource: "Comme je sais faire, j'ai fait un site react.",
-    trace: imgink,
+    trace: [imgink],
     evaluation: "evaluation1",
     date: "01/02/2023",
-    note : 4 ,
+    note : 3 ,
   },
 
   {
@@ -67,10 +68,10 @@ const content = [
       "Pour permettre l'explication du fonctionnement d'un serveur web, j'ai réalisé des schémas et des explications pour mes collègues.",
     granddescription: "Ceci est une grande description.",
     ressource: "Comme je sais faire, j'ai fait un site react.",
-    trace: imgnotion,
+    trace: [imgnotion,explicationserveur],
     evaluation: "evaluation1",
-    date: "01/02/2023",
-    note : 4 ,
+    date: "08/11/2023",
+    note : 3 ,
   },
 
   {
@@ -80,7 +81,7 @@ const content = [
       "J'ai fait la liaison entre un serveur DNS et le serveur pour permettre d'avoir une adresse internet plus pratique.",
     granddescription: "Ceci est une grande description.",
     ressource: "Comme je sais faire, j'ai fait un site react.",
-    trace: imgovh2,
+    trace: [imgovh2],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note : 4 ,
@@ -93,7 +94,7 @@ const content = [
       "J'ai créé une API simple qui permet la communication entre un serveur et notre carte ESP32.",
     granddescription: "Ceci est une grande description.",
     ressource: "Comme je sais faire, j'ai fait un site react.",
-    trace: imgsender,
+    trace: [imgsender],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note : 4 ,
@@ -105,7 +106,7 @@ const content = [
     tache: "J'ai créé une table simple dans une base de données.",
     granddescription: "Ceci est une grande description.",
     ressource: "Comme je sais faire, j'ai fait un site react.",
-    trace: imgpassagerempli,
+    trace: [imgpassagerempli],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note : 4 ,
@@ -119,7 +120,7 @@ const content = [
       "J'ai connecté le serveur à la base de données via une bibliothèque destinée à la base de données MySQL.",
     granddescription: "Ceci est une grande description.",
     ressource: "Comme je sais faire, j'ai fait un site react.",
-    trace: imgarduino,
+    trace: [imgarduino],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note : 4 ,
@@ -132,7 +133,7 @@ const content = [
       "Pour améliorer la rapidité du serveur, j'ai changé le mode de connexion à la base de données.",
     granddescription: "Ceci est une grande description.",
     ressource: "Comme je sais faire, j'ai fait un site react.",
-    trace: imgquery,
+    trace: [imgquery],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note : 4 ,
@@ -145,7 +146,7 @@ const content = [
       "J'ai créé une page web qui permet d'afficher la présence des élèves sur une page internet via React, une solution récente et réputée pour programmer des sites web modernes.",
     granddescription: "Ceci est une grande description.",
     ressource: "Comme je sais faire, j'ai fait un site react.",
-    trace: imgreact,
+    trace: [imgreact],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note : 4 ,
@@ -158,7 +159,7 @@ const content = [
       "Pour améliorer la lisibilité et l'ergonomie, j'ai amélioré la disposition des éléments sur le site et j'ai changé les couleurs.",
     granddescription: "Ceci est une grande description.",
     ressource: "Comme je sais faire, j'ai fait un site react.",
-    trace: imgsite,
+    trace: [imgsite],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note : 4 ,
@@ -172,7 +173,7 @@ const content = [
       "Pour permettre l'édition de la base de données depuis le WEB pour changer les noms des étudiants, j'ai dû créer de nouvelles routes et requêtes pour faire parvenir les données entrées sur le site vers le serveur et du serveur jusqu'à la base de données.",
     granddescription: "Ceci est une grande description.",
     ressource: "Comme je sais faire, j'ai fait un site react.",
-    trace: imginformation,
+    trace: [imginformation],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note : 4 ,
@@ -185,7 +186,7 @@ const content = [
       "Nous avons amélioré la base de données pour y inclure des relations. Ceci permet de séparer des tableaux d'étudiants et de passage de carte et de les relier via certaines colonnes.",
     granddescription: "Ceci est une grande description.",
     ressource: "Comme je sais faire, j'ai fait un site react.",
-    trace: imgrelation,
+    trace: [imgrelation],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note : 4 ,
@@ -198,7 +199,7 @@ const content = [
       "J'ai expliqué et aidé à mettre en place une carte Raspberry Pi fonctionnant sous Linux qui sera le futur serveur WEB.",
     granddescription: "Ceci est une grande description.",
     ressource: "Comme je sais faire, j'ai fait un site react.",
-    trace: imgrelation,
+    trace: [imgrelation],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note : 4 ,
