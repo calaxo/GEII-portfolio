@@ -15,30 +15,30 @@ import imgchoix from "@assetspreuve/choix.png";
 import imgreact from "@assetspreuve/react.png";
 import imgarduino from "@assetspreuve/arduino.png";
 
-const titre = "But 3 : SAE ";
+const titre = "But 3 : SAE";
 
-const intro = " ";
+const intro = "durant cette derniere année de BUT en Genie electrique et informatique industriel nous somme spécialisé dans de nombreux domaine pointu tel que l'electronique embarqué dédié au Iot <br> L'internet des objet decrit le reseaux crée par de nombreux objet electronique intelligent<br>nous avions pour mission d'utiliser des carte stm32 pour créer ce genre d'objet<br>due a mes connaissance je me suis penché sur l'informatique qu'il y a derrire ces objet";
 
 const content = [
   {
     id: 1,
     titretache: "choix projet/groupe",
     tache:
-      "en groupe nous avons décidé le prjet sur lequet nous allions travailler selon nos diférentes apetence et qualité",
-    granddescription: "nous avons longuement comuniquer avec mes colluege pour savoir sur quel projet nous allions travailler",
-    ressource: "description1",
+      "En groupe, nous avons décidé du projet sur lequel nous allions travailler selon nos différentes aptitudes et qualités.",
+    granddescription: "de par sa complexité  et ses enjeux technique nous avon choisi de travailler sur le projet qui consiste a fabriquer un lecteur de carte rfid pour pouvoir <pointer> les eleve comme dans le usines",
+    ressource: "les idées de projet que Mr Lucas nous a proposé et dess idée d'objet connecté que nous avons deja rencontré",
     trace: imgchoix,
-    evaluation: "evaluation1",
+    evaluation: "4/",
     date: "01/02/2023",
   },
 
   {
     id: 2,
-    titretache: "reflexion/ exploration datasheet du esp32",
+    titretache: "réflexion/exploration datasheet du esp32",
     tache:
-      "nous nous somme renseigner sur la carte que nous allions utliser, une carte  ESP32 capable de comuniquer en wifi",
-    granddescription: "ceci est une grande description",
-    ressource: "on a appris a faire des base de données",
+      "Nous nous sommes renseignés sur la carte que nous allions utiliser, une carte ESP32 capable de communiquer en wifi.",
+    granddescription: "Ceci est une grande description.",
+    ressource: "On a appris à faire des bases de données.",
     trace: imgesp,
     evaluation: "evaluation1",
     date: "01/02/2023",
@@ -47,11 +47,11 @@ const content = [
   {
     id: 3,
     titretache:
-      "prise d'information et conseil a mes collegue durant mon alternance",
+      "prise d'information et conseil à mes collègues durant mon alternance",
     tache:
-      "durant mon alternance j'ai contacté mes colleuge pour connaitre l'avancement du projet et leur donner des conseil ",
-    granddescription: "ceci est une grande description",
-    ressource: "comme je sais fair j'ai fait un site react",
+      "Durant mon alternance, j'ai contacté mes collègues pour connaître l'avancement du projet et leur donner des conseils.",
+    granddescription: "Ceci est une grande description.",
+    ressource: "Comme je sais faire, j'ai fait un site react.",
     trace: imgink,
     evaluation: "evaluation1",
     date: "01/02/2023",
@@ -59,11 +59,11 @@ const content = [
 
   {
     id: 4,
-    titretache: "creation de documentation sur l'aspect serveur et requete",
+    titretache: "création de documentation sur l'aspect serveur et requête",
     tache:
-      "pour permetre l'explication du fonctionement d'un serveur web j'ai relisé des shéma et des explication pour mes collueges",
-    granddescription: "ceci est une grande description",
-    ressource: "comme je sais fair j'ai fait un site react",
+      "Pour permettre l'explication du fonctionnement d'un serveur web, j'ai réalisé des schémas et des explications pour mes collègues.",
+    granddescription: "Ceci est une grande description.",
+    ressource: "Comme je sais faire, j'ai fait un site react.",
     trace: imgnotion,
     evaluation: "evaluation1",
     date: "01/02/2023",
@@ -71,11 +71,11 @@ const content = [
 
   {
     id: 5,
-    titretache: "lien entre serveur existant et dns",
+    titretache: "lien entre serveur existant et DNS",
     tache:
-      "j'ai fait la liaison entre un serveru DNS et le serveur pour permetre d'avoir une adresse internet plus pratique",
-    granddescription: "ceci est une grande description",
-    ressource: "comme je sais fair j'ai fait un site react",
+      "J'ai fait la liaison entre un serveur DNS et le serveur pour permettre d'avoir une adresse internet plus pratique.",
+    granddescription: "Ceci est une grande description.",
+    ressource: "Comme je sais faire, j'ai fait un site react.",
     trace: imgovh2,
     evaluation: "evaluation1",
     date: "01/02/2023",
@@ -83,11 +83,11 @@ const content = [
 
   {
     id: 6,
-    titretache: "mise en place d'une api web simple",
+    titretache: "mise en place d'une API web simple",
     tache:
-      "j'ai créer une api simple qui permet la comuniation entre un serveru et notre carte ESP32",
-    granddescription: "ceci est une grande description",
-    ressource: "comme je sais fair j'ai fait un site react",
+      "J'ai créé une API simple qui permet la communication entre un serveur et notre carte ESP32.",
+    granddescription: "Ceci est une grande description.",
+    ressource: "Comme je sais faire, j'ai fait un site react.",
     trace: imgsender,
     evaluation: "evaluation1",
     date: "01/02/2023",
@@ -95,10 +95,10 @@ const content = [
 
   {
     id: 7,
-    titretache: "edition de la base de données",
-    tache: "j'ai créer une table simple dans une base données",
-    granddescription: "ceci est une grande description",
-    ressource: "comme je sais fair j'ai fait un site react",
+    titretache: "édition de la base de données",
+    tache: "J'ai créé une table simple dans une base de données.",
+    granddescription: "Ceci est une grande description.",
+    ressource: "Comme je sais faire, j'ai fait un site react.",
     trace: imgpassagerempli,
     evaluation: "evaluation1",
     date: "01/02/2023",
@@ -107,11 +107,11 @@ const content = [
   {
     id: 8,
     titretache:
-      "conection simple entre le serveur nodejs et la base de données",
+      "connexion simple entre le serveur Node.js et la base de données",
     tache:
-      "j'ai connecter le serveur a la bse de données via une bibliotèque destiné a la base deonnes mysql",
-    granddescription: "ceci est une grande description",
-    ressource: "comme je sais fair j'ai fait un site react",
+      "J'ai connecté le serveur à la base de données via une bibliothèque destinée à la base de données MySQL.",
+    granddescription: "Ceci est une grande description.",
+    ressource: "Comme je sais faire, j'ai fait un site react.",
     trace: imgarduino,
     evaluation: "evaluation1",
     date: "01/02/2023",
@@ -119,11 +119,11 @@ const content = [
 
   {
     id: 9,
-    titretache: "utlisation d'une pool de connection",
+    titretache: "utilisation d'une pool de connexions",
     tache:
-      "pour ameliorer la rapdidité du serveur j'ai chnager le mode de cpnnetion a la base deonnées",
-    granddescription: "ceci est une grande description",
-    ressource: "comme je sais fair j'ai fait un site react",
+      "Pour améliorer la rapidité du serveur, j'ai changé le mode de connexion à la base de données.",
+    granddescription: "Ceci est une grande description.",
+    ressource: "Comme je sais faire, j'ai fait un site react.",
     trace: imgquery,
     evaluation: "evaluation1",
     date: "01/02/2023",
@@ -131,11 +131,11 @@ const content = [
 
   {
     id: 10,
-    titretache: "creation de page web pour aficher les données",
+    titretache: "création de page web pour afficher les données",
     tache:
-      "j'ai créer une page web qui permet d'aficher la présence des eleve sur une page internet via react, une sollution recente et reputée pour programmer des ites web moderne",
-    granddescription: "ceci est une grande description",
-    ressource: "comme je sais fair j'ai fait un site react",
+      "J'ai créé une page web qui permet d'afficher la présence des élèves sur une page internet via React, une solution récente et réputée pour programmer des sites web modernes.",
+    granddescription: "Ceci est une grande description.",
+    ressource: "Comme je sais faire, j'ai fait un site react.",
     trace: imgreact,
     evaluation: "evaluation1",
     date: "01/02/2023",
@@ -143,11 +143,11 @@ const content = [
 
   {
     id: 11,
-    titretache: "couleur et style appliqué a la page web",
+    titretache: "couleur et style appliqués à la page web",
     tache:
-      "pour ameliore la lisiblité et l'ergonomie j'ai ameliore la dispotion des élement sur le site et j'ai changer les couleurs",
-    granddescription: "ceci est une grande description",
-    ressource: "comme je sais fair j'ai fait un site react",
+      "Pour améliorer la lisibilité et l'ergonomie, j'ai amélioré la disposition des éléments sur le site et j'ai changé les couleurs.",
+    granddescription: "Ceci est une grande description.",
+    ressource: "Comme je sais faire, j'ai fait un site react.",
     trace: imgsite,
     evaluation: "evaluation1",
     date: "01/02/2023",
@@ -156,11 +156,11 @@ const content = [
   {
     id: 12,
     titretache:
-      "creation de nouvelle route pour l'edition de données depuis le web",
+      "création de nouvelles routes pour l'édition de données depuis le web",
     tache:
-      "pour permetre l'édition de la base de donnée depuis le WEB pour chnager les noms des étudiant j'ai du créer des nouvelle route et requetes pour fair parvenir les données rentrée sur le site vers le serveur et du serveru jusque a la base de données",
-    granddescription: "ceci est une grande description",
-    ressource: "comme je sais fair j'ai fait un site react",
+      "Pour permettre l'édition de la base de données depuis le WEB pour changer les noms des étudiants, j'ai dû créer de nouvelles routes et requêtes pour faire parvenir les données entrées sur le site vers le serveur et du serveur jusqu'à la base de données.",
+    granddescription: "Ceci est une grande description.",
+    ressource: "Comme je sais faire, j'ai fait un site react.",
     trace: imginformation,
     evaluation: "evaluation1",
     date: "01/02/2023",
@@ -168,11 +168,11 @@ const content = [
 
   {
     id: 13,
-    titretache: "amelioration de la base de données et creation de relation",
+    titretache: "amélioration de la base de données et création de relations",
     tache:
-      "nous avons ameliore la base de donnée pour y inclure des reliation, ceci permet de separer des tableau d'etudiant et de pasage de carte et de les relié via certaine collones",
-    granddescription: "ceci est une grande description",
-    ressource: "comme je sais fair j'ai fait un site react",
+      "Nous avons amélioré la base de données pour y inclure des relations. Ceci permet de séparer des tableaux d'étudiants et de passage de carte et de les relier via certaines colonnes.",
+    granddescription: "Ceci est une grande description.",
+    ressource: "Comme je sais faire, j'ai fait un site react.",
     trace: imgrelation,
     evaluation: "evaluation1",
     date: "01/02/2023",
@@ -180,11 +180,11 @@ const content = [
 
   {
     id: 14,
-    titretache: "aide pour la mise en route d'une carte raspberyy pi",
+    titretache: "aide pour la mise en route d'une carte Raspberry Pi",
     tache:
-      "j'ai expliquer et aider a metre en place une carte raspberry pi focntionnant sous linux qui sera le future serveur WEB",
-    granddescription: "ceci est une grande description",
-    ressource: "comme je sais fair j'ai fait un site react",
+      "J'ai expliqué et aidé à mettre en place une carte Raspberry Pi fonctionnant sous Linux qui sera le futur serveur WEB.",
+    granddescription: "Ceci est une grande description.",
+    ressource: "Comme je sais faire, j'ai fait un site react.",
     trace: imgrelation,
     evaluation: "evaluation1",
     date: "01/02/2023",

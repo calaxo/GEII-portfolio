@@ -30,6 +30,8 @@ const Descript = (props) => {
     setTextPosition({ left: event.pageX, top: event.pageY });
   };
 
+  const markuptache = { __html: props.tache };
+const markuptitretache = { __html: props.titretache };
   return (
     <div className="cadre">
       <div>
@@ -38,8 +40,8 @@ const Descript = (props) => {
           to="/Pagedescription"
           state={{ from: [props.titretache, props.granddescription] }}
         >
-          <p className={`${props.stile}-sous-titre`}>{props.titretache}</p>
-          <p className={`textetache`}>{props.tache}</p>
+          <p dangerouslySetInnerHTML={markuptitretache } className={`${props.stile}-sous-titre`}></p>
+          <p dangerouslySetInnerHTML={markuptache } className={`textetache`}></p>
         </NavLink>
       </div>
       <p>{props.title}</p>
