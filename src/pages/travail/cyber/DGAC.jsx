@@ -1,8 +1,8 @@
 import { Intro, Tableau, Conclu } from "@pages/Base";
 
-import data from "@data/DGAC";
+import data from "@data/Dgac";
 
-const DGAC = () => {
+const Dgac = () => {
   return (
     <div>
       <Intro titre={data.titre} intro={data.intro}></Intro>
@@ -13,4 +13,4 @@ const DGAC = () => {
   );
 };
 
-export default DGAC;
+export default Dgac;

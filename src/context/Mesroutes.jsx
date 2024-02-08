@@ -34,7 +34,7 @@ import Hebergement from "@perso/WEB/Hebergement.jsx";
 
 import Cyber from "@travail/Cyber.jsx";
 
-import DGAC from "@travail/cyber/DGAC.jsx";
+import Dgac from "@travail/cyber/Dgac.jsx";
 import Formation from "@travail/cyber/Formation.jsx";
 import Veille from "@travail/cyber/Veille.jsx";
 
@@ -91,7 +91,7 @@ const Mesroutes = () => {
         <Route path="/PC" element={<PC />} />
 
         <Route path="/Cyber" element={<Cyber />} />
-        <Route path="/DGAC" element={<DGAC />} />
+        <Route path="/Dgac" element={<Dgac />} />
         <Route path="/Formation" element={<Formation />} />
         <Route path="/Veille" element={<Veille />} />
 

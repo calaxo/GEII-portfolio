@@ -1,3 +1,5 @@
+import imgaltium1 from "@assetspreuve/altium1.png";
+
 const titre = "But 1 : Projet 1";
 
 const intro =
@@ -11,9 +13,10 @@ const content = [
       "nous avons dabord eu des phase d'apprentisage epour apprendre le fonctionement et l'ultisation des difernte outils courament utlisé en lectonqiue tel qu'une alimentation tablisé un oscilloscope, un generateur base fréquence et un multimtre qui permetre de créer et smeuser les ginaux electronqiue ",
     granddescription: "ceci est une grande description",
     ressource: "description1",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
   {
     id: 2,
@@ -22,9 +25,10 @@ const content = [
       "pour savoir comment marchait notre carte de commande de moteur nous avons du apprendre a lire des datasheet pour obtenir des information sur ceratin composant",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
   {
     id: 3,
@@ -33,9 +37,10 @@ const content = [
       "nous avons pu ensuite utilsié le materiel de mesure et les carte elctronqiue pour controller un moteur via un signal que nous fournaissant a la carte",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
   {
     id: 4,
@@ -44,9 +49,10 @@ const content = [
       "pour savoir préciemsent les effet de nos signaux nous avons utlisé un capteur rotatif pour savoir a quelle vitess le moteur tournait para rapprot ax signaux que nous apliquions",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
   {
     id: 5,
@@ -55,9 +61,10 @@ const content = [
       "nous avons ensuite calculer des fréquence et realiser des corube dans une demarche scientifique",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
   {
     id: 6,
@@ -66,9 +73,10 @@ const content = [
       "nous avons aussi mesurer la consommation en courant du moteur pour vraiment se reprenter commet interagise entre eux les deux mesure que sont courant et tension",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 ];
 

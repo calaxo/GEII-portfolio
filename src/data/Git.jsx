@@ -1,3 +1,5 @@
+import imgaltium1 from "@assetspreuve/altium1.png";
+
 const titre = "Utlisation de Git";
 
 const intro =
@@ -11,8 +13,10 @@ const content = [
       "par curiosité je me suis renseigné sur le monde du logiciel de l'open source et ses avantage et j'ai deuverte github une platforme qui herbegre de nomhrteux projet open source",
     granddescription: "ceci est une grande description",
     ressource: "description1",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
+    date: "01/02/2023",
     evaluation: "evaluation1",
+    note: 3,
   },
 
   {
@@ -22,9 +26,10 @@ const content = [
       "j'ai ensuite decouvert que github etait une amelioration d'un systeme de gestion de code appelé git qui permet de travailleren équipe sur le meme projet de developement",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -34,9 +39,10 @@ const content = [
       "pour de nombreux projet de development personnel j'ai pris une démarche professionnel pour apprendre les base",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -46,9 +52,10 @@ const content = [
       "dans ma recherche d'avenir professionnel j'ai decouverte les base du metier de devops qui permet de fair le lien entre les developpeur et les admisntrateur de serveur pour permetre de gerer sans probleme le code",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -58,9 +65,10 @@ const content = [
       "dans une société qui developpe des programme informatique beaocup de chose sont automatiser pour permetre d'eviter beaucoup de probleme, j'ai donc automatisé moi aussi certaine partie de ma gestion de code",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -70,9 +78,10 @@ const content = [
       "depuis dés que je programme quelque chose j'utilise github pour touts ses avantages",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 ];
 

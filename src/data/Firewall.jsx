@@ -1,3 +1,5 @@
+import imgaltium1 from "@assetspreuve/altium1.png";
+
 const titre = "Edition de regle de firewall";
 
 const intro =
@@ -10,9 +12,10 @@ const content = [
     tache: "j'ai appris a quoi sert  un firewall et comment il focntionne",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -22,9 +25,10 @@ const content = [
       "pour gere des centaines d'apareil et de site et d'objet j'ai du apprenndre  utliser des liste",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -33,9 +37,10 @@ const content = [
     tache: "j'ai appris a décloquer des site web dans un firewall",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -45,9 +50,10 @@ const content = [
       "certain de mes colluege peuvent travailler en teletravail, pour avoir accés au reseaux de l'entreprise nous utlisont un VPN qui crée un tunnel entre leur machine chez eux et notre reseaux, j'ai du apprendre a dépanner ce systeme a distance ",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -57,9 +63,10 @@ const content = [
       "en réalisant un projet de renouvelement de bornes wifi j'ai apprise a manipuler des vlan et j'ai decouverte a mes depends que lorsque tout est bien parametré cela rend reduit les vecteur d'ataque cyberinformatique",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 ];
 

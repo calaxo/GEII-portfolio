@@ -1,3 +1,5 @@
+import imgaltium1 from "@assetspreuve/altium1.png";
+
 const titre = "But 1 : SAE 2";
 
 const intro =
@@ -11,8 +13,10 @@ const content = [
       "notre professeur nous a fait découvrir altium designer qui est un logiciel professionel d'eition de carte elctronique,pour s'entraine nous avont créer de premier petit circuit sur altium",
     granddescription: "ceci est une grande description",
     ressource: "description1",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
+    date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -21,9 +25,10 @@ const content = [
     tache: "Nous avons reproduit un circuit electronqiue sur altium designer",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -33,9 +38,10 @@ const content = [
       "dans le meme temps nous avons apriis a souder des composant electronique sur une carte",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -45,9 +51,10 @@ const content = [
       "pour passer d'un shéma a une carte electronique il faut placer les composant sur un plan en prennant en compte les multiple interconectino de chaque comoiosants",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -57,9 +64,10 @@ const content = [
       "nous avons créer chaque chemin reliant les comosant electronique entre eux en s'assurant des possiblité phisique et des puissance electrique qui allait ciruvler dans chaque piste",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -69,9 +77,10 @@ const content = [
       "nous avons vu comment developper une carte elctronique avec des plaque de depart simple ",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -81,9 +90,10 @@ const content = [
       "Nous avons ensuite souder nos composant sur notre carte definitive qui venait d'etre produite mais qui etait a nu",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -93,9 +103,10 @@ const content = [
       "comme nous l'avons appris, nous avons verifier que notre carte fonctionne avant de l'utiliser",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -105,9 +116,10 @@ const content = [
       "nous avons developer un programme python pour PC qui permet d'afficher le diférents niveaux de sont via plusieur vu pour permetre a l'utlisateur de choisir",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -117,9 +129,10 @@ const content = [
       "nous avons du créer du code pour lire les donnée recu par notre carte electronique et le microcontrolleur, nous recevions de l'information en continu et nous avons donc du fair un code rapide et optimisé",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -129,9 +142,10 @@ const content = [
       "Nous avons ensuite relié les diferentes partie du projet et reparer et ameliore les probleme de comunication",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 ];
 

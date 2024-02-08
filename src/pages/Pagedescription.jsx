@@ -34,6 +34,7 @@ const Pagedescription = () => {
   const location = useLocation();
   const titre = location.state.from[0]; // Accédez à la propriété from de state
   const ladescription = location.state.from[1]; // Accédez à la propriété from de state
+  const markupdescription = { __html: ladescription };
   return (
     <div
       className="pageimage pagedescription"
@@ -56,7 +57,7 @@ const Pagedescription = () => {
             {displayText}
           </div>
         )}
-        <p className="ladescription">{ladescription}</p>
+        <p className="ladescription" dangerouslySetInnerHTML={markupdescription}></p>
       </button>
     </div>
   );

@@ -3,7 +3,7 @@ const Intro = (props) => {
   return (
     <div className="intro">
       <h1>{props.titre}</h1>
-      <p  dangerouslySetInnerHTML={markupintro}></p>
+      <p  dangerouslySetInnerHTML={markupintro} className="introoutro"></p>
     </div>
   );
 };

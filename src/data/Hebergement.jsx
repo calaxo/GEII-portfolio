@@ -1,3 +1,5 @@
+import imgaltium1 from "@assetspreuve/altium1.png";
+
 const titre = "Hebergement local et distant";
 
 const intro =
@@ -10,9 +12,10 @@ const content = [
     tache: "j'ai dabord heberger des site via des dossier simple ",
     granddescription: "ceci est une grande description",
     ressource: "description1",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -22,9 +25,10 @@ const content = [
       "j'ai ensuite decouvert des service en ligne ou l'on peut transmetre les ficiers a hebrger a un service qui s'occipe de tout",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -34,9 +38,10 @@ const content = [
       "en apprendant diférente language de programmtion je me suis intéressé a leur usage pour le web",
     granddescription: "ceci est une grande description",
     ressource: "greger",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -46,9 +51,10 @@ const content = [
       "en bricoloant des chose et en regardant des tuto j'ai appris les grand principe de fonctionement du WEB avec des requètes, des port, et des adresse",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -58,9 +64,10 @@ const content = [
       "j'ai decouverte qu'il etait possible en modifiant les parametre d'une box internet d'hberger des sites sur son propre reseaux",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -70,9 +77,10 @@ const content = [
       "pour des site personnel j'ai appris a gerer un serveur via un site internet dédié a ceci ou tout est configurable",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -82,9 +90,10 @@ const content = [
       "pour avoir mon propre nom de domaine(adresse URL personalisé)j'ai appris a configure un service DNS qui permet de lié un serveur a une adress internet",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -94,9 +103,10 @@ const content = [
       "pour heberger des sites dans le reseaux local de mon entreprise j'ai appris a utliser des outils en ligne de commande linux pour heberger efficacement des sites",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 ];
 

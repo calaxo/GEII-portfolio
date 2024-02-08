@@ -1,3 +1,5 @@
+import imgaltium1 from "@assetspreuve/altium1.png";
+
 const titre = "mise en conformité cyber de la DGAC";
 
 const intro =
@@ -11,9 +13,10 @@ const content = [
       "Mon patron ma missioné de rejoindre un Webinar lié a la cybersécurité des entreprise en relation avec la direction génerale de l'armement",
     granddescription: "ceci est une grande description",
     ressource: "description1",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -23,9 +26,10 @@ const content = [
       "j'ai fait un compte rendu des diferents aspect du webinar et de leur effets sur l'entreprise",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -35,9 +39,10 @@ const content = [
       "pour permetre de réduire les demarche je met certaine chose deja au niverau qui est recqui par la dga",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -47,9 +52,10 @@ const content = [
       "pour que n'import qui puisse apprendre le fonctionement du systeme informatique et pour savoir quoi fair si il se passe quelque chose j'ecrit des procédure detaille sur tout les aspect infromatique de l'entreoprise",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -59,9 +65,10 @@ const content = [
       "pour suivre les conseil de la DGA et simplifer la gestion infroamtique je suis entrain de créer des shéma detaillé du systeme informatique de l'entreprise",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -71,9 +78,10 @@ const content = [
       "j'ai presenter a la responsable de la conformité chargé de la relation avec la DGA ce qui va se passer",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 ];
 

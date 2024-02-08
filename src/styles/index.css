@@ -84,3 +84,26 @@ body {
   padding-right: 1em;
   top: 1em;
 }
+
+
+.introoutro{
+  font-size: 2em;
+
+  text-align: center;
+  margin: 4;
+  padding: 1em;
+
+ padding-left: 7em;
+ padding-right: 7em;
+}
+
+.collabo{
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0.5;
+  padding: 0.5em;
+
+ padding-left: 7em;
+ padding-right: 7em;
+}

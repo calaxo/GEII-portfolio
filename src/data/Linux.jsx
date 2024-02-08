@@ -1,3 +1,5 @@
+import imgaltium1 from "@assetspreuve/altium1.png";
+
 const titre = "Introduction aux base de linux";
 
 const intro =
@@ -11,8 +13,10 @@ const content = [
       "j'ai eu une carte raspberry pour esasyer de fair des porjet et j'ai été confronté pour la premier fois a linux, a force j'ai",
     granddescription: "ceci est une grande description",
     ressource: "description1",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
+    date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -22,9 +26,10 @@ const content = [
       "je me suis ensuite rensigner sur les base de linux pour le grand public: la raison de diférentes distribution",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -34,9 +39,10 @@ const content = [
       "a mon alternance je me suis rendu compte qu'un serveur linux etait plus pratique que windows pour nombre d'avantage mais que c'est beucoup plus comple a utliser,j'ai galeere pendant 1 semaine pour seuelemt metre un pilotes a jour",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -46,9 +52,10 @@ const content = [
       "j'ai pu me familirariser avec un environement serveur de linux ou il n'y a que des ligne de commande et pas d'fichage grapqhique",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -58,9 +65,10 @@ const content = [
       "ce fut ma premiere tache pour pour pouvoir controller un serveur linux a distance via ethernet",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -69,9 +77,10 @@ const content = [
     tache: "mie a jour antivurius droit d'accés plsu sécurisé",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -81,9 +90,10 @@ const content = [
     granddescription: "ceci est une grande description",
     ressource:
       "j'ai du me ploger dans les droits et fichier complexe pour pouvoir fair unitanlaltion de docker propre et pratique",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 ];
 

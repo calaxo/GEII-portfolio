@@ -1,3 +1,5 @@
+import imgaltium1 from "@assetspreuve/altium1.png";
+
 const titre = "Conseil et apprentissage informatique a mes collegues";
 
 const intro =
@@ -11,9 +13,10 @@ const content = [
       "j'ai expliquer a des colluege certaine regle de cybersécurité a des personne non familiere avec l'informatique",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -23,9 +26,10 @@ const content = [
       "pour simplifier certaine chose j'ai apprise cetaine personne comment certain systeme informatique marche",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -36,9 +40,10 @@ const content = [
       "j'ai du regulieremtne presenter a mon patron les diferente changement et probleme lié a l'informatique",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -48,9 +53,10 @@ const content = [
       "durant une réunion j'ai presenter a tout mes colluege les diférentes tache et changtment de l'année au niveau informatique",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -61,9 +67,10 @@ const content = [
       "j'ai du vulgariser beaucoup de chose complexe pour l'expliquer a n'import qui",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -74,9 +81,10 @@ const content = [
       "aprés avoir acqui des connaissance j'ai pu discuter avec des professionnel du milieu de l'informatique pour essaye de touver ma voie professionnelle",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 ];
 

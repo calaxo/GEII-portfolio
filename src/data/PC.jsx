@@ -1,3 +1,5 @@
+import imgaltium1 from "@assetspreuve/altium1.png";
+
 const titre = "Montage/amelioration Dordinateur ";
 
 const intro =
@@ -11,8 +13,10 @@ const content = [
       "j'ai toujour demonter plein d'aperil elcotnriuq cassé ou trop vieux, avec l'essort des PC dans quague maison j'ai pu en demonter plein pour savoir les difente composant",
     granddescription: "ceci est une grande description",
     ressource: "description1",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
+    date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -22,9 +26,10 @@ const content = [
       "a force de casser des PC en les demontant j'ai appris a les remonter focntinnerl",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -34,9 +39,10 @@ const content = [
       "mon entreprsie ma famille ou mes amis ou moi meme veelrne avoir des PC deja construit on a construire monter soit meme, j'ai a force appris a choiseles composant adéquat aux diferetne utlisations ",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -46,9 +52,10 @@ const content = [
     granddescription: "ceci est une grande description",
     ressource:
       "dabord pour des PC perso j'ai appris a monter des PC en partant de 0 en utlisatn seulemetn mes connaisance et les notice incluse avec du materiel neuf",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -58,9 +65,10 @@ const content = [
       "comme j'ai dergler beacoup de chose dans les biosde PC j'ai auss i du apprendre a bien le parametrer",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -70,9 +78,10 @@ const content = [
       "j'ai intaller denombreux OS suite a des accident ou pour de PC neuf j'ai a force appris les bonne étapes pour que sa soit le plus pratique",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -82,9 +91,10 @@ const content = [
       "etant 'i'informaticien' de la famille j'ai netoyer de nombreux PC qui etait trop rempli ou mal configuré",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 ];
 

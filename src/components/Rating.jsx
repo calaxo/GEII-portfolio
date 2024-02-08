@@ -20,7 +20,7 @@ const Rating = (props) => {
     >
       {[...new Array(activeStars)].map((arr, index) => {
         return (
-          <Box
+          <Box key={index}
 
           >
             <Box
@@ -34,7 +34,7 @@ const Rating = (props) => {
       })}
             {[...new Array(totalStars-activeStars)].map((arr, index) => {
         return (
-          <Box
+          <Box key={index}
 
           >
 

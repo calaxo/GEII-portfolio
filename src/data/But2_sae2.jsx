@@ -15,9 +15,10 @@ const content = [
       "Nous etiaons trop dans le meme groupe donc il a été décidé de se separer en deux groupes et nous avons donc tout refair une deuxieme fois",
     granddescription: "ceci est une grande description",
     ressource: "description1",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -27,9 +28,10 @@ const content = [
       "nous avon tout refait mieux car nous savions a deja comment fair la base du projet",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -39,9 +41,10 @@ const content = [
       "nous avons créer notre circuit sur altium pour nous permetre de créer un PCB avec",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: imgaltium1,
+    trace: [imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -51,9 +54,10 @@ const content = [
       "nous avons modiofier le porgramme contenu dans le microntrolleur pour pourvoir recevoir les tension via des modules sans fils ",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -63,9 +67,10 @@ const content = [
       "nousa vons créer une nouvelle interface pour l'ecran du microcontrolleur qui est plus simple a lire",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -75,9 +80,10 @@ const content = [
       "nousa ason ameliore le code pour qu'il soit plus réactif et qu'il permette la lecture sous forme d'aiguille anagloqiue comme sur un votmmettrre ancien",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -87,9 +93,10 @@ const content = [
       "pour permetre une meilleur compréhension et de meilleur répartion nous avons ameliorer la proprété du circuit electronique",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: ["image1","image1"],
+    trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 
   {
@@ -99,9 +106,10 @@ const content = [
       "comme nous l'avons deja fait dans d'autre projet nous avons relier tout les comopsant sur notre carte elctronqiue",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: imgaltium2,
+    trace: [imgaltium2],
     evaluation: "evaluation1",
     date: "01/02/2023",
+    note: 3,
   },
 ];
 
