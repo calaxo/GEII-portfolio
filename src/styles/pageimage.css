@@ -38,3 +38,15 @@
   width: 75%;
   height: auto;
 }
+
+
+.ladescription{
+  font-size: 2em;
+
+  text-align: center;
+  margin: 4;
+  padding: 5em;
+
+ padding-left: 7em;
+ padding-right: 7em;
+}

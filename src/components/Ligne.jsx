@@ -6,6 +6,7 @@ import Rating from "@components/Rating.jsx";
 
 const Ligne = (props) => {
   const markupevaluation = { __html: props.ligne.evaluation };
+  const markupressource = { __html: props.ligne.ressource };
 
   return (
     <tr className="laligne">
@@ -21,7 +22,7 @@ const Ligne = (props) => {
       </td>
 
       <td className={`${props.stile}-LigneRessource`}>
-        {props.ligne.ressource}
+        <p dangerouslySetInnerHTML={markupressource}></p>
       </td>
       <td className={`${props.stile}-Lignetrace`}>
         <Cadre image={props.ligne.trace} title={props.ligne.titretache}></Cadre>

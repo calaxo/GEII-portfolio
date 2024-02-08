@@ -36,7 +36,7 @@ const Pagedescription = () => {
   const ladescription = location.state.from[1]; // Accédez à la propriété from de state
   return (
     <div
-      className="pageimage"
+      className="pageimage pagedescription"
       onMouseEnter={handleMouseEnter}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
