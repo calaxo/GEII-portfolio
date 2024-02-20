@@ -163,9 +163,15 @@ const Accueil = () => {
         <br></br>
         <br></br>
         pour mon futur professionnel je souahite etre embauché dans l'entreprise
-        dans lequel je suis actuellement et recevori des formation professionnel
+        dans lequel je suis actuellement et recevoit des formation professionnel
         sur la cybersécrutié, je sais que si j'en ai l'envie et que je trouve
         des études passionante je pourrait les rejoindre grace a ma rigueur
+        <br></br>
+        <br></br>
+        Depuis peu je commence aussi a me renseigner pour faire des études 
+        d'ingénieur dans le domaine de l'informatique pour avoir un meilleur
+        avenir professionel, il est possible que je fasse ces études d'ingénieur
+        en alternance dans la meme entreprise que mon alternance actuelle
         <br></br>
         <br></br>
         En dehors de mes activités académiques et professionnelles, j'aime

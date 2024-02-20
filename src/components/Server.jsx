@@ -4,9 +4,9 @@ Command: npx gltfjsx@6.2.16 server.glb --transform
 Files: server.glb [685.86KB] > C:\Users\axelc\Desktop\portfolio\geii\front\geii-portfolio\src\server-transformed.glb [59.42KB] (91%)
 */
 
-//https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/server-transformed.glb
+// https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/server-transformed.glb
 
-//src/server-transformed.glb
+// /src/server-transformed.glb
 
 import { useGLTF } from "@react-three/drei";
 
@@ -15,7 +15,7 @@ import { useFrame } from "@react-three/fiber";
 import React, { useRef, useState, useLayoutEffect } from "react";
 
 export function Server(props) {
-  const { nodes, materials } = useGLTF("https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/server-transformed.glb");
+  const { nodes, materials } = useGLTF("/src/server-transformed.glb");
 
   const mesh = useRef();
 
@@ -87,4 +87,4 @@ export function Server(props) {
   );
 }
 
-useGLTF.preload("https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/server-transformed.glb");
+useGLTF.preload("/src/server-transformed.glb");

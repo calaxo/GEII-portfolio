@@ -1,49 +1,52 @@
 import imgaltium1 from "@assetspreuve/altium1.png";
-
+import imgdroit1 from "@assetspreuve/droit1.png";
+import imgdroit2 from "@assetspreuve/droit2.png";
+import imgdroit3 from "@assetspreuve/droit3.png";
+import imgdroit4 from "@assetspreuve/droit4.png";
 const titre = "Active directory";
 
 
 
 const intro =
-  "un active directory est un serveur installé et configurer sur un ordinateur windows, plus genereralement sur un serveur via windows serveur qui permt de manager et d'orchster tout ce qui se passe en rapport avec windows dans un reseaux privé";
+  "un active directory est une suite de logicielle installé et configuré sur un ordinateur windows, plus genereralement sur un serveur via windows serveur qui permt de manager et d'orchster tout ce qui se passe en rapport avec windows dans un reseaux privé";
 
 const content = [
   {
     id: 1,
     titretache: "apprentissage des droit windows",
     tache:
-      "lorsque je suis arrivé dans mon entreprise, j'ai du dabbord apprendre le fonctionment de la confidentialité dans mon entrpreprise, nous avons des dossier contenant des chose trés inportante tel que des cours aérunautique reconnus pas des autorité qui ne doivent pas etre aceesible a tout le monde, j'ai ensuite decouverte comment tout ceci est orchstré",
-    granddescription: "ceci est une grande description",
-    ressource: "description1",
-    trace: [imgaltium1,imgaltium1],
-    evaluation: "evaluation1",
-    date: "01/02/2023",
-    note: 3,
+      "pour administrer les droit j'ai dabors du apprendre quell sont ces droit et ce qu'il permettent",
+    granddescription: "lorsque je suis arrivé dans mon entreprise, j'ai du dabbord apprendre le fonctionment de la confidentialité dans mon entrpreprise, nous avons des dossier contenant des chose trés inportante tel que des cours aérunautique reconnus pas des autorité qui ne doivent pas etre aceesible a tout le monde, j'ai ensuite decouverte comment tout ceci est orchzstré",
+    ressource: "",
+    trace: [imgdroit1,imgdroit2,imgdroit3,imgdroit4],
+    evaluation: "J'ai bien compris et expliquer a me collegue",
+    date: "29/08/2022",
+    note: 4,
   },
 
   {
     id: 2,
     titretache: "création gestion des utilisateur",
     tache:
-      "dés mon arrivé, l'ancien informaticien ma aidé a créer les droit pour mon compte qui sont aprorpié a mes tache, j'ai ainsi decouvert le focntionment et pu créer des dizaine de compte varié pour des employé ou des vacataires",
-    granddescription: "ceci est une grande description",
-    ressource: "on a appris a faire des base de données",
-    trace: [imgaltium1,imgaltium1],
-    evaluation: "evaluation1",
-    date: "01/02/2023",
-    note: 3,
+      "création de compte utlisateur qui peuvent utlisé sur tout les PC de l'entreprise",
+    granddescription: "dés mon arrivé, l'ancien informaticien ma aidé a créer les droit pour mon compte qui sont aprorpié a mes tache, j'ai ainsi decouvert le focntionment et pu créer des dizaine de compte varié pour des employé ou des vacataires",
+    ressource: "",
+    trace: [],
+    evaluation: "depuis je m'occuê de toute les créations de compte",
+    date: "29/08/2022",
+    note: 5,
   },
 
   {
     id: 3,
     titretache: "creation de dossier avec des droit spécifique",
     tache:
-      "une entreprise evolue en continu au gréer des ligslation de la clientele et des employé, c'est pour ca que j'ai du adapté certain droit dans des dossier en verifiant que suele les personne acrédité y avait accés",
-    granddescription: "ceci est une grande description",
-    ressource: "on a appris a faire des base de données",
-    trace: [imgaltium1,imgaltium1],
-    evaluation: "evaluation1",
-    date: "01/02/2023",
+      "il m'arrive des fois de devoir créer des dossier avec des droit plus spécifique et sécurisé",
+    granddescription: "une entreprise evolue en continu au gréer des ligslation de la clientele et des employé, c'est pour ca que j'ai du adapté certain droit dans des dossier en verifiant que suele les personne acrédité y avait accés",
+    ressource: "",
+    trace: [],
+    evaluation: "",
+    date: "08/05/2023",
     note: 3,
   },
 
@@ -51,53 +54,31 @@ const content = [
     id: 4,
     titretache: "modification de groupe de droit",
     tache:
-      "pour se simplifier la tache il est courant d'utiliser des groupes, par exmple le groupe technicient ou direction qui vont tous avoir le meme droit",
-    granddescription: "ceci est une grande description",
-    ressource: "on a appris a faire des base de données",
-    trace: [imgaltium1,imgaltium1],
-    evaluation: "evaluation1",
-    date: "01/02/2023",
+      "lorsque je doit modifier des droit je modifie directement les attribus des utlisteur ",
+    granddescription: "pour se simplifier la tache il est courant d'utiliser des groupes, par exmple le groupe technicient ou direction qui vont tous avoir le meme droit. Cela permet d'etre sur de ne jammais mofifier les droits dans les dossier directement et d'eviter les erreurs",
+    ressource: "",
+    trace: [],
+    evaluation: "",
+    date: "08/08/2023",
     note: 3,
   },
+
+
 
   {
     id: 5,
-    titretache: "création de droit spécifique",
-    tache:
-      "a force j'ai dcouverte comment focntionne vraiment les droit d'accés plus complexe, par exmple les doir en modoficatio, en lcture etc...",
-    granddescription: "ceci est une grande description",
-    ressource: "on a appris a faire des base de données",
-    trace: [imgaltium1,imgaltium1],
-    evaluation: "evaluation1",
-    date: "01/02/2023",
-    note: 3,
-  },
-
-  {
-    id: 6,
     titretache: "verification des droits pour les fichiers et dossier",
     tache:
-      "reguliemrnet et pas soucis de sécurité je doit m'assurer que chaque utlisateur est dans le bon groupe, et chaque dossier est accesible par le bon groupe pour permetre de heirachsier les droits",
-    granddescription: "ceci est une grande description",
-    ressource: "comme je sais fair j'ai fait un site react",
-    trace: [imgaltium1,imgaltium1],
-    evaluation: "evaluation1",
-    date: "01/02/2023",
-    note: 3,
+      "verification des droit pour eviter des fuites de données",
+    granddescription: "reguliemrnet et pas soucis de sécurité je doit m'assurer que chaque utlisateur est dans le bon groupe, et chaque dossier est accesible par le bon groupe pour permetre de heirachsier les droits, je doit ensuite fair par des mes obesrvation a ma direction",
+    ressource: "",
+    trace: [],
+    evaluation: "",
+    date: "05/01/2024",
+    note: 5,
   },
 
-  {
-    id: 7,
-    titretache: "création de plusieur comtpe admin",
-    tache:
-      "aprés avoir fait des erreur sans m'en rednre compte et en demandant des conseil a des informaticien competent , j'a choisi de changer la methode d'adminstration, auparavatn il y avait un seul compte admin, maintenant chaque technicien qui c'occupe de l'icnfoaztmique en a un se qui permet de ssavoir qui a fait quoi preécisement en regardant les log windows ou de savoir par ou peuvent venir un mot de passe compromis",
-    granddescription: "ceci est une grande description",
-    ressource: "comme je sais fair j'ai fait un site react",
-    trace: [imgaltium1,imgaltium1],
-    evaluation: "evaluation1",
-    date: "01/02/2023",
-    note: 3,
-  },
+
 ];
 
 const conclu =
