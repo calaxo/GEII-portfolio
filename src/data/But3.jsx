@@ -191,6 +191,7 @@ const content = [
     note: 4,
   },
   {
+<<<<<<< Updated upstream
     id: 16,
     titretache: "tentative d'utilisation de comunication wifi entre ESP32",
     tache:
@@ -201,6 +202,43 @@ const content = [
     evaluation: "une sollution aurait pu etre prendre 2 ESP qui comunique entre elle via comunication serie est d'en dedier une a chaque tache",
     date: "14/02/2024",
     note: 2,
+=======
+    id: 11,
+    titretache: "utlisation du multitache",
+    tache:
+      "nous avons utliser une maquette de prototypage pour nous permetre de virifer que notre systeme etait contionnel",
+    granddescription: "ceci est une grande description",
+    ressource: "la tache de Mr vila <a href='https://bv.univ-poitiers.fr/access/content/user/fvila/portfolio/but3/missions/m1/index.html'>son portfolio</a>",
+    trace: [arduinoserv1,arduinoserv1],
+    evaluation: "evaluation1",
+    date: "01/02/2023",
+    note: 3,
+  },
+
+  {
+    id: 15,
+    titretache: "création d'une page de configuration WIFI",
+    tache:
+      "j'ai créé une page web qui permet de rentrer des informations de connexions dans la carte esp32",
+    granddescription: "lors de notre projet, il a fallu rentrer les informations de connexion de chaque WIFI, pour éviter cela j'ai codé l'ESP32 pour que l'on puisse rentrer les informations de connexion sur son point d'accès via une page web  et que l'on puisse ensuite scanner les badges NFC, je me suis inspiré d'objets connectés basiques que j'ai déjà paramétrés<br></br> dans le code je créer dabord un point d'accés sans fil, puis je créer un serveru http asynchrone qui renvoi du html(contenant du css et du javascript) en interagissant avec la page web envoyé des information sont envoyé a l'ESP qui execute ensuite du code pour se connecter au reseaux wifi voulu. <br></br> Pour me simplifier la tache j'ai créer un script python qui transforme un fichier html classique en chaine de caractere qui peut etre envoyé par l'ESP.<br></br>en utilisant un serveur asynchrone l'ESP32 peut fair plusieurs chose en meme temps, ainsi nous n'avons pas a utiliser la boucle loop()généralement utlisé sur du code basé pour arduino(l'IDE que j'utilise).",
+    ressource: "<a href=\"https://github.com/me-no-dev/ESPAsyncWebServer\">page github de ESPAsyncWebServer</a><br></br> <a href=\"https://randomnerdtutorials.com/esp32-http-get-post-arduino/\">tuto sur la création de serveur sur un ESP32</a>",
+    trace: [arduinoserv1, arduinoserv2, arduinoserv3, arduinoserv4,imgarduino],
+    evaluation: "je pense avoir fait un code réutilisable qui sera pratique, mais il manque une résilience des infos de connexion dans la carte pour les prochains boot",
+    date: "08/02/2024",
+    note: 4,
+  },
+  {
+    id: 15,
+    titretache: "comunication entre ESP",
+    tache:
+      "j'ai créé une page web qui permet de rentrer des informations de connexions dans la carte esp32",
+    granddescription: "lors de notre projet, il a fallu rentrer les informations de connexion de chaque WIFI, pour éviter cela j'ai codé l'ESP32 pour que l'on puisse rentrer les informations de connexion sur son point d'accès via une page web  et que l'on puisse ensuite scanner les badges NFC, je me suis inspiré d'objets connectés basiques que j'ai déjà paramétrés<br></br> dans le code je créer dabord un point d'accés sans fil, puis je créer un serveru http asynchrone qui renvoi du html(contenant du css et du javascript) en interagissant avec la page web envoyé des information sont envoyé a l'ESP qui execute ensuite du code pour se connecter au reseaux wifi voulu. <br></br> Pour me simplifier la tache j'ai créer un script python qui transforme un fichier html classique en chaine de caractere qui peut etre envoyé par l'ESP.<br></br>en utilisant un serveur asynchrone l'ESP32 peut fair plusieurs chose en meme temps, ainsi nous n'avons pas a utiliser la boucle loop()généralement utlisé sur du code basé pour arduino(l'IDE que j'utilise).",
+    ressource: "<a href=\"https://randomnerdtutorials.com/esp32-esp-now-wi-fi-web-server/\">tuto pour utlisation du wifi et de esp now en meme temp</a><br></br> <a href=\"https://randomnerdtutorials.com/esp32-http-get-post-arduino/\">tuto sur la création de serveur sur un ESP32</a>",
+    trace: [arduinoserv1, arduinoserv2, arduinoserv3, arduinoserv4,imgarduino],
+    evaluation: "je pense avoir fait un code réutilisable qui sera pratique, mais il manque une résilience des infos de connexion dans la carte pour les prochains boot",
+    date: "08/02/2024",
+    note: 4,
+>>>>>>> Stashed changes
   },
 ];
 
