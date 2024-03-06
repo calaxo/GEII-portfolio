@@ -15,7 +15,7 @@ const content = [
     id: 1,
     titretache: "apprentissage des droit windows",
     tache:
-      "pour administrer les droit j'ai dabors du apprendre quell sont ces droit et ce qu'il permettent",
+      "pour administrer les droit j'ai dabors du apprendre quell sont ces droits et ce qu'il permettent",
     granddescription: "lorsque je suis arrivé dans mon entreprise, j'ai du dabbord apprendre le fonctionment de la confidentialité dans mon entrpreprise, nous avons des dossier contenant des chose trés inportante tel que des cours aérunautique reconnus pas des autorité qui ne doivent pas etre aceesible a tout le monde, j'ai ensuite decouverte comment tout ceci est orchzstré",
     ressource: "",
     trace: [imgdroit1,imgdroit2,imgdroit3,imgdroit4],
@@ -32,7 +32,7 @@ const content = [
     granddescription: "dés mon arrivé, l'ancien informaticien ma aidé a créer les droit pour mon compte qui sont aprorpié a mes tache, j'ai ainsi decouvert le focntionment et pu créer des dizaine de compte varié pour des employé ou des vacataires",
     ressource: "",
     trace: [],
-    evaluation: "depuis je m'occuê de toute les créations de compte",
+    evaluation: "depuis je m'occupe de toute les créations de compte",
     date: "29/08/2022",
     note: 5,
   },

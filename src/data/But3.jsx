@@ -191,7 +191,6 @@ const content = [
     note: 4,
   },
   {
-<<<<<<< Updated upstream
     id: 16,
     titretache: "tentative d'utilisation de comunication wifi entre ESP32",
     tache:
@@ -202,7 +201,8 @@ const content = [
     evaluation: "une sollution aurait pu etre prendre 2 ESP qui comunique entre elle via comunication serie est d'en dedier une a chaque tache",
     date: "14/02/2024",
     note: 2,
-=======
+  },
+  {
     id: 11,
     titretache: "utlisation du multitache",
     tache:
@@ -238,7 +238,6 @@ const content = [
     evaluation: "je pense avoir fait un code réutilisable qui sera pratique, mais il manque une résilience des infos de connexion dans la carte pour les prochains boot",
     date: "08/02/2024",
     note: 4,
->>>>>>> Stashed changes
   },
 ];
 
