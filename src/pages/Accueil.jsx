@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
+import { NavLink } from "react-router-dom";
 import cvfr from "@assets/cvfr.pdf";
 import cven from "@assets/cvfr.pdf";
 import ref_geii from "@assets/ref_geii.pdf";
@@ -110,19 +111,55 @@ const Accueil = () => {
 
   return (
     <div className="accueil">
+      
       <button style={magiefr} className="drapeaubtn" onClick={passeen}>
         <img src={drapen} className="drapeau" />
       </button>
       <button className="drapeaubtn" style={magieen} onClick={passefr}>
         <img src={drapfr} className="drapeau" />
       </button>
+      <div className="presdiv">
+      <NavLink key="Front" to="/Front" className="moitiemilieu3">
+          <div>
+            <div className="bouton-page">
+
+              <span>concevoir</span>
+            </div>
+          </div>
+        </NavLink>
+        <NavLink key="Simu" to="/Simu" className="moitiemilieu3">
+          <div>
+            <div className="bouton-page">
+
+              <span>verifier</span>
+            </div>
+          </div>
+        </NavLink>
+        <NavLink key="Switch" to="/Switch" className="moitiemilieu3">
+          <div>
+            <div className="bouton-page">
+
+              <span>implanter</span>
+            </div>
+          </div>
+        </NavLink>
+        <NavLink key="Simu" to="/Simu" className="moitiemilieu3">
+          <div>
+            <div className="bouton-page">
+
+              <span>maintenir</span>
+            </div>
+          </div>
+        </NavLink>
+        
+        </div>
       <img className="imgmoi" src={imgmoi} alt="ma photo" />
       <div className="lecanvas">
         <LeCanvas className="lecanvas" />
       </div>
       <h1 style={magiefr}>MON PORTFOLIO</h1>
       <div className="textfren " style={magiefr}>
-        Un Portfolio est un receuil de documents et d'exemples pratiques
+        Un Portfolio est un recueil de documents et d'exemples pratiques
         L'objectif de ce portfolio est de mettre en lumière des compétences, Il
         permet notamment de montrer a des recruteur ou des enseignant de prouver
         ce dont je suis capable
@@ -285,6 +322,9 @@ const Accueil = () => {
           <img className="imglinkedin" src={linkedin} alt="linkedin" />
         </a>
       </div>
+      
+        
+        
     </div>
   );
 };

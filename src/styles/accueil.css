@@ -55,6 +55,26 @@
   padding: 10px; /* Ajustez la taille du padding selon vos besoins */
 }
 
+.presdiv{
+
+  position: relative;
+  z-index: 2;
+  margin-top: 5em;
+  margin-left: 20em;
+  margin-right: 20em;
+  margin-bottom: 5em;
+  background-color: #82e9c588;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px; /* Aju
+}
+
 .cvlien {
   position: relative;
   z-index: 2;

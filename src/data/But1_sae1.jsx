@@ -10,8 +10,8 @@ const content = [
     id: 1,
     titretache: "familiarisation des outils de mesures electronique",
     tache:
-      "nous avons dabord eu des phase d'apprentisage epour apprendre le fonctionement et l'ultisation des difernte outils courament utlisé en lectonqiue tel qu'une alimentation tablisé un oscilloscope, un generateur base fréquence et un multimtre qui permetre de créer et smeuser les ginaux electronqiue ",
-    granddescription: "ceci est une grande description",
+      "decouverte des différents outils essentiel pour effctuer des projet lié a l'electronique",
+    granddescription: "nous avons dabord eu des phase d'apprentisage epour apprendre le fonctionement et l'ultisation des difernte outils courament utlisé en lectonqiue tel qu'une alimentation tablisé un oscilloscope, un generateur base fréquence et un multimtre qui permetre de créer et smeuser les ginaux electronqiue",
     ressource: "description1",
     trace: [],
     evaluation: "evaluation1",
@@ -22,8 +22,8 @@ const content = [
     id: 2,
     titretache: "familiarisation avec les datasheet",
     tache:
-      "pour savoir comment marchait notre carte de commande de moteur nous avons du apprendre a lire des datasheet pour obtenir des information sur ceratin composant",
-    granddescription: "ceci est une grande description",
+      "nous avons fait la démarche profesionnelle d'utliser les datasheet des composant",
+    granddescription: "pour savoir comment marchait notre carte de commande de moteur nous avons du apprendre a lire des datasheet pour obtenir des information sur ceratin composant",
     ressource: "on a appris a faire des base de données",
     trace: [],
     evaluation: "evaluation1",
@@ -34,8 +34,8 @@ const content = [
     id: 3,
     titretache: "utilisation du moteur via un signal PWM",
     tache:
-      "nous avons pu ensuite utilsié le materiel de mesure et les carte elctronqiue pour controller un moteur via un signal que nous fournaissant a la carte",
-    granddescription: "ceci est une grande description",
+      "pour controller notre moteur la carte de control avait besoin d'un signal spécifique",
+    granddescription: "nous avons pu ensuite utilsié le materiel de mesure et les carte elctronqiue pour controller un moteur via un signal que nous fournaissant a la carte",
     ressource: "on a appris a faire des base de données",
     trace: [],
     evaluation: "evaluation1",
@@ -46,8 +46,8 @@ const content = [
     id: 4,
     titretache: "lecture de la vitesse via le capteur rotatif",
     tache:
-      "pour savoir préciemsent les effet de nos signaux nous avons utlisé un capteur rotatif pour savoir a quelle vitess le moteur tournait para rapprot ax signaux que nous apliquions",
-    granddescription: "ceci est une grande description",
+      "pour controller un moteur il es plus pratique de savoir a quelle vitesse il tourne avant de changer cette vitesse",
+    granddescription: "pour savoir préciemsent les effet de nos signaux nous avons utlisé un capteur rotatif pour savoir a quelle vitess le moteur tournait para rapprot ax signaux que nous apliquions",
     ressource: "on a appris a faire des base de données",
     trace: [],
     evaluation: "evaluation1",
@@ -58,8 +58,8 @@ const content = [
     id: 5,
     titretache: "analyse de la vitesse en fonction du raport cyclique",
     tache:
-      "nous avons ensuite calculer des fréquence et realiser des corube dans une demarche scientifique",
-    granddescription: "ceci est une grande description",
+      "nous avons appris a lire de resulat electronique",
+    granddescription: "nous avons ensuite calculer des fréquence et realiser des corube dans une demarche scientifique",
     ressource: "on a appris a faire des base de données",
     trace: [],
     evaluation: "evaluation1",
@@ -70,8 +70,8 @@ const content = [
     id: 6,
     titretache: "test de la limite de l'alimentation",
     tache:
-      "nous avons aussi mesurer la consommation en courant du moteur pour vraiment se reprenter commet interagise entre eux les deux mesure que sont courant et tension",
-    granddescription: "ceci est une grande description",
+      "en electronique/elctrique la limitation la plus importante est la consommation d'energie notamment de courant",
+    granddescription: "nous avons aussi mesurer la consommation en courant du moteur pour vraiment se reprenter commet interagise entre eux les deux mesure que sont courant et tension",
     ressource: "comme je sais fair j'ai fait un site react",
     trace: [],
     evaluation: "evaluation1",
@@ -80,7 +80,7 @@ const content = [
   },
 ];
 
-const conclu = "finito";
+const conclu = "controller un moteur etait une tache plutot simple que nous aurions pu fair en autodidacte via des tutos mais fair ceci en cours nous a permis de fair les chose avec un vrai but professionnel";
 
 const data = {
   titre,

@@ -23,7 +23,7 @@ import But2_sae2 from "@geii/but2/But2_sae2";
 
 import But3 from "@geii/but3/But3.jsx";
 
-import PC from "@perso/PC.jsx";
+// import PC from "@perso/PC.jsx";
 
 import WEB from "@perso/WEB.jsx";
 
@@ -36,7 +36,7 @@ import Cyber from "@travail/Cyber.jsx";
 
 import Dgac from "@travail/cyber/Dgac.jsx";
 import Formation from "@travail/cyber/Formation.jsx";
-import Veille from "@travail/cyber/Veille.jsx";
+// import Veille from "@travail/cyber/Veille.jsx";
 
 import Helico from "@travail/Helico.jsx";
 
@@ -88,12 +88,12 @@ const Mesroutes = () => {
         <Route path="/Git" element={<Git />} />
         <Route path="/Hebergement" element={<Hebergement />} />
 
-        <Route path="/PC" element={<PC />} />
+        {/* <Route path="/PC" element={<PC />} /> */}
 
         <Route path="/Cyber" element={<Cyber />} />
         <Route path="/Dgac" element={<Dgac />} />
         <Route path="/Formation" element={<Formation />} />
-        <Route path="/Veille" element={<Veille />} />
+        {/* <Route path="/Veille" element={<Veille />} /> */}
 
         <Route path="/Helico" element={<Helico />} />
         <Route path="/Aero" element={<Aero />} />

@@ -32,7 +32,7 @@ const Cyber = () => {
           </div>
         </NavLink>
 
-        <NavLink key="Veille" to="/Veille" className="moitiedroite3">
+        {/* <NavLink key="Veille" to="/Veille" className="moitiedroite3">
           <div>
             <div className="bouton-page">
               <img className="imgchoix3" src={veille} alt="SAE1" />
@@ -40,7 +40,7 @@ const Cyber = () => {
               <span>veille</span>
             </div>
           </div>
-        </NavLink>
+        </NavLink> */}
       </div>
     </>
   );

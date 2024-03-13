@@ -27,7 +27,7 @@ const Lesboutons = () => {
     { to: "/Reseaux", text: "Reseaux", class: "but3" },
     { to: "/Serveur", text: "Serveur", class: "but3" },
     { to: "/WEB", text: "WEB", class: "but3" },
-    { to: "/PC", text: "PC", class: "but3" },
+    // { to: "/PC", text: "PC", class: "but3" },
   ];
 
   return (
