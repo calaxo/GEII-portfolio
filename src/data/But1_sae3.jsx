@@ -1,5 +1,8 @@
 import imgaltium1 from "@assetspreuve/altium1.png";
 
+import imgtrieur1 from "@assetspreuve/trieur1.png";
+import imgtrieur2 from "@assetspreuve/trieur2.png";
+
 const titre = "But 1 : SAE 3";
 
 const intro =
@@ -118,7 +121,7 @@ const content = [
       "avce l'aide des conseil de nos professeurs nous avons optmiser nos circuit pour qu'il y est moin d'erreur",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: [],
+    trace: [imgtrieur1, imgtrieur2],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
