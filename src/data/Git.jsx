@@ -58,18 +58,18 @@ const content = [
     note: 3,
   },
 
-  {
-    id: 7,
-    titretache: "creation d'ection github",
-    tache:
-      "dans une société qui developpe des programme informatique beaocup de chose sont automatiser pour permetre d'eviter beaucoup de probleme, j'ai donc automatisé moi aussi certaine partie de ma gestion de code",
-    granddescription: "ceci est une grande description",
-    ressource: "comme je sais fair j'ai fait un site react",
-    trace: [],
-    evaluation: "evaluation1",
-    date: "01/02/2023",
-    note: 3,
-  },
+  // {
+  //   id: 7,
+  //   titretache: "creation d'ection github",
+  //   tache:
+  //     "dans une société qui developpe des programme informatique beaocup de chose sont automatiser pour permetre d'eviter beaucoup de probleme, j'ai donc automatisé moi aussi certaine partie de ma gestion de code",
+  //   granddescription: "ceci est une grande description",
+  //   ressource: "comme je sais fair j'ai fait un site react",
+  //   trace: [],
+  //   evaluation: "evaluation1",
+  //   date: "01/02/2023",
+  //   note: 3,
+  // },
 
   {
     id: 8,

@@ -15,7 +15,7 @@ const content = [
     ressource: "on a appris a faire des base de données",
     trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
-    date: "01/02/2023",
+    date: "06/09/2022",
     note: 3,
   },
   {
@@ -27,7 +27,7 @@ const content = [
     ressource: "sdzd",
     trace: [imgaltium1,imgaltium1],
     evaluation: "evaluation1",
-    date: "01/02/2023",
+    date: "01/10/2022",
     note: 3,
   },
 
@@ -53,7 +53,7 @@ const content = [
     ressource: "dzd",
     trace: [],
     evaluation: "evaluation1",
-    date: "01/02/2023",
+    date: "05/10/2022",
     note: 3,
   },
 
@@ -66,7 +66,7 @@ const content = [
     ressource: "on a appris a faire des base de données",
     trace: [],
     evaluation: "evaluation1",
-    date: "01/02/2023",
+    date: "01/04/2023",
     note: 3,
   },
 
@@ -118,7 +118,7 @@ const content = [
     ressource: "comme je sais fair j'ai fait un site react",
     trace: [],
     evaluation: "evaluation1",
-    date: "01/02/2023",
+    date: "09/11/2023",
     note: 3,
   },
 
@@ -131,7 +131,7 @@ const content = [
     ressource: "comme je sais fair j'ai fait un site react",
     trace: [],
     evaluation: "evaluation1",
-    date: "01/02/2023",
+    date: "20/12/2023",
     note: 3,
   },
 
@@ -144,7 +144,7 @@ const content = [
     ressource: "comme je sais fair j'ai fait un site react",
     trace: [],
     evaluation: "evaluation1",
-    date: "01/02/2023",
+    date: "03/01/2024",
     note: 3,
   },
 
@@ -157,7 +157,7 @@ const content = [
     ressource: "comme je sais fair j'ai fait un site react",
     trace: [],
     evaluation: "evaluation1",
-    date: "01/02/2023",
+    date: "05/01/2024",
     note: 3,
   },
 ];

@@ -43,17 +43,17 @@ const content = [
     note: 3,
   },
 
-  {
-    id: 4,
-    titretache: "creaton de mes propre conteneurs",
-    tache: "vrai description",
-    granddescription: "ceci est une grande description",
-    ressource: "on a appris a faire des base de données",
-    trace: [],
-    evaluation: "evaluation1",
-    date: "01/02/2023",
-    note: 3,
-  },
+  // {
+  //   id: 4,
+  //   titretache: "creaton de mes propre conteneurs",
+  //   tache: "vrai description",
+  //   granddescription: "ceci est une grande description",
+  //   ressource: "on a appris a faire des base de données",
+  //   trace: [],
+  //   evaluation: "evaluation1",
+  //   date: "01/02/2023",
+  //   note: 3,
+  // },
 
   {
     id: 5,
@@ -103,17 +103,17 @@ const content = [
     note: 3,
   },
 
-  {
-    id: 9,
-    titretache: "installation de linux",
-    tache: "vrai description",
-    granddescription: "ceci est une grande description",
-    ressource: "comme je sais fair j'ai fait un site react",
-    trace: [],
-    evaluation: "evaluation1",
-    date: "01/02/2023",
-    note: 3,
-  },
+  // {
+  //   id: 9,
+  //   titretache: "installation de linux",
+  //   tache: "vrai description",
+  //   granddescription: "ceci est une grande description",
+  //   ressource: "comme je sais fair j'ai fait un site react",
+  //   trace: [],
+  //   evaluation: "evaluation1",
+  //   date: "01/02/2023",
+  //   note: 3,
+  // },
 
   {
     id: 10,
@@ -123,7 +123,7 @@ const content = [
     ressource: "comme je sais fair j'ai fait un site react",
     trace: [],
     evaluation: "evaluation1",
-    date: "01/02/2023",
+    date: "01/02/2024",
     note: 3,
   },
 ];
