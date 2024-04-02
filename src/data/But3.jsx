@@ -231,13 +231,13 @@ const content = [
     id: 15,
     titretache: "comunication entre ESP",
     tache:
-      "j'ai créé une page web qui permet de rentrer des informations de connexions dans la carte esp32",
-    granddescription: "lors de notre projet, il a fallu rentrer les informations de connexion de chaque WIFI, pour éviter cela j'ai codé l'ESP32 pour que l'on puisse rentrer les informations de connexion sur son point d'accès via une page web  et que l'on puisse ensuite scanner les badges NFC, je me suis inspiré d'objets connectés basiques que j'ai déjà paramétrés<br></br> dans le code je créer dabord un point d'accés sans fil, puis je créer un serveru http asynchrone qui renvoi du html(contenant du css et du javascript) en interagissant avec la page web envoyé des information sont envoyé a l'ESP qui execute ensuite du code pour se connecter au reseaux wifi voulu. <br></br> Pour me simplifier la tache j'ai créer un script python qui transforme un fichier html classique en chaine de caractere qui peut etre envoyé par l'ESP.<br></br>en utilisant un serveur asynchrone l'ESP32 peut fair plusieurs chose en meme temps, ainsi nous n'avons pas a utiliser la boucle loop()généralement utlisé sur du code basé pour arduino(l'IDE que j'utilise).",
+      "j'ai tenter d'incorporer dans le meme code le systeme de comunication entre diferente ESP via le reseaux ESP-MESH", 
+    granddescription: "pour réaliser un internet des objet il faut que plusieur objet comunique entre eux pour echanger des information, le reseax adapté a notre usage est l'ESP-MESH, or nous il besoin d'utiliser le module wifi de la carte qe nous utlisons deja pour se concter a un wifi et créer un point d'accés, meme avec des interuption et un systeme temp réel je n'ai pas réussi",
     ressource: "<a href=\"https://randomnerdtutorials.com/esp32-esp-now-wi-fi-web-server/\">tuto pour utlisation du wifi et de esp now en meme temp</a><br></br> <a href=\"https://randomnerdtutorials.com/esp32-http-get-post-arduino/\">tuto sur la création de serveur sur un ESP32</a>",
-    trace: [arduinoserv1, arduinoserv2, arduinoserv3, arduinoserv4,imgarduino],
-    evaluation: "je pense avoir fait un code réutilisable qui sera pratique, mais il manque une résilience des infos de connexion dans la carte pour les prochains boot",
-    date: "08/02/2024",
-    note: 4,
+    trace: [],
+    evaluation: "une sollution de contournemnt serait de decomposer le systeme en plusieurs ESP, une qui s'occupe du reseaux ESP-MESH et une autre qui s'occupe de la connexion wifi, les deux serait interconecté par liason serie",
+    date: "15/02/2024",
+    note: 1,
   },
 ];
 

@@ -34,8 +34,8 @@ import Hebergement from "@perso/WEB/Hebergement.jsx";
 
 import Cyber from "@travail/Cyber.jsx";
 
-import Dgac from "@travail/cyber/Dgac.jsx";
-import Formation from "@travail/cyber/Formation.jsx";
+// import Dgac from "@travail/cyber/Dgac.jsx";
+// import Formation from "@travail/cyber/Formation.jsx";
 // import Veille from "@travail/cyber/Veille.jsx";
 
 import Helico from "@travail/Helico.jsx";
@@ -52,8 +52,8 @@ import Serveur from "@travail/Serveur.jsx";
 
 import ADir from "@travail/serveur/AD.jsx";
 import Docker from "@travail/serveur/Docker.jsx";
-import Learning from "@travail/serveur/Learning.jsx";
-import Linux from "@travail/serveur/Linux.jsx";
+// import Learning from "@travail/serveur/Learning.jsx";
+// import Linux from "@travail/serveur/Linux.jsx";
 
 import Pagedescription from "@pages/Pagedescription.jsx";
 
@@ -91,8 +91,8 @@ const Mesroutes = () => {
         {/* <Route path="/PC" element={<PC />} /> */}
 
         <Route path="/Cyber" element={<Cyber />} />
-        <Route path="/Dgac" element={<Dgac />} />
-        <Route path="/Formation" element={<Formation />} />
+        {/* <Route path="/Dgac" element={<Dgac />} /> */}
+        {/* <Route path="/Formation" element={<Formation />} /> */}
         {/* <Route path="/Veille" element={<Veille />} /> */}
 
         <Route path="/Helico" element={<Helico />} />
@@ -107,8 +107,8 @@ const Mesroutes = () => {
         <Route path="/Serveur" element={<Serveur />} />
         <Route path="/AD" element={<ADir />} />
         <Route path="/Docker" element={<Docker />} />
-        <Route path="/Learning" element={<Learning />} />
-        <Route path="/Linux" element={<Linux />} />
+        {/* <Route path="/Learning" element={<Learning />} />
+        <Route path="/Linux" element={<Linux />} /> */}
 
         <Route path="/Pageimage" element={<Pageimage />} />
 

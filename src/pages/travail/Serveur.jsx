@@ -40,7 +40,7 @@ const Serveur = () => {
           </div>
         </NavLink>
 
-        <NavLink key="Learning" to="/Learning" className="moitiegauchebas4">
+        {/* <NavLink key="Learning" to="/Learning" className="moitiegauchebas4">
           <div>
             <div className="bouton-page">
               <img className="imgchoix3" src={learning} alt="SAE1" />
@@ -56,7 +56,7 @@ const Serveur = () => {
               <span>linux</span>
             </div>
           </div>
-        </NavLink>
+        </NavLink> */}
       </div>
     </>
   );
