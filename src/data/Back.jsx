@@ -1,4 +1,4 @@
-import imgaltium1 from "@assetspreuve/altium1.png";
+
 
 const titre = "Developpement web Back-end";
 

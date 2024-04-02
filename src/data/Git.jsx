@@ -1,4 +1,7 @@
-import imgaltium1 from "@assetspreuve/altium1.png";
+
+import imggithub from "@assetspreuve/github.png";
+import imgrepo from "@assetspreuve/repo.png";
+import imgcommit from "@assetspreuve/commit.png";
 
 const titre = "Utlisation de Git";
 
@@ -13,7 +16,7 @@ const content = [
       "par curiosité je me suis renseigné sur le monde du logiciel de l'open source et ses avantage et j'ai deuverte github une platforme qui herbegre de nomhrteux projet open source",
     granddescription: "ceci est une grande description",
     ressource: "description1",
-    trace: [],
+    trace: [imggithub],
     date: "01/02/2023",
     evaluation: "evaluation1",
     note: 3,
@@ -34,12 +37,12 @@ const content = [
 
   {
     id: 3,
-    titretache: "création de repositorie",
+    titretache: "création de repositori",
     tache:
       "pour de nombreux projet de development personnel j'ai pris une démarche professionnel pour apprendre les base",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: [],
+    trace: [imgrepo],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
@@ -58,18 +61,7 @@ const content = [
     note: 3,
   },
 
-  // {
-  //   id: 7,
-  //   titretache: "creation d'ection github",
-  //   tache:
-  //     "dans une société qui developpe des programme informatique beaocup de chose sont automatiser pour permetre d'eviter beaucoup de probleme, j'ai donc automatisé moi aussi certaine partie de ma gestion de code",
-  //   granddescription: "ceci est une grande description",
-  //   ressource: "comme je sais fair j'ai fait un site react",
-  //   trace: [],
-  //   evaluation: "evaluation1",
-  //   date: "01/02/2023",
-  //   note: 3,
-  // },
+
 
   {
     id: 8,
@@ -78,7 +70,7 @@ const content = [
       "depuis dés que je programme quelque chose j'utilise github pour touts ses avantages",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: [],
+    trace: [imgcommit],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,

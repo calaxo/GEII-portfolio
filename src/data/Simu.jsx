@@ -1,4 +1,11 @@
-import imgaltium1 from "@assetspreuve/altium1.png";
+
+import imgmtn from "@assetspreuve/mtn.png";
+import imgsimaint from "@assetspreuve/simaint.png";
+import imgclim from "@assetspreuve/clim.png";
+import imgdijoncteur from "@assetspreuve/dijoncteur.png";
+import imgprojo from "@assetspreuve/projo.png";
+
+
 
 const titre = "maintenance en condition operative de simulateur d'helicoptere";
 
@@ -13,7 +20,7 @@ const content = [
       "lors des premiere semaine j'ai aprris les diférents systeme majeur des simualteurs tel que les partie:energie,calculateur,mouvement,cockpit,visuel ",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: [imgaltium1,imgaltium1],
+    trace: [],
     evaluation: "evaluation1",
     date: "06/09/2022",
     note: 3,
@@ -25,7 +32,7 @@ const content = [
       "j'ai appris grace a mes colluege a demarer le simualteur et a le preparer pour les séance de la journée",
     granddescription: "ceci est une grande description",
     ressource: "sdzd",
-    trace: [imgaltium1,imgaltium1],
+    trace: [],
     evaluation: "evaluation1",
     date: "01/10/2022",
     note: 3,
@@ -38,7 +45,7 @@ const content = [
       "des systeme aussi technique nécessite une maintenance adaptée et organisée",
     granddescription: "n'ayant encore jammais participer a de la mainteannce aussi complexe j'ai du apprendre a raisonner, pour comprendre grace aux procédure, comuniquer avec mon équipe et participer aux diférentes taches",
     ressource: "fzdfzd",
-    trace: [],
+    trace: [imgmtn],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
@@ -51,7 +58,7 @@ const content = [
       "nous en avont parler en cours mais j'ai pu decouvrir les concept avec des chose réelle",
     granddescription: "nous avons un logiciel de GMAO(gestion de la maitnance assisté par ordinateur) qui nous permet de suivre le stock de piece les maintenance et tout ce qui peut y etre lié j'ai du apprendre a m'en servir",
     ressource: "dzd",
-    trace: [],
+    trace: [imgsimaint],
     evaluation: "evaluation1",
     date: "05/10/2022",
     note: 3,
@@ -64,7 +71,7 @@ const content = [
       "lors d'un démarage du simulateur seul un matin il y'a eu une panne de climatisaion ce qui a causé une surchauffe des systeme, durant la panne et aprés, mon maitre d'apprentissage m'a expliqué comment focntionnait les difernte systeme des simualteurs",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: [],
+    trace: [imgclim],
     evaluation: "evaluation1",
     date: "01/04/2023",
     note: 3,
@@ -77,7 +84,7 @@ const content = [
       "trés tot j'ai appris a etteindre le simulateur ce qui est beaucxoup plus simple que l'alumage il faut seulemetn s'assurer que les calculateur sont bien étteind avent dee couper le courant",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: [],
+    trace: [imgdijoncteur],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
@@ -142,7 +149,7 @@ const content = [
       "Un projecteur a de la lumiere grace a une ampoule qu'il faut parfois changer, nous avons defais des projcteur de leur support pour les envoyer en reparation en prennant toute les précaution possible du a leur poids, leur fragilité et au travailen hauteur",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: [],
+    trace: [imgprojo],
     evaluation: "evaluation1",
     date: "03/01/2024",
     note: 3,

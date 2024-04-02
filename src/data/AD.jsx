@@ -1,4 +1,4 @@
-import imgaltium1 from "@assetspreuve/altium1.png";
+
 import imgdroit1 from "@assetspreuve/droit1.png";
 import imgdroit2 from "@assetspreuve/droit2.png";
 import imgdroit3 from "@assetspreuve/droit3.png";

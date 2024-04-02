@@ -1,4 +1,12 @@
-import imgaltium1 from "@assetspreuve/altium1.png";
+
+import imghtml from "@assetspreuve/html.png";
+import imgxampp from "@assetspreuve/xampp.png";
+import imgnoip from "@assetspreuve/noip.png";
+import imgo2 from "@assetspreuve/o2.png";
+import imgovh1 from "@assetspreuve/ovh.png";
+import imgovh2 from "@assetspreuve/ovh2.png";
+import imgpm2 from "@assetspreuve/pm2.png";
+
 
 const titre = "Hebergement local et distant";
 
@@ -9,40 +17,15 @@ const content = [
   {
     id: 1,
     titretache: "hebergement local simple via les fichier ",
-    tache: "j'ai dabord heberger des site via des dossier simple ",
-    granddescription: "ceci est une grande description",
-    ressource: "description1",
-    trace: [],
-    evaluation: "evaluation1",
-    date: "01/01/2016",
-    note: 3,
+    tache: "pour herberger des site simple statique qui sont sous formes de fichier html javascript et css j'ai dabord placer ces fichier dans un dossier ",
+    granddescription: "ceci bien pour des site simple en ouvrant simplement le fichier dans un navigateur mais se se reveler dangereux car  il faut que l'utilisateur ai accés au dossier",
+    ressource: "",
+    trace: [imghtml],
+    evaluation: "simple mais dangereux",
+    date: "01/01/2017",
+    note: 1,
   },
 
-  {
-    id: 2,
-    titretache: "urtlisation de server tout pret",
-    tache:
-      "j'ai ensuite decouvert des service en ligne ou l'on peut transmetre les ficiers a hebrger a un service qui s'occipe de tout",
-    granddescription: "ceci est une grande description",
-    ressource: "on a appris a faire des base de données",
-    trace: [],
-    evaluation: "evaluation1",
-    date: "01/04/2022",
-    note: 3,
-  },
-
-  {
-    id: 3,
-    titretache: "creation de backend",
-    tache:
-      "en apprendant diférente language de programmtion je me suis intéressé a leur usage pour le web",
-    granddescription: "ceci est une grande description",
-    ressource: "greger",
-    trace: [],
-    evaluation: "evaluation1",
-    date: "01/02/2020",
-    note: 3,
-  },
 
   {
     id: 4,
@@ -64,7 +47,7 @@ const content = [
       "j'ai decouverte qu'il etait possible en modifiant les parametre d'une box internet d'hberger des sites sur son propre reseaux",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: [],
+    trace: [imgnoip],
     evaluation: "evaluation1",
     date: "01/02/2017",
     note: 3,
@@ -77,7 +60,7 @@ const content = [
       "pour des site personnel j'ai appris a gerer un serveur via un site internet dédié a ceci ou tout est configurable",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: [],
+    trace: [imgo2],
     evaluation: "evaluation1",
     date: "01/05/2023",
     note: 3,
@@ -90,7 +73,7 @@ const content = [
       "pour avoir mon propre nom de domaine(adresse URL personalisé)j'ai appris a configure un service DNS qui permet de lié un serveur a une adress internet",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: [],
+    trace: [imgovh1,imgovh2],
     evaluation: "evaluation1",
     date: "01/06/2023",
     note: 3,
@@ -103,7 +86,7 @@ const content = [
       "pour heberger des sites dans le reseaux local de mon entreprise j'ai appris a utliser des outils en ligne de commande linux pour heberger efficacement des sites",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: [],
+    trace: [imgpm2],
     evaluation: "evaluation1",
     date: "01/11/2023",
     note: 3,

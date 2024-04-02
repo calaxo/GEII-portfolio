@@ -1,5 +1,6 @@
-import imgaltium1 from "@assetspreuve/altium1.png";
 
+import imgdocker2 from "@assetspreuve/docker2.png";
+import imgdockerdk from "@assetspreuve/dockerdk.png";
 const titre = "Introduction a la conteneurisation via docker";
 
 const intro =
@@ -13,7 +14,7 @@ const content = [
     tache: "vrai description",
     granddescription: "ceci est une grande description",
     ressource: "description1",
-    trace: [],
+    trace: [imgdockerdk],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
@@ -121,7 +122,7 @@ const content = [
     tache: "vrai description",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: [],
+    trace: [imgdocker2],
     evaluation: "evaluation1",
     date: "01/02/2024",
     note: 3,

@@ -1,4 +1,14 @@
-import imgaltium1 from "@assetspreuve/altium1.png";
+
+import imgmoodle1 from "@assetspreuve/moodle1.png";
+import imgmoodle2 from "@assetspreuve/moodle2.png";
+import moodlephp1 from "@assetspreuve/moodlephp1.png";
+import moodlephp2 from "@assetspreuve/moodlephp2.png";
+import pymoo1 from "@assetspreuve/pymoo1.png";
+import pymoo2 from "@assetspreuve/pymoo2.png";
+import pymoo3 from "@assetspreuve/pymoo3.png";
+import pymoo4 from "@assetspreuve/pymoo4.png";
+import pymoo5 from "@assetspreuve/pymoo5.png";
+
 
 const titre = "Gestion d'un site de e-learning";
 
@@ -13,7 +23,7 @@ const content = [
       "lorsque je me suis retourvé tout seul a gerer l'informatique sans mes predecesseru pour m'epliquer des chose j'ai coninué a apprendre via le site de e-learning de l'entrepise qui conaitnat des cours lié a l'informatique",
     granddescription: "ceci est une grande description",
     ressource: "description1",
-    trace: [],
+    trace: [imgmoodle1],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
@@ -26,7 +36,7 @@ const content = [
       "dans mon entreprise il y a de nombreux eleve et pilte qui n'arrte pas de rejoindre ou quiter nos locaux, j'ai du créer et administrer leru compte pour que toue marche bien tout le temps",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: [],
+    trace: [imgmoodle2],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
@@ -39,7 +49,7 @@ const content = [
       "les cours aéronaituqe sont en constante evolution due aux diferntes loi, or pour changer ces cours que j'ai sous forme de powerpoint j'ai du créer un script python car il faut parfoit uploader et afficher des centaine de cours de mainere sécurisé",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: [],
+    trace: [pymoo1,pymoo2,pymoo3,pymoo4,pymoo5],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
@@ -52,7 +62,7 @@ const content = [
       "aprés avoir recu des ensignement durant mes etudes sur les base de données, j'ai pu me balader dans les base données des serveice de mon entrepsire notament dans le e-learning pour netoyer les table contenant des dizaien de milleir de ligne de log inutile",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: [],
+    trace: [moodlephp2],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
@@ -65,7 +75,7 @@ const content = [
       "du a l'acroissement de nos capacité nos serveice nécessite des hebregemetn plus puissant et plus econoqmqieu mais il faut pour cela deplacer des base de données, c'est tres complexe et je suis entraind d'apprendre a fair ca en sécurité",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: [],
+    trace: [moodlephp1],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,

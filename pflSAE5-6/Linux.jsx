@@ -1,4 +1,9 @@
-import imgaltium1 from "@assetspreuve/altium1.png";
+
+import imgdockerdk from "@assetspreuve/dockerdk.png";
+import imgxrdp from "@assetspreuve/xrdp.png";
+import imgrpi1 from "@assetspreuve/rpi1.png";
+import imgrpi2 from "@assetspreuve/rpi2.png";
+import imgrpi3 from "@assetspreuve/rpi3.png";
 
 const titre = "Introduction aux base de linux";
 
@@ -8,12 +13,12 @@ const intro =
 const content = [
   {
     id: 1,
-    titretache: "Installation et configuration d'une Raspberry Pi ",
+    titretache: "Installation et configuration de Raspberry Pi ",
     tache:
       "j'ai eu une carte raspberry pour esasyer de fair des porjet et j'ai été confronté pour la premier fois a linux, a force j'ai",
     granddescription: "ceci est une grande description",
     ressource: "description1",
-    trace: [],
+    trace: [imgrpi1,imgrpi2,imgrpi3],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
@@ -45,18 +50,6 @@ const content = [
     note: 3,
   },
 
-  {
-    id: 4,
-    titretache: "Installation d'une autre distribution sur un PC fonctionnel",
-    tache:
-      "j'ai pu me familirariser avec un environement serveur de linux ou il n'y a que des ligne de commande et pas d'fichage grapqhique",
-    granddescription: "ceci est une grande description",
-    ressource: "on a appris a faire des base de données",
-    trace: [],
-    evaluation: "evaluation1",
-    date: "01/02/2023",
-    note: 3,
-  },
 
   {
     id: 5,
@@ -65,23 +58,13 @@ const content = [
       "ce fut ma premiere tache pour pour pouvoir controller un serveur linux a distance via ethernet",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: [],
+    trace: [imgxrdp],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
   },
 
-  {
-    id: 6,
-    titretache: "Installation des services essentiels",
-    tache: "mie a jour antivurius droit d'accés plsu sécurisé",
-    granddescription: "ceci est une grande description",
-    ressource: "on a appris a faire des base de données",
-    trace: [],
-    evaluation: "evaluation1",
-    date: "01/02/2023",
-    note: 3,
-  },
+
 
   {
     id: 7,
@@ -90,7 +73,7 @@ const content = [
     granddescription: "ceci est une grande description",
     ressource:
       "j'ai du me ploger dans les droits et fichier complexe pour pouvoir fair unitanlaltion de docker propre et pratique",
-    trace: [],
+    trace: [imgdockerdk],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,

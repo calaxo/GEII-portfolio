@@ -1,5 +1,12 @@
 import imgaltium1 from "@assetspreuve/altium1.png";
 
+import imgftd1 from "@assetspreuve/ftd1.png";
+import imgmfd1 from "@assetspreuve/mfd1.png";
+import imghelico1 from "@assetspreuve/helico1.png";
+import imgturbine from "@assetspreuve/turbine.png";
+import imgefb from "@assetspreuve/efb.png";
+import imgcafe from "@assetspreuve/cafe.png";
+
 const titre = "connaissance Aéronautique";
 
 const intro =
@@ -13,7 +20,7 @@ const content = [
       "durant mes premiere semaine en aleternance je me susi familiarisé avec le batiment puis les simualteur pouis l'interieur des simualteur qui est en tout poin un cockpit d'hlicoptere",
     granddescription: "ceci est une grande description",
     ressource: "description1",
-    trace: [],
+    trace: [imghelico1],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
@@ -65,7 +72,7 @@ const content = [
       "lors de visite ou de test aprés une mainteance je peux teste le simualateur en volant eau dessu d'angoulememe et me promenant pour virifier que tout marche bien",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: [],
+    trace: [imgftd1],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
@@ -78,7 +85,7 @@ const content = [
       "Les Multi Fonction Display permettent d'aider le pilote en affichant ce qui est nécessaire tel que les cap l'altitue et les ligne d'horizon avec une interface plus compréhensible que les equipent analogique",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: [],
+    trace: [imgmfd1],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
@@ -117,7 +124,7 @@ const content = [
       "en ecoutant des anecdote de vol et en demandant des conseil j'ai couverte les diferente systeme complex d'un helicoptere te lque les radar, les ballon floteur d'urgence, les extincteur,etc...",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: [imgaltium1,imgaltium1],
+    trace: [imgturbine],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
@@ -130,7 +137,7 @@ const content = [
       "a l'épque les pilote utlisait des gros livre avec toute les procédure d'aterssaige pour tout les aéropot de leur region, les route aéronautique, dorenvant il utlise des Elctronic Flight Bag qui sont des tablette avec une applciation contenant tout ce qui est nécessaire",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: [imgaltium1,imgaltium1],
+    trace: [imgefb],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
@@ -143,7 +150,7 @@ const content = [
       "durant mon alternance j'ai aussi adoré suivre les derniere nouveauté du monde aérnautique est tjour passionant due aux evolution technique",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: [imgaltium1,imgaltium1],
+    trace: [imgcafe],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,

@@ -1,7 +1,8 @@
-import imgaltium1 from "@assetspreuve/altium1.png";
+
 import imgwifi from "@assetspreuve/wifi.png";
 import imgdlink from "@assetspreuve/dlink.png";
 import imgswitch from "@assetspreuve/switch.png";
+import imgap from "@assetspreuve/ap.png";
 
 import imgportsecu from "@assetspreuve/portsecu.png";
 import imgvlan from "@assetspreuve/vlan.png";
@@ -72,7 +73,7 @@ const content = [
       "nous avons du changer de bornes wifi",
     granddescription: "nous avons recement changer de borne wifi ce qui m'a permis de vierifeir mes compétencce en genstion de reseaux car ces bornes sont gerer a distance via un seruveru via diferetne VLAN",
     ressource: "",
-    trace: [imgwifi,imgdlink],
+    trace: [imgwifi,imgdlink,imgap],
     evaluation: "le reseaux fonctionne bien et c'est du materiel dont nous sommes maintenant proprietaire",
     date: "04/01/2024",
     note: 5,

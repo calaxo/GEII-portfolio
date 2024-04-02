@@ -1,9 +1,13 @@
-import imgaltium1 from "@assetspreuve/altium1.png";
+
+import imgbios from "@assetspreuve/bios.png";
+import imgpartpicker from "@assetspreuve/partpicker.png";
+import imgvieux from "@assetspreuve/vieux.png";
+
 
 const titre = "Montage/amelioration Dordinateur ";
 
 const intro =
-  "depuis mes 10 ans j'ai recuperer des PC partout, des decheterie jusquau PC de mes grand parents je les demonter et testait deschose avec avant d'apprendre comment monter un PC sans risque ";
+  "depuis mes 10 ans j'ai recuperer des PC partout, des decheterie jusquau PC de mes grand parents je les demontaient et testait des choses avec avant d'apprendre comment monter un PC sans risque ";
 
 const content = [
   {
@@ -26,7 +30,7 @@ const content = [
       "a force de casser des PC en les demontant j'ai appris a les remonter focntinnerl",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: [],
+    trace: [imgvieux],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
@@ -39,7 +43,7 @@ const content = [
       "mon entreprsie ma famille ou mes amis ou moi meme veelrne avoir des PC deja construit on a construire monter soit meme, j'ai a force appris a choiseles composant adéquat aux diferetne utlisations ",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: [],
+    trace: [imgpartpicker],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
@@ -65,7 +69,7 @@ const content = [
       "comme j'ai dergler beacoup de chose dans les biosde PC j'ai auss i du apprendre a bien le parametrer",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: [],
+    trace: [imgbios],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
