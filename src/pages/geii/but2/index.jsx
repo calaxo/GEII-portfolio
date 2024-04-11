@@ -5,6 +5,7 @@ import {
   NavLink,
   Navigate,
 } from "react-router-dom";
+import React from "react";
 import voltmetre from "@assets/voltmetre.jpg";
 import onde from "@assets/onde.jpg";
 
@@ -18,23 +19,31 @@ const But2 = () => {
       </div>
 
       <div className="choix">
-        <NavLink key="But2_sae1" to="/But2_sae1" className="moitiemilieu3">
+        <a
+          key="But2_sae1"
+          href="#geii/but2/But2_sae1"
+          className="moitiemilieu3"
+        >
           <div>
             <div className="bouton-page btn1">
               <img className="imgchoix3" src={voltmetre} alt="SAE1" />
               <span>vers le premiere projet de cette année</span>
             </div>
           </div>
-        </NavLink>
+        </a>
 
-        <NavLink key="But2_sae2" to="/But2_sae2" className="moitiedroite3">
+        <a
+          key="But2_sae2"
+          href="#geii/but2/But2_sae2"
+          className="moitiedroite3"
+        >
           <div>
             <div className="bouton-page btn2">
               <img className="imgchoix3" src={onde} alt="SAE1" />
               <span>vers le deuxieme projet de cette année</span>
             </div>
           </div>
-        </NavLink>
+        </a>
       </div>
     </>
   );

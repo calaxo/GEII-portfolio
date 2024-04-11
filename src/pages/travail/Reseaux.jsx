@@ -5,6 +5,7 @@ import {
   NavLink,
   Navigate,
 } from "react-router-dom";
+import React, { Fragment, lazy, Suspense } from "react";
 import info from "@assets/info.jpg";
 import fire from "@assets/fire.jpg";
 import switchr from "@assets/switch.jpg";
@@ -19,23 +20,23 @@ const Reseaux = () => {
       </div>
 
       <div className="choix">
-        <NavLink key="Firewall" to="/Firewall" className="moitiemilieu3">
+        <a key="Firewall" href="#travail/reseaux/Firewall" className="moitiemilieu3">
           <div>
             <div className="bouton-page">
               <img className="imgchoix3" src={fire} alt="SAE1" />
               <span>firewall</span>
             </div>
           </div>
-        </NavLink>
+        </a>
 
-        <NavLink key="Switch" to="/Switch" className="moitiedroite3">
+        <a key="Switch" href="#travail/reseaux/Switch" className="moitiedroite3">
           <div>
             <div className="bouton-page">
               <img className="imgchoix3" src={switchr} alt="SAE1" />
               <span>switch reseaux</span>
             </div>
           </div>
-        </NavLink>
+        </a>
       </div>
     </>
   );

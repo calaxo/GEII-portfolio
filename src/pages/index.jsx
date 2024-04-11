@@ -2,6 +2,9 @@ import { useRef, useState, useEffect } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { NavLink } from "react-router-dom";
+
+import React, { Fragment, lazy, Suspense } from "react";
+
 import cvfr from "@assets/cvfr.pdf";
 import cven from "@assets/cvfr.pdf";
 import ref_geii from "@assets/ref_geii.pdf";
@@ -111,7 +114,6 @@ const Accueil = () => {
 
   return (
     <div className="accueil">
-      
       <button style={magiefr} className="drapeaubtn" onClick={passeen}>
         <img src={drapen} className="drapeau" />
       </button>
@@ -119,18 +121,16 @@ const Accueil = () => {
         <img src={drapfr} className="drapeau" />
       </button>
       <div className="presdiv">
-      <NavLink key="Front" to="/Front" className="moitiemilieu3">
+        <a key="Front" href="#/perso/web/Front" className="moitiemilieu3">
           <div>
             <div className="bouton-page">
-
               <span>concevoir</span>
             </div>
           </div>
-        </NavLink>
+        </a>
         <NavLink key="Simu" to="/Simu" className="moitiemilieu3">
           <div>
             <div className="bouton-page">
-
               <span>verifier</span>
             </div>
           </div>
@@ -138,7 +138,6 @@ const Accueil = () => {
         <NavLink key="Switch" to="/Switch" className="moitiemilieu3">
           <div>
             <div className="bouton-page">
-
               <span>implanter</span>
             </div>
           </div>
@@ -146,13 +145,11 @@ const Accueil = () => {
         <NavLink key="Simu" to="/Simu" className="moitiemilieu3">
           <div>
             <div className="bouton-page">
-
               <span>maintenir</span>
             </div>
           </div>
         </NavLink>
-        
-        </div>
+      </div>
       <img className="imgmoi" src={imgmoi} alt="ma photo" />
       <div className="lecanvas">
         <LeCanvas className="lecanvas" />
@@ -205,7 +202,7 @@ const Accueil = () => {
         des études passionante je pourrait les rejoindre grace a ma rigueur
         <br></br>
         <br></br>
-        Depuis peu je commence aussi a me renseigner pour faire des études 
+        Depuis peu je commence aussi a me renseigner pour faire des études
         d'ingénieur dans le domaine de l'informatique pour avoir un meilleur
         avenir professionel, il est possible que je fasse ces études d'ingénieur
         en alternance dans la meme entreprise que mon alternance actuelle
@@ -322,9 +319,6 @@ const Accueil = () => {
           <img className="imglinkedin" src={linkedin} alt="linkedin" />
         </a>
       </div>
-      
-        
-        
     </div>
   );
 };

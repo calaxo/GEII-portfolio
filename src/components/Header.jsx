@@ -5,15 +5,15 @@ import {
   NavLink,
   Navigate,
 } from "react-router-dom";
-
+import React, { Fragment, lazy, Suspense } from "react";
 import Lesboutons from "@components/Lesboutons.jsx";
 
 const Header = () => {
   return (
     <div className="header">
-      <NavLink to="/Accueil" className="logo">
+      <a href="/Accueil" className="logo">
         <div className="titre">Calendreau Axel</div>
-      </NavLink>
+      </a>
       <div className="header-right">
         <div className="nav-links">
           <Lesboutons></Lesboutons>

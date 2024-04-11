@@ -1,8 +1,9 @@
+import React, { Fragment, lazy, Suspense } from "react";
+
 import Cadre from "@components/Cadre.jsx";
 
 import Descript from "@components/Descript.jsx";
 import Rating from "@components/Rating.jsx";
-
 
 const Ligne = (props) => {
   const markupevaluation = { __html: props.ligne.evaluation };
@@ -28,9 +29,8 @@ const Ligne = (props) => {
         <Cadre image={props.ligne.trace} title={props.ligne.titretache}></Cadre>
       </td>
       <td className={`${props.stile}-LigneEvaluation`}>
-      <Rating evaluation={props.ligne.note} />
-      <p dangerouslySetInnerHTML={markupevaluation}></p>
-
+        <Rating evaluation={props.ligne.note} />
+        <p dangerouslySetInnerHTML={markupevaluation}></p>
       </td>
       <td className={`${props.stile}-Lignedate`}>{props.ligne.date}</td>
     </tr>

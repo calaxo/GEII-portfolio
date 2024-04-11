@@ -5,8 +5,8 @@ import {
   NavLink,
   Navigate,
 } from "react-router-dom";
+import React, { Fragment, lazy, Suspense } from "react";
 
-import { lazy } from "react";
 
 const Page404 = lazy(() => import("@pages/Page404"));
 

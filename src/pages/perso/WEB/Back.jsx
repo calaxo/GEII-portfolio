@@ -1,5 +1,5 @@
 import { Intro, Tableau, Conclu } from "@pages/Base";
-
+import React, { Fragment, lazy, Suspense } from "react";
 import data from "@data/Back";
 
 const Back = () => {

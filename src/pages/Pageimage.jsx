@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+import React, { Fragment, lazy, Suspense } from "react";
 import "@styles/pageimage.css";
 
 const Pagedescription = () => {
@@ -36,12 +36,12 @@ const Pagedescription = () => {
   const titre = location.state.from[1]; // Accédez à la propriété from de state
   return (
     <div
-      className="pageimage"
+      className=""
       onMouseEnter={handleMouseEnter}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
     >
-      <button className="btnpageimage" onClick={goBack}>
+      <button className="" onClick={goBack}>
         <img
           data-text="Texte yà afficher"
           className="imageengrand"
@@ -51,7 +51,7 @@ const Pagedescription = () => {
 
         {displayText && (
           <div
-            className="boutonretour"
+            className=""
             style={{
               position: "absolute",
               left: textPosition.left,
@@ -61,7 +61,7 @@ const Pagedescription = () => {
             {displayText}
           </div>
         )}
-        <p className="titre">{titre}</p>
+        <p className="">{titre}</p>
       </button>
     </div>
   );

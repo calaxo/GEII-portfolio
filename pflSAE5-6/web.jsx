@@ -5,6 +5,7 @@ import {
   NavLink,
   Navigate,
 } from "react-router-dom";
+ import React, { Fragment, lazy, Suspense } from "react";
 
 import back from "@assets/back.jpg";
 import front from "@assets/front.jpg";
@@ -30,14 +31,14 @@ const WEB = () => {
           </div>
         </NavLink>
 
-        <NavLink key="Front" to="/Front" className="moitiedroitehaut4">
+        <a key="Front" href="#/perso/web/Front" className="moitiedroitehaut4">
           <div>
             <div className="bouton-page">
               <img className="imgchoix3" src={front} alt="SAE1" />
               <span>vers le front</span>
             </div>
           </div>
-        </NavLink>
+        </a>
 
         <NavLink key="Git" to="/Git" className="moitiegauchebas4">
           <div className="moitiemilieu24">

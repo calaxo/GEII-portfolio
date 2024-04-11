@@ -5,56 +5,43 @@ import {
   NavLink,
   Navigate,
 } from "react-router-dom";
-
+import React, { Fragment, lazy, Suspense } from "react";
 import github from "@assets/github.png";
 import linkedin from "@assets/linkedin.png";
 
 const Lesboutons = () => {
-  const navigationLinkStylesBase = ({ isActive }) => ({
-    color: isActive ? "#black" : "#2f343d",
-    fontSize: isActive ? "1.2em" : "1.2em",
-    background: isActive ? "#E0E1DD" : "#8884ff",
-    borderRadius: "10px", // Ajout de la bordure arrondie
-  });
-
   const navigationLinks = [
-    { to: "/Accueil", text: "Accueil" },
-    { to: "/But1", text: "BUT1", class: "but3" },
-    { to: "/But2", text: "BUT2", class: "but3" },
-    { to: "/But3", text: "BUT3", class: "but3" },
-    { to: "/Cyber", text: "Cyber", class: "but3" },
-    { to: "/Helico", text: "Helico", class: "but3" },
-    { to: "/Reseaux", text: "Reseaux", class: "but3" },
-    { to: "/Serveur", text: "Serveur", class: "but3" },
-    { to: "/WEB", text: "WEB", class: "but3" },
+    { to: "/", text: "Accueil" },
+    { to: "#/geii/but1", text: "BUT1", class: "but3" },
+    { to: "#/geii/But2", text: "BUT2", class: "but3" },
+    { to: "#/geii/But3", text: "BUT3", class: "but3" },
+    { to: "#/travail/Cyber", text: "Cyber", class: "but3" },
+    { to: "#/travail/Helico", text: "Helico", class: "but3" },
+    { to: "#/travail/Reseaux", text: "Reseaux", class: "but3" },
+    { to: "#/travail/Serveur", text: "Serveur", class: "but3" },
+    { to: "#/perso/web", text: "WEB", class: "but3" },
     // { to: "/PC", text: "PC", class: "but3" },
   ];
 
   return (
-    <div>
-      <a
-        className="imggithubdiv"
-        href="https://github.com/calaxo/geii-portfolio"
-      >
-        <img className="imggithub" src={github} alt="github" />
+    <div className="flex items-center space-x-4">
+      <a className="w-8" href="https://github.com/calaxo/geii-portfolio">
+        <img src={github} alt="github" />
       </a>
 
-      <a
-        className="imglinkedindiv "
-        href="https://www.linkedin.com/in/calendreau-axel"
-      >
-        <img className="imglinkedin" src={linkedin} alt="linkedin" />
+      <a className="w-8" href="https://www.linkedin.com/in/calendreau-axel">
+        <img src={linkedin} alt="linkedin" />
       </a>
 
       {navigationLinks.map((link) => (
-        <NavLink
+        <a
           key={link.to}
-          to={link.to}
-          className={`b-${link.class} rounded-button nav-link`}
-          style={navigationLinkStylesBase}
+          href={link.to}
+          className="text-blue-500 hover:underline"
+          activeClassName="font-bold"
         >
           {link.text}
-        </NavLink>
+        </a>
       ))}
     </div>
   );

@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+import React, { Fragment, lazy, Suspense } from "react";
 import "@styles/pagedescription.css";
 
 const Pagedescription = () => {

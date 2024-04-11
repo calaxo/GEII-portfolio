@@ -5,7 +5,7 @@ import {
   NavLink,
   Navigate,
 } from "react-router-dom";
-
+import React, { Fragment, lazy, Suspense } from "react";
 import geii from "@assets/geii.gif";
 import iut from "@assets/iut.png";
 
@@ -15,9 +15,12 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p className="textefooter">Calendreau Axel © 2023</p>
-      <NavLink className="condition" to="/Condition">
+      {/* <NavLink className="condition" to="/Condition">
         Condition légales
-      </NavLink>
+      </NavLink> */}
+      <a className="condition" href="/Condition">
+        Condition légales
+      </a>
       <img className="imggeii" src={geii} alt="geii" />
       <img className="imggeii" src={iut} alt="iut" />
     </footer>

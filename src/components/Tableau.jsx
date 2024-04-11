@@ -1,3 +1,5 @@
+import React, { Fragment, lazy, Suspense } from "react";
+
 import Ligne from "@components/Ligne";
 
 const Tableau = (props) => {

@@ -17,23 +17,23 @@ const Helico = () => {
       </div>
 
       <div className="choix">
-        <NavLink key="Simu" to="/Simu" className="moitiemilieu3">
+        <a key="Simu" href="#travail/helico/Simu" className="moitiemilieu3">
           <div>
             <div className="bouton-page btn1">
               <img className="imgchoix3" src={simu} alt="SAE1" />
               <span>simulateur</span>
             </div>
           </div>
-        </NavLink>
+        </a>
 
-        <NavLink key="Aero" to="/Aero" className="moitiedroite3">
+        <a key="Aero" href="#travail/helico/Aero" className="moitiedroite3">
           <div>
             <div className="bouton-page btn2">
               <img className="imgchoix3" src={aero} alt="SAE1" />
               <span>aeronautique</span>
             </div>
           </div>
-        </NavLink>
+        </a>
       </div>
     </>
   );

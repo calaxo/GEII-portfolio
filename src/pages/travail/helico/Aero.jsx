@@ -1,5 +1,5 @@
 import { Intro, Tableau, Conclu } from "@pages/Base";
-
+import React from "react";
 import data from "@data/Aero";
 
 const Aero = () => {

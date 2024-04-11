@@ -1,12 +1,22 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path';
+import Pages from 'vite-plugin-pages';
+
+
 
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/',
-  plugins: [react()],
+  // base: 'https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/',
+  plugins: [react({ jsxRuntime: 'classic' }),
+      Pages({
+      dirs: 'src/pages',
+      
+      
+      }
+      )
+],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
@@ -32,7 +42,7 @@ export default defineConfig({
         output: {
             dir: 'builded/',
             entryFileNames: 'plugin.js',
-            assetFileNames: 'plugin.css',
+
             assetFileNames: (assetInfo) => {
               let extType = assetInfo.name.split('.').at(1);
               if (/png|jpe?g|svg|gif|tiff|bmp|ico/i.test(extType)) {
