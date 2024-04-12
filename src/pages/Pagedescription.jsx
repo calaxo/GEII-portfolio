@@ -2,7 +2,6 @@ import { useLocation } from "react-router-dom";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import React, { Fragment, lazy, Suspense } from "react";
-import "@styles/pagedescription.css";
 
 const Pagedescription = () => {
   const goBack = () => {
@@ -57,7 +56,10 @@ const Pagedescription = () => {
             {displayText}
           </div>
         )}
-        <p className="ladescription" dangerouslySetInnerHTML={markupdescription}></p>
+        <p
+          className="ladescription"
+          dangerouslySetInnerHTML={markupdescription}
+        ></p>
       </button>
     </div>
   );

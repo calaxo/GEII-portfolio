@@ -1,0 +1,125 @@
+:root {
+  --primary-bg-color: #1b1b1e;
+  --secondary-bg-color: #007d00;
+  --accent-color: #05f140;
+  --border-color: #2cda9d;
+}
+
+.choix {
+  display: flex;
+  justify-content: center;
+}
+
+.bouton-pagegeii {
+  background-color: #2cda9d88;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  line-height: 1.31;
+  letter-spacing: 1px;
+  font-style: normal;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px; /* Ajustez la taille du padding selon vos besoins */
+}
+
+.bouton-pagetravail {
+  background-color: #2cda9d88;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  line-height: 1.31;
+  letter-spacing: 1px;
+  font-style: normal;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px; /* Ajustez la taille du padding selon vos besoins */
+}
+
+.bouton-pageperso {
+  background-color: #2cda9d88;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  line-height: 1.31;
+  letter-spacing: 1px;
+  font-style: normal;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px; /* Ajustez la taille du padding selon vos besoins */
+}
+
+.bouton-page span {
+  display: inline-block;
+  border: 2px solid var(--border-color);
+  padding: 5px; /* Ajustez la taille du padding selon vos besoins */
+  border-radius: 5px;
+}
+
+.boutondepagetravail {
+  margin: 0 1em; /* Espacement entre les boutons */
+}
+
+/* Transition for smooth animation */
+.bouton-page {
+  transition: transform 0.3s ease-in-out;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.imggeii {
+  width: 4em;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.colaborateur {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.liencolaborateur {
+  text-decoration: none;
+  padding: 10px;
+  width: 5em;
+  /* Ajustez la taille du padding selon vos besoins */
+  color: white;
+  font-weight: bold;
+  border: #007d00;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.intropage {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+
+  top: 0em;
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  line-height: 1.31;
+  letter-spacing: 1px;
+  font-style: normal;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px; /* Ajustez la taille du padding selon vos besoins */
+}

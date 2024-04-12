@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* 
 :root {
   --primary-bg-color: #1b1b1e;
   --secondary-bg-color: #007d00;
@@ -110,4 +110,4 @@ body {
 
  padding-left: 7em;
  padding-right: 7em;
-}
+} */

@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import React, { useState } from "react";
 
-import "@styles/Cadre.css";
+
 
 const Cadre = (props) => {
   const [textPosition, setTextPosition] = useState({ left: 0, top: 0 });

@@ -1,69 +1,75 @@
-import {
-  HashRouter as Router,
-  Routes,
-  Route,
-  NavLink,
-  Navigate,
-} from "react-router-dom";
-import React, { Fragment, lazy, Suspense } from "react";
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 import back from "@assets/back.jpg";
 import front from "@assets/front.jpg";
 import git from "@assets/git.png";
 import hebergement from "@assets/hebergement.jpg";
 
-const WEB = () => {
+const But1 = () => {
   return (
-    <>
-      <div className="intropage">
+    <div className="pt-36">
+      <div className=" mx-16 justify-center	 text-lg font-bold">
         il y'a de nombreuse "brique" informatique qui ensemble forme un systeme
         complexe avec beaucoup d'interaction et de synergie pour simplifer le
         developement web
       </div>
 
-      <div className="choix">
-        <a key="Back" href="#/perso/web/Back" className="moitiegauchehaut4">
-          <div>
-            <div className="bouton-page btn1">
-              <img className="imgchoix3" src={back} alt="SAE1" />
-              <span>vers le back</span>
-            </div>
+      <div className="mt-8 flex justify-center">
+        <NavLink to="/perso/web/Back" className="mx-4">
+          <div className="transform rounded-lg border p-4 transition duration-300 ease-in-out hover:scale-105">
+            <img
+              className="mx-auto h-72 w-72 object-cover"
+              src={back}
+              alt="SAE2"
+            />
+            <span className="mt-2 block text-center hover:text-cyan-500">
+              vers le back
+            </span>
           </div>
-        </a>
+        </NavLink>
 
-        <a key="Front" href="#/perso/web/Front" className="moitiedroitehaut4">
-          <div>
-            <div className="bouton-page">
-              <img className="imgchoix3" src={front} alt="SAE1" />
-              <span>vers le front</span>
-            </div>
+        <NavLink to="/perso/web/Front" className="mx-4">
+          <div className="transform rounded-lg border p-4 transition duration-300 ease-in-out hover:scale-105">
+            <img
+              className="mx-auto h-72 w-72 object-cover"
+              src={front}
+              alt="SAE3"
+            />
+            <span className="mt-2 block text-center hover:text-cyan-500">
+              vers le front
+            </span>
           </div>
-        </a>
+        </NavLink>
 
-        <a key="Git" href="#/perso/web/Git" className="moitiegauchebas4">
-          <div className="moitiemilieu24">
-            <div className="bouton-page">
-              <img className="imgchoix3" src={git} alt="SAE1" />
-              <span>vers git</span>
-            </div>
+        <NavLink to="/perso/web/Git" className="mx-4">
+          <div className="transform rounded-lg border p-4 transition duration-300 ease-in-out hover:scale-105">
+            <img
+              className="mx-auto h-72 w-72 object-cover"
+              src={git}
+              alt="SAE3"
+            />
+            <span className="mt-2 block text-center hover:text-cyan-500">
+              vers git
+            </span>
           </div>
-        </a>
+        </NavLink>
 
-        <a
-          key="Hebergement"
-          href="#/perso/web/Hebergement"
-          className="moitiedroitebas4"
-        >
-          <div>
-            <div className="bouton-page">
-              <img className="imgchoix3" src={hebergement} alt="SAE1" />
-              <span>vers l'hebergement</span>
-            </div>
+        <NavLink to="/perso/web/Hebergement" className="mx-4">
+          <div className="transform rounded-lg border p-4 transition duration-300 ease-in-out hover:scale-105">
+            <img
+              className="mx-auto h-72 w-72 object-cover"
+              src={hebergement}
+              alt="SAE3"
+            />
+            <span className="mt-2 block text-center hover:text-cyan-500">
+              vers l'hebergement
+            </span>
           </div>
-        </a>
+        </NavLink>
       </div>
-    </>
+    </div>
   );
 };
 
-export default WEB;
+export default But1;

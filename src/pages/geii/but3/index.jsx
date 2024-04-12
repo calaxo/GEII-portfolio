@@ -5,7 +5,7 @@ import data from "@data/But3";
 
 const But3 = () => {
   return (
-    <div>
+    <div className="pt-36">
       <Intro titre={data.titre} intro={data.intro}></Intro>
       <Collaborateurs colabo={collaborateurs_But3}></Collaborateurs>
 

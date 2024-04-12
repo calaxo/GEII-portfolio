@@ -6,10 +6,10 @@ import { RouterProvider, createHashRouter } from "react-router-dom";
 
 // Import des styles
 import "@styles/index.css";
-import "@styles/accueil.css";
-import "@styles/page.css";
-import "@styles/choix.css";
-import "@styles/tableau.css";
+// import "@styles/accueil.css";
+// import "@styles/page.css";
+// import "@styles/choix.css";
+// import "@styles/tableau.css";
 
 // Import des composants
 // import Mesroutes from "@context/Mesroutes.jsx";
@@ -23,14 +23,17 @@ console.log(routes);
 function App() {
   return (
     <Suspense fallback={null}>
-    <React.StrictMode>
-      {/* Composant Header */}
-      <Header />
-      
-      <RouterProvider router={router} />
+      <React.StrictMode>
+        <div className="flex min-h-screen flex-col">
+          {/* Composant Header */}
+          <Header />
 
-      <Footer />
-    </React.StrictMode>
+          <RouterProvider router={router} />
+
+          {/* Composant Footer */}
+          <Footer />
+        </div>
+      </React.StrictMode>
     </Suspense>
   );
 }

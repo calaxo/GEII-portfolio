@@ -30,7 +30,7 @@ const Lesboutons = () => {
       </a>
 
       <a className="w-8" href="https://www.linkedin.com/in/calendreau-axel">
-        <img src={linkedin} alt="linkedin" />
+        <img className="rounded-full bg-white" src={linkedin} alt="linkedin" />
       </a>
 
       {navigationLinks.map((link) => (
@@ -38,7 +38,7 @@ const Lesboutons = () => {
           key={link.to}
           href={link.to}
           className="text-blue-500 hover:underline"
-          activeClassName="font-bold"
+
         >
           {link.text}
         </a>

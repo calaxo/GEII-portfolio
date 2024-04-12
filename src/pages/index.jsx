@@ -60,7 +60,16 @@ import drapen from "@assets/drapen.png";
 
 const LeCanvas = () => {
   return (
-    <Canvas camera={{ position: [2, 3, 15] }}>
+    <Canvas
+      className="h-full w-full"
+      style={{
+        height: "30em",
+        position: "fixed",
+        top: "5em",
+        zIndex: "1",
+      }}
+      camera={{ position: [2, 3, 15] }}
+    >
       {/* <Box position={[-2.5, 0, 0]} /> */}
       {/* <SpotLight  position={[10, 10, 10]} angle={1} focus={1} color={"red"} penumbra={0} intensity={500} target-position={[0, 0,0]} /> */}
       <directionalLight position={[3.3, 1.0, 4.4]} intensity={5} />
@@ -91,71 +100,70 @@ const Accueil = () => {
 
   const [languefr, setlanguefr] = useState(true);
 
-  const passeen = () => {
-    if (languefr == true) {
-      setlanguefr(false);
-    }
-    console.log(languefr);
-  };
-
-  const passefr = () => {
-    if (languefr == false) {
-      setlanguefr(true);
-    }
-  };
-
-  const magiefr = {
-    display: languefr == false ? "none" : "block",
-  };
-
-  const magieen = {
-    display: languefr == false ? "block" : "none",
+  const changelangu = () => {
+    setlanguefr(!languefr);
   };
 
   return (
-    <div className="accueil">
-      <button style={magiefr} className="drapeaubtn" onClick={passeen}>
-        <img src={drapen} className="drapeau" />
+    <div className="pt-36">
+      <button
+        className="relative z-40 w-32 bg-fixed  px-4 py-2  "
+        onClick={changelangu}
+      >
+        <img
+          src={languefr ? drapen : drapfr}
+          className="fixed w-32 rounded-lg"
+        />
       </button>
-      <button className="drapeaubtn" style={magieen} onClick={passefr}>
-        <img src={drapfr} className="drapeau" />
-      </button>
-      <div className="presdiv">
-        <a key="Front" href="#/perso/web/Front" className="moitiemilieu3">
-          <div>
-            <div className="bouton-page">
-              <span>concevoir</span>
+      <div className=" flex">
+        <div className=" relative left-0 z-30 w-1/2 flex-initial">
+          <a key="Front" href="#/perso/web/Front">
+            <div className="mx-auto w-36 justify-center rounded-lg bg-slate-300  text-2xl font-bold ">
+              <span className="mx-2">concevoir</span>
             </div>
-          </div>
-        </a>
-        <NavLink key="Simu" to="/Simu" className="moitiemilieu3">
-          <div>
-            <div className="bouton-page">
-              <span>verifier</span>
+          </a>
+
+          <a key="Simu" href="#travail/helico/Simu" className="">
+            <div>
+              <div className="  mx-auto my-3 w-36 rounded-lg bg-slate-300 text-2xl font-bold">
+                <span className="mx-2">verifier</span>
+              </div>
             </div>
-          </div>
-        </NavLink>
-        <NavLink key="Switch" to="/Switch" className="moitiemilieu3">
-          <div>
-            <div className="bouton-page">
-              <span>implanter</span>
+          </a>
+          <a key="Switch" href="#/travail/reseaux/Switch" className="">
+            <div>
+              <div className="mx-auto my-3 w-36 rounded-lg bg-slate-300 text-2xl font-bold">
+                <span className="mx-2">implanter</span>
+              </div>
             </div>
-          </div>
-        </NavLink>
-        <NavLink key="Simu" to="/Simu" className="moitiemilieu3">
-          <div>
-            <div className="bouton-page">
-              <span>maintenir</span>
+          </a>
+          <a key="Simu" href="#/travail/helico/Simu" className="">
+            <div>
+              <div className="mx-auto my-3 w-36 rounded-lg bg-slate-300 text-2xl font-bold">
+                <span className="mx-2">maintenir</span>
+              </div>
             </div>
-          </div>
-        </NavLink>
+          </a>
+        </div>
+        <div className="right-0 w-1/2">
+          <img
+            className=" mx-auto mb-8 h-40  rounded-full"
+            src={imgmoi}
+            alt="Ma photo"
+          />
+        </div>
       </div>
-      <img className="imgmoi" src={imgmoi} alt="ma photo" />
-      <div className="lecanvas">
-        <LeCanvas className="lecanvas" />
-      </div>
-      <h1 style={magiefr}>MON PORTFOLIO</h1>
-      <div className="textfren " style={magiefr}>
+      {/* position: fixed; top: 5em; right: 0; margin-top: 5em; margin-left: 5em;
+      margin-right: 5em; margin-bottom: 5em; height: 70%; width: 100%; */}
+
+      <LeCanvas />
+
+      <h1 className="mb-4  max-w-72 justify-center text-6xl font-bold">
+        {languefr ? "MON PORTFOLIO" : "MY PORTFOLIO"}
+      </h1>
+      <div
+        className={` relative z-40 mx-8  mt-32 rounded-lg bg-slate-500 bg-opacity-70  p-14 text-lg font-medium ${languefr ? "" : "hidden  "}`}
+      >
         Un Portfolio est un recueil de documents et d'exemples pratiques
         L'objectif de ce portfolio est de mettre en lumière des compétences, Il
         permet notamment de montrer a des recruteur ou des enseignant de prouver
@@ -215,37 +223,11 @@ const Accueil = () => {
         pour mes amis est l'une de mes activités préférées dans ma vie
         personnelle.
       </div>
-
-      <div className="contactdiv" style={magiefr}>
-        <a className="cvlien" href={cvfr}>
-          afficher mon CV en français
-        </a>
-        <p></p>
-        Calendreau Axel
-        <p></p>
-        06-16-75-16-50
-        <p></p>
-        cal.axel2@gmail.com
-        <p></p>
-        <a
-          className="imggithubdiv"
-          href="https://github.com/calaxo/geii-portfolio"
-        >
-          <img className="imggithub" src={github} alt="github" />
-        </a>
-        <p></p>
-        <a
-          className="imglinkedindiv "
-          href="https://www.linkedin.com/in/calendreau-axel"
-        >
-          <img className="imglinkedin" src={linkedin} alt="linkedin" />
-        </a>
-      </div>
-
-      <h1 style={magieen}>MY PORTFOLIO</h1>
-      <div className="textfren" style={magieen}>
+      <div
+        className={` relative z-40 mx-8  mt-32 bg-gray-400  bg-opacity-30 p-14 ${languefr ? "hidden" : ""}`}
+      >
         A portfolio is a collection of documents and practical examples. The
-        objective of this portfolio is to highlight skills; it serves to
+        objective of this portfolio is to highlight skills it serves to
         demonstrate to recruiters or educators what I am capable of.
         <br></br>
         <br></br>
@@ -294,32 +276,86 @@ const Accueil = () => {
         and repairing objects for my friends is one of my favorite activities in
         my personal life.
       </div>
-      <div className="contactdiv" style={magieen}>
-        <a className="cvlien" href={cven}>
-          display my resumee in english
-        </a>
-        <p></p>
-        Calendreau Axel
-        <p></p>
-        06-16-75-16-50
-        <p></p>
-        cal.axel2@gmail.com
-        <p></p>
+
+      <div className={languefr ? "visible" : "collapse"}>
         <a
-          className="imggithubdiv"
-          href="https://github.com/calaxo/geii-portfolio"
+          className=" relative z-50 mx-auto my-8 mb-2 block w-32 rounded-lg bg-slate-200 font-bold text-black"
+          href={cvfr}
         >
-          <img className="imggithub" src={github} alt="github" />
+          Afficher mon CV en français
         </a>
-        <p></p>
+        {/* Other French content */}
+      </div>
+      <div className={languefr ? "collapse" : "visible"}>
         <a
-          className="imglinkedindiv "
-          href="https://www.linkedin.com/in/calendreau-axel"
+          className="mx-auto my-8 mb-2 block w-32 rounded-lg bg-slate-200 font-bold text-black"
+          href={cven}
         >
-          <img className="imglinkedin" src={linkedin} alt="linkedin" />
+          Display my resumé in English
+        </a>
+        {/* Other English content */}
+      </div>
+      <div className=" relative z-50 mt-4 flex justify-center">
+        <a className="mr-4" href="https://github.com/calaxo/geii-portfolio">
+          <img className="my-8 h-20 w-20" src={github} alt="Github" />
+        </a>
+        <a href="https://www.linkedin.com/in/calendreau-axel">
+          <img
+            className="my-8 h-20 w-20 rounded-full bg-white"
+            src={linkedin}
+            alt="Linkedin"
+          />
         </a>
       </div>
     </div>
   );
 };
+
 export default Accueil;
+
+//       <div className="" style={magiefr}>
+//         <a className="" href={cvfr}>
+//           afficher mon CV en français
+//         </a>
+//         <p></p>
+//         Calendreau Axel
+//         <p></p>
+//         06-16-75-16-50
+//         <p></p>
+//         cal.axel2@gmail.com
+//         <p></p>
+//         <a className="" href="https://github.com/calaxo/geii-portfolio">
+//           <img className="" src={github} alt="github" />
+//         </a>
+//         <p></p>
+//         <a
+//           className="imglinkedindiv "
+//           href="https://www.linkedin.com/in/calendreau-axel"
+//         >
+//           <img className="" src={linkedin} alt="linkedin" />
+//         </a>
+//       </div>
+
+//       <div className="" style={magieen}>
+//         <a className="" href={cven}>
+//           display my resumee in english
+//         </a>
+//         <p></p>
+//         Calendreau Axel
+//         <p></p>
+//         06-16-75-16-50
+//         <p></p>
+//         cal.axel2@gmail.com
+//         <p></p>
+//         <a className="" href="https://github.com/calaxo/geii-portfolio">
+//           <img className="" src={github} alt="github" />
+//         </a>
+//         <p></p>
+//         <a className=" " href="https://www.linkedin.com/in/calendreau-axel">
+//           <img className="" src={linkedin} alt="linkedin" />
+//         </a>
+//       </div>
+//     </div>
+//   );
+// };
+// export default Accueil;

@@ -1,52 +1,46 @@
-import {
-  HashRouter as Router,
-  Routes,
-  Route,
-  NavLink,
-  Navigate,
-} from "react-router-dom";
 import React from "react";
+import { NavLink } from "react-router-dom";
+
 import voltmetre from "@assets/voltmetre.jpg";
 import onde from "@assets/onde.jpg";
-
-const But2 = () => {
+const But1 = () => {
   return (
-    <>
-      <div className="intropage">
+    <div className="pt-36">
+      <div className=" mx-16 justify-center	 text-lg font-bold">
         cette année fut trés interessante, nous avons pu apprendre beaucoup de
         choses, et nous avons pu mettre en pratique nos connaissances dans des
         projets.
       </div>
 
-      <div className="choix">
-        <a
-          key="But2_sae1"
-          href="#geii/but2/But2_sae1"
-          className="moitiemilieu3"
-        >
-          <div>
-            <div className="bouton-page btn1">
-              <img className="imgchoix3" src={voltmetre} alt="SAE1" />
-              <span>vers le premiere projet de cette année</span>
-            </div>
+      <div className="mt-8 flex justify-center">
+        <NavLink to="/geii/but2/But2_sae1" className="mx-4">
+          <div className="transform rounded-lg border p-4 transition duration-300 ease-in-out hover:scale-105">
+            <img
+              className="mx-auto h-72 w-72 object-cover"
+              src={voltmetre}
+              alt="SAE2"
+            />
+            <span className="mt-2 block text-center hover:text-cyan-500">
+              Vers le premier projet de cette année
+            </span>
           </div>
-        </a>
+        </NavLink>
 
-        <a
-          key="But2_sae2"
-          href="#geii/but2/But2_sae2"
-          className="moitiedroite3"
-        >
-          <div>
-            <div className="bouton-page btn2">
-              <img className="imgchoix3" src={onde} alt="SAE1" />
-              <span>vers le deuxieme projet de cette année</span>
-            </div>
+        <NavLink to="/geii/but2/But2_sae2" className="mx-4">
+          <div className="transform rounded-lg border p-4 transition duration-300 ease-in-out hover:scale-105">
+            <img
+              className="mx-auto h-72 w-72 object-cover"
+              src={onde}
+              alt="SAE3"
+            />
+            <span className="mt-2 block text-center hover:text-cyan-500">
+              Vers le deuxième projet de cette année
+            </span>
           </div>
-        </a>
+        </NavLink>
       </div>
-    </>
+    </div>
   );
 };
 
-export default But2;
+export default But1;

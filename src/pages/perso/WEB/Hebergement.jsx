@@ -4,7 +4,7 @@ import data from "@data/Hebergement";
 
 const Hebergement = () => {
   return (
-    <div>
+    <div className="pt-36">
       <Intro titre={data.titre} intro={data.intro}></Intro>
 
       <Tableau data={data.content} stile="tableauperso" />
