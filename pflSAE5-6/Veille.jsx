@@ -1,5 +1,3 @@
-
-
 const titre = "Veille informatique";
 
 const intro =
@@ -9,17 +7,15 @@ const content = [
   {
     id: 1,
     titretache: "lecture d'articles",
-    tache:
-      "l'informatique et le WEB evolue rapidement ",
-    granddescription: "je suis toujour a la recherche de nouveauté pour me maintenir d'actualisté sur les nouvelles technologies je lit de nombreux post et articles qui informe sur le domaine",
+    tache: "l'informatique et le WEB evolue rapidement ",
+    granddescription:
+      "je suis toujour a la recherche de nouveauté pour me maintenir d'actualisté sur les nouvelles technologies je lit de nombreux post et articles qui informe sur le domaine",
     ressource: "",
     trace: [],
     evaluation: "",
     note: 5,
     date: "",
   },
-
-
 
   {
     id: 3,
@@ -39,7 +35,8 @@ const content = [
     titretache: "recherche de projet	",
     tache:
       "je veux toujours ameliorer et simplifier mn environnement de travail sur la plan informatique",
-    granddescription: "grace a ces information je me pose toujour des quetion sur quelle projet personnel informaitque je peux fair pour evoluer",
+    granddescription:
+      "grace a ces information je me pose toujour des quetion sur quelle projet personnel informaitque je peux fair pour evoluer",
     ressource: "on a appris a faire des base de données",
     trace: [],
     evaluation: "",
@@ -50,9 +47,9 @@ const content = [
   {
     id: 5,
     titretache: "conversation avec des profesionnel",
-    tache:
-      "échange professionnel ",
-    granddescription: "a force d'voluer dans ce metier j'ai pu comnuqieur avec des prfoessfionnel agguéris de l'informatique pour m'aider a choisir des tehcno o prendre des orientation professionnel",
+    tache: "échange professionnel ",
+    granddescription:
+      "a force d'voluer dans ce metier j'ai pu comnuqieur avec des prfoessfionnel agguéris de l'informatique pour m'aider a choisir des tehcno o prendre des orientation professionnel",
     ressource: "",
     trace: [],
     evaluation: "",

@@ -1,4 +1,3 @@
-
 import imgmoodle1 from "@assetspreuve/moodle1.png";
 import imgmoodle2 from "@assetspreuve/moodle2.png";
 import moodlephp1 from "@assetspreuve/moodlephp1.png";
@@ -8,7 +7,6 @@ import pymoo2 from "@assetspreuve/pymoo2.png";
 import pymoo3 from "@assetspreuve/pymoo3.png";
 import pymoo4 from "@assetspreuve/pymoo4.png";
 import pymoo5 from "@assetspreuve/pymoo5.png";
-
 
 const titre = "Gestion d'un site de e-learning";
 
@@ -49,7 +47,7 @@ const content = [
       "les cours aéronaituqe sont en constante evolution due aux diferntes loi, or pour changer ces cours que j'ai sous forme de powerpoint j'ai du créer un script python car il faut parfoit uploader et afficher des centaine de cours de mainere sécurisé",
     granddescription: "ceci est une grande description",
     ressource: "on a appris a faire des base de données",
-    trace: [pymoo1,pymoo2,pymoo3,pymoo4,pymoo5],
+    trace: [pymoo1, pymoo2, pymoo3, pymoo4, pymoo5],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,

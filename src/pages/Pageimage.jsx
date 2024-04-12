@@ -3,7 +3,6 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import React, { Fragment, lazy, Suspense } from "react";
 
-
 const Pagedescription = () => {
   const goBack = () => {
     navigate(-"1");
@@ -36,32 +35,31 @@ const Pagedescription = () => {
   const titre = location.state.from[1]; // Accédez à la propriété from de state
   return (
     <div
-      className=""
+      className="flex items-center justify-center pt-36"
       onMouseEnter={handleMouseEnter}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
     >
-      <button className="" onClick={goBack}>
+      <button className="relative" onClick={goBack}>
         <img
           data-text="Texte yà afficher"
-          className="imageengrand"
+          className="imageengrand rounded-lg shadow-lg"
           src={`${traceFileName}`}
           alt="PC"
         />
 
         {displayText && (
           <div
-            className=""
+            className="absolute rounded-md bg-gray-800 px-2 py-1 text-white shadow"
             style={{
-              position: "absolute",
-              left: textPosition.left,
+              left: textPosition.left - 400,
               top: textPosition.top,
             }}
           >
-            {displayText}
+            <a className="font-semibold">{displayText}</a>
           </div>
         )}
-        <p className="">{titre}</p>
+        <p className="mt-2 text-center">{titre}</p>
       </button>
     </div>
   );

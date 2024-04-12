@@ -5,7 +5,7 @@ import {
   NavLink,
   Navigate,
 } from "react-router-dom";
- import React, { Fragment, lazy, Suspense } from "react";
+import React, { Fragment, lazy, Suspense } from "react";
 
 import back from "@assets/back.jpg";
 import front from "@assets/front.jpg";

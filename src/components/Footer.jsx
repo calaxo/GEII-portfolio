@@ -9,11 +9,9 @@ import React, { Fragment, lazy, Suspense } from "react";
 import geii from "@assets/geii.gif";
 import iut from "@assets/iut.png";
 
-
-
 const Footer = () => {
   return (
-    <footer className="mt-auto bottom-0 relative z-50 bg-gray-800 py-4">
+    <footer className="relative bottom-0 z-50 mt-auto bg-gray-800 py-4">
       <div className="container mx-auto flex flex-col items-center justify-center">
         <p className="mb-2 text-white">Calendreau Axel © 2023</p>
         <a className="mb-2 text-white hover:underline" href="#/Condition">

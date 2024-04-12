@@ -1,5 +1,3 @@
-
-
 const titre = "Conseil et apprentissage informatique a mes collegues";
 
 const intro =

@@ -1,11 +1,15 @@
-import React, { Fragment, lazy, Suspense } from "react";
+import React from "react";
 
 const Intro = (props) => {
-  const markupintro = { __html: props.intro };
+  const { titre, intro } = props;
+
   return (
-    <div className="intro">
-      <h1>{props.titre}</h1>
-      <p dangerouslySetInnerHTML={markupintro} className="introoutro"></p>
+    <div className="rounded-lg bg-gray-100 p-8 shadow-md">
+      <h1 className="mb-4 text-3xl font-bold">{titre}</h1>
+      <p
+        className="text-lg leading-relaxed text-gray-700"
+        dangerouslySetInnerHTML={{ __html: intro }}
+      ></p>
     </div>
   );
 };

@@ -2,7 +2,7 @@ import perdu from "@assets/perdu.jpg";
 import React from "react";
 const Page404 = () => {
   return (
-    <div className="pt-36 flex h-screen flex-col items-center justify-center">
+    <div className="flex h-screen flex-col items-center justify-center pt-36">
       <h1 className="text-6xl font-bold text-red-600">404</h1>
       <p className="mb-4 text-xl text-gray-700">Page introuvable</p>
       <p className="mb-8 text-lg text-gray-700">

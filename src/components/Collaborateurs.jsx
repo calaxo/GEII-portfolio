@@ -2,16 +2,16 @@ import React from "react";
 
 const Collaborateurs = ({ colabo }) => {
   return (
-    <div>
-      <p className="collabo">collègues</p>
+    <div className="rounded-lg bg-white p-4 shadow-md">
+      <p className="mb-2 text-lg font-bold text-gray-800">Collègues</p>
       <ul>
         {colabo.map((colabo) => (
-          <li key={colabo.nom} className="colaborateur">
+          <li key={colabo.nom} className="mb-2">
             <a
               href={colabo.lien}
               target="_blank"
-              className="liencolaborateur"
               rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
             >
               {colabo.nom} {colabo.prenom}
             </a>

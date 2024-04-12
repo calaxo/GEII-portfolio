@@ -1,38 +1,32 @@
-import React, { Fragment, lazy, Suspense } from "react";
-
-import Cadre from "@components/Cadre.jsx";
-
+import React from "react";
 import Descript from "@components/Descript.jsx";
+import Cadre from "@components/Cadre.jsx";
 import Rating from "@components/Rating.jsx";
 
 const Ligne = (props) => {
-  const markupevaluation = { __html: props.ligne.evaluation };
-  const markupressource = { __html: props.ligne.ressource };
+  const { ligne } = props;
 
   return (
-    <tr className="laligne">
-      <td className={`${props.stile}-LigneTitre`}>
+    <tr className="border-b border-gray-200">
+      <td className="px-4 py-2">
         <Descript
-          granddescription={props.ligne.granddescription}
-          titretache={props.ligne.titretache}
-          tache={props.ligne.tache}
-          stile={props.stile}
-        >
-          {" "}
-        </Descript>
+          granddescription={ligne.granddescription}
+          titretache={ligne.titretache}
+          tache={ligne.tache}
+        />
       </td>
-
-      <td className={`${props.stile}-LigneRessource`}>
-        <p dangerouslySetInnerHTML={markupressource}></p>
+      <td
+        className="px-4 py-2"
+        dangerouslySetInnerHTML={{ __html: ligne.ressource }}
+      ></td>
+      <td className="px-4 py-2">
+        <Cadre image={ligne.trace} title={ligne.titretache} />
       </td>
-      <td className={`${props.stile}-Lignetrace`}>
-        <Cadre image={props.ligne.trace} title={props.ligne.titretache}></Cadre>
+      <td className="px-4 py-2">
+        <Rating evaluation={ligne.note} />
+        <p dangerouslySetInnerHTML={{ __html: ligne.evaluation }}></p>
       </td>
-      <td className={`${props.stile}-LigneEvaluation`}>
-        <Rating evaluation={props.ligne.note} />
-        <p dangerouslySetInnerHTML={markupevaluation}></p>
-      </td>
-      <td className={`${props.stile}-Lignedate`}>{props.ligne.date}</td>
+      <td className="px-4 py-2">{ligne.date}</td>
     </tr>
   );
 };

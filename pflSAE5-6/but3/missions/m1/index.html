@@ -1,115 +1,204 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-  <meta http-equiv="content-type" content="text/html; charset=ansi">
-  <meta name="generator" content="PSPad editor, www.pspad.com">
-  <title>BUT1</title>
-  <style>
-    .niv1{
+    <meta http-equiv="content-type" content="text/html; charset=ansi" />
+    <meta name="generator" content="PSPad editor, www.pspad.com" />
+    <title>BUT1</title>
+    <style>
+      .niv1 {
         background-color: #ffb68b;
-        font-size:32;
+        font-size: 32;
         text-align: center;
         margin-left: 10%;
         margin-right: 60%;
-        border:groove;
-       
-    }
-    .niv2{
+        border: groove;
+      }
+      .niv2 {
         background-color: #ffb68b;
-        font-size:28;
+        font-size: 28;
         text-align: center;
         margin-left: 30%;
         margin-right: 40%;
-        
-        
-        border:groove;
-    }
-    .niv3{
+
+        border: groove;
+      }
+      .niv3 {
         background-color: #ffb72b;
-        font-size:20;
+        font-size: 20;
         text-align: center;
         margin-left: 35%;
         margin-right: 30%;
-        
-        border:groove;
-    }
-    .ligne{padding-top:30px;border:solid;}
-    
-</style>
+
+        border: groove;
+      }
+      .ligne {
+        padding-top: 30px;
+        border: solid;
+      }
+    </style>
   </head>
-  <!--Cette page se présente comme un tableau de 5 colonnes-->
+  <!--Cette page se prï¿½sente comme un tableau de 5 colonnes-->
   <body>
-  <table border="solid" width="100%" >
-  <tr><!--premiere ligne elle regroupe les cinq colonnes-->
-  <td colspan="5" style="background-color:#FFCC33;font-size:28px;color:darkred;" align="center"> 
-    <a style="color:blue;" onclick="document.getElementById('o1').style.display='';document.getElementById('o2').style.display='none';document.getElementById('o3').style.display='none'";>==></a>Réalisation d'un réseau d'objets connectés, prise en main du composant ESP32. <a href="images/mesh.jpg" target="blank">IMG</a><br>
-	<a style="color:blue;" onclick="document.getElementById('o2').style.display='';document.getElementById('o1').style.display='none';document.getElementById('o3').style.display='none'";>==></a>La programmation objet et temps partagé sur ESP32, pilotage d'un robot six axes .<a target="blank" href="http://www.vorobotics.com/wiki/index.php?title=Robot_youpi">YOUPI</a><br>
-	<a style="color:blue;" onclick="document.getElementById('o3').style.display='';document.getElementById('o2').style.display='none';document.getElementById('o1').style.display='none'";>==></a>Les technologies sans contact RFID et NFC, réalisation d'un réseau de lecture de badges à l'aide d'ESP32.<a href="doc/pwt.pdf" target="blank">PDF</a>
-  </td>
-  <tr><!--deuxième ligne elle regroupe les cinq colonnes-->
-  <td colspan="5" > 
-    <p id="o1" onmouseup="document.getElementById('o1').style.display='none';document.getElementById('o2').style.display='';"style="color:darkred;"><b><u> Objectifs:</u></b> Monter en compétences sur les systèmes à microcontrôleurs et objets connectés 
-	en prenant en main le microcontôleur ESP32. Ce projet d'objets connectés pourra à terme être utilisé sur le bâtiment de l'IUT (ou un autre)
-	afin de pouvoir à tout moment connaître l'état du bâtiment portes fenêtres, présence d'étudiants, températures, état des luminaires. 
-	Chaque objet pourra être déplacé et le réseau s'adapter à la nouvelle configuration. Ce projet s'étend de la réalisation de l'objet 
-	connecté jusqu'à l'infrastructure complète nécessaire pour l'utilisation des ce objets<br>
-	Ce projet est réalisé en groupe avec .....<br>
-	Cette page présente mes tâches lors de ce projet et est aussi un moyen de partage de mes avancées avec les autres membres du groupe.
-	<br>Voici les  adresses des portfolios de l'équipe</p> <!--écrit en gras <b> et souligné <u>-->
-	<p id="o2"style="color:darkred;display:none"><b><u> Objectifs:</u></b> Monter en compétences sur les systèmes à microcontrôleurs la programmation objet et les systèmes temps réels
-	en prenant en main le microcontôleur ESP32. Ce projet permettra également d'aborder la robotique en s'appuyant sur la partie mécanique d'un robot six axes Youpi. Il permettra à terme de montrer à des étudiants intéressés
-	par la robotique de visualiser facilement les problèmatiques associées à ce type de robots manipulateurs. Ce démonstrateur doit donc être facile d'accès et partageable.
-	<br>
-	Ce projet est réalisé en groupe avec .....<br>
-	Cette page présente mes tâches lors de ce projet et est aussi un moyen de partage de mes avancées avec les autres membres du groupe.
-	<br>Voici les  adresses des portfolios de l'équipe</p> <!--écrit en gras <b> et souligné <u>-->
-	<p id="o3" style="color:darkred;display:none"><b><u> Objectifs:</u></b> Monter en compétences sur les systèmes à microcontrôleurs, l'identification à distance, les technologies RFID, NFC,
-	en prenant en main le microcontôleur ESP32. Ce projet permettrait de connaître en temps réel les étudiants présents dans le bâtiment notamment pour pouvoir leur laisser un accès
-	le plus libre possible pendant les séances de projets. Il sera également très intéressant de pouvoir coupler ce projet avec la base de données des emplois du temps.
-	<br>
-	Ce projet est réalisé en groupe avec .....<br>
-	Cette page présente mes tâches lors de ce projet et est aussi un moyen de partage de mes avancées avec les autres membres du groupe.
-	<br>Voici les  adresses des portfolios de l'équipe</p> <!--écrit en gras <b> et souligné <u>-->
-    <p>
-  </td>
-  </tr>
-  <tr style="background-color:yellow;" align="center">
-  <td width=25%> Tâches réalisées </td><td width=25%> Ressources utilisées </td><td width=25%> Traces </td><td width=25%> Autoévaluation </td>
- 
-  </tr>
-  <tr>
-  <td>"<b> Nom de la tâche</b> (avec verbe d'action) 
-=> <br><b>objectif</b> (texte libre, en quelques mots qui définissent les points importants que je vais qualifier pour l'autoévaluation)
-=> <br><b>description</b>"
- </td><td> Matérielles, documentaires, logicielles, pédagogiques... </td>
-  <td> Présenter et nommer la ou les preuve(s) qui atteste(nt) de la réalisation de cette tâche.
-</td><td>"Bilan. 
-Ai-je atteint l'objectif de cette tâche ?"
-</td>
- 
-  </tr>
-  <tr>
-  <td> Réaliser un système de lecture de carte RFID avec un lecteur de carte avec  </td><td> case2 </td><td> case3 </td><td> case5 </td>
- 
-  </tr>
-  <tr>
-  <td> case1 </td><td> case2 </td><td> case3 </td><td> case5 </td>
- 
-  </tr>
-  <tr>
-  <td colspan="5" style="background-color:#FFCC33;font-size:28px;color:darkred;" align="center"> 
-    ANALYSE PERSONNELLE
-  </td>
-   <tr>
-  <td colspan="5" > 
-    <p >"Analyse personnelle sur cette mission.
-Liste des compétences (savoirs théoriques, savoir-faire concrets, savoir-être et compétences du référentiel BUT GEII) qui ont été mises en œuvre lors de cette mission"			
-<p> <!--écrit en gras <b> et souligné <u>-->
-  </td>
-  </table>
-    
-    
-        
-   
+    <table border="solid" width="100%">
+      <tr>
+        <!--premiere ligne elle regroupe les cinq colonnes-->
+        <td
+          colspan="5"
+          style="background-color: #ffcc33; font-size: 28px; color: darkred"
+          align="center"
+        >
+          <a
+            style="color: blue"
+            onclick="document.getElementById('o1').style.display='';document.getElementById('o2').style.display='none';document.getElementById('o3').style.display='none'"
+            ;
+            >==></a
+          >Rï¿½alisation d'un rï¿½seau d'objets connectï¿½s, prise en main du
+          composant ESP32. <a href="images/mesh.jpg" target="blank">IMG</a
+          ><br />
+          <a
+            style="color: blue"
+            onclick="document.getElementById('o2').style.display='';document.getElementById('o1').style.display='none';document.getElementById('o3').style.display='none'"
+            ;
+            >==></a
+          >La programmation objet et temps partagï¿½ sur ESP32, pilotage d'un
+          robot six axes .<a
+            target="blank"
+            href="http://www.vorobotics.com/wiki/index.php?title=Robot_youpi"
+            >YOUPI</a
+          ><br />
+          <a
+            style="color: blue"
+            onclick="document.getElementById('o3').style.display='';document.getElementById('o2').style.display='none';document.getElementById('o1').style.display='none'"
+            ;
+            >==></a
+          >Les technologies sans contact RFID et NFC, rï¿½alisation d'un rï¿½seau de
+          lecture de badges ï¿½ l'aide d'ESP32.<a
+            href="doc/pwt.pdf"
+            target="blank"
+            >PDF</a
+          >
+        </td>
+      </tr>
+
+      <tr>
+        <!--deuxiï¿½me ligne elle regroupe les cinq colonnes-->
+        <td colspan="5">
+          <p
+            id="o1"
+            onmouseup="document.getElementById('o1').style.display='none';document.getElementById('o2').style.display='';"
+            style="color: darkred"
+          >
+            <b><u> Objectifs:</u></b> Monter en compï¿½tences sur les systï¿½mes ï¿½
+            microcontrï¿½leurs et objets connectï¿½s en prenant en main le
+            microcontï¿½leur ESP32. Ce projet d'objets connectï¿½s pourra ï¿½ terme
+            ï¿½tre utilisï¿½ sur le bï¿½timent de l'IUT (ou un autre) afin de pouvoir
+            ï¿½ tout moment connaï¿½tre l'ï¿½tat du bï¿½timent portes fenï¿½tres, prï¿½sence
+            d'ï¿½tudiants, tempï¿½ratures, ï¿½tat des luminaires. Chaque objet pourra
+            ï¿½tre dï¿½placï¿½ et le rï¿½seau s'adapter ï¿½ la nouvelle configuration. Ce
+            projet s'ï¿½tend de la rï¿½alisation de l'objet connectï¿½ jusqu'ï¿½
+            l'infrastructure complï¿½te nï¿½cessaire pour l'utilisation des ce
+            objets<br />
+            Ce projet est rï¿½alisï¿½ en groupe avec .....<br />
+            Cette page prï¿½sente mes tï¿½ches lors de ce projet et est aussi un
+            moyen de partage de mes avancï¿½es avec les autres membres du groupe.
+            <br />Voici les adresses des portfolios de l'ï¿½quipe
+          </p>
+          <!--ï¿½crit en gras <b> et soulignï¿½ <u>-->
+          <p id="o2" style="color: darkred; display: none">
+            <b><u> Objectifs:</u></b> Monter en compï¿½tences sur les systï¿½mes ï¿½
+            microcontrï¿½leurs la programmation objet et les systï¿½mes temps rï¿½els
+            en prenant en main le microcontï¿½leur ESP32. Ce projet permettra
+            ï¿½galement d'aborder la robotique en s'appuyant sur la partie
+            mï¿½canique d'un robot six axes Youpi. Il permettra ï¿½ terme de montrer
+            ï¿½ des ï¿½tudiants intï¿½ressï¿½s par la robotique de visualiser facilement
+            les problï¿½matiques associï¿½es ï¿½ ce type de robots manipulateurs. Ce
+            dï¿½monstrateur doit donc ï¿½tre facile d'accï¿½s et partageable.
+            <br />
+            Ce projet est rï¿½alisï¿½ en groupe avec .....<br />
+            Cette page prï¿½sente mes tï¿½ches lors de ce projet et est aussi un
+            moyen de partage de mes avancï¿½es avec les autres membres du groupe.
+            <br />Voici les adresses des portfolios de l'ï¿½quipe
+          </p>
+          <!--ï¿½crit en gras <b> et soulignï¿½ <u>-->
+          <p id="o3" style="color: darkred; display: none">
+            <b><u> Objectifs:</u></b> Monter en compï¿½tences sur les systï¿½mes ï¿½
+            microcontrï¿½leurs, l'identification ï¿½ distance, les technologies
+            RFID, NFC, en prenant en main le microcontï¿½leur ESP32. Ce projet
+            permettrait de connaï¿½tre en temps rï¿½el les ï¿½tudiants prï¿½sents dans
+            le bï¿½timent notamment pour pouvoir leur laisser un accï¿½s le plus
+            libre possible pendant les sï¿½ances de projets. Il sera ï¿½galement
+            trï¿½s intï¿½ressant de pouvoir coupler ce projet avec la base de
+            donnï¿½es des emplois du temps.
+            <br />
+            Ce projet est rï¿½alisï¿½ en groupe avec .....<br />
+            Cette page prï¿½sente mes tï¿½ches lors de ce projet et est aussi un
+            moyen de partage de mes avancï¿½es avec les autres membres du groupe.
+            <br />Voici les adresses des portfolios de l'ï¿½quipe
+          </p>
+          <!--ï¿½crit en gras <b> et soulignï¿½ <u>-->
+          <p></p>
+        </td>
+      </tr>
+      <tr style="background-color: yellow" align="center">
+        <td width="25%">Tï¿½ches rï¿½alisï¿½es</td>
+        <td width="25%">Ressources utilisï¿½es</td>
+        <td width="25%">Traces</td>
+        <td width="25%">Autoï¿½valuation</td>
+      </tr>
+      <tr>
+        <td>
+          "<b> Nom de la tï¿½che</b> (avec verbe d'action) => <br /><b
+            >objectif</b
+          >
+          (texte libre, en quelques mots qui dï¿½finissent les points importants
+          que je vais qualifier pour l'autoï¿½valuation) => <br /><b
+            >description</b
+          >"
+        </td>
+        <td>Matï¿½rielles, documentaires, logicielles, pï¿½dagogiques...</td>
+        <td>
+          Prï¿½senter et nommer la ou les preuve(s) qui atteste(nt) de la
+          rï¿½alisation de cette tï¿½che.
+        </td>
+        <td>"Bilan. Ai-je atteint l'objectif de cette tï¿½che ?"</td>
+      </tr>
+      <tr>
+        <td>
+          Rï¿½aliser un systï¿½me de lecture de carte RFID avec un lecteur de carte
+          avec
+        </td>
+        <td>case2</td>
+        <td>case3</td>
+        <td>case5</td>
+      </tr>
+      <tr>
+        <td>case1</td>
+        <td>case2</td>
+        <td>case3</td>
+        <td>case5</td>
+      </tr>
+      <tr>
+        <td
+          colspan="5"
+          style="background-color: #ffcc33; font-size: 28px; color: darkred"
+          align="center"
+        >
+          ANALYSE PERSONNELLE
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="5">
+          <p>
+            "Analyse personnelle sur cette mission. Liste des compï¿½tences
+            (savoirs thï¿½oriques, savoir-faire concrets, savoir-ï¿½tre et
+            compï¿½tences du rï¿½fï¿½rentiel BUT GEII) qui ont ï¿½tï¿½ mises en ï¿½uvre lors
+            de cette mission"
+          </p>
+
+          <p><!--ï¿½crit en gras <b> et soulignï¿½ <u>--></p>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>

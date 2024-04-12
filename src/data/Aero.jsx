@@ -111,7 +111,7 @@ const content = [
       "lors de discussion avec des coluege ou des pilotes j'ai commencer a comprendre leur language parsemé de mot complique qui est tujour utlise dans une entreprise en lien avec l'aéronautique",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: [imgaltium1,imgaltium1],
+    trace: [imgaltium1, imgaltium1],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,

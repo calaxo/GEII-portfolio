@@ -1,11 +1,8 @@
-
 import imgmtn from "@assetspreuve/mtn.png";
 import imgsimaint from "@assetspreuve/simaint.png";
 import imgclim from "@assetspreuve/clim.png";
 import imgdijoncteur from "@assetspreuve/dijoncteur.png";
 import imgprojo from "@assetspreuve/projo.png";
-
-
 
 const titre = "maintenance en condition operative de simulateur d'helicoptere";
 
@@ -43,7 +40,8 @@ const content = [
     titretache: "Maintenance",
     tache:
       "des systeme aussi technique nécessite une maintenance adaptée et organisée",
-    granddescription: "n'ayant encore jammais participer a de la mainteannce aussi complexe j'ai du apprendre a raisonner, pour comprendre grace aux procédure, comuniquer avec mon équipe et participer aux diférentes taches",
+    granddescription:
+      "n'ayant encore jammais participer a de la mainteannce aussi complexe j'ai du apprendre a raisonner, pour comprendre grace aux procédure, comuniquer avec mon équipe et participer aux diférentes taches",
     ressource: "fzdfzd",
     trace: [imgmtn],
     evaluation: "evaluation1",
@@ -56,7 +54,8 @@ const content = [
     titretache: "simaint",
     tache:
       "nous en avont parler en cours mais j'ai pu decouvrir les concept avec des chose réelle",
-    granddescription: "nous avons un logiciel de GMAO(gestion de la maitnance assisté par ordinateur) qui nous permet de suivre le stock de piece les maintenance et tout ce qui peut y etre lié j'ai du apprendre a m'en servir",
+    granddescription:
+      "nous avons un logiciel de GMAO(gestion de la maitnance assisté par ordinateur) qui nous permet de suivre le stock de piece les maintenance et tout ce qui peut y etre lié j'ai du apprendre a m'en servir",
     ressource: "dzd",
     trace: [imgsimaint],
     evaluation: "evaluation1",

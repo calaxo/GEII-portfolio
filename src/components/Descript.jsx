@@ -7,8 +7,6 @@ import {
 } from "react-router-dom";
 import React, { useState } from "react";
 
-
-
 const Descript = (props) => {
   const [textPosition, setTextPosition] = useState({ left: 0, top: 0 });
   const [displayText, setDisplayText] = useState("");
@@ -31,7 +29,7 @@ const Descript = (props) => {
   };
 
   const markuptache = { __html: props.tache };
-const markuptitretache = { __html: props.titretache };
+  const markuptitretache = { __html: props.titretache };
   return (
     <div className="cadre">
       <div>
@@ -40,8 +38,11 @@ const markuptitretache = { __html: props.titretache };
           to="/Pagedescription"
           state={{ from: [props.titretache, props.granddescription] }}
         >
-          <p dangerouslySetInnerHTML={markuptitretache } className={`${props.stile}-sous-titre`}></p>
-          <p dangerouslySetInnerHTML={markuptache } className={`textetache`}></p>
+          <p
+            dangerouslySetInnerHTML={markuptitretache}
+            className={`${props.stile}-sous-titre`}
+          ></p>
+          <p dangerouslySetInnerHTML={markuptache} className={`textetache`}></p>
         </NavLink>
       </div>
       <p>{props.title}</p>

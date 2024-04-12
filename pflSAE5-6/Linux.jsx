@@ -1,4 +1,3 @@
-
 import imgdockerdk from "@assetspreuve/dockerdk.png";
 import imgxrdp from "@assetspreuve/xrdp.png";
 import imgrpi1 from "@assetspreuve/rpi1.png";
@@ -18,7 +17,7 @@ const content = [
       "j'ai eu une carte raspberry pour esasyer de fair des porjet et j'ai été confronté pour la premier fois a linux, a force j'ai",
     granddescription: "ceci est une grande description",
     ressource: "description1",
-    trace: [imgrpi1,imgrpi2,imgrpi3],
+    trace: [imgrpi1, imgrpi2, imgrpi3],
     evaluation: "evaluation1",
     date: "01/02/2023",
     note: 3,
@@ -50,7 +49,6 @@ const content = [
     note: 3,
   },
 
-
   {
     id: 5,
     titretache: "Installation dun service de bureau a distance",
@@ -63,8 +61,6 @@ const content = [
     date: "01/02/2023",
     note: 3,
   },
-
-
 
   {
     id: 7,

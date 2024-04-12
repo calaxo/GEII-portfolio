@@ -1,4 +1,3 @@
-
 import imgdocker2 from "@assetspreuve/docker2.png";
 import imgdockerdk from "@assetspreuve/dockerdk.png";
 const titre = "Introduction a la conteneurisation via docker";

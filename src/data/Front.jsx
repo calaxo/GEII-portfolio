@@ -1,5 +1,3 @@
-
-
 const titre = "Developpement web Front-end";
 
 const intro =

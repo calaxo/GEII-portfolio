@@ -15,7 +15,7 @@ import { useGLTF, useAnimations } from "@react-three/drei";
 export function Modelhelico(props) {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF(
-    "/src/Lowpoly_Helicopter-transformed.glb"
+    "https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/Lowpoly_Helicopter-transformed.glb",
   );
   const { actions, names } = useAnimations(animations, group);
 
@@ -93,4 +93,6 @@ export function Modelhelico(props) {
   );
 }
 
-useGLTF.preload("/src/Lowpoly_Helicopter-transformed.glb");
+useGLTF.preload(
+  "https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/Lowpoly_Helicopter-transformed.glb",
+);

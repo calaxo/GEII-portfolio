@@ -14,7 +14,7 @@ const Pagedescription = () => {
   const [displayText, setDisplayText] = useState("");
 
   const handleMouseEnter = (event) => {
-    setDisplayText("cliquez pour revenir en arriere");
+    setDisplayText("Cliquez pour revenir en arrière");
     updateTextPosition(event);
   };
 
@@ -27,7 +27,7 @@ const Pagedescription = () => {
   };
 
   const updateTextPosition = (event) => {
-    setTextPosition({ left: event.pageX, top: event.pageY });
+    setTextPosition({ left: event.pageX + 10, top: event.pageY + 10 });
   };
 
   const location = useLocation();
@@ -35,20 +35,16 @@ const Pagedescription = () => {
   const ladescription = location.state.from[1]; // Accédez à la propriété from de state
   const markupdescription = { __html: ladescription };
   return (
-    <div
-      className="pageimage pagedescription"
-      onMouseEnter={handleMouseEnter}
-      onMouseMove={handleMouseMove}
-      onMouseLeave={handleMouseLeave}
-    >
-      <button className="btnpageimage" onClick={goBack}>
-        <p className="titre">{titre}</p>
-
+    <div className="pt-36">
+      <button
+        className="text-blue-500 hover:text-blue-700 focus:outline-none"
+        onClick={goBack}
+      >
+        <p className="mb-2 text-lg font-bold">{titre}</p>
         {displayText && (
           <div
-            className="boutonretour"
+            className="absolute rounded bg-gray-100 px-2 py-1 shadow"
             style={{
-              position: "absolute",
               left: textPosition.left,
               top: textPosition.top,
             }}
@@ -57,7 +53,7 @@ const Pagedescription = () => {
           </div>
         )}
         <p
-          className="ladescription"
+          className="mx-16 justify-center text-lg	 font-bold text-gray-700"
           dangerouslySetInnerHTML={markupdescription}
         ></p>
       </button>

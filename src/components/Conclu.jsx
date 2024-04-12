@@ -1,11 +1,15 @@
-import React, { Fragment, lazy, Suspense } from "react";
+import React from "react";
 
 const Conclu = (props) => {
-  const markupconclu = { __html: props.conclu };
+  const { conclu } = props;
+
   return (
-    <div className="conclu ">
-      <h1>Conclusion</h1>
-      <p dangerouslySetInnerHTML={markupconclu} className="introoutro"></p>
+    <div className="rounded-lg bg-gray-100 p-8 shadow-md">
+      <h1 className="mb-4 text-3xl font-bold">Conclusion</h1>
+      <p
+        className="text-lg leading-relaxed text-gray-700"
+        dangerouslySetInnerHTML={{ __html: conclu }}
+      ></p>
     </div>
   );
 };

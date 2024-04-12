@@ -4,29 +4,75 @@ Command: npx gltfjsx@6.2.16 Lowpoly_Helicopter-transformed.glb --transform
 Files: Lowpoly_Helicopter-transformed.glb [152.81KB] > C:\Users\axelc\Desktop\portfolio\geii\front\geii-portfolio\src\Lowpoly_Helicopter-transformed-transformed.glb [34.7KB] (77%)
 */
 
-import React, { useRef } from 'react'
-import { useGLTF, useAnimations } from '@react-three/drei'
+import React, { useRef } from "react";
+import { useGLTF, useAnimations } from "@react-three/drei";
 
 export function Model(props) {
-  const group = useRef()
-  const { nodes, materials, animations } = useGLTF('/Lowpoly_Helicopter-transformed-transformed.glb')
-  const { actions } = useAnimations(animations, group)
+  const group = useRef();
+  const { nodes, materials, animations } = useGLTF(
+    "/Lowpoly_Helicopter-transformed-transformed.glb",
+  );
+  const { actions } = useAnimations(animations, group);
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Scene">
-        <group name="Helicopter" position={[0.299, -0.504, 0.135]} rotation={[1.568, 0, 0]} scale={0.01}>
-          <group name="Copter_Body" position={[-0.161, -229.122, 213.899]} rotation={[0, 0, -Math.PI / 2]}>
-            <mesh name="Copter" geometry={nodes.Copter.geometry} material={materials.Palette} position={[237.969, -71.454, -717.517]} rotation={[0, -1.571, 0]} />
-            <mesh name="Cylinder" geometry={nodes.Cylinder.geometry} material={materials.Palette} position={[2446.425, 0, -767.203]} rotation={[Math.PI / 2, 0, 0]} />
+        <group
+          name="Helicopter"
+          position={[0.299, -0.504, 0.135]}
+          rotation={[1.568, 0, 0]}
+          scale={0.01}
+        >
+          <group
+            name="Copter_Body"
+            position={[-0.161, -229.122, 213.899]}
+            rotation={[0, 0, -Math.PI / 2]}
+          >
+            <mesh
+              name="Copter"
+              geometry={nodes.Copter.geometry}
+              material={materials.Palette}
+              position={[237.969, -71.454, -717.517]}
+              rotation={[0, -1.571, 0]}
+            />
+            <mesh
+              name="Cylinder"
+              geometry={nodes.Cylinder.geometry}
+              material={materials.Palette}
+              position={[2446.425, 0, -767.203]}
+              rotation={[Math.PI / 2, 0, 0]}
+            />
           </group>
-          <mesh name="Propeller" geometry={nodes.Propeller.geometry} material={materials.Palette} position={[-2.332, -2670.831, -559.667]} rotation={[0, 0, -Math.PI / 2]} />
-          <mesh name="Propeller_2" geometry={nodes.Propeller_2.geometry} material={materials['Palette.003']} position={[3.292, -219.394, -603.522]} />
-          <mesh name="Legs" geometry={nodes.Legs.geometry} material={materials['Palette.002']} position={[-331.968, -417.255, 405.852]} rotation={[-Math.PI / 2, 0, 0.615]} />
-          <mesh name="Tail_part" geometry={nodes.Tail_part.geometry} material={materials.Palette} position={[-0.161, -2674.077, -560.914]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} />
+          <mesh
+            name="Propeller"
+            geometry={nodes.Propeller.geometry}
+            material={materials.Palette}
+            position={[-2.332, -2670.831, -559.667]}
+            rotation={[0, 0, -Math.PI / 2]}
+          />
+          <mesh
+            name="Propeller_2"
+            geometry={nodes.Propeller_2.geometry}
+            material={materials["Palette.003"]}
+            position={[3.292, -219.394, -603.522]}
+          />
+          <mesh
+            name="Legs"
+            geometry={nodes.Legs.geometry}
+            material={materials["Palette.002"]}
+            position={[-331.968, -417.255, 405.852]}
+            rotation={[-Math.PI / 2, 0, 0.615]}
+          />
+          <mesh
+            name="Tail_part"
+            geometry={nodes.Tail_part.geometry}
+            material={materials.Palette}
+            position={[-0.161, -2674.077, -560.914]}
+            rotation={[-Math.PI / 2, Math.PI / 2, 0]}
+          />
         </group>
       </group>
     </group>
-  )
+  );
 }
 
-useGLTF.preload('/Lowpoly_Helicopter-transformed-transformed.glb')
+useGLTF.preload("/Lowpoly_Helicopter-transformed-transformed.glb");

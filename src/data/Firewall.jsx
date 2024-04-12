@@ -1,10 +1,8 @@
-
 import imgbloque from "@assetspreuve/bloque.png";
 import imgfire from "@assetspreuve/fire.png";
 import imgfirevlan from "@assetspreuve/firevlan.png";
 import imgliste from "@assetspreuve/liste.png";
 import imgvpn from "@assetspreuve/vpn.png";
-
 
 const titre = "Edition de regle de firewall";
 

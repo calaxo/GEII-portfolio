@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 import React, { Fragment, lazy, Suspense } from "react";
 
-
 const Page404 = lazy(() => import("@pages/Page404"));
 
 import Accueil from "@pages/Accueil.jsx";

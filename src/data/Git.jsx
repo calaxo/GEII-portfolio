@@ -1,4 +1,3 @@
-
 import imggithub from "@assetspreuve/github.png";
 import imgrepo from "@assetspreuve/repo.png";
 import imgcommit from "@assetspreuve/commit.png";
@@ -60,8 +59,6 @@ const content = [
     date: "01/02/2023",
     note: 3,
   },
-
-
 
   {
     id: 8,

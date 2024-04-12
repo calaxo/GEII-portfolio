@@ -4,31 +4,76 @@ Command: npx gltfjsx@6.2.16 server.glb --transform
 Files: server.glb [632.08KB] > C:\Users\axelc\Desktop\portfolio\geii\front\geii-portfolio\src\server-transformed.glb [61.97KB] (90%)
 */
 
-import React, { useRef } from 'react'
-import { useGLTF } from '@react-three/drei'
+import React, { useRef } from "react";
+import { useGLTF } from "@react-three/drei";
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF('/server-transformed.glb')
+  const { nodes, materials } = useGLTF("/server-transformed.glb");
   return (
     <group {...props} dispose={null}>
-      <group position={[-2.333, 0.693, 3.718]} rotation={[Math.PI, -0.017, Math.PI]}>
-        <mesh geometry={nodes.Cube002.geometry} material={materials.PaletteMaterial002} />
-        <mesh geometry={nodes.Cube002_1.geometry} material={materials.PaletteMaterial003} />
-        <mesh geometry={nodes.Cube002_2.geometry} material={materials.PaletteMaterial005} />
-        <mesh geometry={nodes.Cube002_3.geometry} material={materials.PaletteMaterial006} />
-        <mesh geometry={nodes.Cube002_4.geometry} material={materials.PaletteMaterial007} />
-        <mesh geometry={nodes.Cube002_5.geometry} material={materials.PaletteMaterial009} />
-        <mesh geometry={nodes.Cube002_6.geometry} material={materials.PaletteMaterial010} />
-        <mesh geometry={nodes.Cube002_7.geometry} material={materials.PaletteMaterial012} />
-        <mesh geometry={nodes.Cube002_8.geometry} material={materials.PaletteMaterial013} />
-        <mesh geometry={nodes.Cube002_9.geometry} material={materials.PaletteMaterial014} />
-        <mesh geometry={nodes.Cube002_10.geometry} material={materials.PaletteMaterial001} />
-        <mesh geometry={nodes.Cube002_11.geometry} material={materials.PaletteMaterial004} />
-        <mesh geometry={nodes.Cube002_12.geometry} material={materials.PaletteMaterial008} />
-        <mesh geometry={nodes.Cube002_13.geometry} material={materials.PaletteMaterial011} />
+      <group
+        position={[-2.333, 0.693, 3.718]}
+        rotation={[Math.PI, -0.017, Math.PI]}
+      >
+        <mesh
+          geometry={nodes.Cube002.geometry}
+          material={materials.PaletteMaterial002}
+        />
+        <mesh
+          geometry={nodes.Cube002_1.geometry}
+          material={materials.PaletteMaterial003}
+        />
+        <mesh
+          geometry={nodes.Cube002_2.geometry}
+          material={materials.PaletteMaterial005}
+        />
+        <mesh
+          geometry={nodes.Cube002_3.geometry}
+          material={materials.PaletteMaterial006}
+        />
+        <mesh
+          geometry={nodes.Cube002_4.geometry}
+          material={materials.PaletteMaterial007}
+        />
+        <mesh
+          geometry={nodes.Cube002_5.geometry}
+          material={materials.PaletteMaterial009}
+        />
+        <mesh
+          geometry={nodes.Cube002_6.geometry}
+          material={materials.PaletteMaterial010}
+        />
+        <mesh
+          geometry={nodes.Cube002_7.geometry}
+          material={materials.PaletteMaterial012}
+        />
+        <mesh
+          geometry={nodes.Cube002_8.geometry}
+          material={materials.PaletteMaterial013}
+        />
+        <mesh
+          geometry={nodes.Cube002_9.geometry}
+          material={materials.PaletteMaterial014}
+        />
+        <mesh
+          geometry={nodes.Cube002_10.geometry}
+          material={materials.PaletteMaterial001}
+        />
+        <mesh
+          geometry={nodes.Cube002_11.geometry}
+          material={materials.PaletteMaterial004}
+        />
+        <mesh
+          geometry={nodes.Cube002_12.geometry}
+          material={materials.PaletteMaterial008}
+        />
+        <mesh
+          geometry={nodes.Cube002_13.geometry}
+          material={materials.PaletteMaterial011}
+        />
       </group>
     </group>
-  )
+  );
 }
 
-useGLTF.preload('/server-transformed.glb')
+useGLTF.preload("/server-transformed.glb");

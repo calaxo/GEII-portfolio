@@ -1,13 +1,5 @@
-import {
-  HashRouter as Router,
-  Routes,
-  Route,
-  NavLink,
-  Navigate,
-} from "react-router-dom";
 import React, { useState } from "react";
-
-
+import { NavLink } from "react-router-dom";
 
 const Cadre = (props) => {
   const [textPosition, setTextPosition] = useState({ left: 0, top: 0 });
@@ -31,14 +23,18 @@ const Cadre = (props) => {
   };
 
   return (
-    <div className="cadre">
-      <div className="cadreimg">
-        
-      {props.image.map((url, index) => (
-          <NavLink key={index} to="/Pageimage" state={{ from: [url, props.title] }}>
+    <div className="relative">
+      <div className="flex items-center justify-center">
+        {props.image.map((url, index) => (
+          <NavLink
+            key={index}
+            to="/Pageimage"
+            state={{ from: [url, props.title] }}
+            className="mx-2"
+          >
             <img
               key={index}
-              className="grosseimg"
+              className="h-32 w-32 rounded-lg object-cover"
               src={url}
               alt={`${props.title}-${index}`}
               onMouseEnter={handleMouseEnter}
@@ -47,9 +43,15 @@ const Cadre = (props) => {
             />
           </NavLink>
         ))}
-          
-        
       </div>
+      {displayText && (
+        <div
+          className="absolute rounded-lg border border-gray-300 bg-white p-2 shadow-md"
+          style={{ left: textPosition.left, top: textPosition.top }}
+        >
+          {displayText}
+        </div>
+      )}
     </div>
   );
 };

@@ -1,4 +1,3 @@
-
 import imghtml from "@assetspreuve/html.png";
 import imgxampp from "@assetspreuve/xampp.png";
 import imgnoip from "@assetspreuve/noip.png";
@@ -6,7 +5,6 @@ import imgo2 from "@assetspreuve/o2.png";
 import imgovh1 from "@assetspreuve/ovh.png";
 import imgovh2 from "@assetspreuve/ovh2.png";
 import imgpm2 from "@assetspreuve/pm2.png";
-
 
 const titre = "Hebergement local et distant";
 
@@ -17,15 +15,16 @@ const content = [
   {
     id: 1,
     titretache: "hebergement local simple via les fichier ",
-    tache: "pour herberger des site simple statique qui sont sous formes de fichier html javascript et css j'ai dabord placer ces fichier dans un dossier ",
-    granddescription: "ceci bien pour des site simple en ouvrant simplement le fichier dans un navigateur mais se se reveler dangereux car  il faut que l'utilisateur ai accés au dossier",
+    tache:
+      "pour herberger des site simple statique qui sont sous formes de fichier html javascript et css j'ai dabord placer ces fichier dans un dossier ",
+    granddescription:
+      "ceci bien pour des site simple en ouvrant simplement le fichier dans un navigateur mais se se reveler dangereux car  il faut que l'utilisateur ai accés au dossier",
     ressource: "",
     trace: [imghtml],
     evaluation: "simple mais dangereux",
     date: "01/01/2017",
     note: 1,
   },
-
 
   {
     id: 4,
@@ -73,7 +72,7 @@ const content = [
       "pour avoir mon propre nom de domaine(adresse URL personalisé)j'ai appris a configure un service DNS qui permet de lié un serveur a une adress internet",
     granddescription: "ceci est une grande description",
     ressource: "comme je sais fair j'ai fait un site react",
-    trace: [imgovh1,imgovh2],
+    trace: [imgovh1, imgovh2],
     evaluation: "evaluation1",
     date: "01/06/2023",
     note: 3,
