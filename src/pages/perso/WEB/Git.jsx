@@ -1,4 +1,4 @@
-import { Intro, Tableau, Conclu } from "@pages/Base";
+import { Intro, Collaborateurs, Tableau, Conclu } from "@/Base";
 import React, { Fragment, lazy, Suspense } from "react";
 import data from "@data/Git";
 

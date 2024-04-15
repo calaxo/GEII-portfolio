@@ -5,14 +5,14 @@ import voltmetre from "@assets/voltmetre.jpg";
 import onde from "@assets/onde.jpg";
 const But1 = () => {
   return (
-    <div >
+    <div>
       <div className=" mx-16 justify-center	 text-lg font-bold">
         cette année fut trés interessante, nous avons pu apprendre beaucoup de
         choses, et nous avons pu mettre en pratique nos connaissances dans des
         projets.
       </div>
 
-      <div className="mt-8 flex justify-center">
+      <div className="mt-8 flex-row justify-center lg:flex">
         <NavLink to="/geii/but2/But2_sae1" className="mx-4">
           <div className="transform rounded-lg border p-4 transition duration-300 ease-in-out hover:scale-105">
             <img

@@ -6,13 +6,13 @@ import trieur from "@assets/trieur.jpg";
 
 const But1 = () => {
   return (
-    <div >
+    <div>
       <div className=" mx-16 justify-center	 text-lg font-bold">
         première année dans GEII que j'ai rejoint car j'ai toujours été
         intéressé par l'électrique et l'électronique
       </div>
 
-      <div className="mt-8 flex justify-center">
+      <div className="mt-8  flex-row justify-center lg:flex">
         <NavLink to="/geii/but1/But1_sae1" className="mx-4">
           <div className="transform rounded-lg border p-4 transition duration-300 ease-in-out hover:scale-105">
             <img

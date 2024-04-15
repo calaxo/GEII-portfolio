@@ -1,6 +1,7 @@
-import { Intro, Tableau, Conclu } from "@pages/Base";
+import { Intro, Collaborateurs, Tableau, Conclu } from "@/Base";
 import React from "react";
 import data from "@data/Cyber";
+
 
 const Dgac = () => {
   return (

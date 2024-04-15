@@ -1,10 +1,10 @@
-import { Intro, Tableau, Conclu } from "@pages/Base";
+import { Intro, Collaborateurs, Tableau, Conclu } from "@/Base";
 import React from "react";
 import data from "@data/AD";
 
 const ADir = () => {
   return (
-    <div >
+    <div>
       <Intro titre={data.titre} intro={data.intro}></Intro>
 
       <Tableau data={data.content} stile="tableautravail" />

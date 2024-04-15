@@ -5,7 +5,7 @@ import ad from "@assets/ad.jpg";
 import docker from "@assets/docker.jpg";
 const But1 = () => {
   return (
-    <div >
+    <div>
       <div className=" mx-16 justify-center	 text-lg font-bold">
         j'ai toujour heberger tout et n'importe quoi des serveur de jeux pour
         jouer entre amis pendant le confinement des serveur web plus complexe
@@ -13,7 +13,7 @@ const But1 = () => {
         je me suis vite rendu compte qu'il faut une machine dédié a ca
       </div>
 
-      <div className="mt-8 flex justify-center">
+      <div className="mt-8 flex-row justify-center lg:flex">
         <NavLink to="/travail/serveur/AD" className="mx-4">
           <div className="transform rounded-lg border p-4 transition duration-300 ease-in-out hover:scale-105">
             <img

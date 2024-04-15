@@ -4,8 +4,8 @@ import { RouterProvider, createHashRouter } from "react-router-dom";
 
 import "@styles/index.css";
 
-import Header from "@components/Header";
-import Footer from "@components/Footer.jsx";
+import Header from "@layout/Header";
+import Footer from "@layout/Footer.jsx";
 
 import routes from "~react-pages";
 const router = createHashRouter(routes);

@@ -5,7 +5,7 @@ import simu from "@assets/simu.jpg";
 import aero from "@assets/aero.jpg";
 const But1 = () => {
   return (
-    <div >
+    <div>
       <div className=" mx-16 justify-center	 text-lg font-bold">
         je nai jammais pris l'avion mais j'ai toujour trouver le technologies
         aeronautique trés interessante lorsque j'ai été pris en tant
@@ -15,7 +15,7 @@ const But1 = () => {
         culture generale c'est bien
       </div>
 
-      <div className="mt-8 flex justify-center">
+      <div className="mt-8 flex-row justify-center lg:flex">
         <NavLink to="/travail/helico/Simu" className="mx-4">
           <div className="transform rounded-lg border p-4 transition duration-300 ease-in-out hover:scale-105">
             <img

@@ -1,1 +1,1 @@
-import{C as t,a as l,I as e,T as m}from"./chunk3.js";import"./chunk.js";import"./plugin.js";export{t as Collaborateurs,l as Conclu,e as Intro,m as Tableau};
+import{R as e}from"./chunk.js";const n=()=>e.createElement("div",null,e.createElement("h1",null,"Conditions légales"),e.createElement("h2",null,"Webmaster"),"site pensé et crée par Calendreau Axel certaines images on été créee par des inteligence artificielle");export{n as default};

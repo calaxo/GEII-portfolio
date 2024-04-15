@@ -1,4 +1,4 @@
-import { Intro, Collaborateurs, Tableau, Conclu } from "@pages/Base";
+import { Intro, Collaborateurs, Tableau, Conclu } from "@/Base";
 import React from "react";
 import { collaborateurs_But2_sae2 } from "@data/Colabo";
 import data from "@data/But2_sae2";

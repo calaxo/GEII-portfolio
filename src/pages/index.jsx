@@ -15,7 +15,7 @@ import imgmoi from "@assets/imgmoi.jpg";
 import drapfr from "@assets/drapfr.jpg";
 import drapen from "@assets/drapen.png";
 import Timeline  from "@components/Timeline";
-import LeCanvas from "@components/LeCanvas";
+import LeCanvas from "@3d/LeCanvas";
 // import { TextureLoader } from 'three/src/loaders/TextureLoader'
 
 // function Box(props) {

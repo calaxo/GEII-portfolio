@@ -5,7 +5,7 @@ import fire from "@assets/fire.jpg";
 import switchr from "@assets/switch.jpg";
 const But1 = () => {
   return (
-    <div >
+    <div>
       <div className=" mx-16 justify-center	 text-lg font-bold">
         plus jeune que internet fonctionnait tout seul puis j'ai eu mes premier
         cours d'informatique au lycée qui expliquait les base de fonctionment du
@@ -13,7 +13,7 @@ const But1 = () => {
         fonctionnement des reseaux informatique
       </div>
 
-      <div className="mt-8 flex justify-center">
+      <div className="mt-8 flex-row justify-center lg:flex">
         <NavLink to="/travail/reseaux/Firewall" className="mx-4">
           <div className="transform rounded-lg border p-4 transition duration-300 ease-in-out hover:scale-105">
             <img

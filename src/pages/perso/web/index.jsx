@@ -8,14 +8,14 @@ import hebergement from "@assets/hebergement.jpg";
 
 const But1 = () => {
   return (
-    <div >
+    <div>
       <div className=" mx-16 justify-center	 text-lg font-bold">
         il y'a de nombreuse "brique" informatique qui ensemble forme un systeme
         complexe avec beaucoup d'interaction et de synergie pour simplifer le
         developement web
       </div>
 
-      <div className="mt-8 flex justify-center">
+      <div className="mt-8 flex-row justify-center lg:flex">
         <NavLink to="/perso/web/Back" className="mx-4">
           <div className="transform rounded-lg border p-4 transition duration-300 ease-in-out hover:scale-105">
             <img
