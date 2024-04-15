@@ -25,10 +25,13 @@ const Header = () => {
 
   return (
     <div className="fixed z-50 flex h-24 w-full items-center justify-between bg-slate-800 px-6">
-      <a href="/Accueil" className="text-xl font-bold text-white">
+      <a
+        href="/Accueil"
+        className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-5xl font-black text-transparent hover:from-blue-500 hover:via-green-500 hover:to-emerald-500"
+      >
         Calendreau Axel
       </a>
-
+      {/* text-xl font-bold text-white */}
       <div className="flex items-center space-x-4">
         <a
           href="https://github.com/calaxo/geii-portfolio"
@@ -52,7 +55,7 @@ const Header = () => {
           <a
             key={link.to}
             href={link.to}
-            className="text-white hover:text-blue-500"
+            className="hover:animate-text bg-clip-text font-black text-white  hover:bg-gradient-to-r hover:from-blue-500 hover:via-green-500 hover:to-emerald-500 hover:font-black hover:text-transparent"
           >
             {link.text}
           </a>

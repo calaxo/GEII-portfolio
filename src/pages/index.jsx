@@ -18,6 +18,7 @@ import { PCB } from "@components/PCB";
 import { Server } from "@components/Server";
 import drapfr from "@assets/drapfr.jpg";
 import drapen from "@assets/drapen.png";
+import Timeline  from "@components/Timeline";
 
 // import { TextureLoader } from 'three/src/loaders/TextureLoader'
 
@@ -118,32 +119,67 @@ const Accueil = () => {
       <div className=" flex">
         <div className=" relative left-0 z-30 w-1/2 flex-initial">
           <a key="Front" href="#/perso/web/Front">
-            <div className="mx-auto w-36 justify-center rounded-lg bg-slate-300  text-2xl font-bold ">
+            <div
+              className="before:ease relative mx-auto my-3 w-40 overflow-hidden  rounded-lg text-2xl font-bold
+           shadow-2xl transition-all before:absolute before:top-1/2
+          before:h-0 before:w-64 before:origin-center before:-translate-x-20
+          before:rotate-45 before:bg-blue-500 before:duration-300
+          hover:text-white hover:shadow-blue-500 hover:before:h-64
+          hover:before:-translate-y-32 "
+            >
               <span className="mx-2">concevoir</span>
             </div>
           </a>
-
-          <a key="Simu" href="#travail/helico/Simu" className="">
+          <a key="Simu" href="#travail/helico/Simu">
             <div>
-              <div className="  mx-auto my-3 w-36 rounded-lg bg-slate-300 text-2xl font-bold">
+              <div
+                className="before:ease relative mx-auto my-3 w-40 overflow-hidden  rounded-lg text-2xl font-bold
+           shadow-2xl transition-all before:absolute before:top-1/2
+          before:h-0 before:w-64 before:origin-center before:-translate-x-20
+          before:rotate-45 before:bg-blue-500 before:duration-300
+          hover:text-white hover:shadow-blue-500 hover:before:h-64
+          hover:before:-translate-y-32"
+              >
                 <span className="mx-2">verifier</span>
               </div>
             </div>
           </a>
-          <a key="Switch" href="#/travail/reseaux/Switch" className="">
+          <a key="Switch" href="#/travail/reseaux/Switch">
             <div>
-              <div className="mx-auto my-3 w-36 rounded-lg bg-slate-300 text-2xl font-bold">
+              <div
+                className="before:ease relative mx-auto my-3 w-40 overflow-hidden  rounded-lg text-2xl font-bold
+           shadow-2xl transition-all before:absolute before:top-1/2
+          before:h-0 before:w-64 before:origin-center before:-translate-x-20
+          before:rotate-45 before:bg-blue-500 before:duration-300
+          hover:text-white hover:shadow-blue-500 hover:before:h-64
+          hover:before:-translate-y-32"
+              >
                 <span className="mx-2">implanter</span>
               </div>
             </div>
           </a>
-          <a key="Simu" href="#/travail/helico/Simu" className="">
+          <a key="Simu" href="#/travail/helico/Simu">
             <div>
-              <div className="mx-auto my-3 w-36 rounded-lg bg-slate-300 text-2xl font-bold">
+              {/* hover: mx-auto my-3 w-36 rounded-lg bg-slate-300 text-2xl
+              font-bold */}
+              <div
+                className=" before:ease relative mx-auto my-3 w-40 overflow-hidden  rounded-lg text-2xl font-bold
+           shadow-2xl transition-all before:absolute before:top-1/2
+          before:h-0 before:w-64 before:origin-center before:-translate-x-20
+          before:rotate-45 before:bg-blue-500 before:duration-300
+          hover:text-white hover:shadow-blue-500 hover:before:h-64
+          hover:before:-translate-y-32"
+              >
                 <span className="mx-2">maintenir</span>
               </div>
             </div>
           </a>
+          {/* before:ease relative h-12 w-40 overflow-hidden border border-blue-500
+          text-blue-500 shadow-2xl transition-all before:absolute before:top-1/2
+          before:h-0 before:w-64 before:origin-center before:-translate-x-20
+          before:rotate-45 before:bg-blue-500 before:duration-300
+          hover:text-white hover:shadow-blue-500 hover:before:h-64
+          hover:before:-translate-y-32 */}
         </div>
         <div className="right-0 w-1/2">
           <img
@@ -158,7 +194,7 @@ const Accueil = () => {
 
       <LeCanvas />
 
-      <h1 className="mb-4  max-w-72 justify-center text-6xl font-bold">
+      <h1 className="relative z-40 mb-4 ml-11 max-w-72 justify-center text-6xl font-bold">
         {languefr ? "MON PORTFOLIO" : "MY PORTFOLIO"}
       </h1>
       <div
@@ -222,6 +258,7 @@ const Accueil = () => {
         personnes que je rencontre. Par ailleurs, démonter et réparer des objets
         pour mes amis est l'une de mes activités préférées dans ma vie
         personnelle.
+        <Timeline />
       </div>
       <div
         className={` relative z-40 mx-8  mt-32 bg-gray-400  bg-opacity-30 p-14 ${languefr ? "hidden" : ""}`}
@@ -275,6 +312,7 @@ const Accueil = () => {
         enriching conversations with the people I meet. Moreover, dismantling
         and repairing objects for my friends is one of my favorite activities in
         my personal life.
+        <Timeline />
       </div>
 
       <div className={languefr ? "visible" : "collapse"}>
