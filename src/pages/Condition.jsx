@@ -2,7 +2,7 @@ import React from "react";
 
 const Condition = () => {
   return (
-    <div className="pt-36">
+    <div >
       {/* <h2>Hébergeur</h2>
       <p>Nom de l'hébergeur: [Nom de l'hébergeur]</p>
       <p>Coordonnées de l'hébergeur: [Coordonnées de l'hébergeur]</p> */}

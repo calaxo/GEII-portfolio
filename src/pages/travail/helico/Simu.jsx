@@ -4,7 +4,7 @@ import data from "@data/Simu";
 
 const Simu = () => {
   return (
-    <div className="pt-36">
+    <div >
       <Intro titre={data.titre} intro={data.intro}></Intro>
 
       <Tableau data={data.content} stile="tableautravail" />

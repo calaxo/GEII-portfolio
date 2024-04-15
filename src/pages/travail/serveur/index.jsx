@@ -5,7 +5,7 @@ import ad from "@assets/ad.jpg";
 import docker from "@assets/docker.jpg";
 const But1 = () => {
   return (
-    <div className="pt-36">
+    <div >
       <div className=" mx-16 justify-center	 text-lg font-bold">
         j'ai toujour heberger tout et n'importe quoi des serveur de jeux pour
         jouer entre amis pendant le confinement des serveur web plus complexe

@@ -5,7 +5,7 @@ import data from "@data/Front";
 
 const Front = () => {
   return (
-    <div className="pt-36">
+    <div >
       <Intro titre={data.titre} intro={data.intro}></Intro>
 
       <Tableau data={data.content} stile="tableauperso" />

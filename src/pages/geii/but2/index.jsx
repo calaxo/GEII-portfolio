@@ -5,7 +5,7 @@ import voltmetre from "@assets/voltmetre.jpg";
 import onde from "@assets/onde.jpg";
 const But1 = () => {
   return (
-    <div className="pt-36">
+    <div >
       <div className=" mx-16 justify-center	 text-lg font-bold">
         cette année fut trés interessante, nous avons pu apprendre beaucoup de
         choses, et nous avons pu mettre en pratique nos connaissances dans des

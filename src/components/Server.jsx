@@ -27,7 +27,7 @@ export function Server(props) {
 
   return (
     <group ref={mesh} {...props} dispose={null}>
-      <group position={[-2.333, 0.693, 3.718]} rotation={[Math.PI, 5, Math.PI]}>
+      <group position={[-2.333, 0.693, 3.718]} rotation={[Math.PI, 8, Math.PI]}>
         <mesh
           geometry={nodes.Cube002.geometry}
           material={materials.PaletteMaterial002}

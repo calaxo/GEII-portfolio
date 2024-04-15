@@ -1,43 +1,30 @@
-import { HashRouter as Router } from "react-router-dom";
-
+import React, { Suspense } from "react";
 import { createRoot } from "react-dom/client";
-import React, { Fragment, lazy, Suspense } from "react";
 import { RouterProvider, createHashRouter } from "react-router-dom";
 
-// Import des styles
 import "@styles/index.css";
-// import "@styles/accueil.css";
-// import "@styles/page.css";
-// import "@styles/choix.css";
-// import "@styles/tableau.css";
 
-// Import des composants
-// import Mesroutes from "@context/Mesroutes.jsx";
 import Header from "@components/Header";
 import Footer from "@components/Footer.jsx";
 
 import routes from "~react-pages";
 const router = createHashRouter(routes);
-console.log(routes);
-// Fonction principale App
+
+// Définition du composant App
 function App() {
   return (
-    <Suspense fallback={null}>
+    <Suspense fallback={<a>Loading</a>}>
       <React.StrictMode>
+        {/* Conteneur principal avec en-tête, contenu et pied de page */}
         <div className="flex min-h-screen flex-col">
-          {/* Composant Header */}
-          <Header />
-
-          <RouterProvider router={router} />
-
-          {/* Composant Footer */}
-          <Footer />
+          <Header /> {/* En-tête */}
+          <RouterProvider router={router} /> {/* Contenu */}
+          <Footer /> {/* Pied de page */}
         </div>
       </React.StrictMode>
     </Suspense>
   );
 }
 
-// Création de la racine de l'application et rendu du composant App dans l'élément avec l'ID "root"
 const root = createRoot(document.getElementById("root"));
-root.render(<App />);
+root.render(<App />); // Rendu du composant App dans le DOM

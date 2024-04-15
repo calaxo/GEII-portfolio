@@ -6,7 +6,7 @@ import trieur from "@assets/trieur.jpg";
 
 const But1 = () => {
   return (
-    <div className="pt-36">
+    <div >
       <div className=" mx-16 justify-center	 text-lg font-bold">
         première année dans GEII que j'ai rejoint car j'ai toujours été
         intéressé par l'électrique et l'électronique

@@ -5,7 +5,7 @@ import data from "@data/But1_sae1";
 
 const But1_sae1 = () => {
   return (
-    <div className="pt-36">
+    <div >
       <Intro titre={data.titre} intro={data.intro}></Intro>
       <Collaborateurs colabo={collaborateurs_But1_sae1}></Collaborateurs>
 

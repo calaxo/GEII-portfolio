@@ -5,7 +5,7 @@ import fire from "@assets/fire.jpg";
 import switchr from "@assets/switch.jpg";
 const But1 = () => {
   return (
-    <div className="pt-36">
+    <div >
       <div className=" mx-16 justify-center	 text-lg font-bold">
         plus jeune que internet fonctionnait tout seul puis j'ai eu mes premier
         cours d'informatique au lycée qui expliquait les base de fonctionment du

@@ -35,9 +35,12 @@ const Pagedescription = () => {
   const ladescription = location.state.from[1]; // Accédez à la propriété from de state
   const markupdescription = { __html: ladescription };
   return (
-    <div className="pt-36">
+    <div >
       <button
         className="text-blue-500 hover:text-blue-700 focus:outline-none"
+        onMouseEnter={handleMouseEnter}
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
         onClick={goBack}
       >
         <p className="mb-2 text-lg font-bold">{titre}</p>

@@ -1,7 +1,5 @@
 import { useRef, useState, useEffect } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
-import { NavLink } from "react-router-dom";
+
 
 import React, { Fragment, lazy, Suspense } from "react";
 
@@ -13,13 +11,11 @@ import github from "@assets/github.png";
 import linkedin from "@assets/linkedin.png";
 import imgmoi from "@assets/imgmoi.jpg";
 
-import { Modelhelico } from "@components/Modelhelico";
-import { PCB } from "@components/PCB";
-import { Server } from "@components/Server";
+
 import drapfr from "@assets/drapfr.jpg";
 import drapen from "@assets/drapen.png";
 import Timeline  from "@components/Timeline";
-
+import LeCanvas from "@components/LeCanvas";
 // import { TextureLoader } from 'three/src/loaders/TextureLoader'
 
 // function Box(props) {
@@ -59,38 +55,7 @@ import Timeline  from "@components/Timeline";
 //   return <primitive object={obj2} position={[200, -10, 0]}  scale={0.4}  />;
 // };
 
-const LeCanvas = () => {
-  return (
-    <Canvas
-      className="h-full w-full"
-      style={{
-        height: "30em",
-        position: "fixed",
-        top: "5em",
-        zIndex: "1",
-      }}
-      camera={{ position: [2, 3, 15] }}
-    >
-      {/* <Box position={[-2.5, 0, 0]} /> */}
-      {/* <SpotLight  position={[10, 10, 10]} angle={1} focus={1} color={"red"} penumbra={0} intensity={500} target-position={[0, 0,0]} /> */}
-      <directionalLight position={[3.3, 1.0, 4.4]} intensity={5} />
-      <directionalLight position={[-3.3, 1.0, -4.4]} intensity={2} />
 
-      <Modelhelico position={[0, 0, 0]} scale={0.5} />
-      <PCB position={[7, 0, 6]} scale={0.7} />
-      <Server position={[13, 0, 11]} scale={1} />
-      {/* <OrbitControls /> */}
-
-      {/* <Box position={[-5, 0, 0]} />
-<Box position={[-2.5, 0, 0]} />
-<Box position={[0, 0, 0]} />
-<Box position={[2.5, 0, 0]} />
-<Box position={[5, 0, 0]} /> */}
-
-      {/* <Environment preset="warehouse" background /> */}
-    </Canvas>
-  );
-};
 
 const Accueil = () => {
   // const materials = useLoader(MTLLoader, "http://dev.axel-cal.fr/Lowpoly_Helicopter.mtl");
@@ -106,7 +71,7 @@ const Accueil = () => {
   };
 
   return (
-    <div className="pt-36">
+    <div>
       <button
         className="relative z-40 w-32 bg-fixed  px-4 py-2  "
         onClick={changelangu}
@@ -117,10 +82,14 @@ const Accueil = () => {
         />
       </button>
       <div className=" flex">
-        <div className=" relative left-0 z-30 w-1/2 flex-initial">
-          <a key="Front" href="#/perso/web/Front">
+        <div className=" relative left-0 z-30 w-1/2 flex-row  ">
+          <a
+            key="Front"
+            href="#/perso/web/Front"
+            className="mx-auto block w-40"
+          >
             <div
-              className="before:ease relative mx-auto my-3 w-40 overflow-hidden  rounded-lg text-2xl font-bold
+              className="before:ease relative mx-auto my-3 w-40 overflow-hidden rounded-lg  text-center text-2xl font-bold
            shadow-2xl transition-all before:absolute before:top-1/2
           before:h-0 before:w-64 before:origin-center before:-translate-x-20
           before:rotate-45 before:bg-blue-500 before:duration-300
@@ -130,10 +99,14 @@ const Accueil = () => {
               <span className="mx-2">concevoir</span>
             </div>
           </a>
-          <a key="Simu" href="#travail/helico/Simu">
+          <a
+            key="Simu"
+            href="#travail/helico/Simu"
+            className="mx-auto block w-40"
+          >
             <div>
               <div
-                className="before:ease relative mx-auto my-3 w-40 overflow-hidden  rounded-lg text-2xl font-bold
+                className="before:ease relative mx-auto my-3 w-40 overflow-hidden rounded-lg  text-center text-2xl font-bold
            shadow-2xl transition-all before:absolute before:top-1/2
           before:h-0 before:w-64 before:origin-center before:-translate-x-20
           before:rotate-45 before:bg-blue-500 before:duration-300
@@ -144,10 +117,14 @@ const Accueil = () => {
               </div>
             </div>
           </a>
-          <a key="Switch" href="#/travail/reseaux/Switch">
+          <a
+            key="Switch"
+            href="#/travail/reseaux/Switch"
+            className="mx-auto block w-40"
+          >
             <div>
               <div
-                className="before:ease relative mx-auto my-3 w-40 overflow-hidden  rounded-lg text-2xl font-bold
+                className="before:ease relative mx-auto my-3 w-40 overflow-hidden rounded-lg  text-center text-2xl font-bold
            shadow-2xl transition-all before:absolute before:top-1/2
           before:h-0 before:w-64 before:origin-center before:-translate-x-20
           before:rotate-45 before:bg-blue-500 before:duration-300
@@ -158,12 +135,16 @@ const Accueil = () => {
               </div>
             </div>
           </a>
-          <a key="Simu" href="#/travail/helico/Simu">
+          <a
+            key="Simu"
+            href="#/travail/helico/Simu"
+            className="mx-auto block w-40"
+          >
             <div>
               {/* hover: mx-auto my-3 w-36 rounded-lg bg-slate-300 text-2xl
               font-bold */}
               <div
-                className=" before:ease relative mx-auto my-3 w-40 overflow-hidden  rounded-lg text-2xl font-bold
+                className="before:ease relative mx-auto my-3 w-40 overflow-hidden rounded-lg  text-center text-2xl font-bold
            shadow-2xl transition-all before:absolute before:top-1/2
           before:h-0 before:w-64 before:origin-center before:-translate-x-20
           before:rotate-45 before:bg-blue-500 before:duration-300
@@ -258,7 +239,7 @@ const Accueil = () => {
         personnes que je rencontre. Par ailleurs, démonter et réparer des objets
         pour mes amis est l'une de mes activités préférées dans ma vie
         personnelle.
-        <Timeline />
+        {/* <Timeline /> */}
       </div>
       <div
         className={` relative z-40 mx-8  mt-32 bg-gray-400  bg-opacity-30 p-14 ${languefr ? "hidden" : ""}`}
@@ -312,7 +293,7 @@ const Accueil = () => {
         enriching conversations with the people I meet. Moreover, dismantling
         and repairing objects for my friends is one of my favorite activities in
         my personal life.
-        <Timeline />
+        {/* <Timeline /> */}
       </div>
 
       <div className={languefr ? "visible" : "collapse"}>

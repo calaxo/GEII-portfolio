@@ -27,20 +27,20 @@ const Pagedescription = () => {
   };
 
   const updateTextPosition = (event) => {
-    setTextPosition({ left: event.pageX, top: event.pageY });
+    setTextPosition({ left: event.pageX + 10, top: event.pageY + 10 });
   };
 
   const location = useLocation();
-  const traceFileName = location.state.from[0]; // Accédez à la propriété from de state
-  const titre = location.state.from[1]; // Accédez à la propriété from de state
+  const traceFileName = location.state.from[0]; 
+  const titre = location.state.from[1]; 
   return (
     <div
-      className="flex items-center justify-center pt-36"
+      className="flex items-center justify-center "
       onMouseEnter={handleMouseEnter}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
     >
-      <button className="relative" onClick={goBack}>
+      <button  onClick={goBack}>
         <img
           data-text="Texte yà afficher"
           className="imageengrand rounded-lg shadow-lg"
@@ -50,16 +50,16 @@ const Pagedescription = () => {
 
         {displayText && (
           <div
-            className="absolute rounded-md bg-gray-800 px-2 py-1 text-white shadow"
+            className="absolute rounded bg-gray-100 px-2 py-1 shadow"
             style={{
-              left: textPosition.left - 400,
-              top: textPosition.top,
+              left: textPosition.left ,
+              top: textPosition.top ,
             }}
           >
             <a className="font-semibold">{displayText}</a>
           </div>
         )}
-        <p className="mt-2 text-center">{titre}</p>
+        <p className="mt-2 text-4xl text-center">{titre}</p>
       </button>
     </div>
   );

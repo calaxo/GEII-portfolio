@@ -8,7 +8,7 @@ import hebergement from "@assets/hebergement.jpg";
 
 const But1 = () => {
   return (
-    <div className="pt-36">
+    <div >
       <div className=" mx-16 justify-center	 text-lg font-bold">
         il y'a de nombreuse "brique" informatique qui ensemble forme un systeme
         complexe avec beaucoup d'interaction et de synergie pour simplifer le

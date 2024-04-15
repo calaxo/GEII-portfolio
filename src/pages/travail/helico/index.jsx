@@ -5,7 +5,7 @@ import simu from "@assets/simu.jpg";
 import aero from "@assets/aero.jpg";
 const But1 = () => {
   return (
-    <div className="pt-36">
+    <div >
       <div className=" mx-16 justify-center	 text-lg font-bold">
         je nai jammais pris l'avion mais j'ai toujour trouver le technologies
         aeronautique trés interessante lorsque j'ai été pris en tant
