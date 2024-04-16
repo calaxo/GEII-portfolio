@@ -14,24 +14,9 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+
       "@assets": path.resolve(__dirname, "./src/assets"),
-      "@assetspreuve": path.resolve(__dirname, "./src/assetspreuve"),
 
-      "@styles": path.resolve(__dirname, "./src/styles"),
-
-      "@pages": path.resolve(__dirname, "./src/pages"),
-      "@geii": path.resolve(__dirname, "./src/pages/geii"),
-      "@perso": path.resolve(__dirname, "./src/pages/perso"),
-      "@travail": path.resolve(__dirname, "./src/pages/travail"),
-
-      "@data": path.resolve(__dirname, "./src/data"),
-
-      "@components": path.resolve(__dirname, "./src/components"),
-      "@liste": path.resolve(__dirname, "./src/components/page/liste"),
-      "@3d": path.resolve(__dirname, "./src/components/3d"),
-      "@page": path.resolve(__dirname, "./src/components/page"),
-      "@layout": path.resolve(__dirname, "./src/components/layout"),
 
     },
   },
