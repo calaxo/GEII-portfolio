@@ -1,6 +1,13 @@
 import React from "react";
 import github from "@assets/github.png";
 import linkedin from "@assets/linkedin.png";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  NavLink,
+  Navigate,
+} from "react-router-dom";
 
 const Menupc = ({ navigationLinks }) => {
   return (
@@ -24,13 +31,13 @@ const Menupc = ({ navigationLinks }) => {
       </a>
 
       {navigationLinks.map((link) => (
-        <a
+        <NavLink
           key={link.to}
-          href={link.to}
+          to={link.to}
           className="bg-clip-text font-black text-white hover:animate-text  hover:bg-gradient-to-r hover:from-blue-500 hover:via-green-500 hover:to-emerald-500 hover:font-black hover:text-transparent"
         >
           {link.text}
-        </a>
+        </NavLink>
       ))}
     </div>
   );

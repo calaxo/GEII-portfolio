@@ -181,27 +181,31 @@ const Accueil = () => {
       <div
         className={` relative z-40 mx-8  mt-32 rounded-lg bg-slate-500 bg-opacity-70  p-14 text-lg font-medium ${languefr ? "" : "hidden  "}`}
       >
-        Un Portfolio est un recueil de documents et d'exemples pratiques
+        Un Portfolio est un recueil de documents et d'exemples pratiques.
         L'objectif de ce portfolio est de mettre en lumière des compétences, Il
-        permet notamment de montrer a des recruteur ou des enseignant de prouver
-        ce dont je suis capable
+        permet notamment de montrer à des recruteurs ou des enseignants de
+        prouver ce dont je suis capable.
         <br></br>
         <br></br>
         <br></br>
         Je m'appelle Axel Calendreau et je suis actuellement étudiant en Génie
-        électrique et informatique industrielle à l'IUT d'Angoulême.
+        Electrique et Informatique Industrielle à l'IUT d'Angoulême.
         <br></br>
-        Ce sont des études permettant de devevnir technicien dans de domaine en
-        rapport avec l'electricité, l'electornique et les sience industrielle
-        <a href={ref_geii}> lien vers le referentiel de compétence </a>
+        Ce sont des études qui permettent de devevnir technicien dans des
+        domaines en rapport avec l'électricité, l'électornique et les siences
+        industrielles
+        <a className="font-bold text-blue-500" href={ref_geii}>
+          {" "}
+          lien vers le referentiel de compétence{" "}
+        </a>
         Je suis en dernière année de mon cursus, me préparant à obtenir mon
         Bachelor Universitaire de Technologie.
         <br></br>
         <br></br>
-        Depuis ma deuxième année d'études, je suis également alternant au Heli
+        Depuis ma deuxième année d'études, je suis également alternant a Heli
         Union Training Center, une école de pilotage d'hélicoptère située à
         l'aéroport de Champniers. qui forme théoriquement et pratiquement des
-        pilotes de monde entier d'armée ou de secteur publique trés varié.
+        pilotes du monde entier, d'armée ou de secteur publique trés variés.
         <br></br>
         <br></br>
         Durant mes études, j'ai exploré de nombreuses facettes de
@@ -218,27 +222,24 @@ const Accueil = () => {
         développé un site web affichant des informations aéronautiques telles
         que la météo et le planning des vols. Cette expérience m'a introduit au
         développement web professionnel et m'a inspiré à créer ce portfolio,
-        ainsi qu'un site pour un artisan, et divers petits sites de test.
+        ainsi qu'un site pour un artisan.
         <br></br>
         <br></br>
-        pour mon futur professionnel je souahite etre embauché dans l'entreprise
-        dans lequel je suis actuellement et recevoit des formation professionnel
-        sur la cybersécrutié, je sais que si j'en ai l'envie et que je trouve
-        des études passionante je pourrait les rejoindre grace a ma rigueur
-        <br></br>
-        <br></br>
-        Depuis peu je commence aussi a me renseigner pour faire des études
+        {/* Depuis peu je commence aussi a me renseigner pour faire des études
         d'ingénieur dans le domaine de l'informatique pour avoir un meilleur
         avenir professionel, il est possible que je fasse ces études d'ingénieur
-        en alternance dans la meme entreprise que mon alternance actuelle
-        <br></br>
-        <br></br>
+        en alternance dans la meme entreprise que mon alternance actuelle */}
+        {/* <br></br>
+        <br></br> */}
         En dehors de mes activités académiques et professionnelles, j'aime
         profiter de la vie en compagnie de mes amis, nourrir ma curiosité,
         explorer le monde et engager des conversations enrichissantes avec les
         personnes que je rencontre. Par ailleurs, démonter et réparer des objets
         pour mes amis est l'une de mes activités préférées dans ma vie
         personnelle.
+        <br></br>
+        <br></br>
+        vers école d'ingénieur
         {/* <Timeline /> */}
       </div>
       <div
