@@ -242,7 +242,7 @@ const Accueil = () => {
         {/* <Timeline /> */}
       </div>
       <div
-        className={` relative z-40 mx-8  mt-32 bg-gray-400  bg-opacity-30 p-14 ${languefr ? "hidden" : ""}`}
+        className={` relative z-40 mx-8  mt-32 rounded-lg bg-slate-500 bg-opacity-70  p-14 text-lg font-medium ${languefr ? "hidden" : ""}`}
       >
         A portfolio is a collection of documents and practical examples. The
         objective of this portfolio is to highlight skills it serves to
