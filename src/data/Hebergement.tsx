@@ -1,5 +1,5 @@
 import imghtml from "@assetspreuve/html.png";
-import imgxampp from "@assetspreuve/xampp.png";
+// import imgxampp from "@assetspreuve/xampp.png";
 import imgnoip from "@assetspreuve/noip.png";
 import imgo2 from "@assetspreuve/o2.png";
 import imgovh1 from "@assetspreuve/ovh.png";

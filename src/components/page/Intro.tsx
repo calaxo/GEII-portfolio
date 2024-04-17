@@ -1,7 +1,12 @@
-import React from "react";
+interface PropsIntro {
+  titre: string;
+  intro: string;
+}
 
-const Intro = (props) => {
-  const { titre, intro } = props;
+
+
+const Intro = ({ titre, intro }: PropsIntro) => {
+
 
   return (
     <div className="rounded-lg bg-gray-100 p-8 shadow-md">

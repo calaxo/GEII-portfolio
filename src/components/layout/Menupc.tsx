@@ -1,26 +1,24 @@
-import React from "react";
+
 import github from "@assets/github.png";
 import linkedin from "@assets/linkedin.png";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  NavLink,
-  Navigate,
-} from "react-router-dom";
+import {  NavLink} from "react-router-dom";
 
-const Menupc = ({ navigationLinks }) => {
+interface PropsMenuPC {
+  navigationLinks: { to: string; text: string }[];
+}
+
+const Menupc = ({ navigationLinks }:PropsMenuPC) => {
   return (
     <div className=" hidden items-center space-x-12  lg:flex">
-      <a
-        href="https://github.com/calaxo/geii-portfolio"
+      <NavLink
+        to="https://github.com/calaxo/geii-portfolio"
         className="text-white hover:text-blue-500"
       >
         <img src={github} alt="github" className="w-8" />
-      </a>
+      </NavLink>
 
-      <a
-        href="https://www.linkedin.com/in/calendreau-axel"
+      <NavLink
+        to="https://www.linkedin.com/in/calendreau-axel"
         className="text-white hover:text-blue-500"
       >
         <img
@@ -28,7 +26,7 @@ const Menupc = ({ navigationLinks }) => {
           alt="linkedin"
           className="w-8 rounded-full bg-white"
         />
-      </a>
+      </NavLink>
 
       {navigationLinks.map((link) => (
         <NavLink

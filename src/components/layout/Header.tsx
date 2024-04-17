@@ -1,12 +1,4 @@
-import {
-  HashRouter as Router,
-  Routes,
-  Route,
-  NavLink,
-  Navigate,
-} from "react-router-dom";
-import React, { Fragment, lazy, Suspense, useState } from "react";
-
+import  { useState } from "react";
 import Burgerbutton from "@layout/Burgerbutton";
 import Menumobile from "@layout/Menumobile";
 import Menupc from "@layout/Menupc";

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
 const Pagedescription = () => {
@@ -15,12 +15,12 @@ const Pagedescription = () => {
   const [displayText, setDisplayText] = useState("");
 
   // Gestionnaires d'événements pour le survol de la souris
-  const handleMouseEnter = (event) => {
+  const handleMouseEnter = (event: any) => {
     setDisplayText("Cliquez pour revenir en arrière");
     updateTextPosition(event);
   };
 
-  const handleMouseMove = (event) => {
+  const handleMouseMove = (event: any) => {
     updateTextPosition(event);
   };
 
@@ -29,7 +29,7 @@ const Pagedescription = () => {
   };
 
   // Met à jour la position du texte en fonction de la position de la souris
-  const updateTextPosition = (event) => {
+  const updateTextPosition = (event: any) => {
     setTextPosition({ left: event.pageX + 10, top: event.pageY + 10 });
   };
 

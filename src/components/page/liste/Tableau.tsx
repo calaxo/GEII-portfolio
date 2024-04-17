@@ -1,7 +1,21 @@
-import React from "react";
+
 import Ligne from "@liste/Ligne";
 
-const Tableau = (props) => {
+interface PropsTableau {
+  data: {
+    id: number;
+    granddescription: string;
+    titretache: string;
+    tache: string;
+    ressource: string;
+    trace: string[];
+    note: number;
+    evaluation: string;
+    date: string;
+  }[];
+}
+
+const Tableau = ({data}:PropsTableau) => {
   return (
     <table className="border-collapse overflow-hidden rounded-lg border">
       <thead className="bg-gray-200">
@@ -14,7 +28,7 @@ const Tableau = (props) => {
         </tr>
       </thead>
       <tbody>
-        {props.data.map((ligne) => (
+        {data.map((ligne) => (
           <Ligne key={ligne.id} ligne={ligne} />
         ))}
       </tbody>

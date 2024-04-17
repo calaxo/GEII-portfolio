@@ -1,5 +1,5 @@
 import { Intro, Collaborateurs, Tableau, Conclu } from "@/Base";
-import React from "react";
+
 import { collaborateurs_But1_sae3 } from "@data/Colabo";
 import data from "@data/But1_sae3";
 
@@ -9,7 +9,7 @@ const But1_sae3 = () => {
       <Intro titre={data.titre} intro={data.intro}></Intro>
       <Collaborateurs colabo={collaborateurs_But1_sae3}></Collaborateurs>
 
-      <Tableau data={data.content} stile="tableaugeii" />
+      <Tableau data={data.content}  />
       <Conclu conclu={data.conclu}></Conclu>
     </div>
   );

@@ -1,5 +1,5 @@
 import perdu from "@assets/perdu.jpg";
-import React from "react";
+
 const Page404 = () => {
   return (
     <div className="flex h-screen flex-col items-center justify-center ">

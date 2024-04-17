@@ -1,7 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import React, { Fragment, lazy, Suspense } from "react";
 
 const Pagedescription = () => {
   const goBack = () => {
@@ -13,12 +12,12 @@ const Pagedescription = () => {
   const [textPosition, setTextPosition] = useState({ left: 0, top: 0 });
   const [displayText, setDisplayText] = useState("");
 
-  const handleMouseEnter = (event) => {
+  const handleMouseEnter = (event: any) => {
     setDisplayText("Cliquez pour revenir en arrière");
     updateTextPosition(event);
   };
 
-  const handleMouseMove = (event) => {
+  const handleMouseMove = (event: any) => {
     updateTextPosition(event);
   };
 
@@ -26,7 +25,7 @@ const Pagedescription = () => {
     setDisplayText("");
   };
 
-  const updateTextPosition = (event) => {
+  const updateTextPosition = (event:any) => {
     setTextPosition({ left: event.pageX + 10, top: event.pageY + 10 });
   };
 

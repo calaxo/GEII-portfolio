@@ -43,6 +43,6 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
-
+  "exclude": ["node_modules","3d"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

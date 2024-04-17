@@ -1,5 +1,5 @@
-import { Intro, Collaborateurs, Tableau, Conclu } from "@/Base";
-import React, { Fragment, lazy, Suspense } from "react";
+import { Intro,  Tableau, Conclu } from "@/Base";
+
 import data from "@data/Hebergement";
 
 const Hebergement = () => {
@@ -7,7 +7,7 @@ const Hebergement = () => {
     <div>
       <Intro titre={data.titre} intro={data.intro}></Intro>
 
-      <Tableau data={data.content} stile="tableauperso" />
+      <Tableau data={data.content}  />
       <Conclu conclu={data.conclu}></Conclu>
     </div>
   );

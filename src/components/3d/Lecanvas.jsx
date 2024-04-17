@@ -1,7 +1,8 @@
-import { Canvas, useFrame } from "@react-three/fiber";
+
+import { Canvas} from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import { NavLink } from "react-router-dom";
-import React from "react";
+
+
 import { Modelhelico } from "@3d/Modelhelico";
 import { PCB } from "@3d/PCB";
 import { Server } from "@3d/Server";

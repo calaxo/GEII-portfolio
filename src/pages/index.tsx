@@ -1,7 +1,5 @@
-import { useRef, useState, useEffect } from "react";
+import {  useState,lazy, Suspense  } from "react";
 
-
-import React, { Fragment, lazy, Suspense } from "react";
 
 import cvfr from "@assets/cvfr.pdf";
 import cven from "@assets/cvfr.pdf";
@@ -15,7 +13,8 @@ import imgmoi from "@assets/imgmoi.jpg";
 import drapfr from "@assets/drapfr.jpg";
 import drapen from "@assets/drapen.png";
 import Timeline  from "@components/Timeline";
-import LeCanvas from "@3d/LeCanvas";
+// import LeCanvas from "@3d/LeCanvas.jsx";
+const LeCanvas = lazy(() => import("@3d/LeCanvas.jsx"));
 // import { TextureLoader } from 'three/src/loaders/TextureLoader'
 
 // function Box(props) {
@@ -172,9 +171,9 @@ const Accueil = () => {
       </div>
       {/* position: fixed; top: 5em; right: 0; margin-top: 5em; margin-left: 5em;
       margin-right: 5em; margin-bottom: 5em; height: 70%; width: 100%; */}
-
+<Suspense fallback={<a>Loading</a>}>
       <LeCanvas />
-
+</Suspense>
       <h1 className="relative z-40 mb-4 ml-11 max-w-72 justify-center text-6xl font-bold">
         {languefr ? "MON PORTFOLIO" : "MY PORTFOLIO"}
       </h1>
@@ -240,7 +239,7 @@ const Accueil = () => {
         <br></br>
         <br></br>
         vers école d'ingénieur
-        {/* <Timeline /> */}
+        <Timeline />
       </div>
       <div
         className={` relative z-40 mx-8  mt-32 rounded-lg bg-slate-500 bg-opacity-70  p-14 text-lg font-medium ${languefr ? "hidden" : ""}`}
@@ -294,7 +293,7 @@ const Accueil = () => {
         enriching conversations with the people I meet. Moreover, dismantling
         and repairing objects for my friends is one of my favorite activities in
         my personal life.
-        {/* <Timeline /> */}
+        <Timeline />
       </div>
 
       <div className={languefr ? "visible" : "collapse"}>

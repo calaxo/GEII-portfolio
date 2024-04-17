@@ -1,5 +1,5 @@
-import { Intro, Collaborateurs, Tableau, Conclu } from "@/Base";
-import React from "react";
+import { Intro,  Tableau, Conclu } from "@/Base";
+
 import data from "@data/Simu";
 
 const Simu = () => {
@@ -7,7 +7,7 @@ const Simu = () => {
     <div>
       <Intro titre={data.titre} intro={data.intro}></Intro>
 
-      <Tableau data={data.content} stile="tableautravail" />
+      <Tableau data={data.content}  />
       <Conclu conclu={data.conclu}></Conclu>
     </div>
   );

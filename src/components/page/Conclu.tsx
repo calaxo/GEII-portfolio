@@ -1,7 +1,11 @@
-import React from "react";
+interface PropsConclu {
+  conclu: string;
+}
 
-const Conclu = (props) => {
-  const { conclu } = props;
+
+
+const Conclu = ({conclu}:PropsConclu) => {
+
 
   return (
     <div className="rounded-lg bg-gray-100 p-8 shadow-md">

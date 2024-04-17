@@ -19,7 +19,7 @@ const content = [
     tache:
       "ent tan qu'equipemtn snsible ce genre de materiel recois trés souvent des mise a jour pour eviter les moindre faille de sécurité, j'ai du apprendre a les mettre a jour en respectant certaine regles",
     granddescription: "ceci est une grande description",
-    ressource: "",
+    ressource: "Les conseil d'un ingenieur informatique",
     trace: [imgswitch],
     evaluation: "",
     date: "05/10/2022",

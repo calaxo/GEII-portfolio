@@ -1,33 +1,33 @@
-import {
-  HashRouter as Router,
-  Routes,
-  Route,
-  NavLink,
-  Navigate,
-} from "react-router-dom";
-import React from "react";
+import {  NavLink,} from "react-router-dom";
 
-const Descript = (props) => {
+interface PropsDescript {
+  titretache: string;
+  granddescription: string;
+  tache: string;
+
+}
+
+const Descript = ({titretache,granddescription,tache}:PropsDescript) => {
 
 
-  const markuptache = { __html: props.tache };
-  const markuptitretache = { __html: props.titretache };
+  const markuptache = { __html: tache };
+  const markuptitretache = { __html: titretache };
   return (
     <div className="cadre">
       <div>
         <NavLink
           className="clickable"
           to="/Pagedescription"
-          state={{ from: [props.titretache, props.granddescription] }}
+          state={{ from: [titretache, granddescription] }}
         >
-          <p
+          <p className="text-l font-bold text-blue-700 text-center"
             dangerouslySetInnerHTML={markuptitretache}
-            className={`${props.stile}-sous-titre`}
+
           ></p>
-          <p dangerouslySetInnerHTML={markuptache} className={`textetache`}></p>
+          <p dangerouslySetInnerHTML={markuptache} className="text-center"></p>
         </NavLink>
       </div>
-      <p>{props.title}</p>
+
     </div>
   );
 };

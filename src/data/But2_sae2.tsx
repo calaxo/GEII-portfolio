@@ -1,5 +1,5 @@
 import imgaltium1 from "@assetspreuve/altium1.png";
-import imgaltium12 from "@assetspreuve/altium1.png";
+
 import imgaltium2 from "@assetspreuve/altium2.png";
 
 const titre = "But 2 : SAE 2";

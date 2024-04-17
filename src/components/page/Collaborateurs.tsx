@@ -1,6 +1,14 @@
-import React from "react";
+interface PropsColabo {
+  colabo: {
+    nom: string;
+    prenom: string;
+    lien: string;
+  }[];
+}
 
-const Collaborateurs = ({ colabo }) => {
+
+
+const Collaborateurs = ({ colabo }:PropsColabo) => {
   return (
     <div className="rounded-lg bg-white p-4 shadow-md">
       <p className="mx-auto mb-2 w-52 text-lg font-bold text-gray-800">

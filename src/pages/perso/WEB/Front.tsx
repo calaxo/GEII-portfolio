@@ -1,6 +1,5 @@
-import { Intro, Collaborateurs, Tableau, Conclu } from "@/Base";
+import { Intro,  Tableau, Conclu } from "@/Base";
 
-import React, { Fragment, lazy, Suspense } from "react";
 import data from "@data/Front";
 
 const Front = () => {
@@ -8,7 +7,7 @@ const Front = () => {
     <div>
       <Intro titre={data.titre} intro={data.intro}></Intro>
 
-      <Tableau data={data.content} stile="tableauperso" />
+      <Tableau data={data.content}  />
       <Conclu conclu={data.conclu}></Conclu>
     </div>
   );

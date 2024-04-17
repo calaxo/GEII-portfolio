@@ -1,11 +1,15 @@
-import React, { useState } from "react";
+
 import Box from "@mui/material/Box";
 import StarIcon from "@mui/icons-material/Star";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 
-const Rating = (props) => {
+interface Propsrating {
+  evaluation: number;
+}
+
+const Rating = ({evaluation}:Propsrating) => {
   const totalStars = 5;
-  const activeStars = props.evaluation;
+  const activeStars = evaluation;
 
   return (
     <Box
@@ -16,7 +20,7 @@ const Rating = (props) => {
         textAlign: "left",
       }}
     >
-      {[...new Array(activeStars)].map((arr, index) => {
+      {[...new Array(activeStars)].map(( index) => {
         return (
           <Box key={index}>
             <Box>
@@ -25,7 +29,7 @@ const Rating = (props) => {
           </Box>
         );
       })}
-      {[...new Array(totalStars - activeStars)].map((arr, index) => {
+      {[...new Array(totalStars - activeStars)].map(( index) => {
         return (
           <Box key={index}>
             <Box>

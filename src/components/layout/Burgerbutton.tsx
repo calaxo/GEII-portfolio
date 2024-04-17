@@ -1,6 +1,12 @@
-import React from "react";
+interface PropsBurgerButton {
+  menu: () => void;
+  menuOpen: boolean;
+}
 
-const Burgerbutton = ({ menu, menuOpen }) => {
+
+
+
+const Burgerbutton = ({ menu, menuOpen }:PropsBurgerButton) => {
   return (
     <>
       <section className="MOBILE-MENU z-50 flex lg:hidden">
