@@ -8,38 +8,27 @@ const content = [
     id: 1,
     titretache: "utilisation de nodejs pour servir de simple site statique",
     tache:
-      "j'ai decouverte nodejs en vouant créer des bote pour comuniquer avec des utlisateur sur des reseaux de comunication, despui j'ai dcouverte la focntionalité principal de cette platforme de developnemt:fair focntionner des service WEB",
-    granddescription: "ceci est une grande description",
-    ressource: "description1",
+      "",
+    granddescription: "j'ai decouverte nodejs en vouant créer des bot pour comuniquer avec des utlisateur sur des reseaux de comunication, despui j'ai dcouverte la focntionalité principal de cette platforme de developnemt:fair focntionner des service WEB en utlisant le language de programmation javascript",
+    ressource: "",
     trace: [],
-    evaluation: "evaluation1",
-    date: "01/02/2023",
+    evaluation: "",
+    date: "",
     note: 3,
   },
 
-  {
-    id: 2,
-    titretache: "decouverte du fonctionement de nodejs ",
-    tache:
-      "c'est un programme qui fait tourner du code javacsript comme sur un naviguateur, javascript est language qui evolue trés rapidement est qui est passionant pour se chalenger",
-    granddescription: "ceci est une grande description",
-    ressource: "on a appris a faire des base de données",
-    trace: [],
-    evaluation: "evaluation1",
-    date: "01/02/2023",
-    note: 3,
-  },
+
 
   {
     id: 3,
     titretache: "envoi de donnée statique plus sécurisé",
     tache:
       "j'ai decouverte que seulement forunir le site web via nodejs etait dangereaux et j'ai donc appris comment marche la sécurité des pages internet",
-    granddescription: "ceci est une grande description",
-    ressource: "on a appris a faire des base de données",
+    granddescription: "il existe de nombreuse failles sur les site internet qui permette d'acceder a des donnée senssible, il existe pour cela des parametre et des méthode de programmation a respecter",
+    ressource: "",
     trace: [],
     evaluation: "evaluation1",
-    date: "01/02/2023",
+    date: "",
     note: 3,
   },
 
@@ -48,11 +37,11 @@ const content = [
     titretache: "creation d'API simple",
     tache:
       "une api permet a des programme tel que des aplication coté client ou d'autre serveice de comuiniquer a un seveur via des methode dénfin est sécurisé",
-    granddescription: "ceci est une grande description",
-    ressource: "on a appris a faire des base de données",
+    granddescription: "aucun service web ne laisse un accés directement ouvert a son code ou a se données, il faut donc passer par des API pour echanger avec ls serveur via des méthode prevue pour",
+    ressource: "",
     trace: [],
-    evaluation: "evaluation1",
-    date: "01/02/2023",
+    evaluation: "",
+    date: "",
     note: 3,
   },
 
@@ -61,11 +50,11 @@ const content = [
     titretache: "Création d'API avec manipulation de données",
     tache:
       "dans le WEV moderne le backend permet de fair le lient entre le code client et les base de donnée en s'assurant que aucune des deux ne puisse comnuqiuer en liaosn direact sans sécurité",
-    granddescription: "ceci est une grande description",
-    ressource: "on a appris a faire des base de données",
+    granddescription: "une application backend moderne sert les fichier nécessaire a l'affichage sur le navigateur du client et peut echanger des donnée avec lui , il faut ensuite réaliser des operation sur ces donnée pour venir ensuite les fair interagiravec une base de données",
+    ressource: "",
     trace: [],
-    evaluation: "evaluation1",
-    date: "01/02/2023",
+    evaluation: "",
+    date: "",
     note: 3,
   },
 ];

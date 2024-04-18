@@ -48,7 +48,7 @@ const content = [
       "pour permetre de separer des equipemtn sur des reseaux on peut crér des sous reseaux virtuel dans des reseaux phisyqye pour separer effecicatent les équipement",
     ressource: "",
     trace: [imgvlan],
-    evaluation: "evaluation1",
+    evaluation: "",
     date: "01/02/2023",
     note: 4,
   },
@@ -60,7 +60,7 @@ const content = [
       "dans un reseaux de particulier il ya a quelque apareil et au maximum 2 switch mais dans une reseaux d'entreprise tout est plus grand",
     granddescription:
       "pour gere tout les equipemtn dans mon entreprise il y a au moins 2 port ethernet dans plus de 30 salle et ilfaut gerer et numeroté tout ces port pour savoir lequel va ou",
-    ressource: "on a appris a faire des base de données",
+    ressource: "",
     trace: [imgport],
     evaluation: "",
     date: "05/10/2022",

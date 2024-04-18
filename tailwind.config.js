@@ -10,11 +10,11 @@ export default {
         text: {
           '0%, 100%': {
             'background-size': '200% 200%',
-            'background-position': 'left center',
+            'background-position': 'center top ',
           },
           '50%': {
             'background-size': '200% 200%',
-            'background-position': 'right center',
+            'background-position': 'center bottom',
           },
         },
       },},

@@ -180,11 +180,8 @@ const Accueil = () => {
       <div
         className={` relative z-40 mx-8  mt-32 rounded-lg bg-slate-500 bg-opacity-70  p-14 text-lg font-medium ${languefr ? "" : "hidden  "}`}
       >
-        Un Portfolio est un recueil de documents et d'exemples pratiques.
-        L'objectif de ce portfolio est de mettre en lumière des compétences, Il
-        permet notamment de montrer à des recruteurs ou des enseignants de
-        prouver ce dont je suis capable.
-        <br></br>
+
+        {/* <br></br>
         <br></br>
         <br></br>
         Je m'appelle Axel Calendreau et je suis actuellement étudiant en Génie
@@ -224,12 +221,11 @@ const Accueil = () => {
         ainsi qu'un site pour un artisan.
         <br></br>
         <br></br>
-        {/* Depuis peu je commence aussi a me renseigner pour faire des études
+         Depuis peu je commence aussi a me renseigner pour faire des études
         d'ingénieur dans le domaine de l'informatique pour avoir un meilleur
         avenir professionel, il est possible que je fasse ces études d'ingénieur
-        en alternance dans la meme entreprise que mon alternance actuelle */}
-        {/* <br></br>
-        <br></br> */}
+        en alternance dans la meme entreprise que mon alternance actuelle 
+
         En dehors de mes activités académiques et professionnelles, j'aime
         profiter de la vie en compagnie de mes amis, nourrir ma curiosité,
         explorer le monde et engager des conversations enrichissantes avec les
@@ -238,7 +234,7 @@ const Accueil = () => {
         personnelle.
         <br></br>
         <br></br>
-        vers école d'ingénieur
+        vers école d'ingénieur */}
         <Timeline />
       </div>
       <div
