@@ -221,7 +221,7 @@ const Accueil = () => {
         ainsi qu'un site pour un artisan.
         <br></br>
         <br></br>
-         Depuis peu je commence aussi a me renseigner pour faire des études
+        Depuis peu je commence aussi a me renseigner pour faire des études
         d'ingénieur dans le domaine de l'informatique pour avoir un meilleur
         avenir professionel, il est possible que je fasse ces études d'ingénieur
         en alternance dans la meme entreprise que mon alternance actuelle 
