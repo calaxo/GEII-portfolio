@@ -1,21 +1,21 @@
 
 import Ligne from "@liste/Ligne";
 
-interface PropsTableau {
-  data: {
-    id: number;
-    granddescription: string;
-    titretache: string;
-    tache: string;
-    ressource: string;
-    trace: string[];
-    note: number;
-    evaluation: string;
-    date: string;
-  }[];
-}
+// interface PropsTableau {
+//   data: {
+//     id: number;
+//     granddescription: string;
+//     titretache: string;
+//     tache: string;
+//     ressource: string;
+//     trace: string[];
+//     note: number;
+//     evaluation: string;
+//     date: string;
+//   }[];
+// }
 
-const Tableau = ({data}:PropsTableau) => {
+const Tableau = ({data}:any) => {
   return (
     <table className="border-collapse overflow-hidden rounded-lg border">
       <thead className="bg-gray-200">
@@ -28,7 +28,7 @@ const Tableau = ({data}:PropsTableau) => {
         </tr>
       </thead>
       <tbody>
-        {data.map((ligne) => (
+        {data.map((ligne:any) => (
           <Ligne key={ligne.id} ligne={ligne} />
         ))}
       </tbody>

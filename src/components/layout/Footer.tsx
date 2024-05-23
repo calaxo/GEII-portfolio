@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="relative bottom-0 z-50 mt-auto bg-gray-800 py-4">
       <div className="container mx-auto flex flex-col items-center justify-center">
         <p className="mb-2 text-white">Calendreau Axel © 2023</p>
-        <NavLink className="mb-2 text-white hover:underline" to="#/Condition">
+        <NavLink className="mb-2 text-blue-600 font-bold hover:underline" to="/Condition">
           Conditions légales
         </NavLink>
         <div className="flex items-center justify-center">

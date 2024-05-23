@@ -1,10 +1,10 @@
-import imgaltium1 from "@assetspreuve/altium1.png";
+// import imgaltium1 from "@assetspreuve/altium1.png";
 
 import imgftd1 from "@assetspreuve/ftd1.png";
 import imgmfd1 from "@assetspreuve/mfd1.png";
 import imghelico1 from "@assetspreuve/helico1.png";
 import imgturbine from "@assetspreuve/turbine.png";
-import imgefb from "@assetspreuve/efb.png";
+// import imgefb from "@assetspreuve/efb.png";
 import imgcafe from "@assetspreuve/cafe.png";
 
 const titre = "connaissance Aéronautique";

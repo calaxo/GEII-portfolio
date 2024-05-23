@@ -3,7 +3,7 @@ import {  useState,lazy, Suspense  } from "react";
 
 import cvfr from "@assets/cvfr.pdf";
 import cven from "@assets/cvfr.pdf";
-import ref_geii from "@assets/ref_geii.pdf";
+// import ref_geii from "@assets/ref_geii.pdf";
 
 import github from "@assets/github.png";
 import linkedin from "@assets/linkedin.png";
@@ -12,7 +12,9 @@ import imgmoi from "@assets/imgmoi.jpg";
 
 import drapfr from "@assets/drapfr.jpg";
 import drapen from "@assets/drapen.png";
-import Timeline  from "@components/Timeline";
+import TimelineFR from "@components/TimelineFR";
+
+import TimelineEN from "@components/TimelineEN";
 // import LeCanvas from "@3d/LeCanvas.jsx";
 const LeCanvas = lazy(() => import("@3d/LeCanvas.jsx"));
 // import { TextureLoader } from 'three/src/loaders/TextureLoader'
@@ -181,115 +183,13 @@ const Accueil = () => {
         className={` relative z-40 mx-8  mt-32 rounded-lg bg-slate-500 bg-opacity-70  p-14 text-lg font-medium ${languefr ? "" : "hidden  "}`}
       >
 
-        {/* <br></br>
-        <br></br>
-        <br></br>
-        Je m'appelle Axel Calendreau et je suis actuellement étudiant en Génie
-        Electrique et Informatique Industrielle à l'IUT d'Angoulême.
-        <br></br>
-        Ce sont des études qui permettent de devevnir technicien dans des
-        domaines en rapport avec l'électricité, l'électornique et les siences
-        industrielles
-        <a className="font-bold text-blue-500" href={ref_geii}>
-          {" "}
-          lien vers le referentiel de compétence{" "}
-        </a>
-        Je suis en dernière année de mon cursus, me préparant à obtenir mon
-        Bachelor Universitaire de Technologie.
-        <br></br>
-        <br></br>
-        Depuis ma deuxième année d'études, je suis également alternant a Heli
-        Union Training Center, une école de pilotage d'hélicoptère située à
-        l'aéroport de Champniers. qui forme théoriquement et pratiquement des
-        pilotes du monde entier, d'armée ou de secteur publique trés variés.
-        <br></br>
-        <br></br>
-        Durant mes études, j'ai exploré de nombreuses facettes de
-        l'électronique, et au cours de mon alternance, j'ai acquis et mis en
-        pratique diverses connaissances liées à l'informatique, telles que le
-        développement, la gestion de serveurs, les réseaux internet et la
-        cybersécurité. Mon amour initial pour l'électronique s'est élargi au fil
-        du temps pour inclure une passion croissante pour l'informatique. Ce
-        domaine me permet d'apprendre de manière autodidacte, ce que j'apprécie
-        particulièrement.
-        <br></br>
-        <br></br>
-        En tant que projet concret réalisé au cours de mon alternance, j'ai
-        développé un site web affichant des informations aéronautiques telles
-        que la météo et le planning des vols. Cette expérience m'a introduit au
-        développement web professionnel et m'a inspiré à créer ce portfolio,
-        ainsi qu'un site pour un artisan.
-        <br></br>
-        <br></br>
-        Depuis peu je commence aussi a me renseigner pour faire des études
-        d'ingénieur dans le domaine de l'informatique pour avoir un meilleur
-        avenir professionel, il est possible que je fasse ces études d'ingénieur
-        en alternance dans la meme entreprise que mon alternance actuelle 
-
-        En dehors de mes activités académiques et professionnelles, j'aime
-        profiter de la vie en compagnie de mes amis, nourrir ma curiosité,
-        explorer le monde et engager des conversations enrichissantes avec les
-        personnes que je rencontre. Par ailleurs, démonter et réparer des objets
-        pour mes amis est l'une de mes activités préférées dans ma vie
-        personnelle.
-        <br></br>
-        <br></br>
-        vers école d'ingénieur */}
-        <Timeline />
+        <TimelineFR />
       </div>
       <div
         className={` relative z-40 mx-8  mt-32 rounded-lg bg-slate-500 bg-opacity-70  p-14 text-lg font-medium ${languefr ? "hidden" : ""}`}
       >
-        A portfolio is a collection of documents and practical examples. The
-        objective of this portfolio is to highlight skills it serves to
-        demonstrate to recruiters or educators what I am capable of.
-        <br></br>
-        <br></br>
-        <br></br>
-        My name is Axel Calendreau, and I am currently a student in Electrical
-        Engineering and Industrial Computing at the IUT of Angoulême.
-        <br></br>
-        These studies aim to become a technician in fields related to
-        electricity, electronics, and industrial science.
-        <a href={ref_geii}> Link to the competence reference </a>I am in the
-        final year of my course, preparing to obtain my University Bachelor of
-        Technology.
-        <br></br>
-        <br></br>
-        Since my second year of studies, I have also been an apprentice at Heli
-        Union Training Center, a helicopter pilot training school located at
-        Champniers Airport. They theoretically and practically train pilots from
-        around the world, including those from the military and various public
-        sectors.
-        <br></br>
-        <br></br>
-        During my studies, I explored various aspects of electronics, and during
-        my apprenticeship, I acquired and applied various computer-related
-        knowledge, such as development, server management, internet networks,
-        and cybersecurity. My initial love for electronics has expanded over
-        time to include a growing passion for computer science. This field
-        allows me to learn independently, which I particularly appreciate.
-        <br></br>
-        <br></br>
-        As a concrete project during my apprenticeship, I developed a website
-        displaying aeronautical information such as weather and flight
-        schedules. This experience introduced me to professional web development
-        and inspired me to create this portfolio, as well as a website for a
-        craftsman and various small test sites.
-        <br></br>
-        <br></br>
-        For my future professional endeavors, I wish to be hired by the current
-        company I am in and receive professional training in cybersecurity. I
-        know that if I have the desire and find exciting studies, I could join
-        them thanks to my discipline.
-        <br></br>
-        <br></br>
-        Outside of my academic and professional activities, I enjoy life with
-        friends, nourish my curiosity, explore the world, and engage in
-        enriching conversations with the people I meet. Moreover, dismantling
-        and repairing objects for my friends is one of my favorite activities in
-        my personal life.
-        <Timeline />
+
+        <TimelineEN />
       </div>
 
       <div className={languefr ? "visible" : "collapse"}>
