@@ -13,7 +13,7 @@ const LeCanvas = () => {
       className="hidden h-full lg:block "
       style={{
         height: "30em",
-        position: "fixed",
+
         top: "5em",
         zIndex: "1",
       }}

@@ -7,7 +7,7 @@ import imgturbine from "@assetspreuve/turbine.png";
 // import imgefb from "@assetspreuve/efb.png";
 import imgcafe from "@assetspreuve/cafe.png";
 
-const titre = "connaissance Aéronautique";
+const titre = "Connaissance Aéronautique";
 
 const intro =
   "Le but de ce projet est de réaliser un site web qui permettra de mettre en avant les projets réalisés par les étudiants de DUT GEII.";
@@ -15,10 +15,10 @@ const intro =
 const content = [
   {
     id: 1,
-    titretache: "decouverte de l'interieur d'un helicoptere",
+    titretache: "Découverte de l'intérieur d'un hélicoptère",
     tache:
-      "durant mes premiere semaine en aleternance je me susi familiarisé avec le batiment puis les simualteur puis l'interieur des simualteur qui est en tout poin un cockpit d'hlicoptere",
-    granddescription: "Je n'avais jammais pu voir un helicoptere d'aussi pres, c'est une machine complexe qui est trés interessante a decouvrir",
+      "Durant mes premières semaines en alternance, je me suis familiarisé avec le bâtiment, puis les simulateurs, puis l'intérieur des simulateurs qui est en tout point un cockpit d'hélicoptère.",
+    granddescription: "Je n'avais jamais pu voir un hélicoptère d'aussi près. C'est une machine complexe qui est très intéressante à découvrir.",
     ressource: "",
     trace: [imghelico1],
     evaluation: "",
@@ -28,11 +28,11 @@ const content = [
 
   {
     id: 2,
-    titretache: "decouverte des commande principale",
+    titretache: "Découverte des commandes principales",
     tache:
-      "lors des démarage nous devont piloter le simualteur pour pouvoir tester si tout les commande reponde bien",
-    granddescription: "je pensait que les commande serait similaire a celle d'un avion mais j'ai decouvert qu'il y a le manche cyclique dans la main droite, la commande de puissance dans la main gauche et les palonier au pieds, qui sont trés sensible,meme si on ne le touche le moindre faite de penser les fair bouger bouger peut influer sur la postion de l'helicoptere",
-    ressource: "mes collegue de l'équipe de technicien simulateur",
+      "Lors des démarrages, nous devons piloter le simulateur pour pouvoir tester si toutes les commandes répondent bien.",
+    granddescription: "Je pensais que les commandes seraient similaires à celles d'un avion, mais j'ai découvert qu'il y a le manche cyclique dans la main droite, la commande de puissance dans la main gauche et les palonniers aux pieds, qui sont très sensibles. Même sans les toucher, le moindre fait de penser à les bouger peut influer sur la position de l'hélicoptère.",
+    ressource: "Mes collègues de l'équipe de techniciens simulateurs.",
     trace: [],
     evaluation: "",
     date: "15/07/2022",
@@ -41,10 +41,10 @@ const content = [
 
   {
     id: 3,
-    titretache: "decouverte du pilote automatique",
+    titretache: "Découverte du pilote automatique",
     tache:
-      "la plupart du temp le pilote utlise un pilote automatique, qui permet d'aider le pilote a controller la machine,",
-    granddescription: " il permet d'adoucier les commande et de mieux comprendre les action du pilote, avec des parametre il peut aussi totalement ontroller l'helicotpere",
+      "La plupart du temps, le pilote utilise un pilote automatique qui permet d'aider à contrôler la machine.",
+    granddescription: "Il permet d'adoucir les commandes et de mieux comprendre les actions du pilote. Avec des paramètres, il peut aussi totalement contrôler l'hélicoptère.",
     ressource: "",
     trace: [],
     evaluation: "",
@@ -54,11 +54,11 @@ const content = [
 
   {
     id: 4,
-    titretache: "decouverte des approche ILS",
+    titretache: "Découverte des approches ILS",
     tache:
-      "pour la procédure de demarage nous devont faire une approche ILS ",
-    granddescription: "ou l'helciotpere se fait guider par des blaise au sol situé au devant la piste d'atterisage, plus tard en visitant la tour de controlle et en discutant avec des intructeur j'ai dcouverte comment focntioonait vraiment ce systeme",
-    ressource: "mes collegue de l'équipe de technicien simulateurs",
+      "Pour la procédure de démarrage, nous devons faire une approche ILS.",
+    granddescription: "L'hélicoptère se fait guider par des balises au sol situées devant la piste d'atterrissage. Plus tard, en visitant la tour de contrôle et en discutant avec des instructeurs, j'ai découvert comment fonctionnait vraiment ce système.",
+    ressource: "Mes collègues de l'équipe de techniciens simulateurs.",
     trace: [],
     date: "15/07/2022",
     note: 3,
@@ -66,9 +66,9 @@ const content = [
 
   {
     id: 5,
-    titretache: "piloter un helicoptere(simulateur)",
+    titretache: "Piloter un hélicoptère (simulateur)",
     tache:
-      "lors de visite ou de test aprés une mainteance je peux tester le simualateur en volant eau dessu d'angoulememe et me promenant pour virifier que tout marche bien",
+      "Lors de visites ou de tests après une maintenance, je peux tester le simulateur en volant au-dessus d'Angoulême et me promener pour vérifier que tout marche bien.",
     granddescription: "",
     ressource: "",
     trace: [imgftd1],
@@ -79,10 +79,10 @@ const content = [
 
   {
     id: 6,
-    titretache: "utiliser les MFD",
+    titretache: "Utiliser les MFD",
     tache:
-      "Les Multi Fonction Display permettent d'aider le pilote en affichant ce qui est nécessaire tel que les cap l'altitue et les ligne d'horizon avec une interface plus compréhensible que les equipent analogique",
-    granddescription: "ceci est une grande description",
+      "Les Multi-Function Displays permettent d'aider le pilote en affichant ce qui est nécessaire, tels que les caps, l'altitude et les lignes d'horizon, avec une interface plus compréhensible que les équipements analogiques.",
+    granddescription: "Ceci est une grande description.",
     ressource: "",
     trace: [imgmfd1],
     evaluation: "",
@@ -92,10 +92,10 @@ const content = [
 
   {
     id: 7,
-    titretache: "perfectionement des atterissage et decollage",
+    titretache: "Perfectionnement des atterrissages et décollages",
     tache:
-      "j'au dcouverte diferente manipualtion en vol tel que le sur place l'autorotation et des chose plus complexe qui permete de savoir comment un helicopter focntinne vraiemnt",
-    granddescription: "ceci est une grande description",
+      "J'ai découvert différentes manipulations en vol, telles que le sur place, l'autorotation et des choses plus complexes qui permettent de savoir comment un hélicoptère fonctionne vraiment.",
+    granddescription: "Ceci est une grande description.",
     ressource: "",
     trace: [],
     evaluation: "",
@@ -105,22 +105,22 @@ const content = [
 
   {
     id: 8,
-    titretache: "apprentisage de terme aéronautique",
+    titretache: "Apprentissage des termes aéronautiques",
     tache:
-      "lors de discussion avec des coluege ou des pilotes j'ai commencer a comprendre leur language parsemé de mot complique qui est tujour utlise dans une entreprise en lien avec l'aéronautique",
+      "Lors de discussions avec des collègues ou des pilotes, j'ai commencé à comprendre leur langage parsemé de mots compliqués qui est toujours utilisé dans une entreprise en lien avec l'aéronautique.",
     granddescription: "",
     ressource: "",
     trace: [],
-    evaluation: "evaluation1",
+    evaluation: "Évaluation 1",
     date: "01/02/2023",
     note: 3,
   },
 
   {
     id: 9,
-    titretache: "decouverte du fonctionement interne des helicoptere",
+    titretache: "Découverte du fonctionnement interne des hélicoptères",
     tache:
-      "en ecoutant des anecdote de vol et en demandant des conseil j'ai couverte les diferente systeme complex d'un helicoptere te lque les radar, les ballon floteur d'urgence, les extincteur,etc...",
+      "En écoutant des anecdotes de vol et en demandant des conseils, j'ai découvert les différents systèmes complexes d'un hélicoptère tels que les radars, les ballons flotteurs d'urgence, les extincteurs, etc.",
     granddescription: "",
     ressource: "",
     trace: [imgturbine],
@@ -129,15 +129,13 @@ const content = [
     note: 3,
   },
 
-
-
   {
     id: 11,
-    titretache: "suivi de l'actualité et des nouveau modele d'helico",
+    titretache: "Suivi de l'actualité et des nouveaux modèles d'hélicoptères",
     tache:
-      "durant mon alternance j'ai aussi adoré suivre les derniere nouveauté du monde aérnautique est tjour passionant due aux evolution technique",
-    granddescription: "j'ai pu suivre ce qui ce passe dans le monde fermé de l'aéraunotique qui est trés lié a la géopolitique de par les contract avec les pays et les force armée",
-    ressource: "tout les personnes du domaine",
+      "Durant mon alternance, j'ai aussi adoré suivre les dernières nouveautés du monde aéronautique, qui est toujours passionnant en raison des évolutions techniques.",
+    granddescription: "J'ai pu suivre ce qui se passe dans le monde fermé de l'aéronautique, qui est très lié à la géopolitique par les contrats avec les pays et les forces armées.",
+    ressource: "Toutes les personnes du domaine.",
     trace: [imgcafe],
     evaluation: "",
     date: "2023",
@@ -146,7 +144,7 @@ const content = [
 ];
 
 const conclu =
-  "l'aéronautique est vitale aussi bien pour les force armées que pour le monde civil et il permet au monde moderne de fonctionner, je trouve ca passionant";
+  "L'aéronautique est vitale aussi bien pour les forces armées que pour le monde civil. Il permet au monde moderne de fonctionner, et je trouve ça passionnant.";
 
 const data = {
   titre,

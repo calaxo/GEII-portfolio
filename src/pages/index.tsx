@@ -97,7 +97,7 @@ const Accueil = () => {
           hover:text-white hover:shadow-blue-500 hover:before:h-64
           hover:before:-translate-y-32 "
             >
-              <span className="mx-2">concevoir</span>
+              <span className="mx-2">Concevoir</span>
             </div>
           </a>
           <a
@@ -114,7 +114,7 @@ const Accueil = () => {
           hover:text-white hover:shadow-blue-500 hover:before:h-64
           hover:before:-translate-y-32"
               >
-                <span className="mx-2">verifier</span>
+                <span className="mx-2">Verifier</span>
               </div>
             </div>
           </a>
@@ -132,7 +132,7 @@ const Accueil = () => {
           hover:text-white hover:shadow-blue-500 hover:before:h-64
           hover:before:-translate-y-32"
               >
-                <span className="mx-2">implanter</span>
+                <span className="mx-2">Implanter</span>
               </div>
             </div>
           </a>
@@ -152,7 +152,7 @@ const Accueil = () => {
           hover:text-white hover:shadow-blue-500 hover:before:h-64
           hover:before:-translate-y-32"
               >
-                <span className="mx-2">maintenir</span>
+                <span className="mx-2">Maintenir</span>
               </div>
             </div>
           </a>

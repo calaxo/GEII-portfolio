@@ -7,19 +7,19 @@ import imgportsecu from "@assetspreuve/portsecu.png";
 import imgvlan from "@assetspreuve/vlan.png";
 import imgport from "@assetspreuve/port.png";
 
-const titre = "gestion de switch Réseaux";
+const titre = "Gestion de Switch Réseaux";
 
 const intro =
-  "un switch reseaux est un appareil qui permet de connecter plusieurs apareil ensemble via ethernet";
+  "Un switch réseau est un appareil qui permet de connecter plusieurs appareils ensemble via Ethernet.";
 
 const content = [
   {
     id: 1,
     titretache: "Mise à jour",
     tache:
-      "ent tan qu'equipemtn snsible ce genre de materiel recois trés souvent des mise a jour pour eviter les moindre faille de sécurité, j'ai du apprendre a les mettre a jour en respectant certaine regles",
-    granddescription: "ceci est une grande description",
-    ressource: "Les conseil d'un ingenieur informatique",
+      "En tant qu'équipement sensible, ce genre de matériel reçoit très souvent des mises à jour pour éviter les moindres failles de sécurité. J'ai dû apprendre à les mettre à jour en respectant certaines règles.",
+    granddescription: "Ceci est une grande description.",
+    ressource: "Les conseils d'un ingénieur informatique.",
     trace: [imgswitch],
     evaluation: "",
     date: "05/10/2022",
@@ -30,9 +30,9 @@ const content = [
     id: 2,
     titretache: "Gestion de la sécurité des ports",
     tache:
-      "un port ethernet libre fait partie des premier vecteur d'attaque dans un reseaux informatique",
+      "Un port Ethernet libre fait partie des premiers vecteurs d'attaque dans un réseau informatique.",
     granddescription:
-      "despui que je suis dans des batiment ou il y a des port internet en librs accés je mesuis toujour demandé pour quoi ils se bloquait lorsque on branche le mauvais équipement dessu, j'ai mainteantn aprrise a regler ce gerne de sécurité qui permet d'eviter que n'import qui rentre dans un resaeux privé",
+      "Depuis que je suis dans des bâtiments où il y a des ports Internet en libre accès, je me suis toujours demandé pourquoi ils se bloquaient lorsque l'on branche le mauvais équipement dessus. J'ai maintenant appris à régler ce genre de sécurité, qui permet d'éviter que n'importe qui ne rentre dans un réseau privé.",
     ressource: "",
     trace: [imgportsecu],
     evaluation: "",
@@ -42,10 +42,10 @@ const content = [
 
   {
     id: 3,
-    titretache: "Gestion des VLAN	",
-    tache: "sur chaque port pour chaque apareil un VLAN est configuré",
+    titretache: "Gestion des VLAN",
+    tache: "Sur chaque port pour chaque appareil, un VLAN est configuré.",
     granddescription:
-      "pour permetre de separer des equipemtn sur des reseaux on peut crér des sous reseaux virtuel dans des reseaux phisyqye pour separer effecicatent les équipement",
+      "Pour permettre de séparer des équipements sur des réseaux, on peut créer des sous-réseaux virtuels dans des réseaux physiques pour séparer efficacement les équipements.",
     ressource: "",
     trace: [imgvlan],
     evaluation: "",
@@ -57,9 +57,9 @@ const content = [
     id: 4,
     titretache: "Gestion des ports",
     tache:
-      "dans un reseaux de particulier il ya a quelque apareil et au maximum 2 switch mais dans une reseaux d'entreprise tout est plus grand",
+      "Dans un réseau de particulier, il y a quelques appareils et au maximum 2 switchs. Mais dans un réseau d'entreprise, tout est plus grand.",
     granddescription:
-      "pour gere tout les equipemtn dans mon entreprise il y a au moins 2 port ethernet dans plus de 30 salle et ilfaut gerer et numeroté tout ces port pour savoir lequel va ou",
+      "Pour gérer tous les équipements dans mon entreprise, il y a au moins 2 ports Ethernet dans plus de 30 salles et il faut gérer et numéroter tous ces ports pour savoir lequel va où.",
     ressource: "",
     trace: [imgport],
     evaluation: "",
@@ -69,21 +69,21 @@ const content = [
 
   {
     id: 5,
-    titretache: "isntallation de bornes wifi",
-    tache: "nous avons du changer de bornes wifi",
+    titretache: "Installation de bornes wifi",
+    tache: "Nous avons dû changer de bornes wifi.",
     granddescription:
-      "nous avons recement changer de borne wifi ce qui m'a permis de vierifeir mes compétencce en genstion de reseaux car ces bornes sont gerer a distance via un seruveru via diferetne VLAN",
+      "Nous avons récemment changé de borne wifi, ce qui m'a permis de vérifier mes compétences en gestion de réseaux car ces bornes sont gérées à distance via un serveur et différents VLAN.",
     ressource: "",
     trace: [imgwifi, imgdlink, imgap],
     evaluation:
-      "le reseaux fonctionne bien et c'est du materiel dont nous sommes maintenant proprietaire",
+      "Le réseau fonctionne bien et c'est du matériel dont nous sommes maintenant propriétaires.",
     date: "04/01/2024",
     note: 5,
   },
 ];
 
 const conclu =
-  "c'est le coeur de tout les reseaux informatique: l'interconnection mais il faut qu'il y est des regles";
+  "C'est le cœur de tous les réseaux informatiques : l'interconnexion. Mais il faut qu'il y ait des règles.";
 
 const data = {
   titre,

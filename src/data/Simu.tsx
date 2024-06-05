@@ -4,18 +4,18 @@ import imgclim from "@assetspreuve/clim.png";
 import imgdijoncteur from "@assetspreuve/dijoncteur.png";
 import imgprojo from "@assetspreuve/projo.png";
 
-const titre = "maintenance en condition operative de simulateur d'helicoptere";
+const titre = "Maintenance en condition opérative de simulateur d'hélicoptère";
 
 const intro =
-  "Un simulateur permet d'efctuer des vrai vol sans risqque et pouvoir simuler les pire panne possible sans risque des vie ou du materiel";
+  "Un simulateur permet d'effectuer de vrais vols sans risque et de pouvoir simuler les pires pannes possibles sans risque pour les vies ou le matériel.";
 
 const content = [
   {
     id: 1,
     titretache: "Apprentissage du fonctionnement",
     tache:
-      "lors des premiere semaine j'ai aprris les diférents systeme majeur des simualteurs tel que les partie:energie,calculateur,mouvement,cockpit,visuel ",
-    granddescription: "ceci est une grande description",
+      "Lors des premières semaines, j'ai appris les différents systèmes majeurs des simulateurs tels que les parties : énergie, calculateur, mouvement, cockpit, visuel.",
+    granddescription: "Ceci est une grande description.",
     ressource: " ",
     trace: [],
     evaluation: " ",
@@ -26,8 +26,8 @@ const content = [
     id: 2,
     titretache: "Démarrage",
     tache:
-      "j'ai appris grace a mes colluege a demarer le simualteur et a le preparer pour les séance de la journée",
-    granddescription: "ceci est une grande description",
+      "J'ai appris grâce à mes collègues à démarrer le simulateur et à le préparer pour les séances de la journée.",
+    granddescription: "Ceci est une grande description.",
     ressource: "",
     trace: [],
     evaluation: " ",
@@ -39,9 +39,9 @@ const content = [
     id: 3,
     titretache: "Maintenance",
     tache:
-      "des systeme aussi technique nécessite une maintenance adaptée et organisée",
+      "Des systèmes aussi techniques nécessitent une maintenance adaptée et organisée.",
     granddescription:
-      "n'ayant encore jammais participer a de la mainteannce aussi complexe j'ai du apprendre a raisonner, pour comprendre grace aux procédure, comuniquer avec mon équipe et participer aux diférentes taches",
+      "N'ayant encore jamais participé à de la maintenance aussi complexe, j'ai dû apprendre à raisonner, à comprendre grâce aux procédures, à communiquer avec mon équipe et à participer aux différentes tâches.",
     ressource: "",
     trace: [imgmtn],
     evaluation: "",
@@ -51,11 +51,11 @@ const content = [
 
   {
     id: 4,
-    titretache: "simaint",
+    titretache: "Simaint",
     tache:
-      "nous en avont parler en cours mais j'ai pu decouvrir les concept avec des chose réelle",
+      "Nous en avons parlé en cours, mais j'ai pu découvrir les concepts avec des choses réelles.",
     granddescription:
-      "nous avons un logiciel de GMAO(gestion de la maitnance assisté par ordinateur) qui nous permet de suivre le stock de piece les maintenance et tout ce qui peut y etre lié j'ai du apprendre a m'en servir",
+      "Nous avons un logiciel de GMAO (gestion de la maintenance assistée par ordinateur) qui nous permet de suivre le stock de pièces, les maintenances et tout ce qui peut y être lié. J'ai dû apprendre à m'en servir.",
     ressource: "",
     trace: [imgsimaint],
     evaluation: " ",
@@ -65,10 +65,10 @@ const content = [
 
   {
     id: 5,
-    titretache: "devoucerte du systeme de clim",
+    titretache: "Découverte du système de climatisation",
     tache:
-      "lors d'un démarage du simulateur seul un matin il y'a eu une panne de climatisaion ce qui a causé une surchauffe des systeme, durant la panne et aprés, mon maitre d'apprentissage m'a expliqué comment focntionnait les difernte systeme des simualteurs",
-    granddescription: "ceci est une grande description",
+      "Lors d'un démarrage du simulateur seul un matin, il y a eu une panne de climatisation, ce qui a causé une surchauffe des systèmes. Durant la panne et après, mon maître d'apprentissage m'a expliqué comment fonctionnaient les différents systèmes des simulateurs.",
+    granddescription: "Ceci est une grande description.",
     ressource: " ",
     trace: [imgclim],
     evaluation: " ",
@@ -80,8 +80,8 @@ const content = [
     id: 6,
     titretache: "Extinction",
     tache:
-      "trés tot j'ai appris a etteindre le simulateur ce qui est beaucxoup plus simple que l'alumage il faut seulemetn s'assurer que les calculateur sont bien étteind avent dee couper le courant",
-    granddescription: "ceci est une grande description",
+      "Très tôt, j'ai appris à éteindre le simulateur, ce qui est beaucoup plus simple que l'allumage. Il faut seulement s'assurer que les calculateurs sont bien éteints avant de couper le courant.",
+    granddescription: "Ceci est une grande description.",
     ressource: " ",
     trace: [imgdijoncteur],
     evaluation: " ",
@@ -93,8 +93,8 @@ const content = [
     id: 7,
     titretache: "Pannes",
     tache:
-      "j'ai appris a déclencher et gere les panne de l'helicopter, cela nécessite de connaitre les systeme principaux elemeent d'un helicoptere et savoir a peu prés ce que les pannes font",
-    granddescription: "ceci est une grande description",
+      "J'ai appris à déclencher et gérer les pannes de l'hélicoptère. Cela nécessite de connaître les systèmes principaux d'un hélicoptère et de savoir à peu près ce que les pannes provoquent.",
+    granddescription: "Ceci est une grande description.",
     ressource: "",
     trace: [],
     evaluation: " ",
@@ -106,8 +106,8 @@ const content = [
     id: 8,
     titretache: "Météo",
     tache:
-      "dans un simulateur tout la méteo est controllable de la neige aux tempete maritime en passant par le vetn et les orages, il faut pour ceci connaitre la météo lié a l'aéronautique",
-    granddescription: "ceci est une grande description",
+      "Dans un simulateur, toute la météo est contrôlable, de la neige aux tempêtes maritimes en passant par le vent et les orages. Il faut pour cela connaître la météo liée à l'aéronautique.",
+    granddescription: "Ceci est une grande description.",
     ressource: "",
     trace: [],
     evaluation: " ",
@@ -117,10 +117,10 @@ const content = [
 
   {
     id: 9,
-    titretache: "Premier vol en tant 'qu'instructeur'	",
+    titretache: "Premier vol en tant 'qu'instructeur'",
     tache:
-      "lors d'un test pour une maintenance j'ai été ammené a gere un exercice avec un véritable pilote d'helicoptere,je devais gerer chaque element lié a la simulation de l'helicopte en temps réel en essayant de comprendre tout les terme es aspect d'un vol tel que celui ci",
-    granddescription: "ceci est une grande description",
+      "Lors d'un test pour une maintenance, j'ai été amené à gérer un exercice avec un véritable pilote d'hélicoptère. Je devais gérer chaque élément lié à la simulation de l'hélicoptère en temps réel en essayant de comprendre tous les termes et aspects d'un vol tel que celui-ci.",
+    granddescription: "Ceci est une grande description.",
     ressource: " ",
     trace: [],
     evaluation: " ",
@@ -130,10 +130,10 @@ const content = [
 
   {
     id: 10,
-    titretache: "installation d'un PC ppur stocker les backups	",
+    titretache: "Installation d'un PC pour stocker les backups",
     tache:
-      "aupravatn il y'avait seuelemtn des disque dur externe pour sauvegarder les simulateur ,j'ai décidé de metre en place un PC equipé de disque dur redondant pour palier aux risque de perte de données",
-    granddescription: "ceci est une grande description",
+      "Auparavant, il y avait seulement des disques durs externes pour sauvegarder les simulateurs. J'ai décidé de mettre en place un PC équipé de disques durs redondants pour pallier les risques de perte de données.",
+    granddescription: "Ceci est une grande description.",
     ressource: " ",
     trace: [],
     evaluation: " ",
@@ -143,10 +143,10 @@ const content = [
 
   {
     id: 11,
-    titretache: "remplacement de projecteur	",
+    titretache: "Remplacement de projecteur",
     tache:
-      "Un projecteur a de la lumiere grace a une ampoule qu'il faut parfois changer, nous avons defais des projcteur de leur support pour les envoyer en reparation en prennant toute les précaution possible du a leur poids, leur fragilité et au travailen hauteur",
-    granddescription: "ceci est une grande description",
+      "Un projecteur a de la lumière grâce à une ampoule qu'il faut parfois changer. Nous avons défait des projecteurs de leur support pour les envoyer en réparation en prenant toutes les précautions possibles dues à leur poids, leur fragilité et au travail en hauteur.",
+    granddescription: "Ceci est une grande description.",
     ressource: " ",
     trace: [imgprojo],
     evaluation: " ",
@@ -156,10 +156,10 @@ const content = [
 
   {
     id: 12,
-    titretache: "warping	",
+    titretache: "Warping",
     tache:
-      "avec des projecteru décalé de quelque milimetre il faillait quand meme refair le warping, c'est le fait de mofifier la facon dont l'image carré est projecter pour quell puise se metre une sphere",
-    granddescription: "ceci est une grande description",
+      "Avec des projecteurs décalés de quelques millimètres, il fallait quand même refaire le warping, c'est-à-dire modifier la façon dont l'image carrée est projetée pour qu'elle puisse se mettre sur une sphère.",
+    granddescription: "Ceci est une grande description.",
     ressource: " ",
     trace: [],
     evaluation: " ",
@@ -169,7 +169,7 @@ const content = [
 ];
 
 const conclu =
-  "j'ai decouvert l'utilité de la simulation dans le monde professionnel, que se soit pour les helicopter ou n'importe quel autre moyen de locomotion complexe c'est l'opposé de tout les jeux de simulation que j'ai connu";
+  "J'ai découvert l'utilité de la simulation dans le monde professionnel. Que ce soit pour les hélicoptères ou n'importe quel autre moyen de locomotion complexe, c'est l'opposé de tous les jeux de simulation que j'ai connus.";
 
 const data = {
   titre,

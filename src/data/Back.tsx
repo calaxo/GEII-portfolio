@@ -1,56 +1,51 @@
-const titre = "Developpement web Back-end";
+const titre = "Développement Web Back-end";
 
 const intro =
-  "la partie back designe tout le programe qui fonctionne sur un serveur et qui va comnuniquer avec le client, si tout est sécurisé le client n'a jammais accés aux code sur le serveur";
+  "La partie back désigne tout le programme qui fonctionne sur un serveur et qui va communiquer avec le client. Si tout est sécurisé, le client n'a jamais accès au code sur le serveur.";
 
 const content = [
   {
     id: 1,
-    titretache: "utilisation de nodejs pour servir de simple site statique",
+    titretache: "Utilisation de Node.js pour servir de simple site statique",
     tache:
-      "",
-    granddescription: "j'ai decouverte nodejs en vouant créer des bot pour comuniquer avec des utlisateur sur des reseaux de comunication, despui j'ai dcouverte la focntionalité principal de cette platforme de developnemt:fair focntionner des service WEB en utlisant le language de programmation javascript",
+      "Utilisation de Node.js, qui est une application permettant de faire fonctionner du code JavaScript dédié aux navigateurs web sur un serveur.",
+    granddescription: "J'ai découvert Node.js en voulant créer des bots pour communiquer avec des utilisateurs sur des réseaux de communication. Depuis, j'ai découvert la fonctionnalité principale de cette plateforme de développement : faire fonctionner des services web en utilisant le langage de programmation JavaScript.",
     ressource: "",
     trace: [],
     evaluation: "",
     date: "",
     note: 3,
   },
-
-
-
   {
     id: 3,
-    titretache: "envoi de donnée statique plus sécurisé",
+    titretache: "Envoi de données statiques plus sécurisé",
     tache:
-      "j'ai decouverte que seulement forunir le site web via nodejs etait dangereaux et j'ai donc appris comment marche la sécurité des pages internet",
-    granddescription: "il existe de nombreuse failles sur les site internet qui permette d'acceder a des donnée senssible, il existe pour cela des parametre et des méthode de programmation a respecter",
+      "J'ai découvert que simplement fournir le site web via Node.js était dangereux, et j'ai donc appris comment fonctionne la sécurité des pages internet.",
+    granddescription: "Il existe de nombreuses failles sur les sites internet qui permettent d'accéder à des données sensibles. Pour cela, il existe des paramètres et des méthodes de programmation à respecter.",
     ressource: "",
     trace: [],
-    evaluation: "evaluation1",
+    evaluation: "Évaluation 1",
     date: "",
     note: 3,
   },
-
   {
     id: 4,
-    titretache: "creation d'API simple",
+    titretache: "Création d'API simple",
     tache:
-      "une api permet a des programme tel que des aplication coté client ou d'autre serveice de comuiniquer a un seveur via des methode dénfin est sécurisé",
-    granddescription: "aucun service web ne laisse un accés directement ouvert a son code ou a se données, il faut donc passer par des API pour echanger avec ls serveur via des méthode prevue pour",
+      "Une API permet à des programmes tels que des applications côté client ou d'autres services de communiquer avec un serveur via des méthodes définies et sécurisées.",
+    granddescription: "Aucun service web ne laisse un accès directement ouvert à son code ou à ses données. Il faut donc passer par des API pour échanger avec le serveur via des méthodes prévues pour.",
     ressource: "",
     trace: [],
     evaluation: "",
     date: "",
     note: 3,
   },
-
   {
     id: 5,
     titretache: "Création d'API avec manipulation de données",
     tache:
-      "dans le WEV moderne le backend permet de fair le lient entre le code client et les base de donnée en s'assurant que aucune des deux ne puisse comnuqiuer en liaosn direact sans sécurité",
-    granddescription: "une application backend moderne sert les fichier nécessaire a l'affichage sur le navigateur du client et peut echanger des donnée avec lui , il faut ensuite réaliser des operation sur ces donnée pour venir ensuite les fair interagiravec une base de données",
+      "Dans le web moderne, le backend permet de faire le lien entre le code client et les bases de données en s'assurant qu'aucune des deux ne puisse communiquer en liaison directe sans sécurité.",
+    granddescription: "Une application backend moderne sert les fichiers nécessaires à l'affichage sur le navigateur du client et peut échanger des données avec lui. Il faut ensuite réaliser des opérations sur ces données pour ensuite les faire interagir avec une base de données.",
     ressource: "",
     trace: [],
     evaluation: "",
@@ -60,7 +55,7 @@ const content = [
 ];
 
 const conclu =
-  "c'est la premiere brique qui permet a l'internet moderne de fonctionner, les serveurs et leur programmes";
+  "C'est la première brique qui permet à l'internet moderne de fonctionner : les serveurs et leurs programmes.";
 
 const data = {
   titre,

@@ -1,92 +1,90 @@
-// import imgaltium1 from "@assetspreuve/altium1.png";
-// import imgaltium12 from "@assetspreuve/altium1.png";
 const titre = "But 1 : Projet 1";
 
 const intro =
-  "durant un Bachlor Universiatire technologique les etudiant on des projet appelé SAE pour situation d'aprentissage et d'valution qui permet d'aller vers des demarche plus pfoesionneles, notre premiere SAE avait pour but de controller la rotation de moteur via des signaux plus fairble en puissance que ceux utlis& pour l'ailimentation en puissance des moteurs";
+  "Durant un Bachelor Universitaire Technologique, les étudiants ont des projets appelés SAE pour Situation d'Apprentissage et d'Évaluation, qui permettent d'aller vers des démarches plus professionnelles. Notre première SAE avait pour but de contrôler la rotation de moteur via des signaux moins puissants que ceux utilisés pour l'alimentation en puissance des moteurs.";
 
 const content = [
   {
     id: 1,
-    titretache: "familiarisation des outils de mesures electronique",
+    titretache: "Familiarisation des outils de mesure électronique",
     tache:
-      "decouverte des différents outils essentiel pour effctuer des projet lié a l'electronique",
+      "Découverte des différents outils essentiels pour effectuer des projets liés à l'électronique.",
     granddescription:
-      "nous avons dabord eu des phase d'apprentisage epour apprendre le fonctionement et l'ultisation des difernte outils courament utlisé en lectonqiue tel qu'une alimentation tablisé un oscilloscope, un generateur base fréquence et un multimtre qui permetre de créer et smeuser les ginaux electronqiue",
-    ressource: "description1",
+      "Nous avons d'abord eu des phases d'apprentissage pour comprendre le fonctionnement et l'utilisation des différents outils couramment utilisés en électronique, tels qu'une alimentation stabilisée, un oscilloscope, un générateur de base de fréquence et un multimètre, qui permettent de créer et de mesurer les signaux électroniques.",
+    ressource: "",
     trace: [],
-    evaluation: "evaluation1",
+    evaluation: "",
     date: "01/02/2023",
     note: 3,
   },
   {
     id: 2,
-    titretache: "familiarisation avec les datasheet",
+    titretache: "Familiarisation avec les datasheets",
     tache:
-      "nous avons fait la démarche profesionnelle d'utliser les datasheet des composant",
+      "Nous avons fait la démarche professionnelle d'utiliser les datasheets des composants.",
     granddescription:
-      "pour savoir comment marchait notre carte de commande de moteur nous avons du apprendre a lire des datasheet pour obtenir des information sur ceratin composant",
-    ressource: "on a appris a faire des base de données",
+      "Pour comprendre le fonctionnement de notre carte de commande de moteur, nous avons dû apprendre à lire des datasheets pour obtenir des informations sur certains composants.",
+    ressource: "On a appris à créer des bases de données.",
     trace: [],
-    evaluation: "evaluation1",
+    evaluation: "",
     date: "01/02/2023",
     note: 3,
   },
   {
     id: 3,
-    titretache: "utilisation du moteur via un signal PWM",
+    titretache: "Utilisation du moteur via un signal PWM",
     tache:
-      "pour controller notre moteur la carte de control avait besoin d'un signal spécifique",
+      "Pour contrôler notre moteur, la carte de contrôle avait besoin d'un signal spécifique.",
     granddescription:
-      "nous avons pu ensuite utilsié le materiel de mesure et les carte elctronqiue pour controller un moteur via un signal que nous fournaissant a la carte",
-    ressource: "on a appris a faire des base de données",
+      "Nous avons ensuite utilisé le matériel de mesure et les cartes électroniques pour contrôler un moteur via un signal que nous fournissions à la carte.",
+    ressource: "On a appris à créer des bases de données.",
     trace: [],
-    evaluation: "evaluation1",
+    evaluation: "",
     date: "01/02/2023",
     note: 3,
   },
   {
     id: 4,
-    titretache: "lecture de la vitesse via le capteur rotatif",
+    titretache: "Lecture de la vitesse via le capteur rotatif",
     tache:
-      "pour controller un moteur il es plus pratique de savoir a quelle vitesse il tourne avant de changer cette vitesse",
+      "Pour contrôler un moteur, il est plus pratique de savoir à quelle vitesse il tourne avant de changer cette vitesse.",
     granddescription:
-      "pour savoir préciemsent les effet de nos signaux nous avons utlisé un capteur rotatif pour savoir a quelle vitess le moteur tournait para rapprot ax signaux que nous apliquions",
-    ressource: "on a appris a faire des base de données",
+      "Pour comprendre précisément les effets de nos signaux, nous avons utilisé un capteur rotatif pour connaître à quelle vitesse le moteur tournait par rapport aux signaux que nous appliquions.",
+    ressource: "On a appris à créer des bases de données.",
     trace: [],
-    evaluation: "evaluation1",
+    evaluation: "",
     date: "01/02/2023",
     note: 3,
   },
   {
     id: 5,
-    titretache: "analyse de la vitesse en fonction du raport cyclique",
-    tache: "nous avons appris a lire de resulat electronique",
+    titretache: "Analyse de la vitesse en fonction du rapport cyclique",
+    tache: "Nous avons appris à lire des résultats électroniques.",
     granddescription:
-      "nous avons ensuite calculer des fréquence et realiser des corube dans une demarche scientifique",
-    ressource: "on a appris a faire des base de données",
+      "Nous avons ensuite calculé des fréquences et réalisé des courbes dans une démarche scientifique.",
+    ressource: "On a appris à créer des bases de données.",
     trace: [],
-    evaluation: "evaluation1",
+    evaluation: "",
     date: "01/02/2023",
     note: 3,
   },
   {
     id: 6,
-    titretache: "test de la limite de l'alimentation",
+    titretache: "Test de la limite de l'alimentation",
     tache:
-      "en electronique/elctrique la limitation la plus importante est la consommation d'energie notamment de courant",
+      "En électronique/électrique, la limitation la plus importante est la consommation d'énergie, notamment de courant.",
     granddescription:
-      "nous avons aussi mesurer la consommation en courant du moteur pour vraiment se reprenter commet interagise entre eux les deux mesure que sont courant et tension",
-    ressource: "comme je sais fair j'ai fait un site react",
+      "Nous avons aussi mesuré la consommation en courant du moteur pour vraiment comprendre comment interagissent entre eux les deux mesures que sont le courant et la tension.",
+    ressource: "Comme je sais faire, j'ai créé un site React.",
     trace: [],
-    evaluation: "evaluation1",
+    evaluation: "",
     date: "01/02/2023",
     note: 3,
   },
 ];
 
 const conclu =
-  "controller un moteur etait une tache plutot simple que nous aurions pu fair en autodidacte via des tutos mais fair ceci en cours nous a permis de fair les chose avec un vrai but professionnel";
+  "Contrôler un moteur était une tâche plutôt simple que nous aurions pu faire en autodidacte via des tutoriels, mais le faire en cours nous a permis de le faire avec un vrai but professionnel.";
 
 const data = {
   titre,
