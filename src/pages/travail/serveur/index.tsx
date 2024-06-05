@@ -6,11 +6,8 @@ import docker from "@assets/docker.jpg";
 const But1 = () => {
   return (
     <div>
-      <div className=" mx-16 justify-center	 text-lg font-bold">
-        j'ai toujour heberger tout et n'importe quoi des serveur de jeux pour
-        jouer entre amis pendant le confinement des serveur web plus complexe
-        pour mon entreprise et des site web pour de la famille qui est artisant
-        je me suis vite rendu compte qu'il faut une machine dédié a ca
+      <div className=" text-center pt-6 px-11 text-lg font-bold">
+        J'ai toujours hébergé tout et n'importe quoi : des serveurs de jeux pour jouer entre amis pendant le confinement, des serveurs web plus complexes pour mon entreprise et des sites web pour des membres de ma famille qui sont artisans. Je me suis vite rendu compte qu'il fallait une machine dédiée à cela.
       </div>
 
       <div className="mt-8 flex-row justify-center lg:flex">
@@ -22,7 +19,7 @@ const But1 = () => {
               alt="SAE2"
             />
             <span className="mt-2 block text-center hover:text-cyan-500">
-              active directory
+              Active Directory
             </span>
           </div>
         </NavLink>
@@ -35,7 +32,7 @@ const But1 = () => {
               alt="SAE3"
             />
             <span className="mt-2 block text-center hover:text-cyan-500">
-              docker
+              Docker et conteunirisation
             </span>
           </div>
         </NavLink>

@@ -6,11 +6,8 @@ import switchr from "@assets/switch.jpg";
 const But1 = () => {
   return (
     <div>
-      <div className=" mx-16 justify-center	 text-lg font-bold">
-        plus jeune que internet fonctionnait tout seul puis j'ai eu mes premier
-        cours d'informatique au lycée qui expliquait les base de fonctionment du
-        reseaux depuis j'essaie toujour de comprendre plus en profondeur le
-        fonctionnement des reseaux informatique
+      <div className="text-center pt-6	 text-lg font-bold">
+        Quand j'étais plus jeune, Internet fonctionnait tout seul. Puis, j'ai eu mes premiers cours d'informatique au lycée, qui expliquaient les bases du fonctionnement des réseaux. Depuis, j'essaie toujours de comprendre plus en profondeur le fonctionnement des réseaux informatiques.
       </div>
 
       <div className="mt-8 flex-row justify-center lg:flex">
@@ -22,7 +19,7 @@ const But1 = () => {
               alt="SAE2"
             />
             <span className="mt-2 block text-center hover:text-cyan-500">
-              firewall
+              Firewall/Pare-Feu
             </span>
           </div>
         </NavLink>
@@ -35,7 +32,7 @@ const But1 = () => {
               alt="SAE3"
             />
             <span className="mt-2 block text-center hover:text-cyan-500">
-              switch reseaux
+              Switch/Commutateur de reseau
             </span>
           </div>
         </NavLink>

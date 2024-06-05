@@ -18,7 +18,7 @@ const content = [
     titretache: "Mise à jour",
     tache:
       "En tant qu'équipement sensible, ce genre de matériel reçoit très souvent des mises à jour pour éviter les moindres failles de sécurité. J'ai dû apprendre à les mettre à jour en respectant certaines règles.",
-    granddescription: "Ceci est une grande description.",
+    granddescription: "",
     ressource: "Les conseils d'un ingénieur informatique.",
     trace: [imgswitch],
     evaluation: "",

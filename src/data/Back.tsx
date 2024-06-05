@@ -24,7 +24,7 @@ const content = [
     granddescription: "Il existe de nombreuses failles sur les sites internet qui permettent d'accéder à des données sensibles. Pour cela, il existe des paramètres et des méthodes de programmation à respecter.",
     ressource: "",
     trace: [],
-    evaluation: "Évaluation 1",
+    evaluation: "",
     date: "",
     note: 3,
   },

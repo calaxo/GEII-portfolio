@@ -6,13 +6,8 @@ import aero from "@assets/aero.jpg";
 const But1 = () => {
   return (
     <div>
-      <div className=" mx-16 justify-center	 text-lg font-bold">
-        je nai jammais pris l'avion mais j'ai toujour trouver le technologies
-        aeronautique trés interessante lorsque j'ai été pris en tant
-        qu'alternant chez heli union training center j'ai commencé a apprendre
-        plein de chose sur l'aéenornautique appliquée aux helicoptere je sais
-        que ces connaissance ne me permetron pas grand chose mais en tant que
-        culture generale c'est bien
+      <div className=" text-center pt-6	 text-lg font-bold">
+        Je n'ai jamais pris l'avion, mais j'ai toujours trouvé les technologies aéronautiques très intéressantes. Lorsque j'ai été pris en tant qu'alternant chez Heli Union Training Center, j'ai commencé à apprendre plein de choses sur l'aéronautique appliquée aux hélicoptères. Je sais que ces connaissances ne me permettront pas de faire grand-chose, mais en tant que culture générale, c'est bien.
       </div>
 
       <div className="mt-8 flex-row justify-center lg:flex">
@@ -24,7 +19,7 @@ const But1 = () => {
               alt="SAE2"
             />
             <span className="mt-2 block text-center hover:text-cyan-500">
-              simulateur
+              Simulateur
             </span>
           </div>
         </NavLink>
@@ -37,7 +32,7 @@ const But1 = () => {
               alt="SAE3"
             />
             <span className="mt-2 block text-center hover:text-cyan-500">
-              aeronautique
+              Aeronautique
             </span>
           </div>
         </NavLink>

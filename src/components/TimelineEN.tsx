@@ -4,7 +4,7 @@ const TimelineEN = () => {
   return (
     <div className="">
 
-      <div className="mt-20 w-full text-center justify-center">
+      <div className="mt-2 w-full text-center justify-center">
         <div>
           <h2 className="pt-4 font-bold text-3xl mb-4 justify-center">About Me</h2>
           <p>

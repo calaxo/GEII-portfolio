@@ -9,10 +9,8 @@ import hebergement from "@assets/hebergement.jpg";
 const But1 = () => {
   return (
     <div>
-      <div className=" mx-16 justify-center	 text-lg font-bold">
-        il y'a de nombreuse "brique" informatique qui ensemble forme un systeme
-        complexe avec beaucoup d'interaction et de synergie pour simplifer le
-        developement web
+      <div className=" pt-6 text-center	 text-lg font-bold">
+        Il y a de nombreuses "briques" informatiques qui, ensemble, forment un système complexe avec beaucoup d'interactions et de synergies pour simplifier le développement web.
       </div>
 
       <div className="mt-8 flex-row justify-center lg:flex">
@@ -24,7 +22,7 @@ const But1 = () => {
               alt="SAE2"
             />
             <span className="mt-2 block text-center hover:text-cyan-500">
-              vers le back
+              Back/serveur
             </span>
           </div>
         </NavLink>
@@ -37,7 +35,7 @@ const But1 = () => {
               alt="SAE3"
             />
             <span className="mt-2 block text-center hover:text-cyan-500">
-              vers le front
+              Front/Navigateur
             </span>
           </div>
         </NavLink>
@@ -50,7 +48,7 @@ const But1 = () => {
               alt="SAE3"
             />
             <span className="mt-2 block text-center hover:text-cyan-500">
-              vers git
+              Git:gestionairte de version
             </span>
           </div>
         </NavLink>
@@ -63,7 +61,7 @@ const But1 = () => {
               alt="SAE3"
             />
             <span className="mt-2 block text-center hover:text-cyan-500">
-              vers l'hebergement
+              Hebergement
             </span>
           </div>
         </NavLink>

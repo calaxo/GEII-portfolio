@@ -83,7 +83,7 @@ const Accueil = () => {
         />
       </button>
       <div className=" flex">
-        <div className=" relative left-0 z-30 w-1/2 flex-row  ">
+        <div className=" relative left-0 z-30 w-1/4 ml-12 flex-row  ">
           <a
             key="Front"
             href="#/perso/web/Front"
@@ -163,13 +163,13 @@ const Accueil = () => {
           hover:text-white hover:shadow-blue-500 hover:before:h-64
           hover:before:-translate-y-32 */}
         </div>
-        <div className="right-0 w-1/2">
+
           <img
-            className=" mx-auto mb-8 h-40  rounded-full"
+            className=" mb-8 h-40 mx-auto rounded-full"
             src={imgmoi}
             alt="Ma photo"
           />
-        </div>
+
       </div>
       {/* position: fixed; top: 5em; right: 0; margin-top: 5em; margin-left: 5em;
       margin-right: 5em; margin-bottom: 5em; height: 70%; width: 100%; */}

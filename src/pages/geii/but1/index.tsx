@@ -7,9 +7,8 @@ import trieur from "@assets/trieur.jpg";
 const But1 = () => {
   return (
     <div>
-      <div className=" mx-16 justify-center	 text-lg font-bold">
-        première année dans GEII que j'ai rejoint car j'ai toujours été
-        intéressé par l'électrique et l'électronique
+      <div className="text-center pt-6	 text-lg font-bold">
+      Voici mes projets de ma première année de GEII, dans laquelle je me suis engagé parce que j'ai toujours été intéressé par l'électricité et l'électronique.
       </div>
 
       <div className="mt-8  flex-row justify-center lg:flex">
@@ -21,7 +20,7 @@ const But1 = () => {
               alt="SAE1"
             />
             <span className=" mt-2 block text-center hover:text-cyan-500">
-              Vers le premier projet de cette année
+              Premier projet de cette année
             </span>
           </div>
         </NavLink>
@@ -34,7 +33,7 @@ const But1 = () => {
               alt="SAE2"
             />
             <span className="mt-2 block text-center hover:text-cyan-500">
-              Vers le deuxième projet de cette année
+              Deuxième projet de cette année
             </span>
           </div>
         </NavLink>
@@ -47,7 +46,7 @@ const But1 = () => {
               alt="SAE3"
             />
             <span className="mt-2 block text-center hover:text-cyan-500">
-              Vers la troisième projet de cette année
+              Troisième projet de cette année
             </span>
           </div>
         </NavLink>

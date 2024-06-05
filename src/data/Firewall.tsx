@@ -74,7 +74,7 @@ const content = [
   },
 ];
 
-const conclu = "finito";
+const conclu = "";
 
 const data = {
   titre,

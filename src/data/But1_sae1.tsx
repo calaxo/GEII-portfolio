@@ -24,7 +24,7 @@ const content = [
       "Nous avons fait la démarche professionnelle d'utiliser les datasheets des composants.",
     granddescription:
       "Pour comprendre le fonctionnement de notre carte de commande de moteur, nous avons dû apprendre à lire des datasheets pour obtenir des informations sur certains composants.",
-    ressource: "On a appris à créer des bases de données.",
+    ressource: "",
     trace: [],
     evaluation: "",
     date: "01/02/2023",
@@ -37,7 +37,7 @@ const content = [
       "Pour contrôler notre moteur, la carte de contrôle avait besoin d'un signal spécifique.",
     granddescription:
       "Nous avons ensuite utilisé le matériel de mesure et les cartes électroniques pour contrôler un moteur via un signal que nous fournissions à la carte.",
-    ressource: "On a appris à créer des bases de données.",
+    ressource: "",
     trace: [],
     evaluation: "",
     date: "01/02/2023",
@@ -50,7 +50,7 @@ const content = [
       "Pour contrôler un moteur, il est plus pratique de savoir à quelle vitesse il tourne avant de changer cette vitesse.",
     granddescription:
       "Pour comprendre précisément les effets de nos signaux, nous avons utilisé un capteur rotatif pour connaître à quelle vitesse le moteur tournait par rapport aux signaux que nous appliquions.",
-    ressource: "On a appris à créer des bases de données.",
+    ressource: "",
     trace: [],
     evaluation: "",
     date: "01/02/2023",
@@ -62,7 +62,7 @@ const content = [
     tache: "Nous avons appris à lire des résultats électroniques.",
     granddescription:
       "Nous avons ensuite calculé des fréquences et réalisé des courbes dans une démarche scientifique.",
-    ressource: "On a appris à créer des bases de données.",
+    ressource: "",
     trace: [],
     evaluation: "",
     date: "01/02/2023",
@@ -75,7 +75,7 @@ const content = [
       "En électronique/électrique, la limitation la plus importante est la consommation d'énergie, notamment de courant.",
     granddescription:
       "Nous avons aussi mesuré la consommation en courant du moteur pour vraiment comprendre comment interagissent entre eux les deux mesures que sont le courant et la tension.",
-    ressource: "Comme je sais faire, j'ai créé un site React.",
+    ressource: "",
     trace: [],
     evaluation: "",
     date: "01/02/2023",

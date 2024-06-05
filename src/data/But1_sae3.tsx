@@ -65,7 +65,7 @@ const content = [
     tache:
       "nous avons créer des circuit logique qui pemetre de fair un choix sur le sens de rotation du moteur selon les infos donnée par les capteurs",
     granddescription: "",
-    ressource: "on a appris a faire des base de données",
+    ressource: "",
     trace: [],
     evaluation: "",
     date: "01/02/2023",
@@ -78,7 +78,7 @@ const content = [
     tache:
       "nous avons chercher a ameliore chaque ocntion pour ameliore le projet",
     granddescription: "",
-    ressource: "on a appris a faire des base de données",
+    ressource: "",
     trace: [],
     evaluation: "",
     date: "01/02/2023",
@@ -91,7 +91,7 @@ const content = [
     tache:
       "nous avons relié nos diférente circuit un a un en verifiant que tout fonctionne bien a chque fois ",
     granddescription: "",
-    ressource: "on a appris a faire des base de données",
+    ressource: "",
     trace: [],
     evaluation: "",
     date: "01/02/2023",
@@ -117,7 +117,7 @@ const content = [
     tache:
       "avce l'aide des conseil de nos professeurs nous avons optmiser nos circuit pour qu'il y est moin d'erreur",
     granddescription: "",
-    ressource: "on a appris a faire des base de données",
+    ressource: "",
     trace: [imgtrieur1, imgtrieur2],
     evaluation: "",
     date: "01/02/2023",
@@ -140,7 +140,7 @@ const content = [
 
 //https://bv.univ-poitiers.fr/access/content/user/fvila/portfolio/but3/missions/m1/index.html
 
-const conclu = "finito";
+const conclu = "";
 
 const data = {
   titre,

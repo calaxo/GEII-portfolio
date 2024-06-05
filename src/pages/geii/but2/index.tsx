@@ -6,10 +6,8 @@ import onde from "@assets/onde.jpg";
 const But1 = () => {
   return (
     <div>
-      <div className=" mx-16 justify-center	 text-lg font-bold">
-        cette année fut trés interessante, nous avons pu apprendre beaucoup de
-        choses, et nous avons pu mettre en pratique nos connaissances dans des
-        projets.
+      <div className=" text-center pt-6	 text-lg font-bold">
+        Cette année fut très intéressante, nous avons appris beaucoup de choses et nous avons pu mettre en pratique nos connaissances dans des projets.
       </div>
 
       <div className="mt-8 flex-row justify-center lg:flex">
@@ -21,7 +19,7 @@ const But1 = () => {
               alt="SAE2"
             />
             <span className="mt-2 block text-center hover:text-cyan-500">
-              Vers le premier projet de cette année
+              Premier projet de cette année
             </span>
           </div>
         </NavLink>
@@ -34,7 +32,7 @@ const But1 = () => {
               alt="SAE3"
             />
             <span className="mt-2 block text-center hover:text-cyan-500">
-              Vers le deuxième projet de cette année
+              Deuxième projet de cette année
             </span>
           </div>
         </NavLink>

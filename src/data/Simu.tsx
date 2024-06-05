@@ -15,7 +15,7 @@ const content = [
     titretache: "Apprentissage du fonctionnement",
     tache:
       "Lors des premières semaines, j'ai appris les différents systèmes majeurs des simulateurs tels que les parties : énergie, calculateur, mouvement, cockpit, visuel.",
-    granddescription: "Ceci est une grande description.",
+    granddescription: "",
     ressource: " ",
     trace: [],
     evaluation: " ",
@@ -27,7 +27,7 @@ const content = [
     titretache: "Démarrage",
     tache:
       "J'ai appris grâce à mes collègues à démarrer le simulateur et à le préparer pour les séances de la journée.",
-    granddescription: "Ceci est une grande description.",
+    granddescription: "",
     ressource: "",
     trace: [],
     evaluation: " ",
@@ -68,7 +68,7 @@ const content = [
     titretache: "Découverte du système de climatisation",
     tache:
       "Lors d'un démarrage du simulateur seul un matin, il y a eu une panne de climatisation, ce qui a causé une surchauffe des systèmes. Durant la panne et après, mon maître d'apprentissage m'a expliqué comment fonctionnaient les différents systèmes des simulateurs.",
-    granddescription: "Ceci est une grande description.",
+    granddescription: "",
     ressource: " ",
     trace: [imgclim],
     evaluation: " ",
@@ -81,7 +81,7 @@ const content = [
     titretache: "Extinction",
     tache:
       "Très tôt, j'ai appris à éteindre le simulateur, ce qui est beaucoup plus simple que l'allumage. Il faut seulement s'assurer que les calculateurs sont bien éteints avant de couper le courant.",
-    granddescription: "Ceci est une grande description.",
+    granddescription: "",
     ressource: " ",
     trace: [imgdijoncteur],
     evaluation: " ",
@@ -94,7 +94,7 @@ const content = [
     titretache: "Pannes",
     tache:
       "J'ai appris à déclencher et gérer les pannes de l'hélicoptère. Cela nécessite de connaître les systèmes principaux d'un hélicoptère et de savoir à peu près ce que les pannes provoquent.",
-    granddescription: "Ceci est une grande description.",
+    granddescription: "",
     ressource: "",
     trace: [],
     evaluation: " ",
@@ -107,7 +107,7 @@ const content = [
     titretache: "Météo",
     tache:
       "Dans un simulateur, toute la météo est contrôlable, de la neige aux tempêtes maritimes en passant par le vent et les orages. Il faut pour cela connaître la météo liée à l'aéronautique.",
-    granddescription: "Ceci est une grande description.",
+    granddescription: "",
     ressource: "",
     trace: [],
     evaluation: " ",
@@ -120,7 +120,7 @@ const content = [
     titretache: "Premier vol en tant 'qu'instructeur'",
     tache:
       "Lors d'un test pour une maintenance, j'ai été amené à gérer un exercice avec un véritable pilote d'hélicoptère. Je devais gérer chaque élément lié à la simulation de l'hélicoptère en temps réel en essayant de comprendre tous les termes et aspects d'un vol tel que celui-ci.",
-    granddescription: "Ceci est une grande description.",
+    granddescription: "",
     ressource: " ",
     trace: [],
     evaluation: " ",
@@ -133,7 +133,7 @@ const content = [
     titretache: "Installation d'un PC pour stocker les backups",
     tache:
       "Auparavant, il y avait seulement des disques durs externes pour sauvegarder les simulateurs. J'ai décidé de mettre en place un PC équipé de disques durs redondants pour pallier les risques de perte de données.",
-    granddescription: "Ceci est une grande description.",
+    granddescription: "",
     ressource: " ",
     trace: [],
     evaluation: " ",
@@ -146,7 +146,7 @@ const content = [
     titretache: "Remplacement de projecteur",
     tache:
       "Un projecteur a de la lumière grâce à une ampoule qu'il faut parfois changer. Nous avons défait des projecteurs de leur support pour les envoyer en réparation en prenant toutes les précautions possibles dues à leur poids, leur fragilité et au travail en hauteur.",
-    granddescription: "Ceci est une grande description.",
+    granddescription: "",
     ressource: " ",
     trace: [imgprojo],
     evaluation: " ",
@@ -159,7 +159,7 @@ const content = [
     titretache: "Warping",
     tache:
       "Avec des projecteurs décalés de quelques millimètres, il fallait quand même refaire le warping, c'est-à-dire modifier la façon dont l'image carrée est projetée pour qu'elle puisse se mettre sur une sphère.",
-    granddescription: "Ceci est une grande description.",
+    granddescription: "",
     ressource: " ",
     trace: [],
     evaluation: " ",

@@ -82,7 +82,7 @@ const content = [
     titretache: "Utiliser les MFD",
     tache:
       "Les Multi-Function Displays permettent d'aider le pilote en affichant ce qui est nécessaire, tels que les caps, l'altitude et les lignes d'horizon, avec une interface plus compréhensible que les équipements analogiques.",
-    granddescription: "Ceci est une grande description.",
+    granddescription: "",
     ressource: "",
     trace: [imgmfd1],
     evaluation: "",
@@ -95,7 +95,7 @@ const content = [
     titretache: "Perfectionnement des atterrissages et décollages",
     tache:
       "J'ai découvert différentes manipulations en vol, telles que le sur place, l'autorotation et des choses plus complexes qui permettent de savoir comment un hélicoptère fonctionne vraiment.",
-    granddescription: "Ceci est une grande description.",
+    granddescription: "",
     ressource: "",
     trace: [],
     evaluation: "",
@@ -111,7 +111,7 @@ const content = [
     granddescription: "",
     ressource: "",
     trace: [],
-    evaluation: "Évaluation 1",
+    evaluation: "",
     date: "01/02/2023",
     note: 3,
   },

@@ -13,8 +13,8 @@ const LeCanvas = () => {
       className="hidden h-full lg:block "
       style={{
         height: "30em",
-
-        top: "5em",
+        position: "absolute",
+        top: "3em",
         zIndex: "1",
       }}
       camera={{ position: [2, 3, 15] }}
