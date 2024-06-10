@@ -60,57 +60,7 @@ const content = [
     note: 3,
   },
 
-  {
-    id: 5,
-    titretache: "dessin d'une nouvelle interface pour l'ecran du stm32",
-    tache:
-      "nousa vons créer une nouvelle interface pour l'ecran du microcontrolleur qui est plus simple a lire",
-    granddescription: "",
-    ressource: "",
-    trace: [imgaltium1, imgaltium1],
-    evaluation: "",
-    date: "01/02/2023",
-    note: 3,
-  },
 
-  {
-    id: 6,
-    titretache: "amelioration du code et creation de l' aiguille analogique ",
-    tache:
-      "nousa ason ameliore le code pour qu'il soit plus réactif et qu'il permette la lecture sous forme d'aiguille anagloqiue comme sur un votmmettrre ancien",
-    granddescription: "",
-    ressource: "",
-    trace: [imgaltium1, imgaltium1],
-    evaluation: "",
-    date: "01/02/2023",
-    note: 3,
-  },
-
-  {
-    id: 7,
-    titretache: "amelioration de la propreté du circuit",
-    tache:
-      "pour permetre une meilleur compréhension et de meilleur répartion nous avons ameliorer la proprété du circuit electronique",
-    granddescription: "",
-    ressource: "",
-    trace: [imgaltium1, imgaltium1],
-    evaluation: "",
-    date: "01/02/2023",
-    note: 3,
-  },
-
-  {
-    id: 8,
-    titretache: "routage de la carte sur altium",
-    tache:
-      "comme nous l'avons deja fait dans d'autre projet nous avons relier tout les comopsant sur notre carte elctronqiue",
-    granddescription: "",
-    ressource: "",
-    trace: [imgaltium2],
-    evaluation: "",
-    date: "01/02/2023",
-    note: 3,
-  },
 ];
 
 const conclu = "";

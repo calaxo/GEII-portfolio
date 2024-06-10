@@ -17,8 +17,8 @@ const content = [
     id: 1,
     titretache: "Mise à jour",
     tache:
-      "En tant qu'équipement sensible, ce genre de matériel reçoit très souvent des mises à jour pour éviter les moindres failles de sécurité. J'ai dû apprendre à les mettre à jour en respectant certaines règles.",
-    granddescription: "",
+      "comme pour tout apareil informatique des mise a jour sont regulierement créer par les constructeur.",
+    granddescription: "En tant qu'équipement sensible, ce genre de matériel reçoit très souvent des mises à jour pour éviter les moindres failles de sécurité. J'ai dû apprendre à les mettre à jour en respectant certaines règles.",
     ressource: "Les conseils d'un ingénieur informatique.",
     trace: [imgswitch],
     evaluation: "",
@@ -83,7 +83,7 @@ const content = [
 ];
 
 const conclu =
-  "C'est le cœur de tous les réseaux informatiques : l'interconnexion. Mais il faut qu'il y ait des règles.";
+  "C'est le cœur de tous les réseaux informatiques : l'interconnexion. Mais il faut qu'il y ait des règles strict liées a la cybersecurité pour que tout ce passer bien";
 
 const data = {
   titre,

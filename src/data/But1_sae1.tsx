@@ -11,7 +11,7 @@ const content = [
       "Découverte des différents outils essentiels pour effectuer des projets liés à l'électronique.",
     granddescription:
       "Nous avons d'abord eu des phases d'apprentissage pour comprendre le fonctionnement et l'utilisation des différents outils couramment utilisés en électronique, tels qu'une alimentation stabilisée, un oscilloscope, un générateur de base de fréquence et un multimètre, qui permettent de créer et de mesurer les signaux électroniques.",
-    ressource: "",
+    ressource: "Les mise et situation et travaux pratique de notre professeur d'électronique.",
     trace: [],
     evaluation: "",
     date: "01/02/2023",
@@ -24,7 +24,7 @@ const content = [
       "Nous avons fait la démarche professionnelle d'utiliser les datasheets des composants.",
     granddescription:
       "Pour comprendre le fonctionnement de notre carte de commande de moteur, nous avons dû apprendre à lire des datasheets pour obtenir des informations sur certains composants.",
-    ressource: "",
+    ressource: "Les mise et situation et travaux pratique de notre professeur d'électronique.",
     trace: [],
     evaluation: "",
     date: "01/02/2023",
@@ -32,11 +32,11 @@ const content = [
   },
   {
     id: 3,
-    titretache: "Utilisation du moteur via un signal PWM",
+    titretache: "Control d'un moteur via un signal PWM",
     tache:
       "Pour contrôler notre moteur, la carte de contrôle avait besoin d'un signal spécifique.",
     granddescription:
-      "Nous avons ensuite utilisé le matériel de mesure et les cartes électroniques pour contrôler un moteur via un signal que nous fournissions à la carte.",
+      "Nous avons appris a créer et utliser un signal PWM l'information qu'il contient vient de la proportion de temp entre le temp ou la tension est au maximum/minimum, nous avons ensuite utilisé le matériel de mesure et les cartes électroniques pour contrôler un moteur via un signal que nous fournissions à la carte.",
     ressource: "",
     trace: [],
     evaluation: "",
@@ -74,7 +74,7 @@ const content = [
     tache:
       "En électronique/électrique, la limitation la plus importante est la consommation d'énergie, notamment de courant.",
     granddescription:
-      "Nous avons aussi mesuré la consommation en courant du moteur pour vraiment comprendre comment interagissent entre eux les deux mesures que sont le courant et la tension.",
+      "Nous avons aussi mesuré la consommation en courant du moteur pour vraiment comprendre comment interagissent entre eux les deux mesures que sont le courant et la tension.Ceci etait la finalité de notre prmier projet d'electronique.",
     ressource: "",
     trace: [],
     evaluation: "",

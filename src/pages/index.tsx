@@ -74,12 +74,12 @@ const Accueil = () => {
   return (
     <div>
       <button
-        className="relative z-40 w-32 bg-fixed  px-4 py-2  "
+        className="relative z-50 w-32 bg-fixed  px-4 py-2  "
         onClick={changelangu}
       >
         <img
           src={languefr ? drapen : drapfr}
-          className="fixed w-32 rounded-lg"
+          className="fixed w-32 rounded-lg  "
         />
       </button>
       <div className=" flex">
@@ -180,13 +180,13 @@ const Accueil = () => {
         {languefr ? "MON PORTFOLIO" : "MY PORTFOLIO"}
       </h1>
       <div
-        className={` relative z-40 mx-8  mt-32 rounded-lg bg-slate-500 bg-opacity-70  p-14 text-lg font-medium ${languefr ? "" : "hidden  "}`}
+        className={` relative z-40 mx-8  mt-32 rounded-lg  bg-opacity-70  p-14 text-lg font-medium ${languefr ? "" : "hidden  "}`}
       >
 
         <TimelineFR />
       </div>
       <div
-        className={` relative z-40 mx-8  mt-32 rounded-lg bg-slate-500 bg-opacity-70  p-14 text-lg font-medium ${languefr ? "hidden" : ""}`}
+        className={` relative z-40 mx-8  mt-32 rounded-lg  bg-opacity-70  p-14 text-lg font-medium ${languefr ? "hidden" : ""}`}
       >
 
         <TimelineEN />

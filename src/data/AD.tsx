@@ -57,7 +57,7 @@ const content = [
     titretache: "Vérification des droits pour les fichiers et dossiers",
     tache: "Vérification des droits pour éviter des fuites de données.",
     granddescription: "Régulièrement, et par souci de sécurité, je dois m'assurer que chaque utilisateur est dans le bon groupe et que chaque dossier est accessible par le bon groupe pour permettre de hiérarchiser les droits. Je dois ensuite faire part de mes observations à ma direction.",
-    ressource: "Les directive de ma direction et de la responsable sécurité",
+    ressource: "Les directives de ma direction et de la responsable sécurité",
     trace: [],
     evaluation: "",
     date: "05/01/2024",
