@@ -6,6 +6,7 @@ import Rating from "@liste/Rating";
 interface PropsLigne {
   ligne: {
     granddescription: string;
+    ancre: string;
     titretache: string;
     tache: string;
     ressource: string;
@@ -20,7 +21,7 @@ const Ligne = ({ligne}:PropsLigne) => {
 
 
   return (
-    <tr className="border-b border-gray-200">
+    <tr className="border-b border-gray-200" id={ligne.ancre}>
       <td className="px-4 py-2">
         <Descript
           granddescription={ligne.granddescription}

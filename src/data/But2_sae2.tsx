@@ -5,15 +5,15 @@ import imgaltium2 from "@assetspreuve/altium2.png";
 const titre = "But 2 : SAE 2";
 
 const intro =
-  "Le but de ce projet est de réaliser un site web qui permettra de mettre en avant les projets réalisés par les étudiants de DUT GEII.";
+  "le but de ce projet etait de repredre le projet de stylovoltemetre pour lui incorporer ne comunication sans fil, ainsi nous pouvons avoir notre prise de mesure et son affichage a deux endroits séparé";
 
 const content = [
   {
     id: 1,
-    titretache: "recreation du circuit suite a la separation en 2 groupe",
+    titretache: "tout recommencer",
     tache:
-      "Nous etiaons trop dans le meme groupe donc il a été décidé de se separer en deux groupes et nous avons donc tout refair une deuxieme fois",
-    granddescription: "",
+      "suite a une separation en deux de notre precedent groupe nous avons tout recommencer",
+    granddescription: "en refaisant toute la partie electronique nous avons pu ameliorer la propreté du circuit et realiser des connexion plus compréensible",
     ressource: "",
     trace: [],
     evaluation: "",
@@ -21,24 +21,13 @@ const content = [
     note: 3,
   },
 
-  {
-    id: 2,
-    titretache: "amelioration de la propreté du circuit",
-    tache:
-      "nous avon tout refait mieux car nous savions a deja comment fair la base du projet",
-    granddescription: "",
-    ressource: "",
-    trace: [],
-    evaluation: "",
-    date: "01/02/2023",
-    note: 3,
-  },
+
 
   {
     id: 3,
-    titretache: "cration du circuit sur altium",
+    titretache: "recration du circuit sur altium",
     tache:
-      "nous avons créer notre circuit sur altium pour nous permetre de créer un PCB avec",
+      "nous avons du refair notre circuit sur altium car nous avions changer certain composant",
     granddescription: "",
     ressource: "",
     trace: [imgaltium1],
@@ -49,10 +38,10 @@ const content = [
 
   {
     id: 4,
-    titretache: "passage de programme stm32 en mode sans fils",
+    titretache: "finalisation",
     tache:
-      "nous avons modiofier le porgramme contenu dans le microntrolleur pour pourvoir recevoir les tension via des modules sans fils ",
-    granddescription: "",
+      "en tant qu'alternant nous avons etait pris par le temp et nous n'avons pas pur realiser la carte electronique finale",
+    granddescription: "néanmoins avec les carte de test de nos professeur le programme etait fonctionnel malgrés la transmission sans fils",
     ressource: "",
     trace: [],
     evaluation: "",

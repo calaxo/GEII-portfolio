@@ -86,7 +86,7 @@ const Accueil = () => {
         <div className=" relative left-0 z-30 w-1/4 ml-12 flex-row  ">
           <a
             key="Front"
-            href="#/perso/web/Front"
+            href="#/perso/web/Front#concevoir"
             className="mx-auto block w-40"
           >
             <div
@@ -102,7 +102,7 @@ const Accueil = () => {
           </a>
           <a
             key="Simu"
-            href="#travail/helico/Simu"
+            href="#travail/helico/Simu#verifier"
             className="mx-auto block w-40"
           >
             <div>
@@ -120,7 +120,7 @@ const Accueil = () => {
           </a>
           <a
             key="Switch"
-            href="#/travail/reseaux/Switch"
+            href="#/travail/reseaux/Switch#implanter"
             className="mx-auto block w-40"
           >
             <div>
@@ -138,7 +138,7 @@ const Accueil = () => {
           </a>
           <a
             key="Simu"
-            href="#/travail/helico/Simu"
+            href="#/travail/helico/Simu#maintenir"
             className="mx-auto block w-40"
           >
             <div>

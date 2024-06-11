@@ -2,7 +2,6 @@ import { Suspense, StrictMode } from "react";
 import { RouterProvider, createHashRouter  } from "react-router-dom";
 import Layout from "@layout/Layout";
 
-
 import routes from "~react-pages";
 const router = createHashRouter([
   {
@@ -20,7 +19,7 @@ function App() {
         <div className="flex min-h-screen flex-col">
 
           <RouterProvider router={router} /> {/* Contenu */}
-
+          
         </div>
       </StrictMode>
     </Suspense>

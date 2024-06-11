@@ -80,7 +80,7 @@ const content = [
 ];
 
 const conclu =
-  "Je n'ai pas encore fini car c'est un projet qui prend beaucoup de temps a cause des démarches technique et adminstrative, malgrés tout les diferentes partie nécesasire sont deja pretes";
+  "Je n'ai pas encore fini car c'est un projet qui prend beaucoup de temps a cause des démarches technique et adminstrative, malgrés tout, les diferentes partie nécesasire sont deja pretes";
 
 const data = {
   titre,

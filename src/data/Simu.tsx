@@ -14,8 +14,8 @@ const content = [
     id: 1,
     titretache: "Apprentissage du fonctionnement",
     tache:
-      "Lors des premières semaines, j'ai appris les différents systèmes majeurs des simulateurs tels que les parties : énergie, calculateur, mouvement, cockpit, visuel.",
-    granddescription: "",
+      "Lors des premieres semaine de mon alternance dans l'entreprise HUTC, j'ai d'abbord decouvert les diferentes partie des simulateur",
+    granddescription: "j'ai du me familiariser a reconaitre ces  parties : énergie, calculateur, mouvement, cockpit, visuel.",
     ressource: " ",
     trace: [],
     evaluation: " ",
@@ -27,9 +27,9 @@ const content = [
     titretache: "Démarrage",
     tache:
       "J'ai appris grâce à mes collègues à démarrer le simulateur et à le préparer pour les séances de la journée.",
-    granddescription: "",
+    granddescription: "tout les matin en tant que techniciens simulateur notre role et de preparer les simulateur en allumant, etoyant et en verifiant leur bon fonctionement",
     ressource: "",
-    trace: [],
+    trace: [imgdijoncteur],
     evaluation: " ",
     date: "01/10/2022",
     note: 3,
@@ -68,7 +68,7 @@ const content = [
     titretache: "Découverte du système de climatisation",
     tache:
       "Lors d'un démarrage du simulateur seul un matin, il y a eu une panne de climatisation, ce qui a causé une surchauffe des systèmes. Durant la panne et après, mon maître d'apprentissage m'a expliqué comment fonctionnaient les différents systèmes des simulateurs.",
-    granddescription: "",
+    granddescription: "Ce genre de panne impronptue permet d'apprendre ''a la dur'' le fonctionement et l'utilité de certain systeme complexe",
     ressource: " ",
     trace: [imgclim],
     evaluation: " ",
@@ -76,25 +76,15 @@ const content = [
     note: 3,
   },
 
-  {
-    id: 6,
-    titretache: "Extinction",
-    tache:
-      "Très tôt, j'ai appris à éteindre le simulateur, ce qui est beaucoup plus simple que l'allumage. Il faut seulement s'assurer que les calculateurs sont bien éteints avant de couper le courant.",
-    granddescription: "",
-    ressource: " ",
-    trace: [imgdijoncteur],
-    evaluation: " ",
-    date: "01/02/2023",
-    note: 3,
-  },
+
 
   {
     id: 7,
+    ancre:"verifier",
     titretache: "Pannes",
     tache:
-      "J'ai appris à déclencher et gérer les pannes de l'hélicoptère. Cela nécessite de connaître les systèmes principaux d'un hélicoptère et de savoir à peu près ce que les pannes provoquent.",
-    granddescription: "",
+      "Les pannes sont le coeur de la simulation, c'est elles qui permettent aux pilote de se preparer a toutes eventualité",
+    granddescription: "J'ai appris à déclencher et gérer les pannes de l'hélicoptère. Cela nécessite de connaître les systèmes principaux d'un hélicoptère et de savoir à peu près ce que les pannes provoquent.",
     ressource: "",
     trace: [],
     evaluation: " ",
@@ -106,8 +96,8 @@ const content = [
     id: 8,
     titretache: "Météo",
     tache:
-      "Dans un simulateur, toute la météo est contrôlable, de la neige aux tempêtes maritimes en passant par le vent et les orages. Il faut pour cela connaître la météo liée à l'aéronautique.",
-    granddescription: "",
+      "En plus des panne, la météo est controllable, nottament pour fair du vol aux instruments, pour certaine formation, il faut que les pilote apprene a manier l'helicopter malgrés une visibilité nulle",
+    granddescription: "Dans un simulateur, toute la météo est contrôlable, de la neige aux tempêtes maritimes en passant par le vent et les orages. Il faut pour cela connaître la météo et ces terme liée à l'aéronautique.",
     ressource: "",
     trace: [],
     evaluation: " ",
@@ -119,8 +109,8 @@ const content = [
     id: 9,
     titretache: "Premier vol en tant 'qu'instructeur'",
     tache:
-      "Lors d'un test pour une maintenance, j'ai été amené à gérer un exercice avec un véritable pilote d'hélicoptère. Je devais gérer chaque élément lié à la simulation de l'hélicoptère en temps réel en essayant de comprendre tous les termes et aspects d'un vol tel que celui-ci.",
-    granddescription: "",
+      "Les diférents element que j'avais appris etait surtout util pour de la mainteance ou de la presentation des simulateur.Lors d'un test pour une maintenance, pour un test techique j'ai été amené à gérer un exercice avec un véritable pilote d'hélicoptère",
+    granddescription: ". Je devais gérer chaque élément lié à la simulation de l'hélicoptère en temps réel en essayant de comprendre tous les termes et aspects d'un vol tel que celui-ci.le tout en prennant des notes sur les diferents element defaillants",
     ressource: " ",
     trace: [],
     evaluation: " ",
@@ -128,25 +118,13 @@ const content = [
     note: 3,
   },
 
-  {
-    id: 10,
-    titretache: "Installation d'un PC pour stocker les backups",
-    tache:
-      "Auparavant, il y avait seulement des disques durs externes pour sauvegarder les simulateurs. J'ai décidé de mettre en place un PC équipé de disques durs redondants pour pallier les risques de perte de données.",
-    granddescription: "",
-    ressource: " ",
-    trace: [],
-    evaluation: " ",
-    date: "20/12/2023",
-    note: 3,
-  },
 
   {
     id: 11,
     titretache: "Remplacement de projecteur",
     tache:
-      "Un projecteur a de la lumière grâce à une ampoule qu'il faut parfois changer. Nous avons défait des projecteurs de leur support pour les envoyer en réparation en prenant toutes les précautions possibles dues à leur poids, leur fragilité et au travail en hauteur.",
-    granddescription: "",
+      "Une entreprise externe vient realiser la maintenance de nos projecteur, or il faut quand meme les demonter des simulateur",
+    granddescription: "Un projecteur a de la lumière grâce à une ampoule qu'il faut parfois changer. Nous avons défait des projecteurs de leur support pour les envoyer en réparation en prenant toutes les précautions possibles dues à leur poids, leur fragilité et au travail en hauteur.",
     ressource: " ",
     trace: [imgprojo],
     evaluation: " ",
@@ -156,10 +134,11 @@ const content = [
 
   {
     id: 12,
+    ancre:"maintenir",
     titretache: "Warping",
     tache:
-      "Avec des projecteurs décalés de quelques millimètres, il fallait quand même refaire le warping, c'est-à-dire modifier la façon dont l'image carrée est projetée pour qu'elle puisse se mettre sur une sphère.",
-    granddescription: "",
+      "quand le simulateur effectue des mouvement ou a cause de mainteance il peut arriver qu'on ai besoin de recalibrer les projecteurs",
+    granddescription: "Les projecteurs diffusent leurs images sur un dome, au moindre decalage l'image devient distordue et ceci est trés visible nottament a l'image entre deux projecteurs, il faut  refaire le warping, c'est-à-dire modifier la façon dont l'image carrée est projetée pour qu'elle puisse se mettre sur une sphère.Nous affichon une mire qui consite en plein de carré, ceci permet d'alligner les carrés et s'assurer qu'il soit tout de la meme tailles",
     ressource: " ",
     trace: [],
     evaluation: " ",

@@ -10,7 +10,7 @@ import imgport from "@assetspreuve/port.png";
 const titre = "Gestion de Switch Réseaux";
 
 const intro =
-  "Un switch réseau est un appareil qui permet de connecter plusieurs appareils ensemble via Ethernet.";
+  "Un switch réseau est un appareil qui permet de connecter plusieurs appareils ensemble via Ethernet.J'ai apprise a les gerer durant mon alternance dans l'entreprise HUTC";
 
 const content = [
   {
@@ -69,8 +69,9 @@ const content = [
 
   {
     id: 5,
+    ancre:"implanter",
     titretache: "Installation de bornes wifi",
-    tache: "Nous avons dû changer de bornes wifi.",
+    tache: "Nous avons dû changer la plupart des bornes wifi",
     granddescription:
       "Nous avons récemment changé de borne wifi, ce qui m'a permis de vérifier mes compétences en gestion de réseaux car ces bornes sont gérées à distance via un serveur et différents VLAN.",
     ressource: "",
