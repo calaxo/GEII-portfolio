@@ -52,17 +52,7 @@ const content = [
     note: 3,
   },
 
-  {
-    id: 5,
-    titretache: "choix de framework",
-    tache: "",
-    granddescription: " ",
-    ressource: " ",
-    trace: [],
-    evaluation: " ",
-    date: "01/02/2023",
-    note: 3,
-  },
+
 
   {
     id: 6,
@@ -175,7 +165,7 @@ const content = [
 ];
 
 const conclu =
-  "je trouve la programmtion de web front trés interessante mais il faut avoir un aspect artistiquepour que je n'ai pas";
+  "je trouve la programmtion de web front trés interessante mais il faut avoir un aspect artistique que je n'ai pas encore";
 
 const data = {
   titre,
