@@ -6,7 +6,8 @@ import imghelico1 from "@assetspreuve/helico1.png";
 import imgturbine from "@assetspreuve/turbine.png";
 // import imgefb from "@assetspreuve/efb.png";
 import imgcafe from "@assetspreuve/cafe.png";
-
+import imgpa from "@assetspreuve/pa.png";
+import imgils from "@assetspreuve/ils.png";
 const titre = "Connaissance Aéronautique";
 
 const intro =
@@ -46,7 +47,7 @@ const content = [
       "La plupart du temps, le pilote utilise un pilote automatique qui permet d'aider à contrôler la machine.",
     granddescription: "Il permet d'adoucir les commandes et de mieux comprendre les actions du pilote. Avec des paramètres, il peut aussi totalement contrôler l'hélicoptère.",
     ressource: "",
-    trace: [],
+    trace: [imgpa],
     evaluation: "",
     date: "15/07/2022",
     note: 3,
@@ -59,7 +60,7 @@ const content = [
       "Pour la procédure de démarrage, nous devons faire une approche ILS.",
     granddescription: "L'hélicoptère se fait guider par des balises au sol situées devant la piste d'atterrissage. Plus tard, en visitant la tour de contrôle et en discutant avec des instructeurs, j'ai découvert comment fonctionnait vraiment ce système.",
     ressource: "Mes collègues de l'équipe de techniciens simulateurs.",
-    trace: [],
+    trace: [imgils],
     date: "15/07/2022",
     note: 3,
   },

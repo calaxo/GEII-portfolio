@@ -3,7 +3,12 @@ import imgsimaint from "@assetspreuve/simaint.png";
 import imgclim from "@assetspreuve/clim.png";
 import imgdijoncteur from "@assetspreuve/dijoncteur.png";
 import imgprojo from "@assetspreuve/projo.png";
-
+import imgmire from "@assetspreuve/mire.png";
+import imgpanne from "@assetspreuve/panne.png";
+import imgmeteo from "@assetspreuve/meteo.png";
+import imgftd from "@assetspreuve/ftd.png";
+import imgffs from "@assetspreuve/ffs.png";
+import imgios from "@assetspreuve/ios.png";
 const titre = "Maintenance en condition opérative de simulateur d'hélicoptère";
 
 const intro =
@@ -17,7 +22,7 @@ const content = [
       "Lors des premieres semaine de mon alternance dans l'entreprise HUTC, j'ai d'abbord decouvert les diferentes partie des simulateur",
     granddescription: "j'ai du me familiariser a reconaitre ces  parties : énergie, calculateur, mouvement, cockpit, visuel.",
     ressource: " ",
-    trace: [],
+    trace: [imgftd,imgffs],
     evaluation: " ",
     date: "06/09/2022",
     note: 3,
@@ -86,7 +91,7 @@ const content = [
       "Les pannes sont le coeur de la simulation, c'est elles qui permettent aux pilote de se preparer a toutes eventualité",
     granddescription: "J'ai appris à déclencher et gérer les pannes de l'hélicoptère. Cela nécessite de connaître les systèmes principaux d'un hélicoptère et de savoir à peu près ce que les pannes provoquent.",
     ressource: "",
-    trace: [],
+    trace: [imgpanne],
     evaluation: " ",
     date: "01/02/2023",
     note: 3,
@@ -99,7 +104,7 @@ const content = [
       "En plus des panne, la météo est controllable, nottament pour fair du vol aux instruments, pour certaine formation, il faut que les pilote apprene a manier l'helicopter malgrés une visibilité nulle",
     granddescription: "Dans un simulateur, toute la météo est contrôlable, de la neige aux tempêtes maritimes en passant par le vent et les orages. Il faut pour cela connaître la météo et ces terme liée à l'aéronautique.",
     ressource: "",
-    trace: [],
+    trace: [imgmeteo],
     evaluation: " ",
     date: "01/02/2023",
     note: 3,
@@ -112,7 +117,7 @@ const content = [
       "Les diférents element que j'avais appris etait surtout util pour de la mainteance ou de la presentation des simulateur.Lors d'un test pour une maintenance, pour un test techique j'ai été amené à gérer un exercice avec un véritable pilote d'hélicoptère",
     granddescription: ". Je devais gérer chaque élément lié à la simulation de l'hélicoptère en temps réel en essayant de comprendre tous les termes et aspects d'un vol tel que celui-ci.le tout en prennant des notes sur les diferents element defaillants",
     ressource: " ",
-    trace: [],
+    trace: [imgios],
     evaluation: " ",
     date: "09/11/2023",
     note: 3,
@@ -140,7 +145,7 @@ const content = [
       "quand le simulateur effectue des mouvement ou a cause de mainteance il peut arriver qu'on ai besoin de recalibrer les projecteurs",
     granddescription: "Les projecteurs diffusent leurs images sur un dome, au moindre decalage l'image devient distordue et ceci est trés visible nottament a l'image entre deux projecteurs, il faut  refaire le warping, c'est-à-dire modifier la façon dont l'image carrée est projetée pour qu'elle puisse se mettre sur une sphère.Nous affichon une mire qui consite en plein de carré, ceci permet d'alligner les carrés et s'assurer qu'il soit tout de la meme tailles",
     ressource: " ",
-    trace: [],
+    trace: [imgmire],
     evaluation: " ",
     date: "05/01/2024",
     note: 3,
