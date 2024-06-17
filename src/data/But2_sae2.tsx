@@ -1,55 +1,48 @@
 import imgaltium1 from "@assetspreuve/altium1.png";
 
-import imgaltium2 from "@assetspreuve/altium2.png";
 
-const titre = "But 2 : SAE 2";
+const titre = "But 2 : SAE 2.";
 
 const intro =
-  "le but de ce projet etait de repredre le projet de stylovoltemetre pour lui incorporer ne comunication sans fil, ainsi nous pouvons avoir notre prise de mesure et son affichage a deux endroits séparé";
+  "Le but de ce projet était de reprendre le projet de stylovoltemètre pour lui incorporer une communication sans fil. Ainsi, nous pouvons avoir notre prise de mesure et son affichage à deux endroits séparés.";
 
 const content = [
   {
     id: 1,
-    titretache: "tout recommencer",
+    titretache: "Tout recommencer.",
     tache:
-      "suite a une separation en deux de notre precedent groupe nous avons tout recommencer",
-    granddescription: "en refaisant toute la partie electronique nous avons pu ameliorer la propreté du circuit et realiser des connexion plus compréensible",
+      "Suite à une séparation en deux de notre précédent groupe, nous avons tout recommencé.",
+    granddescription: "En refaisant toute la partie électronique, nous avons pu améliorer la propreté du circuit et réaliser des connexions plus compréhensibles.",
     ressource: "",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2023.",
     note: 3,
   },
-
-
-
   {
     id: 3,
-    titretache: "recration du circuit sur altium",
+    titretache: "Re-création du circuit sur Altium.",
     tache:
-      "nous avons du refair notre circuit sur altium car nous avions changer certain composant",
+      "Nous avons dû refaire notre circuit sur Altium car nous avions changé certains composants.",
     granddescription: "",
     ressource: "",
     trace: [imgaltium1],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2023.",
     note: 3,
   },
-
   {
     id: 4,
-    titretache: "finalisation",
+    titretache: "Finalisation.",
     tache:
-      "en tant qu'alternant nous avons etait pris par le temp et nous n'avons pas pur realiser la carte electronique finale",
-    granddescription: "néanmoins avec les carte de test de nos professeur le programme etait fonctionnel malgrés la transmission sans fils",
+      "En tant qu'alternants, nous avons été pris par le temps et nous n'avons pas pu réaliser la carte électronique finale.",
+    granddescription: "Néanmoins, avec les cartes de test de nos professeurs, le programme était fonctionnel malgré la transmission sans fil.",
     ressource: "",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2023.",
     note: 3,
   },
-
-
 ];
 
 const conclu = "";

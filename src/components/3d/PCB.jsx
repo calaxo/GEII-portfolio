@@ -15,7 +15,7 @@ import { useGLTF, useAnimations } from "@react-three/drei";
 
 export function PCB(props) {
   const { nodes, materials } = useGLTF(
-    "/src/circuitboard-transformed.glb",
+    "https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/circuitboard-transformed.glb",
   );
 
   const mesh = useRef();

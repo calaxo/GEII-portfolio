@@ -15,7 +15,9 @@ import { useFrame } from "@react-three/fiber";
 import React, { useRef, useState, useLayoutEffect } from "react";
 
 export function Server(props) {
-  const { nodes, materials } = useGLTF("/src/server-transformed.glb");
+  const { nodes, materials } = useGLTF(
+    "https://bv.univ-poitiers.fr/access/content/user/acalen01/portfolio/server-transformed.glb",
+  );
 
   const mesh = useRef();
 

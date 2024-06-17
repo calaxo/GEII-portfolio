@@ -3,98 +3,98 @@ import imgtrieur2 from "@assetspreuve/trieur2.png";
 const titre = "But 1 : SAE 3";
 
 const intro =
-  "durant ce projet notre mission etait de créer la prtie elctronique d'un systeme de trireur de dechet via un capteur inductif et un moteur";
+  "Durant ce projet, notre mission était de créer la partie électronique d'un système de trieur de déchets via un capteur inductif et un moteur.";
 
 const content = [
   {
     id: 1,
-    titretache: "creation d'un algorigramme",
+    titretache: "Création d'un algorigramme",
     tache:
-      "nous avons premierement créer un algorigramme pour savoir les diférentes tache que nous allions avoir a faire",
-    granddescription: "Notre role etait de savoir de quelle matiere etait faites diferent dechets tel que des cannette en aluminium et des bouteille ne plastique, via des capteur, nous avons realiser pour ceci un shéma logique qui resulte en ceci,si un objet et detecte les moteur doivent d'actiner dans un sens, et si un objet est detecté et que  notre capteur inductif(sensible au metal) etait activé il fallait fair tourner les moteur dans l'autre sens",
+      "Nous avons premièrement créé un algorigramme pour savoir les différentes tâches que nous allions avoir à faire.",
+    granddescription: "Notre rôle était de savoir de quelle matière étaient faits différents déchets tels que des cannettes en aluminium et des bouteilles en plastique. Via des capteurs, nous avons réalisé pour cela un schéma logique qui résulte en ceci : si un objet est détecté, les moteurs doivent s'activer dans un sens, et si un objet est détecté et que notre capteur inductif (sensible au métal) est activé, il fallait faire tourner les moteurs dans l'autre sens.",
     ressource: "",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2022",
     note: 3,
   },
 
   {
     id: 2,
-    titretache: "utilisation du capteur inductif",
+    titretache: "Utilisation du capteur inductif",
     tache:
-      "nous avons appris a tuliser un capteur industruel qui permert de detecter la présence de metal",
-    granddescription: "Notre professeur nous a distribuer des capteur inductif, et nous avons du nous debrouiller, c'etait des capteur industriel que l'on peut retrouver dans des machine d'usine",
+      "Nous avons appris à utiliser un capteur industriel qui permet de détecter la présence de métal.",
+    granddescription: "Notre professeur nous a distribué des capteurs inductifs, et nous avons dû nous débrouiller. C'étaient des capteurs industriels que l'on peut retrouver dans des machines d'usine.",
     ressource: "",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2022",
     note: 3,
   },
 
   {
     id: 3,
     titretache:
-      "abaissement de la tension logique de sortie du capteur inductif",
+      "Abaissement de la tension logique de sortie du capteur inductif",
     tache:
-      "nous avons créer un circuit electronique simple pour nous permtre d'uliser un capteur induisriel avec de circuit utlisant des tension plus faibles",
-    granddescription: "Notre capteur etait fair pour fonctionner avec automates industriel en 25V, or notre circuit allait fonctionner en 5V, grace a nos base de compétence d'electronhique nosu avons realiser un interface entre ces deux environment",
+      "Nous avons créé un circuit électronique simple pour nous permettre d'utiliser un capteur industriel avec des circuits utilisant des tensions plus faibles.",
+    granddescription: "Notre capteur était fait pour fonctionner avec des automates industriels en 25V, alors que notre circuit allait fonctionner en 5V. Grâce à nos bases de compétences en électronique, nous avons réalisé une interface entre ces deux environnements.",
     ressource: "",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2022",
     note: 3,
   },
 
   {
     id: 4,
-    titretache: "utilisation du moteur",
+    titretache: "Utilisation du moteur",
     tache:
-      "comme vu lors de nos premier projet nous avons redécouvert l'ulisation d'une carte de controlle de moteur",
-    granddescription: "dans un precedent projet nous avions appris a utliser des moteur via des signaux logique créer par des equipement de laboratoire,cette fois ci nous allions devoir realiser ces signaux logique dans nos prorpe circuit electronique",
+      "Comme vu lors de nos premiers projets, nous avons redécouvert l'utilisation d'une carte de contrôle de moteur.",
+    granddescription: "Dans un précédent projet, nous avions appris à utiliser des moteurs via des signaux logiques créés par des équipements de laboratoire. Cette fois-ci, nous allions devoir réaliser ces signaux logiques dans nos propres circuits électroniques.",
     ressource: "",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2022",
     note: 3,
   },
 
   {
     id: 5,
-    titretache: "creation de petit circuit logique",
+    titretache: "Création de petits circuits logiques",
     tache:
-      "nous avons créer des circuit logique qui pemetre de fair un choix sur le sens de rotation du moteur selon les infos donnée par les capteurs",
-    granddescription: "nous avons pour ceci utliser des équation logique qui permete de passer de l'algorithme precedement créer a des circuit logique simple via des operation tel que et/ou, ce sont des porte logique",
+      "Nous avons créé des circuits logiques qui permettent de faire un choix sur le sens de rotation du moteur selon les infos données par les capteurs.",
+    granddescription: "Nous avons pour cela utilisé des équations logiques qui permettent de passer de l'algorithme précédemment créé à des circuits logiques simples via des opérations telles que et/ou. Ce sont des portes logiques.",
     ressource: "",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2022",
     note: 3,
   },
 
   {
     id: 6,
-    titretache: "verification et amelioration",
+    titretache: "Vérification et amélioration",
     tache:
-      "nous avons chercher a ameliore chaque fonctionr pour ameliore le projet",
-    granddescription: "pour etre sur que le projet allait marcher a la fin nous avons deja commencer a ameliorer nos circuit pour otenir les signaux electronique les plus propre possible",
+      "Nous avons cherché à améliorer chaque fonction pour améliorer le projet.",
+    granddescription: "Pour être sûr que le projet allait marcher à la fin, nous avons déjà commencé à améliorer nos circuits pour obtenir les signaux électroniques les plus propres possible.",
     ressource: "",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2022",
     note: 3,
   },
 
   {
     id: 7,
-    titretache: "interconnection des circuits",
+    titretache: "Interconnexion des circuits",
     tache:
-      "nous avons relié nos diférente circuit un a un en verifiant que tout fonctionne bien a chque fois ",
+      "Nous avons relié nos différentes circuits un à un en vérifiant que tout fonctionne bien à chaque fois.",
     granddescription: "",
     ressource: "",
     trace: [imgtrieur1, imgtrieur2],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2022",
     note: 3,
   },
 
@@ -104,21 +104,21 @@ const content = [
 
   {
     id: 10,
-    titretache: "interconexion avec la maquette",
+    titretache: "Interconnexion avec la maquette",
     tache:
-      "nous avons utliser une maquette de prototypage pour nous permetre de virifer que notre systeme etait contionnel",
+      "Nous avons utilisé une maquette de prototypage pour nous permettre de vérifier que notre système était fonctionnel.",
     granddescription: "",
-    ressource: "Nos professuer on créer une maquette qui contenait seulement les moteur et les capteur, nous avons pu realiser la premiere utilisation réel de nos circuit,nous avons conclu que les systeme marchait trés bien",
+    ressource: "Nos professeurs ont créé une maquette qui contenait seulement les moteurs et les capteurs. Nous avons pu réaliser la première utilisation réelle de nos circuits. Nous avons conclu que le système marchait très bien.",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2022",
     note: 3,
   },
 ];
 
 //https://bv.univ-poitiers.fr/access/content/user/fvila/portfolio/but3/missions/m1/index.html
 
-const conclu = "ce projet nous raprochait beaucoup plus de systeme industriel que electronique, malgrés le fait qu'il y en avait besoin de nos competences en eletronique du demarage jusque a la fin";
+const conclu = "Ce projet nous rapprochait beaucoup plus de systèmes industriels que électroniques, malgré le fait qu'il y en avait besoin de nos compétences en électronique du démarrage jusqu'à la fin.";
 
 const data = {
   titre,

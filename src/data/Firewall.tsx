@@ -3,47 +3,47 @@ import imgfire from "@assetspreuve/fire.png";
 import imgfirevlan from "@assetspreuve/firevlan.png";
 import imgliste from "@assetspreuve/liste.png";
 import imgvpn from "@assetspreuve/vpn.png";
-
-const titre = "Edition de regle de firewall";
+import imgfirevlan2 from "@assetspreuve/firevlan2.png";
+const titre = "Édition de règle de pare-feu";
 
 const intro =
-  "on ne laisser pa sa maison ouverte tout le temp car on ne veut pas que n'importe qui puisse rentrer, un reseaux internet privé fonctionne sur le meme principe, on utliser un pare-feu en tant que que porte pour reguler qui peut rentrer et fair quoi";
+  "On ne laisse pas sa maison ouverte tout le temps car on ne veut pas que n'importe qui puisse rentrer. Un réseau Internet privé fonctionne sur le même principe. On utilise un pare-feu en tant que porte pour réguler qui peut rentrer et faire quoi.";
 
 const content = [
   {
     id: 2,
-    titretache: "apprentisssage des fonction principale des firewall",
-    tache: "dans l'entreprise HUTC ou j'ai effectuer mon alternance j'ai du apprendre a administrer un pare-feu que qui est le centre du reseaux ",
-    granddescription: "un pare-feu permet d'autoriser/bloquer le trafic entre l'exterieur et l'interieur d'un reseaux mais il peut arriver qu'une entreprise ai plusieur reseaux internet tel que celui pour les employé et celui pourles client, le pare-feu devient donc le coeur du reseaux",
+    titretache: "Apprentissage des fonctions principales des pare-feu",
+    tache: "Dans l'entreprise HUTC où j'ai effectué mon alternance, j'ai dû apprendre à administrer un pare-feu qui est le centre du réseau.",
+    granddescription: "Un pare-feu permet d'autoriser/bloquer le trafic entre l'extérieur et l'intérieur d'un réseau. Mais il peut arriver qu'une entreprise ait plusieurs réseaux Internet tels que celui pour les employés et celui pour les clients. Le pare-feu devient donc le cœur du réseau.",
     ressource: " ",
     trace: [imgfire],
     evaluation: " ",
-    date: "01/02/2023",
+    date: "01/10/2023",
     note: 3,
   },
 
   {
     id: 4,
-    titretache: "decouverte des objet et des liste",
+    titretache: "Découverte des objets et des listes",
     tache:
-      "pour gere des centaines d'apareil et de site et d'objet j'ai du apprenndre  utliser des liste",
-    granddescription: "une regle de base d'un pare-feu fonctionen comme ceci, l'adresse de plusieur apareil sont contenue dans une liste, cette liste est contenus dans un groupe, ce groupe a le droit ou nom de comnuqiuer a d'autre entité sur le meme reseaux ou sur un reseaux diferents",
+      "Pour gérer des centaines d'appareils et de sites et d'objets, j'ai dû apprendre à utiliser des listes.",
+    granddescription: "Une règle de base d'un pare-feu fonctionne comme ceci : l'adresse de plusieurs appareils est contenue dans une liste. Cette liste est contenue dans un groupe. Ce groupe a le droit ou non de communiquer à d'autres entités sur le même réseau ou sur des réseaux différents.",
     ressource: " ",
     trace: [imgliste],
     evaluation: " ",
-    date: "01/02/2023",
+    date: "15/04/2023",
     note: 3,
   },
 
   {
     id: 5,
-    titretache: "debloquage de site bloqué par défault",
-    tache: "j'ai appris a décloquer des site web dans un firewall",
-    granddescription: "protegeant des hacker un pare-feu peu aussi servir de filtre de contenu, il permet de restreindre aux utlisateur interne l'accées a des service qui ne sont pas adapté au trvail, il peut arriver que ces services soit mal classé, il faut donc adapter des regles pour avoir accés a certain sites",
+    titretache: "Déblocage de site bloqué par défaut",
+    tache: "J'ai appris à débloquer des sites web dans un pare-feu.",
+    granddescription: "Protégeant des hackers, un pare-feu peut aussi servir de filtre de contenu. Il permet de restreindre aux utilisateurs internes l'accès à des services qui ne sont pas adaptés au travail. Il peut arriver que ces services soient mal classés. Il faut donc adapter des règles pour avoir accès à certains sites.",
     ressource: " ",
     trace: [imgbloque],
     evaluation: " ",
-    date: "01/02/2023",
+    date: "10/11/2022",
     note: 3,
   },
 
@@ -51,30 +51,30 @@ const content = [
     id: 6,
     titretache: "VPN pour télétravail",
     tache:
-      "un VPN( Virtual Private Network) est un systeme qui permet de creer un tunnel entre deux machine pour leur permetre d'echange de maniere sécurisé comme si elle etait vraiment interconectées entre elle",
-    granddescription: "certain de mes colluege peuvent travailler en teletravail, pour avoir accés au reseaux de l'entreprise nous utlisont un VPN qui crée un tunnel entre leur machine chez eux et notre reseaux, j'ai du apprendre a dépanner ce systeme a distance ",
+      "Un VPN (Virtual Private Network) est un système qui permet de créer un tunnel entre deux machines pour leur permettre d'échanger de manière sécurisée comme si elles étaient vraiment interconnectées entre elles.",
+    granddescription: "Certains de mes collègues peuvent travailler en télétravail. Pour avoir accès au réseau de l'entreprise, nous utilisons un VPN qui crée un tunnel entre leur machine chez eux et notre réseau. J'ai dû apprendre à dépanner ce système à distance.",
     ressource: " ",
     trace: [imgvpn],
     evaluation: " ",
-    date: "01/02/2023",
+    date: "10/06/2023",
     note: 3,
   },
 
   {
     id: 8,
-    titretache: "decouverte de la vrai utlité des vlan",
+    titretache: "Découverte de la vraie utilité des VLAN",
     tache:
-      "un LAN(local area network) est un reseaux interet privé contenu par des machines, or pour créer plusieur reseaux dans un seul reseaux il faut utliser des VLAN(Virtual Local Area Network)",
-    granddescription: " en réalisant un projet de renouvelement de bornes wifi j'ai appris a manipuler des vlan et j'ai decouverte a mes depends que lorsque tout est bien parametré cela rend reduit les vecteur d'ataque cyberinformatique,ceci permet de pouvoir realiser tout et n'importe quoi en terme de creatino de regle et de sécurité",
+      "Un LAN (Local Area Network) est un réseau interne privé contenu par des machines. Or, pour créer plusieurs réseaux dans un seul réseau, il faut utiliser des VLAN (Virtual Local Area Network).",
+    granddescription: "En réalisant un projet de renouvellement de bornes WiFi, j'ai appris à manipuler des VLAN et j'ai découvert à mes dépens que lorsque tout est bien paramétré, cela réduit les vecteurs d'attaque cyberinformatique. Ceci permet de pouvoir réaliser tout et n'importe quoi en termes de création de règles et de sécurité.",
     ressource: " ",
-    trace: [imgfirevlan],
+    trace: [imgfirevlan,imgfirevlan2],
     evaluation: " ",
-    date: "01/02/2023",
+    date: "15/02/2024",
     note: 3,
   },
 ];
 
-const conclu = "cet equipement est trés lié a la cybersécurité, c'est une des base pour apprendre les metier liées a la cybersécurité, son utlisation nécessite de conaitre de vaste domaine du protocol Ethernet";
+const conclu = "Cet équipement est très lié à la cybersécurité. C'est une des bases pour apprendre les métiers liés à la cybersécurité. Son utilisation nécessite de connaître de vastes domaines du protocole Ethernet.";
 
 const data = {
   titre,

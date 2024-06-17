@@ -2,10 +2,11 @@ import imgdroit1 from "@assetspreuve/droit1.png";
 import imgdroit2 from "@assetspreuve/droit2.png";
 import imgdroit3 from "@assetspreuve/droit3.png";
 import imgdroit4 from "@assetspreuve/droit4.png";
+import imgfleche from "@assetspreuve/fleche.png";
 
 const titre = "Active Directory";
 
-const intro = "Un Active Directory est une suite de logiciels installée et configurée sur un ordinateur Windows, plus généralement sur un serveur via Windows Server, qui permet de gérer et d'orchestrer tout ce qui se passe en rapport avec Windows dans un réseau privé.";
+const intro = "Un Active Directory est une suite de logiciels installée et configurée sur un ordinateur Windows. Plus généralement, sur un serveur via Windows Server, il permet de gérer et d'orchestrer tout ce qui se passe en rapport avec Windows dans un réseau privé.";
 
 const content = [
   {
@@ -46,7 +47,7 @@ const content = [
     titretache: "Modification de groupes de droits",
     tache: "Lorsque je dois modifier des droits, je modifie directement les attributs des utilisateurs.",
     granddescription: "Pour se simplifier la tâche, il est courant d'utiliser des groupes, par exemple le groupe technicien ou direction, qui vont tous avoir les mêmes droits. Cela permet d'être sûr de ne jamais modifier les droits dans les dossiers directement et d'éviter les erreurs.",
-    ressource: "Les groupe deja créer",
+    ressource: "Les groupes déjà créés.",
     trace: [],
     evaluation: "",
     date: "08/08/2023",
@@ -57,8 +58,8 @@ const content = [
     titretache: "Vérification des droits pour les fichiers et dossiers",
     tache: "Vérification des droits pour éviter des fuites de données.",
     granddescription: "Régulièrement, et par souci de sécurité, je dois m'assurer que chaque utilisateur est dans le bon groupe et que chaque dossier est accessible par le bon groupe pour permettre de hiérarchiser les droits. Je dois ensuite faire part de mes observations à ma direction.",
-    ressource: "Les directives de ma direction et de la responsable sécurité",
-    trace: [],
+    ressource: "Les directives de ma direction et de la responsable sécurité.",
+    trace: [imgfleche],
     evaluation: "",
     date: "05/01/2024",
     note: 5,

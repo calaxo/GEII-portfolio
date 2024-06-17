@@ -3,44 +3,44 @@
 const titre = "But 1 : SAE 2";
 
 const intro =
-  "durant ce projet notre mission etait de créer la partie elctronique et informatique d'un systeme de mesure de l'intensité sonore pour créer un sonometre";
+  "Durant ce projet, notre mission était de créer la partie électronique et informatique d'un système de mesure de l'intensité sonore pour créer un sonomètre.";
 
 const content = [
   {
     id: 1,
-    titretache: "decouverte de altium designer",
+    titretache: "Découverte de Altium Designer",
     tache:
-      "notre professeur nous a fait découvrir altium designer ",
-    granddescription: "Altium Deisnger est un logiciel professionnel de concepttion de circuit imprimé, aprés avoir designer un circuit electronique fonctionnel c'est l'etape la plus importante pour realiser un prototype qui se rapproche de la réalité",
+      "Notre professeur nous a fait découvrir Altium Designer.",
+    granddescription: "Altium Designer est un logiciel professionnel de conception de circuit imprimé. Après avoir conçu un circuit électronique fonctionnel, c'est l'étape la plus importante pour réaliser un prototype qui se rapproche de la réalité.",
     ressource: "",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2021",
     note: 3,
   },
 
   {
     id: 2,
-    titretache: "creation du circuit deja fonctionel sur altium",
-    tache: "Nous avons reproduit un circuit electronqiue sur altium designer",
-    granddescription: "Notre professeur nous a fait refaire notre PCB sur altium plusieur fois jusqu'a que nous comprenions le raisonement nécessaire pour placer des composant et les relier en respectant des regle essentielles",
+    titretache: "Création du circuit déjà fonctionnel sur Altium",
+    tache: "Nous avons reproduit un circuit électronique sur Altium Designer.",
+    granddescription: "Notre professeur nous a fait refaire notre PCB sur Altium plusieurs fois jusqu'à ce que nous comprenions le raisonnement nécessaire pour placer des composants et les relier en respectant des règles essentielles.",
     ressource: "",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2021",
     note: 3,
   },
 
   {
     id: 3,
-    titretache: " soudure sur une carte de debutant pour s'entrainer",
+    titretache: "Soudure sur une carte de débutant pour s'entraîner",
     tache:
-      "C'etait la premier fois que nous apprenios vraiment la soudure( en réalité appelés brasure a l'etain) de composant electronique ",
-    granddescription: "nous avons pour ceci realiser une petite carte avec un circuit bistable qui faisait clignoter deux LED en alternance, nous avons ensuite passer autant de temp a resoudre les probleme que nous avions causer en realisant la maintenance de nos cartes",
+      "C'était la première fois que nous apprenions vraiment la soudure (en réalité appelée brasure à l'étain) de composants électroniques.",
+    granddescription: "Nous avons pour cela réalisé une petite carte avec un circuit bistable qui faisait clignoter deux LED en alternance. Nous avons ensuite passé autant de temps à résoudre les problèmes que nous avions causés en réalisant la maintenance de nos cartes.",
     ressource: "",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2021",
     note: 3,
   },
 
@@ -48,86 +48,86 @@ const content = [
 
   {
     id: 5,
-    titretache: "routage de notre carte",
+    titretache: "Routage de notre carte",
     tache:
-      "nous avons créer chaque chemin reliant les comosant electronique entre eux ",
-    granddescription: "Il fallait s'assurer que chaque piste etait bien dimmensionnée et avait assez d'espace pour respecter les regles liées au puissance electriques",
+      "Nous avons créé chaque chemin reliant les composants électroniques entre eux.",
+    granddescription: "Il fallait s'assurer que chaque piste était bien dimensionnée et avait assez d'espace pour respecter les règles liées aux puissances électriques.",
     ressource: "",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2021",
     note: 3,
   },
 
   {
     id: 6,
-    titretache: "creation et soudure de notre carte",
+    titretache: "Création et soudure de notre carte",
     tache:
-      "nous avons vu comment developper une carte elctronique avec des plaque de depart simple ",
-    granddescription: "Nous avons realiser nos carte via des proceder chimique qui permettent de tracer nos circuit sur du cuivre.Nous avons ensuite souder nos composant sur notre carte definitive qui venait d'etre produite mais qui etait a nu",
+      "Nous avons vu comment développer une carte électronique avec des plaques de départ simples.",
+    granddescription: "Nous avons réalisé nos cartes via des procédés chimiques qui permettent de tracer nos circuits sur du cuivre. Nous avons ensuite soudé nos composants sur notre carte définitive qui venait d'être produite mais qui était à nu.",
     ressource: "",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2021",
     note: 3,
   },
 
 
   {
     id: 8,
-    titretache: "verification du bon fonctionement de la carte",
+    titretache: "Vérification du bon fonctionnement de la carte",
     tache:
-      "comme nous l'avons appris, nous avons verifier que notre carte fonctionne avant de l'utiliser",
-    granddescription: "Nous avons du réaliser la maintenance de nos carte pour que tout soit correct  avant d'installer dessus les composant sensible pour s'assurer de ne pas les griller",
+      "Comme nous l'avons appris, nous avons vérifié que notre carte fonctionnait avant de l'utiliser.",
+    granddescription: "Nous avons dû réaliser la maintenance de nos cartes pour que tout soit correct avant d'y installer des composants sensibles pour s'assurer de ne pas les griller.",
     ressource: "",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2021",
     note: 3,
   },
 
   {
     id: 10,
-    titretache: "developement de l'interface utilsateur",
+    titretache: "Développement de l'interface utilisateur",
     tache:
-      "Nous somme ensuite passer sur la partie logiciele de notre projet",
-    granddescription: "Nous avons realiser une interface utlisateur en python, le programme peut etre lancer sur un ordinateur et permet de visualser les niveaux de sons, ous avions carte blanche pour l'interface et le style, j'ai choisi de realiser un programmer qui peut changer selon les parametre que l'utilisateur selectionne",
+      "Nous sommes ensuite passés sur la partie logicielle de notre projet.",
+    granddescription: "Nous avons réalisé une interface utilisateur en Python. Le programme peut être lancé sur un ordinateur et permet de visualiser les niveaux de sons. Nous avions carte blanche pour l'interface et le style. J'ai choisi de réaliser un programmeur qui peut changer selon les paramètres que l'utilisateur sélectionne.",
     ressource: "",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2021",
     note: 3,
   },
 
   {
     id: 12,
-    titretache: "creation du code pour lire les données",
+    titretache: "Création du code pour lire les données",
     tache:
-      "il manque seulement le bloc de programme qui relie la lecture de de donnée incompréensible par un humain a l'interface graphique",
-    granddescription: "nous avons du créer du code pour lire les donnée recu par notre carte electronique et le microcontrolleur, nous recevions de l'information en continu et nous avons donc du fair un code rapide et optimisé, de plus nous avons du trouver les bonnes valeur pour permetre de realiser des moyennes et afficher des valeur pendant assez de temp pour que l'utilisateur puisse les comprendre",
+      "Il manque seulement le bloc de programme qui relie la lecture de données incompréhensibles par un humain à l'interface graphique.",
+    granddescription: "Nous avons dû créer du code pour lire les données reçues par notre carte électronique et le microcontrôleur. Nous recevions de l'information en continu et nous avons donc dû faire un code rapide et optimisé. De plus, nous avons dû trouver les bonnes valeurs pour permettre de réaliser des moyennes et afficher des valeurs pendant assez de temps pour que l'utilisateur puisse les comprendre.",
     ressource: "",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2021",
     note: 3,
   },
 
   {
     id: 13,
-    titretache: "creation du programme final",
+    titretache: "Création du programme final",
     tache:
-      "Nous avons ensuite relié les diferentes partie du projet et reparer et ameliore les probleme de comunication",
+      "Nous avons ensuite relié les différentes parties du projet et réparé et amélioré les problèmes de communication.",
     granddescription: "",
     ressource: "",
     trace: [],
     evaluation: "",
-    date: "01/02/2023",
+    date: "2021",
     note: 3,
   },
 ];
 
 const conclu =
-  "ce projet a été passionnant, nous avons pu voir comment se déroule un projet de A a Z depuis l'electronqiue jusque au logiciel en passant par la soudure et la manipulation de données";
+  "Ce projet a été passionnant. Nous avons pu voir comment se déroule un projet de A à Z, depuis l'électronique jusqu'au logiciel, en passant par la soudure et la manipulation de données.";
 
 const data = {
   titre,
